@@ -16,13 +16,31 @@ body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, san
 
 .sticky-stats { position: sticky; top: 0; background: #fff; border-bottom: 1px solid var(--border); padding: 10px 32px; font-size: 13px; color: var(--muted); z-index: 5; }
 
-.algorithm-section { padding: 16px 32px; border-bottom: 1px solid var(--border); background: #fff; }
-.algorithm-section h2 { font-size: 18px; margin: 0 0 8px; }
-.algorithm-section p { margin: 0 0 12px; font-size: 14px; }
-.algorithm-section .pipeline { background: #f0f0f0; padding: 12px; font-family: ui-monospace, monospace; font-size: 12px; line-height: 1.4; white-space: pre; overflow-x: auto; }
+.topnav { margin: 12px 0 0; font-size: 13px; color: var(--muted); }
+.topnav a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted #aaa; }
+.topnav a:hover { color: var(--fg); border-bottom-style: solid; }
+.topnav strong { color: var(--fg); }
+.topnav .sep { margin: 0 6px; color: #ccc; }
 
-.algo-example-label { margin: 8px 0 4px; font-size: 13px; color: var(--muted); }
-.algo-example { font-family: ui-monospace, monospace; font-size: 13px; background: #f0f0f0; padding: 8px; margin: 0; }
+.algorithm-section { padding: 18px 32px; border-bottom: 1px solid var(--border); background: #fff; }
+.algorithm-section h2 { font-size: 18px; margin: 0 0 8px; }
+.algorithm-section .algo-intro { margin: 0 0 14px; font-size: 14px; max-width: 860px; line-height: 1.5; }
+.pipeline-svg { display: block; width: 100%; height: auto; max-width: 880px; margin: 0 auto 18px; }
+
+.algo-foot { display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: center; max-width: 880px; margin: 0 auto; }
+.algo-example-label { margin: 0 0 4px; font-size: 12px; color: var(--muted); }
+.algo-example { font-family: ui-monospace, monospace; font-size: 13px; background: #f5f5f5; padding: 10px 12px; margin: 0; border-radius: 4px; border-left: 3px solid #888; }
+
+/* Tertile donut */
+.donut-wrap { display: flex; align-items: center; gap: 12px; }
+.donut { display: block; }
+.donut-legend { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: #333; }
+.donut-legend .lg { display: flex; align-items: center; gap: 6px; }
+.donut-legend .lg i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.donut-legend .lg b { font-family: ui-monospace, monospace; font-weight: 600; }
+.donut-legend .lg-top i { background: #6b8e6b; }
+.donut-legend .lg-mid i { background: #d9b042; }
+.donut-legend .lg-bot i { background: #b85a5a; }
 
 .filters { display: flex; flex-wrap: wrap; gap: 12px; padding: 12px 32px; background: #fff; border-bottom: 1px solid var(--border); font-size: 14px; }
 .filters input, .filters select { padding: 4px 8px; font-size: 14px; border: 1px solid var(--border); border-radius: 4px; }

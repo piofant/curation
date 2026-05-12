@@ -126,6 +126,31 @@ function renderDrilldown(it) {
     </td>`;
 }
 
+function renderTertileDonut(items) {
+  const counts = { top: 0, mid: 0, bot: 0 };
+  for (const it of items) counts[it.tertile] = (counts[it.tertile] || 0) + 1;
+  const total = items.length;
+  const C = 2 * Math.PI * 32; // circumference
+  function setSeg(id, n, offset) {
+    const len = total > 0 ? (n / total) * C : 0;
+    const el = document.querySelector('.' + id);
+    if (el) {
+      el.setAttribute('stroke-dasharray', `${len} ${C - len}`);
+      el.setAttribute('stroke-dashoffset', -offset);
+    }
+  }
+  const lenTop = total > 0 ? (counts.top / total) * C : 0;
+  const lenMid = total > 0 ? (counts.mid / total) * C : 0;
+  setSeg('seg-top', counts.top, 0);
+  setSeg('seg-mid', counts.mid, lenTop);
+  setSeg('seg-bot', counts.bot, lenTop + lenMid);
+  const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+  set('donut-total', total);
+  set('donut-top', counts.top);
+  set('donut-mid', counts.mid);
+  set('donut-bot', counts.bot);
+}
+
 function renderAlgoExample() {
   if (!state.raw.items.length) return;
   const top = state.raw.items.find(it => it.tertile === 'top') || state.raw.items[0];
@@ -186,6 +211,7 @@ async function init() {
   document.getElementById('stats-text').textContent = fmtStats(state.raw.stats, state.raw.generated_at);
   populateChannelFilter(state.raw.items);
   renderAlgoExample();
+  renderTertileDonut(state.raw.items);
   wireEvents();
   wireDrilldown();
   state.filtered = [...state.raw.items];

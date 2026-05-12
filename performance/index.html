@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Performance — что качает метрики @kompege</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <p class="crumbs"><a href="../">← Очередь</a> · <strong>Аналитика</strong></p>
+  <h1>Что реально качает метрики</h1>
+  <p class="subtitle">Анализ опубликованных постов в <a href="https://t.me/kompege" target="_blank" rel="noopener">@kompege</a> за <span id="date-range">…</span>.
+  Источник — таблица <code>posted</code> на VPS, обновляется вместе с очередью.</p>
+</header>
+
+<section id="stats" class="sticky-stats">
+  <span id="stats-text">Загрузка…</span>
+</section>
+
+<section class="explainer">
+  <p>В очереди система выбирает кандидатов <em>до</em> публикации (см. <a href="../">основную страницу</a>). Здесь — что получилось <em>после</em>: какие посты и форматы реально подняли ERR и пересылки на канале.</p>
+</section>
+
+<main class="dashboard">
+
+  <section class="card">
+    <h2>Топ каналов-источников по среднему ERR</h2>
+    <p class="hint">Каналы, чьи материалы, проходя через систему, дают самые высокие отклики в @kompege. n ≥ 3.</p>
+    <div id="chart-channels" class="hbars"></div>
+  </section>
+
+  <section class="card">
+    <h2>ERR по дню недели</h2>
+    <p class="hint">Когда публикация заходит лучше. По средней вовлечённости.</p>
+    <div id="chart-dow" class="bars-vertical"></div>
+  </section>
+
+  <section class="card">
+    <h2>ERR по часу публикации</h2>
+    <p class="hint">Активные окна аудитории. По МСК. Серое — мало постов в этом часе, цифры менее надёжны.</p>
+    <div id="chart-hour" class="bars-vertical hourly"></div>
+  </section>
+
+  <section class="card half">
+    <h2>Платформа источника</h2>
+    <p class="hint">Telegram-куратив против VK-репостов. То, что в ВКР заходит в Главе 3.</p>
+    <div id="chart-platform"></div>
+  </section>
+
+  <section class="card half">
+    <h2>Длина текста</h2>
+    <p class="hint">Короткий / средний / длинный.</p>
+    <div id="chart-length"></div>
+  </section>
+
+  <section class="card">
+    <h2>Распределение ERR</h2>
+    <p class="hint">Сколько постов попадает в каждый интервал вовлечённости. Длинный хвост справа — это виральные посты.</p>
+    <div id="chart-histogram" class="bars-vertical histogram"></div>
+  </section>
+
+  <section class="card">
+    <h2>Топ по пересылкам</h2>
+    <p class="hint">Восьмёрка постов с самым большим числом forwards — индикатор виральности.</p>
+    <div id="top-forwarded"></div>
+  </section>
+
+</main>
+
+<footer class="page-footer">
+  <p>Данные собраны с помощью Telethon для дипломной работы. ВКР Луценко Вл. Вит. · ИТМО К3420 · 2026.
+  Исходник страницы: <a href="https://github.com/piofant/curation">github.com/piofant/curation</a>.</p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
