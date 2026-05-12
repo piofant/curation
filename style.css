@@ -1,0 +1,77 @@
+/* piofant.github.io/curation/style.css */
+:root {
+  --bg: #fafafa;
+  --fg: #1a1a1a;
+  --muted: #666;
+  --top: #d8f5d2;
+  --mid: #fff2c2;
+  --bot: #fde0e0;
+  --border: #ddd;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); }
+.page-header { padding: 24px 32px; border-bottom: 1px solid var(--border); }
+.page-header h1 { margin: 0 0 4px; font-size: 22px; }
+.page-header .subtitle { margin: 0; color: var(--muted); font-size: 14px; }
+
+.sticky-stats { position: sticky; top: 0; background: #fff; border-bottom: 1px solid var(--border); padding: 10px 32px; font-size: 13px; color: var(--muted); z-index: 5; }
+
+.algorithm-section { padding: 16px 32px; border-bottom: 1px solid var(--border); background: #fff; }
+.algorithm-section h2 { font-size: 18px; margin: 0 0 8px; }
+.algorithm-section p { margin: 0 0 12px; font-size: 14px; }
+.algorithm-section .pipeline { background: #f0f0f0; padding: 12px; font-family: ui-monospace, monospace; font-size: 12px; line-height: 1.4; white-space: pre; overflow-x: auto; }
+
+.algo-example-label { margin: 8px 0 4px; font-size: 13px; color: var(--muted); }
+.algo-example { font-family: ui-monospace, monospace; font-size: 13px; background: #f0f0f0; padding: 8px; margin: 0; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 12px; padding: 12px 32px; background: #fff; border-bottom: 1px solid var(--border); font-size: 14px; }
+.filters input, .filters select { padding: 4px 8px; font-size: 14px; border: 1px solid var(--border); border-radius: 4px; }
+
+main { padding: 0 32px 32px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 16px; }
+th { background: #f5f5f5; padding: 8px; text-align: left; border-bottom: 2px solid var(--border); cursor: pointer; user-select: none; }
+th[data-sort]:hover { background: #ececec; }
+td { padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+td.score { font-family: ui-monospace, monospace; font-weight: 600; }
+td.num { font-family: ui-monospace, monospace; color: var(--muted); }
+td.t-marker { width: 24px; }
+td.text-cell { color: #444; max-width: 380px; }
+tr.t-top { background: var(--top); }
+tr.t-mid { background: var(--mid); }
+tr.t-bot { background: var(--bot); }
+tr.expanded { background: #eef; }
+
+.page-footer { padding: 24px 32px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); }
+
+tr.dd-row td.drilldown { background: #fff; padding: 16px 24px; }
+.dd-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.dd-text h3, .dd-math h3 { font-size: 14px; margin: 0 0 8px; color: var(--muted); }
+.dd-text p { font-size: 13px; white-space: pre-wrap; }
+.dd-text p.reason { margin-top: 12px; padding: 8px; background: #f5f5f5; border-left: 3px solid #888; }
+.math { border-collapse: collapse; width: 100%; font-size: 13px; font-family: ui-monospace, monospace; }
+.math th, .math td { border: 1px solid var(--border); padding: 4px 8px; text-align: right; }
+.math th:first-child, .math td:first-child { text-align: left; }
+.math tr.total { font-weight: 600; background: #f5f5f5; }
+.tertile-label { margin: 12px 0 0; font-size: 14px; }
+
+@media (max-width: 768px) {
+  .page-header, .sticky-stats, .filters, main, .algorithm-section, .page-footer { padding-left: 12px; padding-right: 12px; }
+  table { font-size: 12px; }
+  th, td { padding: 4px; }
+  td.text-cell { max-width: 200px; }
+  .dd-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  #queue-table thead { display: none; }
+  #queue-table, #queue-table tbody, #queue-table tr, #queue-table td { display: block; width: 100%; }
+  #queue-table tr { border: 1px solid var(--border); border-radius: 6px; margin-bottom: 8px; padding: 8px; }
+  #queue-table tr.t-top { border-left: 4px solid #2c8a2c; }
+  #queue-table tr.t-mid { border-left: 4px solid #c9a200; }
+  #queue-table tr.t-bot { border-left: 4px solid #c93c3c; }
+  #queue-table td { border: none; padding: 2px 0; }
+  #queue-table td.t-marker { display: none; }
+  #queue-table td.score::before { content: 'score: '; color: var(--muted); }
+  #queue-table td.num::before { content: attr(data-label) ': '; color: var(--muted); font-size: 11px; }
+  #queue-table td.text-cell { color: #222; margin-top: 4px; }
+}

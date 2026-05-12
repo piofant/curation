@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Curation — открытая верификация алгоритма (ВКР, ИТМО)</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1>Система автоматизации контент-менеджмента — @kompege</h1>
+    <p class="subtitle">Открытая верификация алгоритма скоринга · Бакалаврская ВКР, ИТМО К3420, 2026</p>
+  </header>
+
+  <section id="stats" class="sticky-stats" aria-live="polite">
+    <span id="stats-text">Загрузка данных…</span>
+  </section>
+
+  <section id="algorithm" class="algorithm-section">
+    <h2>Как работает алгоритм отбора</h2>
+    <p>Формула: <code>score = 0,40·Q + 0,30·F + 0,20·R + 0,10·V</code> — нормализованные компоненты:
+      <strong>Q</strong> качество текста, <strong>F</strong> пересылки,
+      <strong>R</strong> свежесть, <strong>V</strong> просмотры.
+      Цветовая разметка по тертилям текущей очереди.</p>
+    <pre class="pipeline" aria-hidden="true">
+[Парсер 23 каналов]
+        ↓
+[Фильтр текста] — отсев рекламы, дубликатов, спама
+        ↓
+[Скоринг] — score = 0.40·Q + 0.30·F + 0.20·R + 0.10·V
+        ↓
+[Тертили] — top → публикация · mid → ждёт · bot → отсев
+        ↓
+[n8n] — AI-обработка + публикация в @kompege
+    </pre>
+    <div id="algo-example"></div>
+  </section>
+
+  <section id="filters" class="filters">
+    <label>Канал: <select id="filter-channel"><option value="">все</option></select></label>
+    <label>Тертиль:
+      <select id="filter-tertile">
+        <option value="">все</option>
+        <option value="top">🟢 верхняя</option>
+        <option value="mid">🟡 средняя</option>
+        <option value="bot">🔴 нижняя</option>
+      </select>
+    </label>
+    <label>Поиск: <input id="filter-search" type="search" placeholder="канал, текст, ключевое слово"></label>
+  </section>
+
+  <main>
+    <table id="queue-table" aria-label="Очередь публикаций">
+      <thead>
+        <tr>
+          <th data-sort="tertile" title="Тертиль">·</th>
+          <th data-sort="channel">Канал · пост</th>
+          <th data-sort="score">Score</th>
+          <th data-sort="Q">Q</th>
+          <th data-sort="F">F</th>
+          <th data-sort="R">R</th>
+          <th data-sort="V">V</th>
+          <th>Текст</th>
+          <th>↗</th>
+        </tr>
+      </thead>
+      <tbody id="queue-body"></tbody>
+    </table>
+  </main>
+
+  <footer class="page-footer">
+    <p>ВКР Луценко Вл. Вит. · ИТМО К3420 · 2026 · <a href="https://github.com/piofant">GitHub</a></p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
