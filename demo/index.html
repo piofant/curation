@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Демо алгоритма курации — @kompege</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="demo-body">
+
+  <header class="page-header">
+    <nav class="topnav">
+      <a href="../">← Очередь</a>
+      <span class="sep">·</span>
+      <strong>Демо алгоритма</strong>
+      <span class="sep">·</span>
+      <a href="../performance/">Анализ эффективности →</a>
+      <span class="sep">·</span>
+      <a href="https://github.com/piofant/curation" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+    <h1>Как алгоритм отбирает один пост</h1>
+    <p class="subtitle">Пошаговый разбор на реальном кандидате <code>@kdrshov #3549</code> из текущей очереди</p>
+  </header>
+
+  <div class="progress" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="6" aria-label="Прогресс демо">
+    <div class="progress-seg" data-seg="1"></div>
+    <div class="progress-seg" data-seg="2"></div>
+    <div class="progress-seg" data-seg="3"></div>
+    <div class="progress-seg" data-seg="4"></div>
+    <div class="progress-seg" data-seg="5"></div>
+    <div class="progress-seg" data-seg="6"></div>
+    <div class="progress-fill" id="progress-fill"></div>
+  </div>
+
+  <main class="demo-main" aria-live="polite">
+
+    <!-- Stage 1 -->
+    <section class="stage" data-stage="1">
+      <div class="stage-num">Стадия 1 / 6</div>
+      <h2>Парсер и фильтр</h2>
+      <p class="stage-lead">Cron в 10:00 МСК запускает парсер. За итерацию — <b>23 канала-источника</b>, ~200–400 свежих постов. Чёрный список рекламы и дублей отсевает <b>80–90 %</b>. На скоринг идёт <b>~30–50 кандидатов</b> в день.</p>
+
+      <div class="funnel">
+        <div class="funnel-step">
+          <div class="funnel-label">23 канала</div>
+          <div class="dots-grid" id="dots-channels"></div>
+        </div>
+        <div class="funnel-arrow">→</div>
+        <div class="funnel-step">
+          <div class="funnel-label">~300 свежих постов</div>
+          <div class="bar bar-wide"></div>
+        </div>
+        <div class="funnel-arrow">→</div>
+        <div class="funnel-step">
+          <div class="funnel-label">фильтр<br><small>реклама, дубли</small></div>
+          <div class="bar bar-narrow"></div>
+        </div>
+        <div class="funnel-arrow">→</div>
+        <div class="funnel-step">
+          <div class="funnel-label"><b>~50 кандидатов</b><br><small>идут на скоринг</small></div>
+          <div class="dots-grid" id="dots-candidates"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stage 2 -->
+    <section class="stage" data-stage="2">
+      <div class="stage-num">Стадия 2 / 6</div>
+      <h2>Кандидат: <code>@kdrshov #3549</code></h2>
+      <p class="stage-lead">Один из ~50 кандидатов дня. Алгоритм видит четыре сырых числа: качество текста, пересылки, дни с публикации, просмотры.</p>
+
+      <div class="candidate-card">
+        <div class="candidate-text" id="candidate-text">Загрузка…</div>
+        <table class="candidate-meta">
+          <tbody>
+            <tr><th>Канал</th><td><code>@kdrshov</code></td></tr>
+            <tr><th>Post ID</th><td><code id="meta-postid">3549</code></td></tr>
+            <tr><th>Дата</th><td id="meta-date">—</td></tr>
+            <tr><th>Ключ. слово</th><td id="meta-keyword">ЕГЭ</td></tr>
+            <tr><th colspan="2" class="meta-divider">Сырые числа</th></tr>
+            <tr><th>views</th><td><code id="meta-views">1025</code></td></tr>
+            <tr><th>forwards</th><td><code id="meta-forwards">14</code></td></tr>
+            <tr><th>days_ago</th><td><code id="meta-days">0</code></td></tr>
+            <tr><th>content_quality</th><td><code id="meta-quality">0.48</code></td></tr>
+            <tr><th>Ссылка</th><td><a id="meta-link" href="https://t.me/kdrshov/3549" target="_blank" rel="noopener">t.me/kdrshov/3549 ↗</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Stage 3 -->
+    <section class="stage" data-stage="3">
+      <div class="stage-num">Стадия 3 / 6</div>
+      <h2>Формула <code>score</code></h2>
+      <p class="stage-lead">Каждая компонента нормализуется на максимум по выборке и умножается на вес. Сумма — итоговый score.</p>
+
+      <div class="formula-recap">
+        <code><b>score</b> = 0,40·Q<sub>norm</sub> + 0,30·F<sub>norm</sub> + 0,20·R + 0,10·V<sub>norm</sub></code>
+      </div>
+
+      <table class="formula-table demo-table" id="formula-table">
+        <thead>
+          <tr><th>Компонент</th><th>Сырая</th><th>Норм.</th><th>× вес</th></tr>
+        </thead>
+        <tbody id="formula-tbody">
+          <!-- filled by JS -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Stage 4 -->
+    <section class="stage" data-stage="4">
+      <div class="stage-num">Стадия 4 / 6</div>
+      <h2>Тертиль: верхняя треть → публикация</h2>
+      <p class="stage-lead">Все <span id="t4-total">131</span> кандидатов сортируются по score и режутся на три равные группы. <b id="t4-top">43</b> поста из верхнего тертиля идут в публикацию. <code>@kdrshov #3549</code> — №1 в списке.</p>
+
+      <div class="tertile-vis" id="tertile-vis" aria-label="Распределение по тертилям"></div>
+
+      <div class="tertile-legend">
+        <span><i class="sw sw-top"></i> top — <b id="lg-top">43</b> в публикацию</span>
+        <span><i class="sw sw-mid"></i> mid — <b id="lg-mid">44</b> ждут</span>
+        <span><i class="sw sw-bot"></i> bot — <b id="lg-bot">44</b> отсев</span>
+      </div>
+    </section>
+
+    <!-- Stage 5 -->
+    <section class="stage" data-stage="5">
+      <div class="stage-num">Стадия 5 / 6</div>
+      <h2>Что обычно бывает после публикации</h2>
+      <p class="stage-lead">Конкретно <code>@kdrshov #3549</code> ещё в очереди, но за полгода уже опубликовано 200+ постов из этих каналов. Топ-источники такого формата дают <b>23–27 % ERR</b> — в 2,5× выше среднего по каналу.</p>
+
+      <div class="perf-chart" id="perf-chart" aria-label="Топ-каналы по ERR"></div>
+
+      <p class="stage-foot">Топ-8 виральных публикаций суммарно собирают <b>700+ пересылок</b>. Полный разбор — в <a href="../performance/">аналитике эффективности →</a></p>
+    </section>
+
+    <!-- Stage 6 -->
+    <section class="stage" data-stage="6">
+      <div class="stage-num">Стадия 6 / 6 — итог</div>
+      <h2>Что это значит</h2>
+
+      <ul class="recap-list">
+        <li><b>1–5 публикаций в день</b> из 200–400 кандидатов — узкое горлышко работает.</li>
+        <li>Время редактора снижено с <b>8–10 ч/нед</b> до <b>&lt; 1 ч/нед</b>. Эфир канала пополняется без ручного отбора.</li>
+        <li>Все расчёты <b>открыты для верификации</b>: исходники, веса, score каждого поста — на одной странице.</li>
+      </ul>
+
+      <div class="cta-row">
+        <a href="../" class="cta">← Очередь</a>
+        <a href="../performance/" class="cta">Анализ эффективности →</a>
+        <a href="https://github.com/piofant/curation" class="cta" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="demo-footer">
+    <div class="demo-controls" role="toolbar" aria-label="Управление демо">
+      <button type="button" id="btn-prev" aria-label="Назад"><span aria-hidden="true">←</span> Назад</button>
+      <button type="button" id="btn-play" aria-label="Авто-play / пауза"><span id="btn-play-icon" aria-hidden="true">▶</span> <span id="btn-play-label">Авто</span></button>
+      <button type="button" id="btn-stop" aria-label="Остановить авто-play"><span aria-hidden="true">⏹</span></button>
+      <button type="button" id="btn-next" aria-label="Далее">Далее <span aria-hidden="true">→</span></button>
+    </div>
+    <div class="demo-hint"><span id="stage-counter">1 / 6</span> · ← / → / Space</div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
