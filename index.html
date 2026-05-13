@@ -11,13 +11,13 @@
     <h1>Очередь публикаций — @kompege</h1>
     <p class="subtitle">Открытая верификация алгоритма скоринга · ВКР Луценко Вл. Вит. · ИТМО К3420 · 2026</p>
     <nav class="topnav">
-      <strong>Очередь</strong>
+      <strong>Очередь публикаций</strong>
       <span class="sep">·</span>
-      <a href="./performance/">Что качает метрики →</a>
+      <a href="./performance/">Анализ эффективности →</a>
       <span class="sep">·</span>
-      <a href="https://github.com/piofant/curation" target="_blank" rel="noopener">Исходник ↗</a>
+      <a href="https://github.com/piofant/curation" target="_blank" rel="noopener">Исходный код ↗</a>
       <span class="sep">·</span>
-      <a href="https://t.me/kompege" target="_blank" rel="noopener">Канал ↗</a>
+      <a href="https://t.me/kompege" target="_blank" rel="noopener">Целевой канал ↗</a>
     </nav>
   </header>
 
@@ -27,7 +27,7 @@
 
   <section id="algorithm" class="algorithm-section">
     <h2>Как устроен отбор</h2>
-    <p class="algo-intro">Канал @kompege наполняется тремя параллельными пайплайнами. <strong>Курация</strong> отбирает чужие посты по формуле <code>score</code> и публикует только верхний тертиль. <strong>AI-дайджесты</strong> и <strong>AI-опросы</strong> идут отдельными ветками по своему расписанию — LLM-агент собирает их на n8n и шлёт напрямую в канал, не проходя через скоринг.</p>
+    <p class="algo-intro">Целевой канал @kompege наполняется тремя независимыми пайплайнами. <strong>Курация</strong> отбирает публикации внешних источников по формуле <code>score</code> и выпускает в эфир только верхний тертиль. <strong>AI-дайджесты</strong> и <strong>AI-опросы</strong> формируются параллельно по собственным расписаниям: LLM-агент n8n собирает контент и публикует его в канал, минуя стадию скоринга.</p>
 
     <svg class="pipeline-svg" viewBox="0 0 920 290" xmlns="http://www.w3.org/2000/svg" aria-label="Три пайплайна @kompege">
       <defs>
@@ -206,8 +206,9 @@
   </main>
 
   <footer class="page-footer">
-    <p>Собирал руками для дипломной работы. Данные обновляются раз в сутки автоматически по cron на VPS.
-    <br>ВКР Луценко Вл. Вит. · ИТМО К3420 · 2026 · <a href="https://github.com/piofant/curation">github.com/piofant/curation</a></p>
+    <p>Страница реализована в рамках выпускной квалификационной работы.
+    Данные очереди обновляются один раз в сутки автоматически по расписанию cron на удалённом сервере.
+    <br>ВКР Луценко Вл. Вит. · ИТМО, факультет программной инженерии и компьютерной техники, К3420 · 2026 · <a href="https://github.com/piofant/curation">github.com/piofant/curation</a></p>
   </footer>
 
   <script src="./app.js"></script>
