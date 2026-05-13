@@ -109,16 +109,28 @@
 
 /* Stage 2 — candidate */
 .candidate-card {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 20px;
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 18px 20px;
 }
-.candidate-text {
-  font-size: 14px;
+.candidate-card .candidate-meta { width: 100%; }
+.candidate-card details.post-text {
+  margin-top: 16px;
+  border-top: 1px dashed var(--border);
+  padding-top: 12px;
+}
+.candidate-card details.post-text summary {
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--muted);
+  user-select: none;
+  padding: 4px 0;
+}
+.candidate-card details.post-text summary:hover { color: var(--fg); }
+.candidate-card details.post-text[open] summary { color: var(--fg); margin-bottom: 8px; }
+.candidate-card details.post-text p {
+  font-size: 13px;
   line-height: 1.55;
   color: #222;
   white-space: pre-wrap;
@@ -129,6 +141,66 @@
   border-radius: 4px;
   max-height: 320px;
   overflow: auto;
+  margin: 0;
+}
+.hint-inline { color: var(--muted); font-size: 11px; margin-left: 4px; }
+.total-row { background: #f5f5f5; font-weight: 600; }
+.total-row td.weight, .total-row .weight { font-size: 15px; }
+.stage-foot.small { font-size: 12px; color: var(--muted); }
+
+/* Stage 6 — lifecycle */
+.lifecycle {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 12px;
+}
+.lifecycle-row {
+  display: grid;
+  grid-template-columns: 70px 1fr 240px;
+  gap: 14px;
+  align-items: center;
+  font-size: 14px;
+}
+.lifecycle-label {
+  font-family: ui-monospace, monospace;
+  color: var(--muted);
+  font-weight: 600;
+}
+.lifecycle-bar {
+  background: #f0f0f0;
+  height: 22px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.lifecycle-fill {
+  height: 100%;
+  background: #6b8e6b;
+  border-radius: 3px;
+  transition: opacity 400ms ease-out, transform 600ms ease-out;
+  transform-origin: left center;
+  transform: scaleX(0);
+  opacity: 0;
+}
+.lifecycle-fill.shown { transform: scaleX(1); opacity: 1; }
+.lifecycle-row.final .lifecycle-fill { background: #3a7c3a; }
+.lifecycle-num {
+  font-family: ui-monospace, monospace;
+  color: #222;
+  font-size: 13px;
+  text-align: right;
+}
+.lifecycle-row.final .lifecycle-num b { color: #3a7c3a; }
+
+/* Stage 7 — weights table */
+.weights-table th, .weights-table td { vertical-align: middle; }
+.weights-table code.up {
+  color: #3a7c3a;
+  font-weight: 600;
+  font-size: 14px;
+  background: #e9f5e6;
+  padding: 2px 8px;
+  border-radius: 3px;
 }
 .candidate-meta {
   font-size: 13px;

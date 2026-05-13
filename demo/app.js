@@ -2,7 +2,7 @@
 
 const STAGE_DURATION = 10000;       // ms desktop
 const MOBILE_STAGE_DURATION = 15000; // ms mobile
-const TOTAL_STAGES = 6;
+const TOTAL_STAGES = 8;
 
 const state = {
   stage: 1,
@@ -72,8 +72,9 @@ function render() {
   $("#btn-play-label").textContent = state.autoplay ? "Пауза" : "Авто";
 
   // stage-specific entry animations
-  if (state.stage === 3) animateFormulaRows();
+  if (state.stage === 4) animateFormulaRows();
   if (state.stage === 1) ensureFunnelDots();
+  if (state.stage === 6) animateLifecycle();
 }
 
 function goto(n) {
@@ -295,8 +296,21 @@ async function loadData() {
   buildTertileVis(stats);
   buildPerfChart(topChannels);
   dataLoaded = true;
-  // re-render in case we're already on stage 3 etc.
-  if (state.stage === 3) animateFormulaRows();
+  // re-render in case we're already on stage 4 etc.
+  if (state.stage === 4) animateFormulaRows();
+}
+
+// ---------- Stage 6: lifecycle animation ----------
+function animateLifecycle() {
+  const rows = $$(".lifecycle-fill");
+  if (prefersReducedMotion()) {
+    rows.forEach((r) => r.classList.add("shown"));
+    return;
+  }
+  rows.forEach((r) => r.classList.remove("shown"));
+  rows.forEach((r, i) => {
+    setTimeout(() => r.classList.add("shown"), 200 + i * 400);
+  });
 }
 
 // ---------- Input handlers ----------

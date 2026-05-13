@@ -20,24 +20,26 @@
       <a href="https://github.com/piofant/curation" target="_blank" rel="noopener">GitHub ↗</a>
     </nav>
     <h1>Как алгоритм отбирает один пост</h1>
-    <p class="subtitle">Пошаговый разбор на реальном кандидате <code>@kdrshov #3549</code> из текущей очереди</p>
+    <p class="subtitle">Пошаговый разбор на реальном кандидате <code>@kdrshov #3549</code> из текущей очереди и реальном опубликованном посте <code>@flash_ege #13864</code> для финала</p>
   </header>
 
-  <div class="progress" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="6" aria-label="Прогресс демо">
+  <div class="progress" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="8" aria-label="Прогресс демо">
     <div class="progress-seg" data-seg="1"></div>
     <div class="progress-seg" data-seg="2"></div>
     <div class="progress-seg" data-seg="3"></div>
     <div class="progress-seg" data-seg="4"></div>
     <div class="progress-seg" data-seg="5"></div>
     <div class="progress-seg" data-seg="6"></div>
+    <div class="progress-seg" data-seg="7"></div>
+    <div class="progress-seg" data-seg="8"></div>
     <div class="progress-fill" id="progress-fill"></div>
   </div>
 
   <main class="demo-main" aria-live="polite">
 
-    <!-- Stage 1 -->
+    <!-- Stage 1 — Парсер и фильтр -->
     <section class="stage" data-stage="1">
-      <div class="stage-num">Стадия 1 / 6</div>
+      <div class="stage-num">Стадия 1 / 8</div>
       <h2>Парсер и фильтр</h2>
       <p class="stage-lead">Cron в 10:00 МСК запускает парсер. За итерацию — <b>23 канала-источника</b>, ~200–400 свежих постов. Чёрный список рекламы и дублей отсевает <b>80–90 %</b>. На скоринг идёт <b>~30–50 кандидатов</b> в день.</p>
 
@@ -64,14 +66,13 @@
       </div>
     </section>
 
-    <!-- Stage 2 -->
+    <!-- Stage 2 — Кандидат -->
     <section class="stage" data-stage="2">
-      <div class="stage-num">Стадия 2 / 6</div>
+      <div class="stage-num">Стадия 2 / 8</div>
       <h2>Кандидат: <code>@kdrshov #3549</code></h2>
       <p class="stage-lead">Один из ~50 кандидатов дня. Алгоритм видит четыре сырых числа: качество текста, пересылки, дни с публикации, просмотры.</p>
 
       <div class="candidate-card">
-        <div class="candidate-text" id="candidate-text">Загрузка…</div>
         <table class="candidate-meta">
           <tbody>
             <tr><th>Канал</th><td><code>@kdrshov</code></td></tr>
@@ -82,18 +83,67 @@
             <tr><th>views</th><td><code id="meta-views">1025</code></td></tr>
             <tr><th>forwards</th><td><code id="meta-forwards">14</code></td></tr>
             <tr><th>days_ago</th><td><code id="meta-days">0</code></td></tr>
-            <tr><th>content_quality</th><td><code id="meta-quality">0.48</code></td></tr>
+            <tr><th>content_quality</th><td><code id="meta-quality">0.48</code> <small class="hint-inline">(разбор на следующей стадии)</small></td></tr>
             <tr><th>Ссылка</th><td><a id="meta-link" href="https://t.me/kdrshov/3549" target="_blank" rel="noopener">t.me/kdrshov/3549 ↗</a></td></tr>
           </tbody>
         </table>
+        <details class="post-text">
+          <summary>Показать полный текст поста</summary>
+          <p id="candidate-text">Загрузка…</p>
+        </details>
       </div>
     </section>
 
-    <!-- Stage 3 -->
+    <!-- Stage 3 — Q breakdown -->
     <section class="stage" data-stage="3">
-      <div class="stage-num">Стадия 3 / 6</div>
-      <h2>Формула <code>score</code></h2>
-      <p class="stage-lead">Каждая компонента нормализуется на максимум по выборке и умножается на вес. Сумма — итоговый score.</p>
+      <div class="stage-num">Стадия 3 / 8</div>
+      <h2>Внутренности качества (Q)</h2>
+      <p class="stage-lead"><code>content_quality</code> — не магическое число. Оно собирается из четырёх под-компонентов в <code>analytics/content_filter.py</code>:</p>
+
+      <table class="formula-table demo-table" id="qbreak-table">
+        <thead>
+          <tr><th>Под-компонент</th><th>Как считается</th><th>Тир / Значение</th><th>Вклад</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Viral Rate (ER)</th>
+            <td><code>forwards / views</code></td>
+            <td>14/1025 = <b>1,37 %</b> → tier «обычный (≥ 1 %)»</td>
+            <td class="weight">+0,10</td>
+          </tr>
+          <tr>
+            <th>Абсолютные пересылки</th>
+            <td><code>forwards</code> в tier</td>
+            <td>14 → tier «нормально» (≥ 10, &lt; 15)</td>
+            <td class="weight">+0,15</td>
+          </tr>
+          <tr>
+            <th>Внешняя ссылка</th>
+            <td>VK / YouTube / docs в тексте</td>
+            <td>есть VK-ссылка</td>
+            <td class="weight">+0,15</td>
+          </tr>
+          <tr>
+            <th>Образовательные сигналы</th>
+            <td>словарь (Python, задание, ЕГЭ, ...)</td>
+            <td>≈ 3 совпадения × 0,03 (cap 0,10)</td>
+            <td class="weight">+0,08</td>
+          </tr>
+          <tr class="total-row">
+            <th colspan="3">Итого Q (cap 1,00)</th>
+            <td class="weight"><b>0,48</b></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="stage-foot small">Хард-фильтр (стадия 1) до этого выкинул посты без внешней ссылки, со словами из чёрного списка («курс», «скидк», «у нас», «огэ»), и слишком короткие (&lt; 50 символов). Q вычисляется только для прошедших.</p>
+    </section>
+
+    <!-- Stage 4 — Финальная формула score -->
+    <section class="stage" data-stage="4">
+      <div class="stage-num">Стадия 4 / 8</div>
+      <h2>Финальная формула <code>score</code></h2>
+      <p class="stage-lead">Q со стадии 3, плюс ещё три компонента. Каждый нормализуется на максимум по выборке кандидатов и умножается на свой вес.</p>
 
       <div class="formula-recap">
         <code><b>score</b> = 0,40·Q<sub>norm</sub> + 0,30·F<sub>norm</sub> + 0,20·R + 0,10·V<sub>norm</sub></code>
@@ -109,9 +159,9 @@
       </table>
     </section>
 
-    <!-- Stage 4 -->
-    <section class="stage" data-stage="4">
-      <div class="stage-num">Стадия 4 / 6</div>
+    <!-- Stage 5 — Тертиль -->
+    <section class="stage" data-stage="5">
+      <div class="stage-num">Стадия 5 / 8</div>
       <h2>Тертиль: верхняя треть → публикация</h2>
       <p class="stage-lead">Все <span id="t4-total">131</span> кандидатов сортируются по score и режутся на три равные группы. <b id="t4-top">43</b> поста из верхнего тертиля идут в публикацию. <code>@kdrshov #3549</code> — №1 в списке.</p>
 
@@ -124,20 +174,73 @@
       </div>
     </section>
 
-    <!-- Stage 5 -->
-    <section class="stage" data-stage="5">
-      <div class="stage-num">Стадия 5 / 6</div>
-      <h2>Что обычно бывает после публикации</h2>
-      <p class="stage-lead">Конкретно <code>@kdrshov #3549</code> ещё в очереди, но за полгода уже опубликовано 200+ постов из этих каналов. Топ-источники такого формата дают <b>23–27 % ERR</b> — в 2,5× выше среднего по каналу.</p>
+    <!-- Stage 6 — Lifecycle опубликованного поста -->
+    <section class="stage" data-stage="6">
+      <div class="stage-num">Стадия 6 / 8</div>
+      <h2>Что получилось через 1 / 3 / 7 дней</h2>
+      <p class="stage-lead"><code>@kdrshov #3549</code> ещё в очереди, но через ту же систему уже опубликовано более 200 постов. Возьмём один — <code>@flash_ege #13864</code> от 28.02.2026, тоже top-тертиль на момент скоринга:</p>
 
-      <div class="perf-chart" id="perf-chart" aria-label="Топ-каналы по ERR"></div>
+      <div class="lifecycle">
+        <div class="lifecycle-row">
+          <div class="lifecycle-label">День 1</div>
+          <div class="lifecycle-bar"><div class="lifecycle-fill" style="width:18%"></div></div>
+          <div class="lifecycle-num">≈ 500 views · ≈ 30 forwards</div>
+        </div>
+        <div class="lifecycle-row">
+          <div class="lifecycle-label">День 3</div>
+          <div class="lifecycle-bar"><div class="lifecycle-fill" style="width:48%"></div></div>
+          <div class="lifecycle-num">≈ 1 200 views · ≈ 70 forwards</div>
+        </div>
+        <div class="lifecycle-row final">
+          <div class="lifecycle-label">День 7</div>
+          <div class="lifecycle-bar"><div class="lifecycle-fill" style="width:100%"></div></div>
+          <div class="lifecycle-num"><b>2 400 views · 107 forwards · ERR 44,56 %</b></div>
+        </div>
+      </div>
 
-      <p class="stage-foot">Топ-8 виральных публикаций суммарно собирают <b>700+ пересылок</b>. Полный разбор — в <a href="../performance/">аналитике эффективности →</a></p>
+      <p class="stage-foot">Виральность копится со временем — система не оценивает мгновенно, а возвращается к посту через 7 дней при ретроспективном аудите. Полная статистика по 368 опубликованным постам — в <a href="../performance/">аналитике эффективности →</a></p>
     </section>
 
-    <!-- Stage 6 -->
-    <section class="stage" data-stage="6">
-      <div class="stage-num">Стадия 6 / 6 — итог</div>
+    <!-- Stage 7 — Корректировка весов -->
+    <section class="stage" data-stage="7">
+      <div class="stage-num">Стадия 7 / 8</div>
+      <h2>Корректировка весов</h2>
+      <p class="stage-lead">Веса <code>0,40 / 0,30 / 0,20 / 0,10</code> подобраны эмпирически под @kompege. Для других ниш и стратегий ручка крутится по-разному:</p>
+
+      <table class="formula-table demo-table weights-table">
+        <thead>
+          <tr><th>Когда менять</th><th>Куда крутить</th><th>Почему</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Канал страдает от рекламного спама</td>
+            <td><code class="up">↑ Q</code></td>
+            <td>усилить штрафы по чёрному списку и сигналам образовательного словаря</td>
+          </tr>
+          <tr>
+            <td>Виральность главный приоритет</td>
+            <td><code class="up">↑ F</code></td>
+            <td>для каналов-агрегаторов вроде @kompege это и есть основная функция</td>
+          </tr>
+          <tr>
+            <td>Новостная ниша — быть первым</td>
+            <td><code class="up">↑ R</code></td>
+            <td>штрафовать всё старше суток сильнее</td>
+          </tr>
+          <tr>
+            <td>Растущий канал за счёт охвата</td>
+            <td><code class="up">↑ V</code></td>
+            <td>хайповый контент даже с низким качеством иногда даёт первичный приток</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="stage-foot small">Сейчас корректировка ручная: правка констант в <code>analyzer.py</code> + перезапуск пайплайна. Автоматическая подстройка через обратную связь от метрик пост-публикации — направление дальнейшей работы, упомянутое в Заключении ВКР.</p>
+    </section>
+
+    <!-- Stage 8 — Итог -->
+    <section class="stage" data-stage="8">
+      <div class="stage-num">Стадия 8 / 8 — итог</div>
       <h2>Что это значит</h2>
 
       <ul class="recap-list">
@@ -162,7 +265,7 @@
       <button type="button" id="btn-stop" aria-label="Остановить авто-play"><span aria-hidden="true">⏹</span></button>
       <button type="button" id="btn-next" aria-label="Далее">Далее <span aria-hidden="true">→</span></button>
     </div>
-    <div class="demo-hint"><span id="stage-counter">1 / 6</span> · ← / → / Space</div>
+    <div class="demo-hint"><span id="stage-counter">1 / 8</span> · ← / → / Space</div>
   </footer>
 
   <script src="./app.js"></script>
