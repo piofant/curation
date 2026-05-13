@@ -72,9 +72,22 @@ function render() {
   $("#btn-play-label").textContent = state.autoplay ? "Пауза" : "Авто";
 
   // stage-specific entry animations
+  if (state.stage === 3) animateQbreakRows();
   if (state.stage === 4) animateFormulaRows();
   if (state.stage === 1) ensureFunnelDots();
   if (state.stage === 6) animateLifecycle();
+}
+
+function animateQbreakRows() {
+  const rows = $$("#qbreak-table tbody tr");
+  if (prefersReducedMotion()) {
+    rows.forEach((r) => r.classList.add("shown"));
+    return;
+  }
+  rows.forEach((r) => r.classList.remove("shown"));
+  rows.forEach((r, i) => {
+    setTimeout(() => r.classList.add("shown"), 100 + i * 150);
+  });
 }
 
 function goto(n) {
