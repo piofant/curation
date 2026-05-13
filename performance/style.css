@@ -36,22 +36,56 @@
 .hbar-meta { font-size: 11px; color: var(--muted); text-align: right; }
 
 /* Vertical bars (day of week, hour, histogram) */
-.bars-vertical { display: flex; align-items: flex-end; gap: 4px; height: 180px; padding: 0 4px; }
+.bars-vertical {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  gap: 6px;
+  height: 220px;
+  padding: 8px 4px 0;
+  align-items: end;
+}
+.bars-vertical.hourly {
+  grid-template-columns: repeat(24, 1fr);
+  height: 170px;
+  gap: 3px;
+}
 .bars-vertical .vbar {
-  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px;
-  font-size: 11px; color: var(--muted); min-width: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+  font-size: 11px;
+  color: var(--muted);
+  gap: 2px;
+}
+.bars-vertical .vbar-value {
+  font-family: ui-monospace, monospace;
+  font-size: 10px;
+  color: #222;
+  font-weight: 600;
+  line-height: 1.1;
+  white-space: nowrap;
 }
 .bars-vertical .vbar-fill {
-  width: 100%; max-width: 32px; background: #6b8e6b; border-radius: 2px 2px 0 0;
-  position: relative; min-height: 2px;
+  width: 70%;
+  max-width: 38px;
+  background: #6b8e6b;
+  border-radius: 2px 2px 0 0;
+  min-height: 4px;
+  flex-shrink: 0;
   transition: background 0.15s;
 }
-.bars-vertical .vbar-fill.weak { background: #d0d0d0; }
+.bars-vertical .vbar-fill.weak { background: #cccccc; }
 .bars-vertical .vbar:hover .vbar-fill { background: #4a6b4a; }
-.bars-vertical .vbar-label { font-family: ui-monospace, monospace; }
-.bars-vertical .vbar-value { font-family: ui-monospace, monospace; color: #222; font-weight: 600; font-size: 10px; }
-.bars-vertical.hourly { height: 140px; }
-.bars-vertical.hourly .vbar { font-size: 10px; }
+.bars-vertical .vbar-label {
+  font-family: ui-monospace, monospace;
+  line-height: 1.2;
+  margin-top: 2px;
+}
+.bars-vertical.hourly .vbar-value { font-size: 9px; }
+.bars-vertical.hourly .vbar-label { font-size: 10px; }
 .bars-vertical.histogram .vbar-fill { background: #5a7fa3; }
 
 /* Platform / length comparison */
