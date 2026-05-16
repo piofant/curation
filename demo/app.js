@@ -76,6 +76,19 @@ function render() {
   if (state.stage === 4) animateFormulaRows();
   if (state.stage === 1) ensureFunnelDots();
   if (state.stage === 6) animateLifecycle();
+  if (state.stage === 7) animateWeightsRows();
+}
+
+function animateWeightsRows() {
+  const rows = $$(".weights-table tbody tr");
+  if (prefersReducedMotion()) {
+    rows.forEach((r) => r.classList.add("shown"));
+    return;
+  }
+  rows.forEach((r) => r.classList.remove("shown"));
+  rows.forEach((r, i) => {
+    setTimeout(() => r.classList.add("shown"), 100 + i * 150);
+  });
 }
 
 function animateQbreakRows() {
