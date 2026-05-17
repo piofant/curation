@@ -244,26 +244,22 @@ function buildTertileVis(stats) {
   if (!wrap) return;
   wrap.innerHTML = "";
   const { top, mid, bot, total } = stats;
+  const rest = mid + bot;
   $("#t4-total").textContent = String(total);
   $("#t4-top").textContent = String(top);
   $("#lg-top").textContent = String(top);
-  $("#lg-mid").textContent = String(mid);
-  $("#lg-bot").textContent = String(bot);
-  // Cells: top first (highlight first), then mid, then bot — sorted by score desc
+  const lr = $("#lg-rest"); if (lr) lr.textContent = String(rest);
+  // Two groups only: published (top third, green) vs not passed (rest, grey)
   for (let i = 0; i < top; i++) {
     const c = document.createElement("div");
     c.className = "cell t-top" + (i === 0 ? " highlight" : "");
-    c.title = i === 0 ? "@kdrshov #3549 — score 0.632" : "";
+    c.title = i === 0 ? "@kdrshov #3549 — score 0.632 — №1, в публикацию" : "в публикацию";
     wrap.appendChild(c);
   }
-  for (let i = 0; i < mid; i++) {
-    const c = document.createElement("div");
-    c.className = "cell t-mid";
-    wrap.appendChild(c);
-  }
-  for (let i = 0; i < bot; i++) {
+  for (let i = 0; i < rest; i++) {
     const c = document.createElement("div");
     c.className = "cell t-bot";
+    c.title = "не прошло порог";
     wrap.appendChild(c);
   }
 }

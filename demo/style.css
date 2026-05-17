@@ -282,9 +282,9 @@
   border-radius: 2px;
   background: #ddd;
 }
-.tertile-vis .cell.t-top { background: #6b8e6b; }
+.tertile-vis .cell.t-top { background: #2e7d32; }
 .tertile-vis .cell.t-mid { background: #d9b042; }
-.tertile-vis .cell.t-bot { background: #b85a5a; }
+.tertile-vis .cell.t-bot { background: #b8bcc2; }
 .tertile-vis .cell.highlight {
   outline: 2px solid #1a1a1a;
   outline-offset: 1px;
@@ -311,9 +311,9 @@
   margin-right: 6px;
   vertical-align: -1px;
 }
-.tertile-legend .sw-top { background: #6b8e6b; }
+.tertile-legend .sw-top { background: #2e7d32; }
 .tertile-legend .sw-mid { background: #d9b042; }
-.tertile-legend .sw-bot { background: #b85a5a; }
+.tertile-legend .sw-bot { background: #b8bcc2; }
 
 /* Stage 5 — performance chart */
 .perf-chart {
