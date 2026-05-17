@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T10:05:02.195947+00:00",
+  "generated_at": "2026-05-17T10:05:01.710609+00:00",
   "stats": {
-    "total_items": 136,
+    "total_items": 138,
     "channels_count": 23,
-    "avg_score": 0.2648,
-    "max_score": 0.7472,
+    "avg_score": 0.2668,
+    "max_score": 0.6876,
     "min_score": 0.0076
   },
   "thresholds": {
-    "tertile_top_min": 0.3056,
+    "tertile_top_min": 0.3089,
     "tertile_mid_min": 0.1885
   },
   "weights": {
@@ -19,21 +19,21 @@
   },
   "items": [
     {
-      "id": "korshunov_school_2679",
-      "channel": "korshunov_school",
-      "post_id": 2679,
-      "score": 0.7472,
+      "id": "sofaavibe_6648",
+      "channel": "sofaavibe",
+      "post_id": 6648,
+      "score": 0.6876,
       "tertile": "top",
       "components": {
         "Q": {
-          "raw": 0.83,
-          "norm": 1.0,
-          "weighted": 0.4
+          "raw": 0.73,
+          "norm": 0.9733,
+          "weighted": 0.3893
         },
         "F": {
-          "raw": 69,
-          "norm": 0.4367,
-          "weighted": 0.131
+          "raw": 27,
+          "norm": 0.1709,
+          "weighted": 0.0513
         },
         "R": {
           "raw_days_ago": 0,
@@ -41,16 +41,16 @@
           "weighted": 0.2
         },
         "V": {
-          "raw": 1966,
-          "norm": 0.1867,
-          "weighted": 0.0187
+          "raw": 674,
+          "norm": 0.064,
+          "weighted": 0.0064
         }
       },
-      "text": "**🧨****Разбор апробации | Вариант 2** (ответы в комментах)\n\n📱[Видео в тик ток ](https://vt.tiktok.com/ZSxRqXAAb/)\n\n📱[Видео в YouTube](https://youtu.be/NM2CtTzcgko)\n\n[ТГ: Дядя Саша](https://t.me/korshunov_school)",
-      "link": "https://t.me/korshunov_school/2679",
-      "date": "2026-05-15T08:46:33+00:00",
+      "text": "**шпора-пост по методам в Python: **\n\n🤩 append(x) – добавляет элемент х в конец списка\n\n🤩 remove(x) – удаляет первое вхождение элемента х\n\n🤩 replace(a, b) – заменяет все a на b\n\n🤩 index(x) – возвращает индекс первого вхождения элемента х\n\n🤩 count(x) – считает, сколько раз х встречается в списке\n\n🤩 sort() – сортирует список по возрастанию (или по правилам сортировки) \n\n🤩 reverse() – разворачивает список в обратном порядке\n\n🤩 pop() – удаляет и возвращает элемент (по умолчанию последний)\n\n🤩 split()",
+      "link": "https://t.me/sofaavibe/6648",
+      "date": "2026-05-16T14:24:01+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "разбор"
+      "keyword": "ЕГЭ"
     },
     {
       "id": "kdrshov_3549",
@@ -61,8 +61,8 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.5783,
-          "weighted": 0.2313
+          "norm": 0.64,
+          "weighted": 0.256
         },
         "F": {
           "raw": 14,
@@ -95,8 +95,8 @@
       "components": {
         "Q": {
           "raw": 0.63,
-          "norm": 0.759,
-          "weighted": 0.3036
+          "norm": 0.84,
+          "weighted": 0.336
         },
         "F": {
           "raw": 49,
@@ -129,8 +129,8 @@
       "components": {
         "Q": {
           "raw": 0.67,
-          "norm": 0.8072,
-          "weighted": 0.3229
+          "norm": 0.8933,
+          "weighted": 0.3573
         },
         "F": {
           "raw": 36,
@@ -163,8 +163,8 @@
       "components": {
         "Q": {
           "raw": 0.63,
-          "norm": 0.759,
-          "weighted": 0.3036
+          "norm": 0.84,
+          "weighted": 0.336
         },
         "F": {
           "raw": 26,
@@ -197,8 +197,8 @@
       "components": {
         "Q": {
           "raw": 0.43,
-          "norm": 0.5181,
-          "weighted": 0.2072
+          "norm": 0.5733,
+          "weighted": 0.2293
         },
         "F": {
           "raw": 16,
@@ -223,6 +223,40 @@
       "keyword": "код"
     },
     {
+      "id": "infkege_1589",
+      "channel": "infkege",
+      "post_id": 1589,
+      "score": 0.5432,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.55,
+          "norm": 0.7333,
+          "weighted": 0.2933
+        },
+        "F": {
+          "raw": 10,
+          "norm": 0.0633,
+          "weighted": 0.019
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 818,
+          "norm": 0.0777,
+          "weighted": 0.0078
+        }
+      },
+      "text": "Разбор тренировочного варианта №11 уровня ЕГЭ 2026 🔥\n\nВ свежем видео полностью решаем наш [предыдущий пробник](https://t.me/infkege/1579). Как всегда с тайм-кодами и без воды. Особенно интересны разборы задач №14, №15, №16, №23, №24, №26 и №27, не пропустите! Уже в скором времени ожидайте публикацию следующего пробника 😉\n\n🧐 [Смотреть на YouTube](https://youtu.be/CGE-wuKpcIc?si=FkP_SBtN_B1u-BNn)\n🤩 [Смотреть на RuTube](https://rutube.ru/video/0a899cbd89684a5c262447151e7d327c/?r=wd)",
+      "link": "https://t.me/infkege/1589",
+      "date": "2026-05-16T15:18:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "flash_ege_14534",
       "channel": "flash_ege",
       "post_id": 14534,
@@ -231,8 +265,8 @@
       "components": {
         "Q": {
           "raw": 0.49,
-          "norm": 0.5904,
-          "weighted": 0.2361
+          "norm": 0.6533,
+          "weighted": 0.2613
         },
         "F": {
           "raw": 23,
@@ -265,8 +299,8 @@
       "components": {
         "Q": {
           "raw": 0.65,
-          "norm": 0.7831,
-          "weighted": 0.3133
+          "norm": 0.8667,
+          "weighted": 0.3467
         },
         "F": {
           "raw": 23,
@@ -299,8 +333,8 @@
       "components": {
         "Q": {
           "raw": 0.42,
-          "norm": 0.506,
-          "weighted": 0.2024
+          "norm": 0.56,
+          "weighted": 0.224
         },
         "F": {
           "raw": 100,
@@ -333,8 +367,8 @@
       "components": {
         "Q": {
           "raw": 0.5,
-          "norm": 0.6024,
-          "weighted": 0.241
+          "norm": 0.6667,
+          "weighted": 0.2667
         },
         "F": {
           "raw": 53,
@@ -367,8 +401,8 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.5422,
-          "weighted": 0.2169
+          "norm": 0.6,
+          "weighted": 0.24
         },
         "F": {
           "raw": 86,
@@ -401,8 +435,8 @@
       "components": {
         "Q": {
           "raw": 0.61,
-          "norm": 0.7349,
-          "weighted": 0.294
+          "norm": 0.8133,
+          "weighted": 0.3253
         },
         "F": {
           "raw": 158,
@@ -435,8 +469,8 @@
       "components": {
         "Q": {
           "raw": 0.55,
-          "norm": 0.6627,
-          "weighted": 0.2651
+          "norm": 0.7333,
+          "weighted": 0.2933
         },
         "F": {
           "raw": 28,
@@ -469,8 +503,8 @@
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.494,
-          "weighted": 0.1976
+          "norm": 0.5467,
+          "weighted": 0.2187
         },
         "F": {
           "raw": 67,
@@ -503,8 +537,8 @@
       "components": {
         "Q": {
           "raw": 0.65,
-          "norm": 0.7831,
-          "weighted": 0.3133
+          "norm": 0.8667,
+          "weighted": 0.3467
         },
         "F": {
           "raw": 67,
@@ -537,8 +571,8 @@
       "components": {
         "Q": {
           "raw": 0.5,
-          "norm": 0.6024,
-          "weighted": 0.241
+          "norm": 0.6667,
+          "weighted": 0.2667
         },
         "F": {
           "raw": 35,
@@ -571,8 +605,8 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.4819,
-          "weighted": 0.1928
+          "norm": 0.5333,
+          "weighted": 0.2133
         },
         "F": {
           "raw": 136,
@@ -605,8 +639,8 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.4819,
-          "weighted": 0.1928
+          "norm": 0.5333,
+          "weighted": 0.2133
         },
         "F": {
           "raw": 75,
@@ -639,8 +673,8 @@
       "components": {
         "Q": {
           "raw": 0.51,
-          "norm": 0.6145,
-          "weighted": 0.2458
+          "norm": 0.68,
+          "weighted": 0.272
         },
         "F": {
           "raw": 19,
@@ -673,8 +707,8 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.4819,
-          "weighted": 0.1928
+          "norm": 0.5333,
+          "weighted": 0.2133
         },
         "F": {
           "raw": 69,
@@ -707,8 +741,8 @@
       "components": {
         "Q": {
           "raw": 0.62,
-          "norm": 0.747,
-          "weighted": 0.2988
+          "norm": 0.8267,
+          "weighted": 0.3307
         },
         "F": {
           "raw": 61,
@@ -741,8 +775,8 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.4819,
-          "weighted": 0.1928
+          "norm": 0.5333,
+          "weighted": 0.2133
         },
         "F": {
           "raw": 63,
@@ -775,8 +809,8 @@
       "components": {
         "Q": {
           "raw": 0.75,
-          "norm": 0.9036,
-          "weighted": 0.3614
+          "norm": 1.0,
+          "weighted": 0.4
         },
         "F": {
           "raw": 74,
@@ -809,8 +843,8 @@
       "components": {
         "Q": {
           "raw": 0.66,
-          "norm": 0.7952,
-          "weighted": 0.3181
+          "norm": 0.88,
+          "weighted": 0.352
         },
         "F": {
           "raw": 16,
@@ -843,8 +877,8 @@
       "components": {
         "Q": {
           "raw": 0.31,
-          "norm": 0.3735,
-          "weighted": 0.1494
+          "norm": 0.4133,
+          "weighted": 0.1653
         },
         "F": {
           "raw": 15,
@@ -877,8 +911,8 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.5422,
-          "weighted": 0.2169
+          "norm": 0.6,
+          "weighted": 0.24
         },
         "F": {
           "raw": 66,
@@ -911,8 +945,8 @@
       "components": {
         "Q": {
           "raw": 0.43,
-          "norm": 0.5181,
-          "weighted": 0.2072
+          "norm": 0.5733,
+          "weighted": 0.2293
         },
         "F": {
           "raw": 3,
@@ -945,8 +979,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.3614,
-          "weighted": 0.1446
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 53,
@@ -979,8 +1013,8 @@
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.494,
-          "weighted": 0.1976
+          "norm": 0.5467,
+          "weighted": 0.2187
         },
         "F": {
           "raw": 42,
@@ -1013,8 +1047,8 @@
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.494,
-          "weighted": 0.1976
+          "norm": 0.5467,
+          "weighted": 0.2187
         },
         "F": {
           "raw": 17,
@@ -1047,8 +1081,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 34,
@@ -1081,8 +1115,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 23,
@@ -1115,8 +1149,8 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.4217,
-          "weighted": 0.1687
+          "norm": 0.4667,
+          "weighted": 0.1867
         },
         "F": {
           "raw": 20,
@@ -1149,8 +1183,8 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.3373,
-          "weighted": 0.1349
+          "norm": 0.3733,
+          "weighted": 0.1493
         },
         "F": {
           "raw": 28,
@@ -1183,8 +1217,8 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.4217,
-          "weighted": 0.1687
+          "norm": 0.4667,
+          "weighted": 0.1867
         },
         "F": {
           "raw": 11,
@@ -1217,8 +1251,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.3614,
-          "weighted": 0.1446
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 60,
@@ -1251,8 +1285,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 20,
@@ -1285,8 +1319,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3012,
-          "weighted": 0.1205
+          "norm": 0.3333,
+          "weighted": 0.1333
         },
         "F": {
           "raw": 26,
@@ -1319,8 +1353,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 16,
@@ -1353,8 +1387,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.3614,
-          "weighted": 0.1446
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 47,
@@ -1387,8 +1421,8 @@
       "components": {
         "Q": {
           "raw": 0.32,
-          "norm": 0.3855,
-          "weighted": 0.1542
+          "norm": 0.4267,
+          "weighted": 0.1707
         },
         "F": {
           "raw": 15,
@@ -1413,6 +1447,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "korshunov_school_2684",
+      "channel": "korshunov_school",
+      "post_id": 2684,
+      "score": 0.3158,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.38,
+          "norm": 0.5067,
+          "weighted": 0.2027
+        },
+        "F": {
+          "raw": 11,
+          "norm": 0.0696,
+          "weighted": 0.0209
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.75,
+          "weighted": 0.15
+        },
+        "V": {
+          "raw": 4609,
+          "norm": 0.4376,
+          "weighted": 0.0438
+        }
+      },
+      "text": "**Я решу вариант на шаблонах из ТикТока!**\n**⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀**\nУже через два часа мы проверим это:\nРеально ли сдать ЕГЭ по информатике, вооружившись только шаблонами из ТикТока?\n\nА после вы заберете шпору со всеми реально полезными шаблонами!\n\n**Жду вас в 14:00!**\n\n📱[ **Смотреть на YouTube**](https://youtube.com/live/r7PIJy4qZ-Y?feature=share)**\n****📱**[** **](https://vkvideo.ru/video-226792898_456239133?sh=4&list=cac660928ac196997b)[**Смотреть на VK Видео**](https://vkvi",
+      "link": "https://t.me/korshunov_school/2684",
+      "date": "2026-05-16T08:58:07+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "leha_informatic_3586",
       "channel": "leha_informatic",
       "post_id": 3586,
@@ -1421,8 +1489,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3012,
-          "weighted": 0.1205
+          "norm": 0.3333,
+          "weighted": 0.1333
         },
         "F": {
           "raw": 2,
@@ -1455,8 +1523,8 @@
       "components": {
         "Q": {
           "raw": 0.65,
-          "norm": 0.7831,
-          "weighted": 0.3133
+          "norm": 0.8667,
+          "weighted": 0.3467
         },
         "F": {
           "raw": 18,
@@ -1489,8 +1557,8 @@
       "components": {
         "Q": {
           "raw": 0.16,
-          "norm": 0.1928,
-          "weighted": 0.0771
+          "norm": 0.2133,
+          "weighted": 0.0853
         },
         "F": {
           "raw": 6,
@@ -1519,12 +1587,12 @@
       "channel": "infa_vikusya",
       "post_id": 8896,
       "score": 0.3056,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 34,
@@ -1557,8 +1625,8 @@
       "components": {
         "Q": {
           "raw": 0.17,
-          "norm": 0.2048,
-          "weighted": 0.0819
+          "norm": 0.2267,
+          "weighted": 0.0907
         },
         "F": {
           "raw": 10,
@@ -1591,8 +1659,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 7,
@@ -1625,8 +1693,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 3,
@@ -1659,8 +1727,8 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.5422,
-          "weighted": 0.2169
+          "norm": 0.6,
+          "weighted": 0.24
         },
         "F": {
           "raw": 27,
@@ -1693,8 +1761,8 @@
       "components": {
         "Q": {
           "raw": 0.18,
-          "norm": 0.2169,
-          "weighted": 0.0867
+          "norm": 0.24,
+          "weighted": 0.096
         },
         "F": {
           "raw": 4,
@@ -1727,8 +1795,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.3614,
-          "weighted": 0.1446
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 76,
@@ -1761,8 +1829,8 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.4819,
-          "weighted": 0.1928
+          "norm": 0.5333,
+          "weighted": 0.2133
         },
         "F": {
           "raw": 3,
@@ -1795,8 +1863,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3012,
-          "weighted": 0.1205
+          "norm": 0.3333,
+          "weighted": 0.1333
         },
         "F": {
           "raw": 12,
@@ -1829,8 +1897,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3012,
-          "weighted": 0.1205
+          "norm": 0.3333,
+          "weighted": 0.1333
         },
         "F": {
           "raw": 10,
@@ -1863,8 +1931,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 2,
@@ -1897,8 +1965,8 @@
       "components": {
         "Q": {
           "raw": 0.32,
-          "norm": 0.3855,
-          "weighted": 0.1542
+          "norm": 0.4267,
+          "weighted": 0.1707
         },
         "F": {
           "raw": 68,
@@ -1931,8 +1999,8 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.4819,
-          "weighted": 0.1928
+          "norm": 0.5333,
+          "weighted": 0.2133
         },
         "F": {
           "raw": 55,
@@ -1965,8 +2033,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.3614,
-          "weighted": 0.1446
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 19,
@@ -1999,8 +2067,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 5,
@@ -2033,8 +2101,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 6,
@@ -2067,8 +2135,8 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.0843,
-          "weighted": 0.0337
+          "norm": 0.0933,
+          "weighted": 0.0373
         },
         "F": {
           "raw": 6,
@@ -2101,8 +2169,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 4,
@@ -2135,8 +2203,8 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.0843,
-          "weighted": 0.0337
+          "norm": 0.0933,
+          "weighted": 0.0373
         },
         "F": {
           "raw": 7,
@@ -2169,8 +2237,8 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.4217,
-          "weighted": 0.1687
+          "norm": 0.4667,
+          "weighted": 0.1867
         },
         "F": {
           "raw": 15,
@@ -2203,8 +2271,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 12,
@@ -2237,8 +2305,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 6,
@@ -2271,8 +2339,8 @@
       "components": {
         "Q": {
           "raw": 0.02,
-          "norm": 0.0241,
-          "weighted": 0.0096
+          "norm": 0.0267,
+          "weighted": 0.0107
         },
         "F": {
           "raw": 2,
@@ -2305,8 +2373,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 3,
@@ -2339,8 +2407,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 4,
@@ -2373,8 +2441,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 3,
@@ -2407,8 +2475,8 @@
       "components": {
         "Q": {
           "raw": 0.02,
-          "norm": 0.0241,
-          "weighted": 0.0096
+          "norm": 0.0267,
+          "weighted": 0.0107
         },
         "F": {
           "raw": 3,
@@ -2475,8 +2543,8 @@
       "components": {
         "Q": {
           "raw": 0.02,
-          "norm": 0.0241,
-          "weighted": 0.0096
+          "norm": 0.0267,
+          "weighted": 0.0107
         },
         "F": {
           "raw": 4,
@@ -2509,8 +2577,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 5,
@@ -2543,8 +2611,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3012,
-          "weighted": 0.1205
+          "norm": 0.3333,
+          "weighted": 0.1333
         },
         "F": {
           "raw": 19,
@@ -2577,8 +2645,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 2,
@@ -2611,8 +2679,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 10,
@@ -2645,8 +2713,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.2771,
-          "weighted": 0.1108
+          "norm": 0.3067,
+          "weighted": 0.1227
         },
         "F": {
           "raw": 5,
@@ -2679,8 +2747,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1733,
+          "weighted": 0.0693
         },
         "F": {
           "raw": 2,
@@ -2713,8 +2781,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 10,
@@ -2747,8 +2815,8 @@
       "components": {
         "Q": {
           "raw": 0.12,
-          "norm": 0.1446,
-          "weighted": 0.0578
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 2,
@@ -2883,8 +2951,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 10,
@@ -2917,8 +2985,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 4,
@@ -2951,8 +3019,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.0964,
-          "weighted": 0.0386
+          "norm": 0.1067,
+          "weighted": 0.0427
         },
         "F": {
           "raw": 3,
@@ -2985,8 +3053,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 2,
@@ -3019,8 +3087,8 @@
       "components": {
         "Q": {
           "raw": 0.27,
-          "norm": 0.3253,
-          "weighted": 0.1301
+          "norm": 0.36,
+          "weighted": 0.144
         },
         "F": {
           "raw": 11,
@@ -3053,8 +3121,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 5,
@@ -3087,8 +3155,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 10,
@@ -3121,8 +3189,8 @@
       "components": {
         "Q": {
           "raw": 0.26,
-          "norm": 0.3133,
-          "weighted": 0.1253
+          "norm": 0.3467,
+          "weighted": 0.1387
         },
         "F": {
           "raw": 3,
@@ -3155,8 +3223,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 2,
@@ -3189,8 +3257,8 @@
       "components": {
         "Q": {
           "raw": 0.02,
-          "norm": 0.0241,
-          "weighted": 0.0096
+          "norm": 0.0267,
+          "weighted": 0.0107
         },
         "F": {
           "raw": 4,
@@ -3257,8 +3325,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 10,
@@ -3325,8 +3393,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 8,
@@ -3359,8 +3427,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 3,
@@ -3427,8 +3495,8 @@
       "components": {
         "Q": {
           "raw": 0.02,
-          "norm": 0.0241,
-          "weighted": 0.0096
+          "norm": 0.0267,
+          "weighted": 0.0107
         },
         "F": {
           "raw": 3,
@@ -3461,8 +3529,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3012,
-          "weighted": 0.1205
+          "norm": 0.3333,
+          "weighted": 0.1333
         },
         "F": {
           "raw": 9,
@@ -3495,8 +3563,8 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.0843,
-          "weighted": 0.0337
+          "norm": 0.0933,
+          "weighted": 0.0373
         },
         "F": {
           "raw": 5,
@@ -3563,8 +3631,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 5,
@@ -3597,8 +3665,8 @@
       "components": {
         "Q": {
           "raw": 0.12,
-          "norm": 0.1446,
-          "weighted": 0.0578
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 3,
@@ -3665,8 +3733,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 13,
@@ -3699,8 +3767,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 8,
@@ -3733,8 +3801,8 @@
       "components": {
         "Q": {
           "raw": 0.16,
-          "norm": 0.1928,
-          "weighted": 0.0771
+          "norm": 0.2133,
+          "weighted": 0.0853
         },
         "F": {
           "raw": 8,
@@ -3767,8 +3835,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 2,
@@ -3801,8 +3869,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1733,
+          "weighted": 0.0693
         },
         "F": {
           "raw": 5,
@@ -3835,8 +3903,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 5,
@@ -3869,8 +3937,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 5,
@@ -3903,8 +3971,8 @@
       "components": {
         "Q": {
           "raw": 0.02,
-          "norm": 0.0241,
-          "weighted": 0.0096
+          "norm": 0.0267,
+          "weighted": 0.0107
         },
         "F": {
           "raw": 2,
@@ -3937,8 +4005,8 @@
       "components": {
         "Q": {
           "raw": 0.03,
-          "norm": 0.0361,
-          "weighted": 0.0145
+          "norm": 0.04,
+          "weighted": 0.016
         },
         "F": {
           "raw": 3,
@@ -4039,8 +4107,8 @@
       "components": {
         "Q": {
           "raw": 0.12,
-          "norm": 0.1446,
-          "weighted": 0.0578
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 3,
@@ -4073,8 +4141,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 4,
@@ -4107,8 +4175,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 6,
@@ -4141,8 +4209,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 10,
@@ -4175,8 +4243,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.2667,
+          "weighted": 0.1067
         },
         "F": {
           "raw": 5,
@@ -4209,8 +4277,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 7,
@@ -4243,8 +4311,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 6,
@@ -4277,8 +4345,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 5,
@@ -4311,8 +4379,8 @@
       "components": {
         "Q": {
           "raw": 0.02,
-          "norm": 0.0241,
-          "weighted": 0.0096
+          "norm": 0.0267,
+          "weighted": 0.0107
         },
         "F": {
           "raw": 3,
@@ -4345,8 +4413,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 8,
@@ -4413,8 +4481,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.1333,
+          "weighted": 0.0533
         },
         "F": {
           "raw": 5,
@@ -4481,8 +4549,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 2,
@@ -4515,8 +4583,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0667,
+          "weighted": 0.0267
         },
         "F": {
           "raw": 5,
@@ -4583,8 +4651,8 @@
       "components": {
         "Q": {
           "raw": 0.02,
-          "norm": 0.0241,
-          "weighted": 0.0096
+          "norm": 0.0267,
+          "weighted": 0.0107
         },
         "F": {
           "raw": 3,
