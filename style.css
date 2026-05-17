@@ -110,3 +110,11 @@ tr.dd-row td.drilldown { background: #fff; padding: 16px 24px; }
   #queue-table td.num::before { content: attr(data-label) ': '; color: var(--muted); font-size: 11px; }
   #queue-table td.text-cell { color: #222; margin-top: 4px; }
 }
+
+/* Live last Telegram post embed (S19) */
+.live-post { padding: 18px 32px; border-bottom: 1px solid var(--border); background: #fff; }
+.live-post h2 { font-size: 18px; margin: 0 0 8px; }
+.live-post .algo-intro { margin: 0 0 14px; font-size: 14px; max-width: 860px; line-height: 1.5; color: #444; }
+.tg-embed-wrap { max-width: 540px; margin: 0 auto; }
+.tg-embed-note { font-size: 12px; color: #888; margin: 10px 0 0; text-align: center; }
+.tg-embed-note a { color: #3a7c3a; }

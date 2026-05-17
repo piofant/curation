@@ -29,7 +29,7 @@
 
   <section id="algorithm" class="algorithm-section">
     <h2>Как устроен отбор</h2>
-    <p class="algo-intro">Целевой канал @kompege наполняется тремя независимыми пайплайнами. <strong>Курация</strong> отбирает публикации внешних источников по формуле <code>score</code> и выпускает в эфир только верхний тертиль. <strong>AI-дайджесты</strong> и <strong>AI-опросы</strong> формируются параллельно по собственным расписаниям: LLM-агент n8n собирает контент и публикует его в канал, минуя стадию скоринга.</p>
+    <p class="algo-intro">Целевой канал @kompege наполняется тремя независимыми пайплайнами. <strong>Курация</strong> — отдельный Python-скрипт по расписанию (cron, раз в день ночью): парсит источники, отсекает рекламу, считает <code>score</code> и публикует только лучшую треть. <strong>AI-дайджесты</strong> и <strong>AI-опросы</strong> формируются параллельно на n8n по собственным расписаниям, минуя скоринг.</p>
 
     <svg class="pipeline-svg" viewBox="0 0 920 290" xmlns="http://www.w3.org/2000/svg" aria-label="Три пайплайна @kompege">
       <defs>
@@ -45,30 +45,30 @@
         <text x="8" y="220" font-size="11" fill="#666" font-weight="600">AI-ОПРОС</text>
 
         <!-- Curation row (y center 60) -->
-        <rect x="90" y="36" width="90" height="48" rx="5" fill="#f5f5f5" stroke="#999"/>
-        <text x="135" y="58" text-anchor="middle">Парсер</text>
-        <text x="135" y="73" text-anchor="middle" font-size="10" fill="#666">23 канала</text>
+        <rect x="90" y="36" width="110" height="48" rx="5" fill="#f5f5f5" stroke="#999"/>
+        <text x="145" y="58" text-anchor="middle">Schedule</text>
+        <text x="145" y="73" text-anchor="middle" font-size="10" fill="#666">раз в день, ночью</text>
 
-        <rect x="200" y="36" width="90" height="48" rx="5" fill="#f5f5f5" stroke="#999"/>
-        <text x="245" y="58" text-anchor="middle">Фильтр</text>
-        <text x="245" y="73" text-anchor="middle" font-size="10" fill="#666">реклама/дубли</text>
+        <rect x="220" y="36" width="86" height="48" rx="5" fill="#f5f5f5" stroke="#999"/>
+        <text x="263" y="58" text-anchor="middle">Парсер</text>
+        <text x="263" y="73" text-anchor="middle" font-size="10" fill="#666">23 канала</text>
 
-        <rect x="310" y="36" width="120" height="48" rx="5" fill="#fff4cc" stroke="#c99100"/>
-        <text x="370" y="58" text-anchor="middle">Скоринг</text>
-        <text x="370" y="73" text-anchor="middle" font-size="10" fill="#666">4 компонента ↓</text>
+        <rect x="326" y="36" width="96" height="48" rx="5" fill="#f5f5f5" stroke="#999"/>
+        <text x="374" y="58" text-anchor="middle">Фильтр</text>
+        <text x="374" y="73" text-anchor="middle" font-size="10" fill="#666">реклама/дубли</text>
 
-        <rect x="450" y="36" width="100" height="48" rx="5" fill="#f5f5f5" stroke="#999"/>
-        <text x="500" y="58" text-anchor="middle">Тертили</text>
-        <text x="500" y="73" text-anchor="middle" font-size="10" fill="#666">top/mid/bot</text>
+        <rect x="442" y="36" width="110" height="48" rx="5" fill="#fff4cc" stroke="#c99100"/>
+        <text x="497" y="58" text-anchor="middle">Скоринг</text>
+        <text x="497" y="73" text-anchor="middle" font-size="10" fill="#666">4 компонента ↓</text>
 
-        <rect x="570" y="36" width="130" height="48" rx="5" fill="#d8f5d2" stroke="#3a7c3a"/>
-        <text x="635" y="58" text-anchor="middle">Только top</text>
-        <text x="635" y="73" text-anchor="middle" font-size="10" fill="#666">→ публикация</text>
+        <rect x="572" y="36" width="128" height="48" rx="5" fill="#d8f5d2" stroke="#3a7c3a"/>
+        <text x="636" y="58" text-anchor="middle">Лучшая треть</text>
+        <text x="636" y="73" text-anchor="middle" font-size="10" fill="#666">→ публикация</text>
 
-        <line x1="180" y1="60" x2="200" y2="60" stroke="#666" marker-end="url(#arr)"/>
-        <line x1="290" y1="60" x2="310" y2="60" stroke="#666" marker-end="url(#arr)"/>
-        <line x1="430" y1="60" x2="450" y2="60" stroke="#666" marker-end="url(#arr)"/>
-        <line x1="550" y1="60" x2="570" y2="60" stroke="#666" marker-end="url(#arr)"/>
+        <line x1="200" y1="60" x2="220" y2="60" stroke="#666" marker-end="url(#arr)"/>
+        <line x1="306" y1="60" x2="326" y2="60" stroke="#666" marker-end="url(#arr)"/>
+        <line x1="422" y1="60" x2="442" y2="60" stroke="#666" marker-end="url(#arr)"/>
+        <line x1="552" y1="60" x2="572" y2="60" stroke="#666" marker-end="url(#arr)"/>
 
         <!-- AI-Digest row (y center 134) -->
         <rect x="90" y="110" width="120" height="48" rx="5" fill="#f5f5f5" stroke="#999"/>
@@ -89,7 +89,7 @@
         <!-- AI-Poll row (y center 208) -->
         <rect x="90" y="184" width="120" height="48" rx="5" fill="#f5f5f5" stroke="#999"/>
         <text x="150" y="206" text-anchor="middle">Schedule</text>
-        <text x="150" y="221" text-anchor="middle" font-size="10" fill="#666">раз в неделю</text>
+        <text x="150" y="221" text-anchor="middle" font-size="10" fill="#666">раз в день</text>
 
         <rect x="230" y="184" width="160" height="48" rx="5" fill="#e6e6ff" stroke="#7777aa"/>
         <text x="310" y="206" text-anchor="middle">LLM-агент n8n</text>
@@ -173,6 +173,16 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="live-post" class="live-post">
+    <h2>Последнее в эфире @kompege</h2>
+    <p class="algo-intro">Живой пример работы системы — последняя публикация в целевом Telegram-канале (виджет Telegram, обновляется на стороне канала).</p>
+    <div class="tg-embed-wrap">
+      <script async src="https://telegram.org/js/telegram-widget.js?22"
+              data-telegram-post="kompege/8475" data-width="100%" data-color="3a7c3a"></script>
+    </div>
+    <p class="tg-embed-note">Пост-ID обновляется ежедневным экспортом пайплайна; ручная ссылка: <a href="https://t.me/kompege/8475" target="_blank" rel="noopener">t.me/kompege/8475 ↗</a></p>
   </section>
 
   <section id="filters" class="filters">
