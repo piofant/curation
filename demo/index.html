@@ -80,8 +80,8 @@
             <tr><th>Дата</th><td id="meta-date">—</td></tr>
             <tr><th>Ключ. слово</th><td id="meta-keyword">ЕГЭ</td></tr>
             <tr><th colspan="2" class="meta-divider">Сырые числа</th></tr>
-            <tr><th>views</th><td><code id="meta-views">1025</code></td></tr>
-            <tr><th>forwards</th><td><code id="meta-forwards">14</code></td></tr>
+            <tr><th>просмотров</th><td><code id="meta-views">1025</code></td></tr>
+            <tr><th>пересылок</th><td><code id="meta-forwards">14</code></td></tr>
             <tr><th>days_ago</th><td><code id="meta-days">0</code></td></tr>
             <tr><th>content_quality</th><td><code id="meta-quality">0.48</code> <small class="hint-inline">(разбор на следующей стадии)</small></td></tr>
             <tr><th>Ссылка</th><td><a id="meta-link" href="https://t.me/kdrshov/3549" target="_blank" rel="noopener">t.me/kdrshov/3549 ↗</a></td></tr>
@@ -97,46 +97,46 @@
     <!-- Stage 3 — Q breakdown -->
     <section class="stage" data-stage="3">
       <div class="stage-num">Стадия 3 / 8</div>
-      <h2>Внутренности качества (Q)</h2>
-      <p class="stage-lead">Что внутри <code>content_quality</code>: оно собирается из четырёх под-компонентов в <code>analytics/content_filter.py</code>:</p>
+      <h2>Из чего складывается оценка качества (Q)</h2>
+      <p class="stage-lead">Качество поста Q — сумма четырёх простых признаков. Чем полезнее пост для аудитории, тем выше Q.</p>
 
       <table class="formula-table demo-table" id="qbreak-table">
         <thead>
-          <tr><th>Под-компонент</th><th>Как считается</th><th>Тир / Значение</th><th>Вклад</th></tr>
+          <tr><th>Признак</th><th>Что смотрим</th><th>У этого поста</th><th>Баллы</th></tr>
         </thead>
         <tbody>
           <tr>
-            <th>Viral Rate (ER)</th>
-            <td><code>forwards / views</code></td>
-            <td>14/1025 = <b>1,37 %</b> → tier «обычный (≥ 1 %)»</td>
+            <th>Виральность</th>
+            <td>доля пересылок от просмотров</td>
+            <td>14 из 1025 = <b>1,4 %</b> — обычный уровень</td>
             <td class="weight">+0,10</td>
           </tr>
           <tr>
-            <th>Абсолютные пересылки</th>
-            <td><code>forwards</code> в tier</td>
-            <td>14 → tier «нормально» (≥ 10, &lt; 15)</td>
+            <th>Сколько раз переслали</th>
+            <td>абсолютное число пересылок</td>
+            <td>14 пересылок — нормально</td>
             <td class="weight">+0,15</td>
           </tr>
           <tr>
-            <th>Внешняя ссылка</th>
-            <td>VK / YouTube / docs в тексте</td>
-            <td>есть VK-ссылка</td>
+            <th>Есть полезная ссылка</th>
+            <td>ссылка на VK / YouTube / материалы</td>
+            <td>да, ссылка на VK</td>
             <td class="weight">+0,15</td>
           </tr>
           <tr>
-            <th>Образовательные сигналы</th>
-            <td>словарь (Python, задание, ЕГЭ, ...)</td>
-            <td>≈ 3 совпадения × 0,03 (cap 0,10)</td>
+            <th>Учебная лексика</th>
+            <td>слова темы: Python, задание, ЕГЭ…</td>
+            <td>≈ 3 совпадения</td>
             <td class="weight">+0,08</td>
           </tr>
           <tr class="total-row">
-            <th colspan="3">Итого Q (cap 1,00)</th>
+            <th colspan="3">Итого качество Q</th>
             <td class="weight"><b>0,48</b></td>
           </tr>
         </tbody>
       </table>
 
-      <p class="stage-foot small">Хард-фильтр (стадия 1) до этого выкинул посты без внешней ссылки, со словами из чёрного списка («курс», «скидк», «у нас», «огэ»), и слишком короткие (&lt; 50 символов). Q вычисляется только для прошедших.</p>
+      <p class="stage-foot small">Ещё раньше, на стадии 1, отсеиваются посты без ссылок, явно рекламные (слова «курс», «скидка», «у нас», «огэ») и слишком короткие. Качество Q считается только для тех, кто прошёл этот фильтр.</p>
     </section>
 
     <!-- Stage 4 — Финальная формула score -->
@@ -183,17 +183,17 @@
         <div class="lifecycle-row">
           <div class="lifecycle-label">День 1</div>
           <div class="lifecycle-bar"><div class="lifecycle-fill" style="width:18%"></div></div>
-          <div class="lifecycle-num">≈ 500 views · ≈ 30 forwards</div>
+          <div class="lifecycle-num">≈ 500 просмотров · ≈ 30 пересылок</div>
         </div>
         <div class="lifecycle-row">
           <div class="lifecycle-label">День 3</div>
           <div class="lifecycle-bar"><div class="lifecycle-fill" style="width:48%"></div></div>
-          <div class="lifecycle-num">≈ 1 200 views · ≈ 70 forwards</div>
+          <div class="lifecycle-num">≈ 1 200 просмотров · ≈ 70 пересылок</div>
         </div>
         <div class="lifecycle-row final">
           <div class="lifecycle-label">День 7</div>
           <div class="lifecycle-bar"><div class="lifecycle-fill" style="width:100%"></div></div>
-          <div class="lifecycle-num"><b>2 400 views · 107 forwards · ERR 44,56 %</b></div>
+          <div class="lifecycle-num"><b>2 400 просмотров · 107 пересылок · ERR 44,56 %</b></div>
         </div>
       </div>
 
@@ -234,7 +234,7 @@
         </tbody>
       </table>
 
-      <p class="stage-foot small">Сейчас корректировка ручная: правка констант в <code>analyzer.py</code> + перезапуск пайплайна. Автоматическая подстройка через обратную связь от метрик пост-публикации — направление дальнейшей работы, упомянутое в Заключении ВКР.</p>
+      <p class="stage-foot small">Сейчас веса задаются вручную в коде скоринга и применяются после перезапуска. Автоматическая подстройка по обратной связи от метрик после публикации — направление дальнейшей работы (Заключение ВКР).</p>
     </section>
 
     <!-- Stage 8 — Итог -->
