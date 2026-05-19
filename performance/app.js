@@ -165,16 +165,25 @@ function setInsight(id, html) {
   if (el) el.innerHTML = html;
 }
 
-function renderYoY(yoy) {
+function fmtMetric(v, unit) {
+  // ERR: percent-like (one decimal); forwards: integer-ish
+  if (unit === '%') return v.toFixed ? v.toFixed(1) : String(v);
+  if (unit === '/post') return Math.round(v * 10) / 10;
+  return v;
+}
+
+function renderYoY(yoy, mounts) {
   if (!yoy || !yoy.series || !yoy.series.tg || !yoy.series.vk) {
-    document.getElementById('chart-yoy-timeline').textContent = 'нет данных';
+    const tl = document.getElementById(mounts.timeline);
+    if (tl) tl.textContent = 'нет данных';
     return;
   }
   const h = yoy.headline;
-  const cs = yoy.curation_start;
+  const unit = yoy.unit || '';
+  const metricShort = yoy.metric_label_short || yoy.metric_label || 'метрика';
 
-  // ─── Headline strip: TG ratio, VK ratio, clean lift ───
-  document.getElementById('yoy-headline').innerHTML = `
+  // Headline strip
+  document.getElementById(mounts.headline).innerHTML = `
     <div class="yoy-h-cell yoy-h-cell-tg">
       <div class="yoy-h-lbl">TG-курация · 2025→2026</div>
       <div class="yoy-h-val">×${h.ratio_tg}</div>
@@ -194,12 +203,12 @@ function renderYoY(yoy) {
     </div>
   `;
 
-  // ─── Two timelines, stacked ───
-  const tlMount = document.getElementById('chart-yoy-timeline');
+  // Stacked timelines (treatment first, then control)
+  const tlMount = document.getElementById(mounts.timeline);
   function tlBlock(series, role) {
     const tl = series.timeline;
     if (!tl.length) return '';
-    const maxErr = Math.max(...tl.map(m => m.mean_err));
+    const maxV = Math.max(...tl.map(m => m.mean));
     const firstCurIdx = tl.findIndex(m => m.phase === 'curation');
     const cols = tl.length;
     const markerLeftPct = firstCurIdx >= 0 ? (firstCurIdx / cols * 100) : -1;
@@ -207,70 +216,77 @@ function renderYoY(yoy) {
       ? `<div class="yoy-tl-marker" style="left:${markerLeftPct}%;"><div class="yoy-tl-marker-line"></div><div class="yoy-tl-marker-label">старт курации<br><small>12 фев 2026</small></div></div>`
       : '';
     const bars = tl.map(m => {
-      const hpct = maxErr > 0 ? Math.max((m.mean_err / maxErr * 100), 2) : 2;
+      const hpct = maxV > 0 ? Math.max((m.mean / maxV * 100), 2) : 2;
       const cls = m.phase === 'curation' ? 'cur' : 'pre';
-      return `<div class="yoy-tl-bar ${cls}" title="${escapeHtml(m.label)}: ERR ${m.mean_err}% (n=${m.n})">
-        <div class="yoy-tl-val">${m.mean_err}</div>
+      return `<div class="yoy-tl-bar ${cls}" title="${escapeHtml(m.label)}: ${m.mean}${unit==='%'?'%':''} (n=${m.n})">
+        <div class="yoy-tl-val">${fmtMetric(m.mean, unit)}</div>
         <div class="yoy-tl-fill" style="height:${hpct}%"></div>
         <div class="yoy-tl-lbl">${escapeHtml(m.label)}</div>
       </div>`;
     }).join('');
     return `<div class="yoy-tl-block yoy-tl-${role}">
-      <div class="yoy-tl-title">${escapeHtml(series.label)} — YoY ×${series.mean_ratio_err}</div>
+      <div class="yoy-tl-title">${escapeHtml(series.label)} — YoY ×${series.mean_ratio}</div>
       <div class="yoy-tl-bars" style="--yoy-cols:${cols};">${bars}${markerHtml}</div>
     </div>`;
   }
+  const yLabel = unit === '%' ? `среднемесячный ${metricShort}, %` : `${metricShort} на пост`;
   tlMount.innerHTML = tlBlock(yoy.series.tg, 'treatment') + tlBlock(yoy.series.vk, 'control')
-    + '<div class="yoy-tl-axis"><span class="yoy-legend"><span class="sw pre"></span>до 12 фев 2026 (ручная курация)</span><span class="yoy-legend"><span class="sw cur"></span>после 12 фев 2026 (автоматизированная)</span><span class="yoy-axis-y">ось Y — среднемесячный ERR, %</span></div>';
+    + `<div class="yoy-tl-axis"><span class="yoy-legend"><span class="sw pre"></span>до 12 фев 2026 (ручная курация)</span><span class="yoy-legend"><span class="sw cur"></span>после 12 фев 2026 (автоматизированная)</span><span class="yoy-axis-y">ось Y — ${yLabel}</span></div>`;
 
-  // ─── Two pair rows, stacked ───
+  // Pair rows
   function pairsBlock(series, role) {
     const pr = series.pairs;
     if (!pr.length) return '';
-    const maxPair = Math.max(...pr.flatMap(p => [p.pre.mean_err, p.cur.mean_err]));
+    const maxPair = Math.max(...pr.flatMap(p => [p.pre.mean, p.cur.mean]));
     const rows = pr.map(p => {
-      const hPre = (p.pre.mean_err / maxPair * 100).toFixed(1);
-      const hCur = (p.cur.mean_err / maxPair * 100).toFixed(1);
-      const arrow = p.delta_err_pct >= 0 ? '↑' : '↓';
-      const dsign = p.delta_err_pct >= 0 ? '+' : '';
-      const dCls  = p.delta_err_pct >= 0 ? 'up' : 'down';
+      const hPre = (p.pre.mean / maxPair * 100).toFixed(1);
+      const hCur = (p.cur.mean / maxPair * 100).toFixed(1);
+      const arrow = p.delta_pct >= 0 ? '↑' : '↓';
+      const dsign = p.delta_pct >= 0 ? '+' : '';
+      const dCls  = p.delta_pct >= 0 ? 'up' : 'down';
       return `<div class="yoy-pair">
         <div class="yoy-pair-bars">
-          <div class="yoy-bar pre" style="height:${hPre}%" title="${p.year_pre}: ${p.pre.mean_err}% (n=${p.pre.n})">
-            <div class="yoy-bar-val">${p.pre.mean_err}</div>
+          <div class="yoy-bar pre" style="height:${hPre}%" title="${p.year_pre}: ${p.pre.mean} (n=${p.pre.n})">
+            <div class="yoy-bar-val">${fmtMetric(p.pre.mean, unit)}</div>
           </div>
-          <div class="yoy-bar cur ${role}" style="height:${hCur}%" title="${p.year_cur}: ${p.cur.mean_err}% (n=${p.cur.n})${p.partial ? ' [partial]' : ''}">
-            <div class="yoy-bar-val">${p.cur.mean_err}</div>
+          <div class="yoy-bar cur ${role}" style="height:${hCur}%" title="${p.year_cur}: ${p.cur.mean} (n=${p.cur.n})${p.partial ? ' [partial]' : ''}">
+            <div class="yoy-bar-val">${fmtMetric(p.cur.mean, unit)}</div>
           </div>
         </div>
         <div class="yoy-pair-label">${escapeHtml(p.label)}${p.partial ? '*' : ''}</div>
         <div class="yoy-pair-delta ${dCls}">
-          <span class="ratio">×${p.ratio_err}</span>
-          <span class="pct">${arrow}${dsign}${p.delta_err_pct}%</span>
+          <span class="ratio">×${p.ratio}</span>
+          <span class="pct">${arrow}${dsign}${p.delta_pct}%</span>
         </div>
       </div>`;
     }).join('');
     const footnote = pr.some(p => p.partial) ? '<div class="yoy-pair-footnote">* неполный месяц — 2025-й обрезан до того же числа</div>' : '';
     return `<div class="yoy-pairs-row yoy-pairs-${role}">
-      <div class="yoy-pairs-row-title">${escapeHtml(series.label)} — средний ×${series.mean_ratio_err}</div>
+      <div class="yoy-pairs-row-title">${escapeHtml(series.label)} — средний ×${series.mean_ratio}</div>
       <div class="yoy-pairs-grid">${rows}</div>
       ${footnote}
     </div>`;
   }
-  document.getElementById('chart-yoy-pairs').innerHTML =
+  document.getElementById(mounts.pairs).innerHTML =
     pairsBlock(yoy.series.tg, 'treatment') + pairsBlock(yoy.series.vk, 'control');
 
-  // ─── Insight ───
-  const tgRatios = yoy.series.tg.pairs.map(p => `${p.label} ×${p.ratio_err}`).join(', ');
-  const vkRatios = yoy.series.vk.pairs.map(p => `${p.label} ×${p.ratio_err}`).join(', ');
-  setInsight('insight-yoy',
-    `Среднемесячный YoY-рост ERR по TG-курации (treatment) — <strong>×${h.ratio_tg}</strong> (${tgRatios}). По VK-репостам (контрольная группа без курации) — <strong>×${h.ratio_vk}</strong> (${vkRatios}). Разница даёт чистый эффект самой курации: <strong>+${h.clean_lift_pct}%</strong> поверх общего тренда канала. Контроль работает: TG-курация и VK-репосты публикуются в один и тот же канал, на одну и ту же аудиторию, в одни и те же месяцы — но при этом курация изменила процесс только для TG-источников. Это эмпирическое подтверждение результата квази-эксперимента ВКР с явным natural control, а не просто YoY-сравнением.`);
+  // Insight (metric-aware copy)
+  const tgRatios = yoy.series.tg.pairs.map(p => `${p.label} ×${p.ratio}`).join(', ');
+  const vkRatios = yoy.series.vk.pairs.map(p => `${p.label} ×${p.ratio}`).join(', ');
+  let insightText;
+  if (yoy.metric_key === 'engagement_rate') {
+    insightText = `Среднемесячный YoY-рост ERR по TG-курации (treatment) — <strong>×${h.ratio_tg}</strong> (${tgRatios}). По VK-репостам (контроль без курации) — <strong>×${h.ratio_vk}</strong> (${vkRatios}). Чистый эффект курации: <strong>+${h.clean_lift_pct}%</strong> поверх общего тренда канала. Контроль работает: TG и VK публикуются в один канал, на одну аудиторию, в одни и те же месяцы — но курация меняла процесс только для TG-источников.`;
+  } else {
+    insightText = `Среднемесячный YoY-рост пересылок по TG-курации — <strong>×${h.ratio_tg}</strong> (${tgRatios}). По VK-репостам (контроль) — <strong>×${h.ratio_vk}</strong> (${vkRatios}). Чистый эффект курации на виральности: <strong>+${h.clean_lift_pct}%</strong> поверх общего тренда. Эмпирическое подтверждение claim'а ВКР «рост ERR не за счёт потери виральности»: пересылки TG-серии стабильны или растут, тогда как VK-серия (без курации) даже просела — то есть природный тренд канала на виральность отрицательный, а курация его перебивает.`;
+  }
+  setInsight(mounts.insight, insightText);
 }
 
 async function init() {
   const d = await load();
   renderStats(d);
-  renderYoY(d.by_month_yoy);
+  renderYoY(d.by_month_yoy, { headline:'yoy-headline', timeline:'chart-yoy-timeline', pairs:'chart-yoy-pairs', insight:'insight-yoy' });
+  if (d.by_month_yoy_forwards) renderYoY(d.by_month_yoy_forwards, { headline:'yoy-fwd-headline', timeline:'chart-yoy-fwd-timeline', pairs:'chart-yoy-fwd-pairs', insight:'insight-yoy-fwd' });
   renderChannels(d.top_channels);
   renderVerticalBars(d.by_day_of_week, 'chart-dow', { labelKey: 'day', shortSuffix: '%' });
   renderVerticalBars(d.by_hour, 'chart-hour', { labelKey: 'hour', shortSuffix: '%', weakThreshold: 3 });
