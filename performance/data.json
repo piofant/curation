@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T22:13:53.489494+00:00",
+  "generated_at": "2026-05-19T22:20:06.325453+00:00",
   "total_posts": 388,
   "total_posts_all": 1605,
   "date_range": {
@@ -644,6 +644,7 @@
           }
         ],
         "mean_ratio": 1.67,
+        "median_ratio": 1.65,
         "pre_n": 146,
         "cur_n": 277
       },
@@ -875,6 +876,7 @@
           }
         ],
         "mean_ratio": 1.36,
+        "median_ratio": 1.6,
         "pre_n": 264,
         "cur_n": 145
       }
@@ -883,7 +885,10 @@
       "months_matched": 4,
       "ratio_tg": 1.67,
       "ratio_vk": 1.36,
-      "clean_lift_pct": 22.8
+      "clean_lift_pct": 22.8,
+      "median_ratio_tg": 1.65,
+      "median_ratio_vk": 1.6,
+      "clean_lift_pct_median": 3.1
     }
   },
   "by_month_yoy_forwards": {
@@ -1123,6 +1128,7 @@
           }
         ],
         "mean_ratio": 1.23,
+        "median_ratio": 1.14,
         "pre_n": 146,
         "cur_n": 277
       },
@@ -1354,6 +1360,7 @@
           }
         ],
         "mean_ratio": 0.95,
+        "median_ratio": 1.14,
         "pre_n": 264,
         "cur_n": 145
       }
@@ -1362,7 +1369,10 @@
       "months_matched": 4,
       "ratio_tg": 1.23,
       "ratio_vk": 0.95,
-      "clean_lift_pct": 29.5
+      "clean_lift_pct": 29.5,
+      "median_ratio_tg": 1.14,
+      "median_ratio_vk": 1.14,
+      "clean_lift_pct_median": 0.0
     }
   },
   "overall": {
