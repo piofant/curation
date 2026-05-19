@@ -302,3 +302,66 @@
   .yoy-tl-lbl { font-size: 9px; }
   .yoy-pairs { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ─── S28-split: dual-series YoY card ─────────────────────────── */
+.yoy-headline {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  gap: 12px;
+  align-items: stretch;
+  padding: 14px 0 22px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+.yoy-h-cell {
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 4px;
+  background: #fafafa;
+  display: flex; flex-direction: column; justify-content: center; gap: 4px;
+}
+.yoy-h-cell-tg { border-left: 3px solid #6b4ea3; }
+.yoy-h-cell-vk { border-left: 3px solid #bdbdbd; }
+.yoy-h-cell-clean { border-left: 3px solid #2e7d32; background: #f1f8e9; }
+.yoy-h-lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.02em; }
+.yoy-h-val { font-family: ui-monospace, monospace; font-size: 28px; font-weight: 700; line-height: 1; color: #1a1a1a; }
+.yoy-h-cell-clean .yoy-h-val { color: #2e7d32; }
+.yoy-h-sub { font-size: 11px; color: var(--muted); font-style: italic; }
+.yoy-h-arrow {
+  display: flex; align-items: center; justify-content: center;
+  font-family: ui-monospace, monospace; font-size: 26px; color: #888; font-weight: 700;
+}
+
+.yoy-tl-block { margin-bottom: 24px; }
+.yoy-tl-block:last-of-type { margin-bottom: 12px; }
+.yoy-tl-title {
+  font-size: 13px; font-weight: 600; color: #1a1a1a;
+  margin-bottom: 6px;
+  padding-left: 4px;
+}
+.yoy-tl-treatment .yoy-tl-bar.cur .yoy-tl-fill { background: #6b4ea3; }
+.yoy-tl-treatment .yoy-tl-bar.pre .yoy-tl-fill { background: #bdbdbd; }
+.yoy-tl-control .yoy-tl-bar.cur .yoy-tl-fill { background: #888888; }
+.yoy-tl-control .yoy-tl-bar.pre .yoy-tl-fill { background: #d6d6d6; }
+.yoy-tl-control .yoy-tl-title { color: #555; }
+.yoy-tl-control .yoy-tl-bars { opacity: 0.92; }
+
+.yoy-pairs-split { display: flex; flex-direction: column; gap: 18px; }
+.yoy-pairs-row { }
+.yoy-pairs-row-title {
+  font-size: 13px; font-weight: 600; color: #1a1a1a;
+  margin-bottom: 8px; padding-left: 4px;
+}
+.yoy-pairs-row.yoy-pairs-control .yoy-pairs-row-title { color: #555; }
+.yoy-pairs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 14px;
+}
+/* control row bars are greyer */
+.yoy-pair .yoy-bar.cur.control { background: #888888; }
+
+@media (max-width: 768px) {
+  .yoy-headline { grid-template-columns: 1fr; }
+  .yoy-h-arrow { display: none; }
+}

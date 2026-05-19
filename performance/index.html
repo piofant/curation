@@ -26,11 +26,12 @@
 <main class="dashboard">
 
     <section class="card yoy-card">
-    <h2>Год к году: ERR @kompege по месяцам — до и во время курации</h2>
-    <p class="hint">Среднемесячный ERR публикаций в @kompege. Серые столбцы — до запуска системы (фев 2025 → янв 2026, ручная курация), фиолетовые — после запуска (12 фев 2026 →, автоматизированная курация). Сравнение по тем же календарным месяцам — это контроль сезонности, основной квази-эксперимент главы 3 ВКР.</p>
-    <div id="chart-yoy-timeline" class="yoy-timeline"></div>
-    <h3 class="yoy-sub">YoY по парам месяцев — рост в разах</h3>
-    <div id="chart-yoy-pairs" class="yoy-pairs"></div>
+    <h2>Год к году: ERR @kompege по месяцам — чистый эффект курации</h2>
+    <p class="hint">@kompege ведёт два типа публикаций: <strong>TG-источники</strong> — то, что система курирует автоматически с 12 фев 2026 (до этого отбиралось вручную из тех же каналов), и <strong>VK-репосты</strong> — публикуются вручную и в 2025, и в 2026, курация их не касается. VK-репосты служат <em>natural control group</em>: они подвергались тем же макрофакторам (ЕГЭ-сезон, рост аудитории, замедление TG в РФ), но без курации. Разница YoY-роста между TG-серией и VK-серией = чистый эффект самой курации, отделённый от общего тренда канала.</p>
+    <div id="yoy-headline" class="yoy-headline"></div>
+    <div id="chart-yoy-timeline" class="yoy-timeline-split"></div>
+    <h3 class="yoy-sub">YoY по парам месяцев — TG (курация) vs VK (контроль)</h3>
+    <div id="chart-yoy-pairs" class="yoy-pairs-split"></div>
     <p class="insight" id="insight-yoy">…</p>
   </section>
 

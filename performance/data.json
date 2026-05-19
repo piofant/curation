@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T21:42:16.794105+00:00",
+  "generated_at": "2026-05-19T21:51:37.787326+00:00",
   "total_posts": 388,
   "total_posts_all": 1605,
   "date_range": {
@@ -409,283 +409,480 @@
   ],
   "by_month_yoy": {
     "curation_start": "2026-02-12",
-    "timeline": [
-      {
-        "year": 2025,
-        "month_num": 2,
-        "label": "Фев 25",
-        "phase": "pre",
-        "n": 79,
-        "mean_err": 5.35,
-        "median_err": 4.51,
-        "mean_views": 1756.68,
-        "mean_forwards": 9.48
+    "baseline_year": 2025,
+    "curation_year": 2026,
+    "series": {
+      "tg": {
+        "label": "TG-курация (где курация работает)",
+        "label_short": "TG-источники",
+        "role": "treatment",
+        "timeline": [
+          {
+            "year": 2025,
+            "month_num": 2,
+            "label": "Фев 25",
+            "phase": "pre",
+            "n": 25,
+            "mean_err": 6.32,
+            "median_err": 4.69
+          },
+          {
+            "year": 2025,
+            "month_num": 3,
+            "label": "Мар 25",
+            "phase": "pre",
+            "n": 21,
+            "mean_err": 8.11,
+            "median_err": 6.8
+          },
+          {
+            "year": 2025,
+            "month_num": 4,
+            "label": "Апр 25",
+            "phase": "pre",
+            "n": 58,
+            "mean_err": 9.34,
+            "median_err": 9.63
+          },
+          {
+            "year": 2025,
+            "month_num": 5,
+            "label": "Май 25",
+            "phase": "pre",
+            "n": 67,
+            "mean_err": 7.6,
+            "median_err": 5.63
+          },
+          {
+            "year": 2025,
+            "month_num": 6,
+            "label": "Июн 25",
+            "phase": "pre",
+            "n": 60,
+            "mean_err": 9.4,
+            "median_err": 5.97
+          },
+          {
+            "year": 2025,
+            "month_num": 7,
+            "label": "Июл 25",
+            "phase": "pre",
+            "n": 27,
+            "mean_err": 4.36,
+            "median_err": 2.84
+          },
+          {
+            "year": 2025,
+            "month_num": 8,
+            "label": "Авг 25",
+            "phase": "pre",
+            "n": 58,
+            "mean_err": 4.85,
+            "median_err": 3.86
+          },
+          {
+            "year": 2025,
+            "month_num": 9,
+            "label": "Сен 25",
+            "phase": "pre",
+            "n": 40,
+            "mean_err": 8.81,
+            "median_err": 8.69
+          },
+          {
+            "year": 2025,
+            "month_num": 10,
+            "label": "Окт 25",
+            "phase": "pre",
+            "n": 47,
+            "mean_err": 6.27,
+            "median_err": 6.2
+          },
+          {
+            "year": 2025,
+            "month_num": 11,
+            "label": "Ноя 25",
+            "phase": "pre",
+            "n": 23,
+            "mean_err": 10.54,
+            "median_err": 11.74
+          },
+          {
+            "year": 2025,
+            "month_num": 12,
+            "label": "Дек 25",
+            "phase": "pre",
+            "n": 36,
+            "mean_err": 8.58,
+            "median_err": 2.77
+          },
+          {
+            "year": 2026,
+            "month_num": 1,
+            "label": "Янв 26",
+            "phase": "pre",
+            "n": 24,
+            "mean_err": 13.22,
+            "median_err": 12.7
+          },
+          {
+            "year": 2026,
+            "month_num": 2,
+            "label": "Фев 26",
+            "phase": "curation",
+            "n": 78,
+            "mean_err": 10.1,
+            "median_err": 8.39
+          },
+          {
+            "year": 2026,
+            "month_num": 3,
+            "label": "Мар 26",
+            "phase": "curation",
+            "n": 70,
+            "mean_err": 16.99,
+            "median_err": 8.78
+          },
+          {
+            "year": 2026,
+            "month_num": 4,
+            "label": "Апр 26",
+            "phase": "curation",
+            "n": 91,
+            "mean_err": 11.89,
+            "median_err": 9.71
+          },
+          {
+            "year": 2026,
+            "month_num": 5,
+            "label": "Май 26",
+            "phase": "curation",
+            "n": 38,
+            "mean_err": 13.74,
+            "median_err": 11.53
+          }
+        ],
+        "pairs": [
+          {
+            "month_num": 2,
+            "label": "Фев",
+            "year_pre": 2025,
+            "year_cur": 2026,
+            "partial": false,
+            "pre": {
+              "n": 25,
+              "mean_err": 6.32,
+              "median_err": 4.69
+            },
+            "cur": {
+              "n": 78,
+              "mean_err": 10.1,
+              "median_err": 8.39
+            },
+            "ratio_err": 1.6,
+            "delta_err_pct": 59.8
+          },
+          {
+            "month_num": 3,
+            "label": "Мар",
+            "year_pre": 2025,
+            "year_cur": 2026,
+            "partial": false,
+            "pre": {
+              "n": 21,
+              "mean_err": 8.11,
+              "median_err": 6.8
+            },
+            "cur": {
+              "n": 70,
+              "mean_err": 16.99,
+              "median_err": 8.78
+            },
+            "ratio_err": 2.09,
+            "delta_err_pct": 109.5
+          },
+          {
+            "month_num": 4,
+            "label": "Апр",
+            "year_pre": 2025,
+            "year_cur": 2026,
+            "partial": false,
+            "pre": {
+              "n": 58,
+              "mean_err": 9.34,
+              "median_err": 9.63
+            },
+            "cur": {
+              "n": 91,
+              "mean_err": 11.89,
+              "median_err": 9.71
+            },
+            "ratio_err": 1.27,
+            "delta_err_pct": 27.3
+          },
+          {
+            "month_num": 5,
+            "label": "Май",
+            "year_pre": 2025,
+            "year_cur": 2026,
+            "partial": true,
+            "pre": {
+              "n": 42,
+              "mean_err": 7.96,
+              "median_err": 4.56
+            },
+            "cur": {
+              "n": 38,
+              "mean_err": 13.74,
+              "median_err": 11.53
+            },
+            "ratio_err": 1.73,
+            "delta_err_pct": 72.6
+          }
+        ],
+        "mean_ratio_err": 1.67,
+        "pre_n": 146,
+        "cur_n": 277
       },
-      {
-        "year": 2025,
-        "month_num": 3,
-        "label": "Мар 25",
-        "phase": "pre",
-        "n": 80,
-        "mean_err": 7.74,
-        "median_err": 5.46,
-        "mean_views": 2058.2,
-        "mean_forwards": 17.0
-      },
-      {
-        "year": 2025,
-        "month_num": 4,
-        "label": "Апр 25",
-        "phase": "pre",
-        "n": 137,
-        "mean_err": 9.0,
-        "median_err": 6.5,
-        "mean_views": 2061.69,
-        "mean_forwards": 19.85
-      },
-      {
-        "year": 2025,
-        "month_num": 5,
-        "label": "Май 25",
-        "phase": "pre",
-        "n": 177,
-        "mean_err": 7.53,
-        "median_err": 5.59,
-        "mean_views": 1931.96,
-        "mean_forwards": 15.07
-      },
-      {
-        "year": 2025,
-        "month_num": 6,
-        "label": "Июн 25",
-        "phase": "pre",
-        "n": 116,
-        "mean_err": 9.24,
-        "median_err": 5.88,
-        "mean_views": 2713.18,
-        "mean_forwards": 26.13
-      },
-      {
-        "year": 2025,
-        "month_num": 7,
-        "label": "Июл 25",
-        "phase": "pre",
-        "n": 48,
-        "mean_err": 5.59,
-        "median_err": 3.33,
-        "mean_views": 2197.65,
-        "mean_forwards": 13.56
-      },
-      {
-        "year": 2025,
-        "month_num": 8,
-        "label": "Авг 25",
-        "phase": "pre",
-        "n": 114,
-        "mean_err": 6.71,
-        "median_err": 4.95,
-        "mean_views": 1299.8,
-        "mean_forwards": 8.73
-      },
-      {
-        "year": 2025,
-        "month_num": 9,
-        "label": "Сен 25",
-        "phase": "pre",
-        "n": 114,
-        "mean_err": 8.7,
-        "median_err": 6.96,
-        "mean_views": 1289.47,
-        "mean_forwards": 11.21
-      },
-      {
-        "year": 2025,
-        "month_num": 10,
-        "label": "Окт 25",
-        "phase": "pre",
-        "n": 107,
-        "mean_err": 6.45,
-        "median_err": 6.01,
-        "mean_views": 1358.07,
-        "mean_forwards": 9.12
-      },
-      {
-        "year": 2025,
-        "month_num": 11,
-        "label": "Ноя 25",
-        "phase": "pre",
-        "n": 74,
-        "mean_err": 9.98,
-        "median_err": 10.21,
-        "mean_views": 1503.7,
-        "mean_forwards": 15.27
-      },
-      {
-        "year": 2025,
-        "month_num": 12,
-        "label": "Дек 25",
-        "phase": "pre",
-        "n": 83,
-        "mean_err": 9.91,
-        "median_err": 7.73,
-        "mean_views": 1578.01,
-        "mean_forwards": 16.34
-      },
-      {
-        "year": 2026,
-        "month_num": 1,
-        "label": "Янв 26",
-        "phase": "pre",
-        "n": 54,
-        "mean_err": 11.18,
-        "median_err": 7.92,
-        "mean_views": 1795.44,
-        "mean_forwards": 20.39
-      },
-      {
-        "year": 2026,
-        "month_num": 2,
-        "label": "Фев 26",
-        "phase": "curation",
-        "n": 111,
-        "mean_err": 10.22,
-        "median_err": 8.46,
-        "mean_views": 1440.33,
-        "mean_forwards": 15.18
-      },
-      {
-        "year": 2026,
-        "month_num": 3,
-        "label": "Мар 26",
-        "phase": "curation",
-        "n": 109,
-        "mean_err": 13.35,
-        "median_err": 7.51,
-        "mean_views": 1449.48,
-        "mean_forwards": 20.1
-      },
-      {
-        "year": 2026,
-        "month_num": 4,
-        "label": "Апр 26",
-        "phase": "curation",
-        "n": 142,
-        "mean_err": 11.12,
-        "median_err": 9.67,
-        "mean_views": 1376.12,
-        "mean_forwards": 15.39
-      },
-      {
-        "year": 2026,
-        "month_num": 5,
-        "label": "Май 26",
-        "phase": "curation",
-        "n": 60,
-        "mean_err": 12.72,
-        "median_err": 10.12,
-        "mean_views": 1328.6,
-        "mean_forwards": 17.13
+      "vk": {
+        "label": "VK-репосты (natural control)",
+        "label_short": "VK-репосты",
+        "role": "control",
+        "timeline": [
+          {
+            "year": 2025,
+            "month_num": 2,
+            "label": "Фев 25",
+            "phase": "pre",
+            "n": 54,
+            "mean_err": 4.91,
+            "median_err": 4.36
+          },
+          {
+            "year": 2025,
+            "month_num": 3,
+            "label": "Мар 25",
+            "phase": "pre",
+            "n": 59,
+            "mean_err": 7.61,
+            "median_err": 4.9
+          },
+          {
+            "year": 2025,
+            "month_num": 4,
+            "label": "Апр 25",
+            "phase": "pre",
+            "n": 79,
+            "mean_err": 8.75,
+            "median_err": 5.92
+          },
+          {
+            "year": 2025,
+            "month_num": 5,
+            "label": "Май 25",
+            "phase": "pre",
+            "n": 110,
+            "mean_err": 7.48,
+            "median_err": 5.46
+          },
+          {
+            "year": 2025,
+            "month_num": 6,
+            "label": "Июн 25",
+            "phase": "pre",
+            "n": 56,
+            "mean_err": 9.07,
+            "median_err": 5.82
+          },
+          {
+            "year": 2025,
+            "month_num": 7,
+            "label": "Июл 25",
+            "phase": "pre",
+            "n": 21,
+            "mean_err": 7.17,
+            "median_err": 4.1
+          },
+          {
+            "year": 2025,
+            "month_num": 8,
+            "label": "Авг 25",
+            "phase": "pre",
+            "n": 56,
+            "mean_err": 8.63,
+            "median_err": 6.82
+          },
+          {
+            "year": 2025,
+            "month_num": 9,
+            "label": "Сен 25",
+            "phase": "pre",
+            "n": 74,
+            "mean_err": 8.65,
+            "median_err": 6.71
+          },
+          {
+            "year": 2025,
+            "month_num": 10,
+            "label": "Окт 25",
+            "phase": "pre",
+            "n": 60,
+            "mean_err": 6.59,
+            "median_err": 4.91
+          },
+          {
+            "year": 2025,
+            "month_num": 11,
+            "label": "Ноя 25",
+            "phase": "pre",
+            "n": 51,
+            "mean_err": 9.73,
+            "median_err": 9.5
+          },
+          {
+            "year": 2025,
+            "month_num": 12,
+            "label": "Дек 25",
+            "phase": "pre",
+            "n": 47,
+            "mean_err": 10.92,
+            "median_err": 8.57
+          },
+          {
+            "year": 2026,
+            "month_num": 1,
+            "label": "Янв 26",
+            "phase": "pre",
+            "n": 30,
+            "mean_err": 9.54,
+            "median_err": 7.62
+          },
+          {
+            "year": 2026,
+            "month_num": 2,
+            "label": "Фев 26",
+            "phase": "curation",
+            "n": 33,
+            "mean_err": 10.52,
+            "median_err": 9.0
+          },
+          {
+            "year": 2026,
+            "month_num": 3,
+            "label": "Мар 26",
+            "phase": "curation",
+            "n": 39,
+            "mean_err": 6.81,
+            "median_err": 6.19
+          },
+          {
+            "year": 2026,
+            "month_num": 4,
+            "label": "Апр 26",
+            "phase": "curation",
+            "n": 51,
+            "mean_err": 9.73,
+            "median_err": 9.55
+          },
+          {
+            "year": 2026,
+            "month_num": 5,
+            "label": "Май 26",
+            "phase": "curation",
+            "n": 22,
+            "mean_err": 10.96,
+            "median_err": 8.73
+          }
+        ],
+        "pairs": [
+          {
+            "month_num": 2,
+            "label": "Фев",
+            "year_pre": 2025,
+            "year_cur": 2026,
+            "partial": false,
+            "pre": {
+              "n": 54,
+              "mean_err": 4.91,
+              "median_err": 4.36
+            },
+            "cur": {
+              "n": 33,
+              "mean_err": 10.52,
+              "median_err": 9.0
+            },
+            "ratio_err": 2.14,
+            "delta_err_pct": 114.3
+          },
+          {
+            "month_num": 3,
+            "label": "Мар",
+            "year_pre": 2025,
+            "year_cur": 2026,
+            "partial": false,
+            "pre": {
+              "n": 59,
+              "mean_err": 7.61,
+              "median_err": 4.9
+            },
+            "cur": {
+              "n": 39,
+              "mean_err": 6.81,
+              "median_err": 6.19
+            },
+            "ratio_err": 0.89,
+            "delta_err_pct": -10.5
+          },
+          {
+            "month_num": 4,
+            "label": "Апр",
+            "year_pre": 2025,
+            "year_cur": 2026,
+            "partial": false,
+            "pre": {
+              "n": 79,
+              "mean_err": 8.75,
+              "median_err": 5.92
+            },
+            "cur": {
+              "n": 51,
+              "mean_err": 9.73,
+              "median_err": 9.55
+            },
+            "ratio_err": 1.11,
+            "delta_err_pct": 11.2
+          },
+          {
+            "month_num": 5,
+            "label": "Май",
+            "year_pre": 2025,
+            "year_cur": 2026,
+            "partial": true,
+            "pre": {
+              "n": 72,
+              "mean_err": 8.31,
+              "median_err": 6.04
+            },
+            "cur": {
+              "n": 22,
+              "mean_err": 10.96,
+              "median_err": 8.73
+            },
+            "ratio_err": 1.32,
+            "delta_err_pct": 31.9
+          }
+        ],
+        "mean_ratio_err": 1.36,
+        "pre_n": 264,
+        "cur_n": 145
       }
-    ],
-    "pairs": [
-      {
-        "month_num": 2,
-        "label": "Фев",
-        "year_pre": 2025,
-        "year_cur": 2026,
-        "partial": false,
-        "pre": {
-          "n": 79,
-          "mean_err": 5.35,
-          "median_err": 4.51,
-          "mean_views": 1756.68,
-          "mean_forwards": 9.48
-        },
-        "cur": {
-          "n": 111,
-          "mean_err": 10.22,
-          "median_err": 8.46,
-          "mean_views": 1440.33,
-          "mean_forwards": 15.18
-        },
-        "delta_err_pct": 91.0,
-        "ratio_err": 1.91
-      },
-      {
-        "month_num": 3,
-        "label": "Мар",
-        "year_pre": 2025,
-        "year_cur": 2026,
-        "partial": false,
-        "pre": {
-          "n": 80,
-          "mean_err": 7.74,
-          "median_err": 5.46,
-          "mean_views": 2058.2,
-          "mean_forwards": 17.0
-        },
-        "cur": {
-          "n": 109,
-          "mean_err": 13.35,
-          "median_err": 7.51,
-          "mean_views": 1449.48,
-          "mean_forwards": 20.1
-        },
-        "delta_err_pct": 72.5,
-        "ratio_err": 1.72
-      },
-      {
-        "month_num": 4,
-        "label": "Апр",
-        "year_pre": 2025,
-        "year_cur": 2026,
-        "partial": false,
-        "pre": {
-          "n": 137,
-          "mean_err": 9.0,
-          "median_err": 6.5,
-          "mean_views": 2061.69,
-          "mean_forwards": 19.85
-        },
-        "cur": {
-          "n": 142,
-          "mean_err": 11.12,
-          "median_err": 9.67,
-          "mean_views": 1376.12,
-          "mean_forwards": 15.39
-        },
-        "delta_err_pct": 23.6,
-        "ratio_err": 1.24
-      },
-      {
-        "month_num": 5,
-        "label": "Май",
-        "year_pre": 2025,
-        "year_cur": 2026,
-        "partial": true,
-        "pre": {
-          "n": 114,
-          "mean_err": 8.18,
-          "median_err": 5.69,
-          "mean_views": 1906.07,
-          "mean_forwards": 16.32
-        },
-        "cur": {
-          "n": 60,
-          "mean_err": 12.72,
-          "median_err": 10.12,
-          "mean_views": 1328.6,
-          "mean_forwards": 17.13
-        },
-        "delta_err_pct": 55.5,
-        "ratio_err": 1.56
-      }
-    ],
+    },
     "headline": {
       "months_matched": 4,
-      "mean_ratio_err": 1.61,
-      "baseline_year": 2025,
-      "curation_year": 2026
+      "ratio_tg": 1.67,
+      "ratio_vk": 1.36,
+      "clean_lift_pp": 0.31,
+      "clean_lift_pct": 22.8
     }
   },
   "overall": {
