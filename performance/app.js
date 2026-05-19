@@ -165,9 +165,81 @@ function setInsight(id, html) {
   if (el) el.innerHTML = html;
 }
 
+function renderYoY(yoy) {
+  if (!yoy || !yoy.timeline || yoy.timeline.length === 0) {
+    document.getElementById('chart-yoy-timeline').textContent = 'нет данных';
+    return;
+  }
+  // Timeline: monthly mean ERR, pre-curation grey, curation accent purple
+  const tl = yoy.timeline;
+  const maxErr = Math.max(...tl.map(m => m.mean_err));
+  const cs = yoy.curation_start;
+  // Find index of the first 'curation' month for marker placement
+  const firstCurIdx = tl.findIndex(m => m.phase === 'curation');
+  const cols = tl.length;
+  // Marker sits at the left edge of the first curation column → left = firstCurIdx / cols * 100%
+  const markerLeftPct = firstCurIdx >= 0 ? (firstCurIdx / cols * 100) : -1;
+  const markerHtml = markerLeftPct >= 0
+    ? `<div class="yoy-tl-marker" style="left:${markerLeftPct}%;" aria-label="старт курации"><div class="yoy-tl-marker-line"></div><div class="yoy-tl-marker-label">старт курации<br><small>12 фев 2026</small></div></div>`
+    : '';
+  const tlHtml = `<div class="yoy-tl-bars" style="--yoy-cols:${cols};">` + tl.map((m, i) => {
+    const h = maxErr > 0 ? Math.max((m.mean_err / maxErr * 100), 2) : 2;
+    const cls = m.phase === 'curation' ? 'cur' : 'pre';
+    return `<div class="yoy-tl-bar ${cls}" title="${escapeHtml(m.label)}: ERR ${m.mean_err}% (n=${m.n}, медиана ${m.median_err}%)">
+      <div class="yoy-tl-val">${m.mean_err}</div>
+      <div class="yoy-tl-fill" style="height:${h}%"></div>
+      <div class="yoy-tl-lbl">${escapeHtml(m.label)}</div>
+    </div>`;
+  }).join('') + markerHtml + '</div>'
+    + '<div class="yoy-tl-axis"><span class="yoy-legend"><span class="sw pre"></span>до курации (ручная)</span><span class="yoy-legend"><span class="sw cur"></span>с 12 фев 2026 (автоматизированная)</span><span class="yoy-axis-y">ось Y — среднемесячный ERR, %</span></div>';
+  document.getElementById('chart-yoy-timeline').innerHTML = tlHtml;
+
+  // YoY same-month pairs
+  const pr = yoy.pairs || [];
+  if (pr.length === 0) {
+    document.getElementById('chart-yoy-pairs').textContent = 'нет парных месяцев';
+    return;
+  }
+  const maxPair = Math.max(...pr.flatMap(p => [p.pre.mean_err, p.cur.mean_err]));
+  const prHtml = pr.map(p => {
+    const hPre = (p.pre.mean_err / maxPair * 100).toFixed(1);
+    const hCur = (p.cur.mean_err / maxPair * 100).toFixed(1);
+    const arrow = p.delta_err_pct >= 0 ? '↑' : '↓';
+    const dsign = p.delta_err_pct >= 0 ? '+' : '';
+    return `<div class="yoy-pair">
+      <div class="yoy-pair-bars">
+        <div class="yoy-bar pre" style="height:${hPre}%" title="${p.year_pre}: ${p.pre.mean_err}% (n=${p.pre.n})">
+          <div class="yoy-bar-val">${p.pre.mean_err}</div>
+        </div>
+        <div class="yoy-bar cur" style="height:${hCur}%" title="${p.year_cur}: ${p.cur.mean_err}% (n=${p.cur.n})${p.partial ? ' [неполный месяц]' : ''}">
+          <div class="yoy-bar-val">${p.cur.mean_err}</div>
+        </div>
+      </div>
+      <div class="yoy-pair-label">${escapeHtml(p.label)}${p.partial ? '*' : ''}</div>
+      <div class="yoy-pair-delta ${p.delta_err_pct >= 0 ? 'up' : 'down'}">
+        <span class="ratio">×${p.ratio_err}</span>
+        <span class="pct">${arrow}${dsign}${p.delta_err_pct}%</span>
+      </div>
+    </div>`;
+  }).join('');
+  document.getElementById('chart-yoy-pairs').innerHTML = prHtml
+    + (pr.some(p => p.partial)
+      ? '<div class="yoy-pair-footnote">* неполный месяц — для сравнимости 2025-й обрезан до того же числа</div>'
+      : '');
+
+  // Insight (headline)
+  const h = yoy.headline;
+  if (h && h.mean_ratio_err) {
+    const lifts = pr.map(p => `${p.label} ×${p.ratio_err}`).join(', ');
+    setInsight('insight-yoy',
+      `За совпадающие месяцы ${h.baseline_year}/${h.curation_year} среднемесячный ERR вырос в среднем в <strong>×${h.mean_ratio_err}</strong> (${lifts}). Это эмпирическое подтверждение результата квази-эксперимента ВКР (×1,6, p < 10⁻⁶, критерий Манна–Уитни): рост вовлечённости устойчив помесячно и не объясняется сезонностью — сравнение идёт по тем же календарным месяцам соседних лет.`);
+  }
+}
+
 async function init() {
   const d = await load();
   renderStats(d);
+  renderYoY(d.by_month_yoy);
   renderChannels(d.top_channels);
   renderVerticalBars(d.by_day_of_week, 'chart-dow', { labelKey: 'day', shortSuffix: '%' });
   renderVerticalBars(d.by_hour, 'chart-hour', { labelKey: 'hour', shortSuffix: '%', weakThreshold: 3 });

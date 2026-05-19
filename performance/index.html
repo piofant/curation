@@ -12,7 +12,7 @@
 <header class="page-header">
   <p class="crumbs"><a href="../">← Очередь публикаций</a> · <strong>Анализ эффективности</strong></p>
   <h1>Анализ эффективности публикаций</h1>
-  <p class="subtitle">Сравнительный разбор уже опубликованных в <a href="https://t.me/kompege" target="_blank" rel="noopener">@kompege</a> материалов за <span id="date-range">…</span>.</p>
+  <p class="subtitle">Сравнительный разбор публикаций в <a href="https://t.me/kompege" target="_blank" rel="noopener">@kompege</a> за <span id="date-range">…</span> и сопоставление с тем же периодом предыдущего года до запуска курации.</p>
 </header>
 
 <section id="stats" class="sticky-stats">
@@ -24,6 +24,15 @@
 </section>
 
 <main class="dashboard">
+
+    <section class="card yoy-card">
+    <h2>Год к году: ERR @kompege по месяцам — до и во время курации</h2>
+    <p class="hint">Среднемесячный ERR публикаций в @kompege. Серые столбцы — до запуска системы (фев 2025 → янв 2026, ручная курация), фиолетовые — после запуска (12 фев 2026 →, автоматизированная курация). Сравнение по тем же календарным месяцам — это контроль сезонности, основной квази-эксперимент главы 3 ВКР.</p>
+    <div id="chart-yoy-timeline" class="yoy-timeline"></div>
+    <h3 class="yoy-sub">YoY по парам месяцев — рост в разах</h3>
+    <div id="chart-yoy-pairs" class="yoy-pairs"></div>
+    <p class="insight" id="insight-yoy">…</p>
+  </section>
 
   <section class="card">
     <h2>Каналы-источники по среднему ERR</h2>

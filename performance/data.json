@@ -1,143 +1,149 @@
 {
-  "generated_at": "2026-05-19T10:05:02.541824+00:00",
-  "total_posts": 368,
+  "generated_at": "2026-05-19T21:42:16.794105+00:00",
+  "total_posts": 388,
+  "total_posts_all": 1605,
   "date_range": {
     "min": "2026-02-12",
-    "max": "2026-05-12"
+    "max": "2026-05-19"
   },
+  "date_range_all": {
+    "min": "2025-02-04",
+    "max": "2026-05-19"
+  },
+  "curation_start": "2026-02-12",
   "top_channels": [
-    {
-      "channel": "infa_vikusya",
-      "posts": 19,
-      "mean_err": 27.08,
-      "median_err": 26.53,
-      "mean_forwards": 34.21,
-      "platform": "telegram"
-    },
     {
       "channel": "flash_ege",
       "posts": 11,
-      "mean_err": 26.77,
-      "median_err": 18.69,
-      "mean_forwards": 44.64,
+      "mean_err": 26.46,
+      "median_err": 18.43,
+      "mean_forwards": 44.82,
+      "platform": "telegram"
+    },
+    {
+      "channel": "infa_vikusya",
+      "posts": 24,
+      "mean_err": 23.99,
+      "median_err": 21.03,
+      "mean_forwards": 33.54,
       "platform": "telegram"
     },
     {
       "channel": "kdrshov",
       "posts": 5,
-      "mean_err": 20.22,
-      "median_err": 18.13,
-      "mean_forwards": 29.4,
+      "mean_err": 20.87,
+      "median_err": 18.56,
+      "mean_forwards": 30.6,
+      "platform": "telegram"
+    },
+    {
+      "channel": "sofaavibe",
+      "posts": 4,
+      "mean_err": 17.39,
+      "median_err": 13.06,
+      "mean_forwards": 17.5,
       "platform": "telegram"
     },
     {
       "channel": "vk_205865487",
       "posts": 3,
-      "mean_err": 15.54,
-      "median_err": 17.37,
-      "mean_forwards": 22.0,
+      "mean_err": 14.64,
+      "median_err": 17.26,
+      "mean_forwards": 23.0,
       "platform": "vk"
     },
     {
       "channel": "korshunov_school",
-      "posts": 11,
-      "mean_err": 14.44,
-      "median_err": 14.88,
-      "mean_forwards": 22.18,
+      "posts": 12,
+      "mean_err": 13.96,
+      "median_err": 15.02,
+      "mean_forwards": 21.33,
       "platform": "telegram"
     },
     {
       "channel": "infkege",
       "posts": 13,
-      "mean_err": 13.03,
-      "median_err": 12.65,
-      "mean_forwards": 18.38,
-      "platform": "telegram"
-    },
-    {
-      "channel": "sofaavibe",
-      "posts": 3,
-      "mean_err": 12.82,
-      "median_err": 11.85,
-      "mean_forwards": 17.0,
+      "mean_err": 12.96,
+      "median_err": 12.6,
+      "mean_forwards": 19.0,
       "platform": "telegram"
     },
     {
       "channel": "vk_205997912",
-      "posts": 39,
-      "mean_err": 11.22,
-      "median_err": 9.83,
-      "mean_forwards": 15.18,
+      "posts": 42,
+      "mean_err": 11.53,
+      "median_err": 10.23,
+      "mean_forwards": 15.67,
       "platform": "vk"
     },
     {
       "channel": "informatik_bu",
       "posts": 3,
-      "mean_err": 10.27,
-      "median_err": 6.51,
+      "mean_err": 10.24,
+      "median_err": 6.47,
       "mean_forwards": 13.67,
       "platform": "telegram"
     },
     {
       "channel": "vk_121199610",
-      "posts": 16,
-      "mean_err": 9.85,
-      "median_err": 9.59,
-      "mean_forwards": 13.19,
+      "posts": 19,
+      "mean_err": 9.84,
+      "median_err": 9.55,
+      "mean_forwards": 13.11,
       "platform": "vk"
     },
     {
       "channel": "vk_184870282",
-      "posts": 43,
-      "mean_err": 8.41,
-      "median_err": 6.9,
-      "mean_forwards": 11.05,
+      "posts": 45,
+      "mean_err": 8.29,
+      "median_err": 6.85,
+      "mean_forwards": 11.09,
       "platform": "vk"
     },
     {
       "channel": "vk_4968",
       "posts": 19,
-      "mean_err": 3.55,
-      "median_err": 3.19,
-      "mean_forwards": 4.74,
+      "mean_err": 3.52,
+      "median_err": 3.09,
+      "mean_forwards": 4.79,
       "platform": "vk"
     }
   ],
   "by_day_of_week": [
     {
       "day": "Пн",
-      "mean_err": 12.64,
-      "n": 35
+      "mean_err": 12.27,
+      "n": 37
     },
     {
       "day": "Вт",
-      "mean_err": 19.36,
-      "n": 51
+      "mean_err": 19.49,
+      "n": 53
     },
     {
       "day": "Ср",
-      "mean_err": 8.13,
-      "n": 75
+      "mean_err": 7.82,
+      "n": 83
     },
     {
       "day": "Чт",
-      "mean_err": 11.46,
-      "n": 44
+      "mean_err": 12.21,
+      "n": 47
     },
     {
       "day": "Пт",
-      "mean_err": 10.7,
-      "n": 89
+      "mean_err": 10.87,
+      "n": 96
     },
     {
       "day": "Сб",
-      "mean_err": 13.28,
-      "n": 46
+      "mean_err": 13.89,
+      "n": 43
     },
     {
       "day": "Вс",
-      "mean_err": 10.52,
-      "n": 28
+      "mean_err": 10.32,
+      "n": 29
     }
   ],
   "by_hour": [
@@ -163,13 +169,13 @@
     },
     {
       "hour": 4,
-      "mean_err": 9.62,
-      "n": 1
+      "mean_err": 6.72,
+      "n": 2
     },
     {
       "hour": 5,
-      "mean_err": 0.0,
-      "n": 1
+      "mean_err": 11.4,
+      "n": 3
     },
     {
       "hour": 6,
@@ -178,58 +184,58 @@
     },
     {
       "hour": 7,
-      "mean_err": 3.97,
+      "mean_err": 4.22,
       "n": 6
     },
     {
       "hour": 8,
-      "mean_err": 4.52,
+      "mean_err": 4.45,
       "n": 6
     },
     {
       "hour": 9,
-      "mean_err": 6.0,
+      "mean_err": 5.83,
       "n": 28
     },
     {
       "hour": 10,
-      "mean_err": 13.39,
-      "n": 40
+      "mean_err": 13.35,
+      "n": 43
     },
     {
       "hour": 11,
-      "mean_err": 15.41,
-      "n": 29
+      "mean_err": 15.12,
+      "n": 30
     },
     {
       "hour": 12,
-      "mean_err": 11.94,
-      "n": 51
+      "mean_err": 10.91,
+      "n": 59
     },
     {
       "hour": 13,
-      "mean_err": 15.32,
-      "n": 105
+      "mean_err": 15.61,
+      "n": 107
     },
     {
       "hour": 14,
-      "mean_err": 12.57,
-      "n": 44
+      "mean_err": 13.32,
+      "n": 46
     },
     {
       "hour": 15,
-      "mean_err": 7.43,
+      "mean_err": 7.3,
       "n": 23
     },
     {
       "hour": 16,
-      "mean_err": 6.21,
-      "n": 20
+      "mean_err": 5.66,
+      "n": 21
     },
     {
       "hour": 17,
-      "mean_err": 8.05,
-      "n": 12
+      "mean_err": 8.76,
+      "n": 11
     },
     {
       "hour": 18,
@@ -238,12 +244,12 @@
     },
     {
       "hour": 19,
-      "mean_err": 16.81,
-      "n": 1
+      "mean_err": 18.84,
+      "n": 2
     },
     {
       "hour": 20,
-      "mean_err": 11.84,
+      "mean_err": 11.82,
       "n": 1
     },
     {
@@ -265,62 +271,62 @@
   "by_platform": [
     {
       "platform": "telegram",
-      "posts": 244,
-      "mean_err": 13.39,
-      "median_err": 9.29
+      "posts": 255,
+      "mean_err": 13.34,
+      "median_err": 9.5
     },
     {
       "platform": "vk",
-      "posts": 124,
-      "mean_err": 9.14,
-      "median_err": 8.01
+      "posts": 133,
+      "mean_err": 9.39,
+      "median_err": 8.36
     }
   ],
   "by_text_length": [
     {
       "length": "short",
-      "posts": 171,
-      "mean_err": 10.72
+      "posts": 176,
+      "mean_err": 10.59
     },
     {
       "length": "medium",
-      "posts": 86,
-      "mean_err": 13.19
+      "posts": 93,
+      "mean_err": 12.97
     },
     {
       "length": "long",
-      "posts": 111,
-      "mean_err": 12.91
+      "posts": 119,
+      "mean_err": 13.27
     }
   ],
   "err_histogram": [
     {
       "bin": "0–2",
-      "n": 46
+      "n": 47
     },
     {
       "bin": "2–5",
-      "n": 50
+      "n": 60
     },
     {
       "bin": "5–8",
-      "n": 71
+      "n": 60
     },
     {
       "bin": "8–12",
-      "n": 68
+      "n": 78
     },
     {
       "bin": "12–18",
-      "n": 58
+      "n": 67
     },
     {
       "bin": "18–25",
-      "n": 40
+      "n": 39
     },
     {
       "bin": "25–40",
-      "n": 22
+      "n": 24
     },
     {
       "bin": "40–100",
@@ -331,80 +337,361 @@
     {
       "date": "2026-02-28",
       "source": "flash_ege",
-      "views": 2401,
+      "views": 2436,
       "forwards": 107,
-      "err": 44.56,
+      "err": 43.92,
       "text": "⚡⚡⚡ ВНИМАНИЕ! Собрал для вас большую подборку вебов и видео по заданиям №1–№23 из ЕГЭ по информатике!  [1) Разбор всех типов заданий Реального ЕГЭ 2025](https:/",
       "link": "https://t.me/kompege/8102"
     },
     {
-      "date": "2026-03-31",
-      "source": "flash_ege",
-      "views": 1254,
-      "forwards": 92,
-      "err": 73.37,
-      "text": "ОГРОМНАЯ ПОРЦИЯ ПОЛЕЗНЫХ ФАЙЛИКОВ   Если проблемы со скачиванием - [забирайте в группе ВК](https://vk.com/im/channels/-233905944?cmid=93)  Самый первый файлик -",
-      "link": "https://t.me/kompege/8229"
-    },
-    {
       "date": "2026-05-02",
       "source": "infa_vikusya",
-      "views": 1618,
-      "forwards": 91,
-      "err": 56.24,
+      "views": 1788,
+      "forwards": 94,
+      "err": 52.57,
       "text": "ШПАРГАЛКА для ЕГЭ по инфе  собрала для вас все самое необходимое для повторения. как и обещаю дропаю в честь праздника!! забирайте себе, как минимум самые основ",
       "link": "https://t.me/kompege/8421"
     },
     {
       "date": "2026-03-31",
+      "source": "flash_ege",
+      "views": 1281,
+      "forwards": 93,
+      "err": 72.6,
+      "text": "ОГРОМНАЯ ПОРЦИЯ ПОЛЕЗНЫХ ФАЙЛИКОВ   Если проблемы со скачиванием - [забирайте в группе ВК](https://vk.com/im/channels/-233905944?cmid=93)  Самый первый файлик -",
+      "link": "https://t.me/kompege/8229"
+    },
+    {
+      "date": "2026-03-31",
       "source": null,
-      "views": 1717,
-      "forwards": 86,
-      "err": 50.09,
+      "views": 1751,
+      "forwards": 87,
+      "err": 49.69,
       "text": "[Медиа без текста]",
       "link": "https://t.me/kompege/8237"
     },
     {
       "date": "2026-03-31",
       "source": null,
-      "views": 1521,
-      "forwards": 86,
-      "err": 56.54,
+      "views": 1550,
+      "forwards": 87,
+      "err": 56.13,
       "text": "[Медиа без текста]",
       "link": "https://t.me/kompege/8235"
     },
     {
       "date": "2026-03-31",
       "source": null,
-      "views": 1418,
-      "forwards": 86,
-      "err": 60.65,
+      "views": 1442,
+      "forwards": 87,
+      "err": 60.33,
       "text": "[Медиа без текста]",
       "link": "https://t.me/kompege/8233"
     },
     {
       "date": "2026-03-31",
       "source": null,
-      "views": 1464,
-      "forwards": 85,
-      "err": 58.06,
+      "views": 1492,
+      "forwards": 86,
+      "err": 57.64,
       "text": "[Медиа без текста]",
       "link": "https://t.me/kompege/8234"
     },
     {
       "date": "2026-03-31",
       "source": null,
-      "views": 1358,
-      "forwards": 85,
-      "err": 62.59,
+      "views": 1381,
+      "forwards": 86,
+      "err": 62.27,
       "text": "[Медиа без текста]",
       "link": "https://t.me/kompege/8232"
     }
   ],
+  "by_month_yoy": {
+    "curation_start": "2026-02-12",
+    "timeline": [
+      {
+        "year": 2025,
+        "month_num": 2,
+        "label": "Фев 25",
+        "phase": "pre",
+        "n": 79,
+        "mean_err": 5.35,
+        "median_err": 4.51,
+        "mean_views": 1756.68,
+        "mean_forwards": 9.48
+      },
+      {
+        "year": 2025,
+        "month_num": 3,
+        "label": "Мар 25",
+        "phase": "pre",
+        "n": 80,
+        "mean_err": 7.74,
+        "median_err": 5.46,
+        "mean_views": 2058.2,
+        "mean_forwards": 17.0
+      },
+      {
+        "year": 2025,
+        "month_num": 4,
+        "label": "Апр 25",
+        "phase": "pre",
+        "n": 137,
+        "mean_err": 9.0,
+        "median_err": 6.5,
+        "mean_views": 2061.69,
+        "mean_forwards": 19.85
+      },
+      {
+        "year": 2025,
+        "month_num": 5,
+        "label": "Май 25",
+        "phase": "pre",
+        "n": 177,
+        "mean_err": 7.53,
+        "median_err": 5.59,
+        "mean_views": 1931.96,
+        "mean_forwards": 15.07
+      },
+      {
+        "year": 2025,
+        "month_num": 6,
+        "label": "Июн 25",
+        "phase": "pre",
+        "n": 116,
+        "mean_err": 9.24,
+        "median_err": 5.88,
+        "mean_views": 2713.18,
+        "mean_forwards": 26.13
+      },
+      {
+        "year": 2025,
+        "month_num": 7,
+        "label": "Июл 25",
+        "phase": "pre",
+        "n": 48,
+        "mean_err": 5.59,
+        "median_err": 3.33,
+        "mean_views": 2197.65,
+        "mean_forwards": 13.56
+      },
+      {
+        "year": 2025,
+        "month_num": 8,
+        "label": "Авг 25",
+        "phase": "pre",
+        "n": 114,
+        "mean_err": 6.71,
+        "median_err": 4.95,
+        "mean_views": 1299.8,
+        "mean_forwards": 8.73
+      },
+      {
+        "year": 2025,
+        "month_num": 9,
+        "label": "Сен 25",
+        "phase": "pre",
+        "n": 114,
+        "mean_err": 8.7,
+        "median_err": 6.96,
+        "mean_views": 1289.47,
+        "mean_forwards": 11.21
+      },
+      {
+        "year": 2025,
+        "month_num": 10,
+        "label": "Окт 25",
+        "phase": "pre",
+        "n": 107,
+        "mean_err": 6.45,
+        "median_err": 6.01,
+        "mean_views": 1358.07,
+        "mean_forwards": 9.12
+      },
+      {
+        "year": 2025,
+        "month_num": 11,
+        "label": "Ноя 25",
+        "phase": "pre",
+        "n": 74,
+        "mean_err": 9.98,
+        "median_err": 10.21,
+        "mean_views": 1503.7,
+        "mean_forwards": 15.27
+      },
+      {
+        "year": 2025,
+        "month_num": 12,
+        "label": "Дек 25",
+        "phase": "pre",
+        "n": 83,
+        "mean_err": 9.91,
+        "median_err": 7.73,
+        "mean_views": 1578.01,
+        "mean_forwards": 16.34
+      },
+      {
+        "year": 2026,
+        "month_num": 1,
+        "label": "Янв 26",
+        "phase": "pre",
+        "n": 54,
+        "mean_err": 11.18,
+        "median_err": 7.92,
+        "mean_views": 1795.44,
+        "mean_forwards": 20.39
+      },
+      {
+        "year": 2026,
+        "month_num": 2,
+        "label": "Фев 26",
+        "phase": "curation",
+        "n": 111,
+        "mean_err": 10.22,
+        "median_err": 8.46,
+        "mean_views": 1440.33,
+        "mean_forwards": 15.18
+      },
+      {
+        "year": 2026,
+        "month_num": 3,
+        "label": "Мар 26",
+        "phase": "curation",
+        "n": 109,
+        "mean_err": 13.35,
+        "median_err": 7.51,
+        "mean_views": 1449.48,
+        "mean_forwards": 20.1
+      },
+      {
+        "year": 2026,
+        "month_num": 4,
+        "label": "Апр 26",
+        "phase": "curation",
+        "n": 142,
+        "mean_err": 11.12,
+        "median_err": 9.67,
+        "mean_views": 1376.12,
+        "mean_forwards": 15.39
+      },
+      {
+        "year": 2026,
+        "month_num": 5,
+        "label": "Май 26",
+        "phase": "curation",
+        "n": 60,
+        "mean_err": 12.72,
+        "median_err": 10.12,
+        "mean_views": 1328.6,
+        "mean_forwards": 17.13
+      }
+    ],
+    "pairs": [
+      {
+        "month_num": 2,
+        "label": "Фев",
+        "year_pre": 2025,
+        "year_cur": 2026,
+        "partial": false,
+        "pre": {
+          "n": 79,
+          "mean_err": 5.35,
+          "median_err": 4.51,
+          "mean_views": 1756.68,
+          "mean_forwards": 9.48
+        },
+        "cur": {
+          "n": 111,
+          "mean_err": 10.22,
+          "median_err": 8.46,
+          "mean_views": 1440.33,
+          "mean_forwards": 15.18
+        },
+        "delta_err_pct": 91.0,
+        "ratio_err": 1.91
+      },
+      {
+        "month_num": 3,
+        "label": "Мар",
+        "year_pre": 2025,
+        "year_cur": 2026,
+        "partial": false,
+        "pre": {
+          "n": 80,
+          "mean_err": 7.74,
+          "median_err": 5.46,
+          "mean_views": 2058.2,
+          "mean_forwards": 17.0
+        },
+        "cur": {
+          "n": 109,
+          "mean_err": 13.35,
+          "median_err": 7.51,
+          "mean_views": 1449.48,
+          "mean_forwards": 20.1
+        },
+        "delta_err_pct": 72.5,
+        "ratio_err": 1.72
+      },
+      {
+        "month_num": 4,
+        "label": "Апр",
+        "year_pre": 2025,
+        "year_cur": 2026,
+        "partial": false,
+        "pre": {
+          "n": 137,
+          "mean_err": 9.0,
+          "median_err": 6.5,
+          "mean_views": 2061.69,
+          "mean_forwards": 19.85
+        },
+        "cur": {
+          "n": 142,
+          "mean_err": 11.12,
+          "median_err": 9.67,
+          "mean_views": 1376.12,
+          "mean_forwards": 15.39
+        },
+        "delta_err_pct": 23.6,
+        "ratio_err": 1.24
+      },
+      {
+        "month_num": 5,
+        "label": "Май",
+        "year_pre": 2025,
+        "year_cur": 2026,
+        "partial": true,
+        "pre": {
+          "n": 114,
+          "mean_err": 8.18,
+          "median_err": 5.69,
+          "mean_views": 1906.07,
+          "mean_forwards": 16.32
+        },
+        "cur": {
+          "n": 60,
+          "mean_err": 12.72,
+          "median_err": 10.12,
+          "mean_views": 1328.6,
+          "mean_forwards": 17.13
+        },
+        "delta_err_pct": 55.5,
+        "ratio_err": 1.56
+      }
+    ],
+    "headline": {
+      "months_matched": 4,
+      "mean_ratio_err": 1.61,
+      "baseline_year": 2025,
+      "curation_year": 2026
+    }
+  },
   "overall": {
-    "mean_err": 11.96,
-    "median_err": 8.69,
-    "mean_views": 1358.94,
-    "mean_forwards": 16.67
+    "mean_err": 11.98,
+    "median_err": 8.83,
+    "mean_views": 1389.09,
+    "mean_forwards": 17.08
   }
 }
