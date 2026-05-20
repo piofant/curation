@@ -420,3 +420,24 @@
   padding: 4px 14px 12px;
   color: #1a1a1a;
 }
+/* Bulleted hint + insight lists inside collapsibles */
+.hint-list,
+.insight-list {
+  margin: 4px 14px 12px 30px;
+  padding: 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #1a1a1a;
+}
+.hint-list li,
+.insight-list li {
+  margin: 0 0 8px;
+  padding: 0;
+}
+.hint-list li:last-child,
+.insight-list li:last-child { margin-bottom: 0; }
+.hint-list li::marker,
+.insight-list li::marker { color: #888; }
+.hint-list strong,
+.insight-list strong { color: #1a1a1a; font-weight: 600; }
+.insight-list small { color: #555; font-family: ui-monospace, monospace; font-size: 11px; }

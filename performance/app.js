@@ -270,16 +270,28 @@ function renderYoY(yoy, mounts) {
   document.getElementById(mounts.pairs).innerHTML =
     pairsBlock(yoy.series.tg, 'treatment') + pairsBlock(yoy.series.vk, 'control');
 
-  // Insight (metric-aware copy)
-  const tgRatios = yoy.series.tg.pairs.map(p => `${p.label} ×${p.ratio}`).join(', ');
-  const vkRatios = yoy.series.vk.pairs.map(p => `${p.label} ×${p.ratio}`).join(', ');
-  let insightText;
+  // Insight — structured bullet list, metric-aware
+  const tgRatios = yoy.series.tg.pairs.map(p => `${p.label} ×${p.ratio}`).join(' · ');
+  const vkRatios = yoy.series.vk.pairs.map(p => `${p.label} ×${p.ratio}`).join(' · ');
+  let bullets;
   if (yoy.metric_key === 'engagement_rate') {
-    insightText = `Среднемесячный YoY-рост ERR по TG-курации (treatment) — <strong>×${h.ratio_tg}</strong> (${tgRatios}). По VK-репостам (контроль без курации) — <strong>×${h.ratio_vk}</strong> (${vkRatios}). Чистый эффект курации: <strong>+${h.clean_lift_pct}%</strong> поверх общего тренда канала. Контроль работает: TG и VK публикуются в один канал, на одну аудиторию, в одни и те же месяцы — но курация меняла процесс только для TG-источников. <em>По медиане эффект менее выражен (TG ×${h.median_ratio_tg}, VK ×${h.median_ratio_vk} → чистый +${h.clean_lift_pct_median}%) — селекционная курация работает прежде всего на правом хвосте распределения (больше виральных хитов проходит фильтр), медианный пост сдвигается слабее. Для контентного канала важнее именно mean, т.к. виральные хиты дают непропорциональный охват.</em>`;
+    bullets = [
+      `<li><strong>TG-курация (treatment): ×${h.ratio_tg}</strong><br><small>${tgRatios}</small></li>`,
+      `<li><strong>VK-репосты (control): ×${h.ratio_vk}</strong><br><small>${vkRatios}</small></li>`,
+      `<li><strong>Чистый эффект курации: +${h.clean_lift_pct}%</strong> поверх общего тренда канала.</li>`,
+      `<li><strong>Почему контроль работает.</strong> TG и VK публикуются в один канал, на одну аудиторию, в одни и те же месяцы — курация меняла процесс только для TG-источников.</li>`,
+      `<li><strong>Медианная проверка.</strong> TG ×${h.median_ratio_tg}, VK ×${h.median_ratio_vk} → +${h.clean_lift_pct_median}% чистого. Селекционная курация работает на правом хвосте распределения (виральные хиты); медианный пост сдвигается слабо. Для контентного канала важнее mean — виральные хиты дают непропорциональный охват.</li>`,
+    ];
   } else {
-    insightText = `Среднемесячный YoY-рост пересылок по TG-курации — <strong>×${h.ratio_tg}</strong> (${tgRatios}). По VK-репостам (контроль) — <strong>×${h.ratio_vk}</strong> (${vkRatios}). Чистый эффект курации на виральности: <strong>+${h.clean_lift_pct}%</strong> поверх общего тренда. Эмпирическое подтверждение claim'а ВКР «рост ERR не за счёт потери виральности»: пересылки TG-серии стабильны или растут, тогда как VK-серия (без курации) даже просела — то есть природный тренд канала на виральность отрицательный, а курация его перебивает. <em>По медиане обе серии прирастают одинаково (TG ×${h.median_ratio_tg}, VK ×${h.median_ratio_vk}) — эффект курации виден по mean, т.к. система селектирует кандидатов с высоким score, увеличивая частоту попадания в виральный хвост распределения.</em>`;
+    bullets = [
+      `<li><strong>TG-курация: ×${h.ratio_tg}</strong><br><small>${tgRatios}</small></li>`,
+      `<li><strong>VK-репосты (control): ×${h.ratio_vk}</strong><br><small>${vkRatios}</small> — даже просели в среднем.</li>`,
+      `<li><strong>Чистый эффект курации на виральности: +${h.clean_lift_pct}%</strong> поверх общего тренда.</li>`,
+      `<li><strong>Подтверждение claim ВКР.</strong> «Рост ERR не за счёт потери виральности» — пересылки TG-серии стабильны или растут, тогда как VK-серия (без курации) просела. Природный тренд канала на виральность отрицательный, курация его перебивает.</li>`,
+      `<li><strong>Медианная проверка.</strong> TG ×${h.median_ratio_tg}, VK ×${h.median_ratio_vk} — обе серии прирастают одинаково. Эффект курации виден по mean: система селектирует кандидатов с высоким score, увеличивая частоту попадания в виральный хвост распределения.</li>`,
+    ];
   }
-  setInsight(mounts.insight, insightText);
+  setInsight(mounts.insight, `<ul class="insight-list">${bullets.join('')}</ul>`);
 }
 
 async function init() {
