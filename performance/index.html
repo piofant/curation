@@ -27,22 +27,34 @@
 
     <section class="card yoy-card">
     <h2>Год к году по ERR — чистый эффект курации</h2>
-    <p class="hint">@kompege ведёт два типа публикаций: <strong>TG-источники</strong> — то, что система курирует автоматически с 12 фев 2026 (до этого отбиралось вручную из тех же каналов), и <strong>VK-репосты</strong> — публикуются вручную и в 2025, и в 2026, курация их не касается. VK-репосты служат <em>natural control group</em>: они подвергались тем же макрофакторам (ЕГЭ-сезон, рост аудитории, замедление TG в РФ), но без курации. Разница YoY-роста между TG-серией и VK-серией = чистый эффект самой курации, отделённый от общего тренда канала.</p>
+    <details class="collapsible">
+      <summary>Методика: TG-серия (treatment) vs VK-серия (natural control)</summary>
+      <p class="hint">@kompege ведёт два типа публикаций: <strong>TG-источники</strong> — то, что система курирует автоматически с 12 фев 2026 (до этого отбиралось вручную из тех же каналов), и <strong>VK-репосты</strong> — публикуются вручную и в 2025, и в 2026, курация их не касается. VK-репосты служат <em>natural control group</em>: они подвергались тем же макрофакторам (ЕГЭ-сезон, рост аудитории, замедление TG в РФ), но без курации. Разница YoY-роста между TG-серией и VK-серией = чистый эффект самой курации, отделённый от общего тренда канала.</p>
+    </details>
     <div id="yoy-headline" class="yoy-headline"></div>
     <div id="chart-yoy-timeline" class="yoy-timeline-split"></div>
     <h3 class="yoy-sub">YoY по парам месяцев — TG (курация) vs VK (контроль)</h3>
     <div id="chart-yoy-pairs" class="yoy-pairs-split"></div>
-    <p class="insight" id="insight-yoy">…</p>
+    <details class="collapsible insight-collapse">
+      <summary>Развёрнутая интерпретация и медианная проверка</summary>
+      <p class="insight" id="insight-yoy">…</p>
+    </details>
   </section>
 
   <section class="card yoy-card">
     <h2>Год к году по пересылкам (forwards) — виральность не упала</h2>
-    <p class="hint">Среднее число пересылок (forwards) на пост — индикатор виральности. Тот же natural-control дизайн: TG-источники (treatment, где работает курация) vs VK-репосты (control, публикуются вручную в оба года). Главный claim ВКР по этой оси — «рост ERR не за счёт потери виральности»; здесь он эмпирически проверяется.</p>
+    <details class="collapsible">
+      <summary>Методика: проверка claim «пересылки стабильны»</summary>
+      <p class="hint">Среднее число пересылок (forwards) на пост — индикатор виральности. Тот же natural-control дизайн: TG-источники (treatment, где работает курация) vs VK-репосты (control, публикуются вручную в оба года). Главный claim ВКР по этой оси — «рост ERR не за счёт потери виральности»; здесь он эмпирически проверяется.</p>
+    </details>
     <div id="yoy-fwd-headline" class="yoy-headline"></div>
     <div id="chart-yoy-fwd-timeline" class="yoy-timeline-split"></div>
     <h3 class="yoy-sub">YoY пересылок по парам месяцев — TG (курация) vs VK (контроль)</h3>
     <div id="chart-yoy-fwd-pairs" class="yoy-pairs-split"></div>
-    <p class="insight" id="insight-yoy-fwd">…</p>
+    <details class="collapsible insight-collapse">
+      <summary>Развёрнутая интерпретация и медианная проверка</summary>
+      <p class="insight" id="insight-yoy-fwd">…</p>
+    </details>
   </section>
 
   <section class="card">
