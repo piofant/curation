@@ -178,23 +178,13 @@ function ensureFunnelDots() {
     d.style.animationDelay = (300 + i * 15) + "ms";
     cd.appendChild(d);
   }
-  // Extended funnel: ~15 best (top tertile by score) and 1 winner
-  const best = document.querySelector("#dots-best");
-  if (best) {
-    best.innerHTML = "";
-    for (let i = 0; i < 15; i++) {
-      const d = document.createElement("div");
-      d.className = "dot";
-      d.style.animationDelay = (1100 + i * 22) + "ms";
-      best.appendChild(d);
-    }
-  }
+  // Extended funnel: 1 winner (top by score)
   const top1 = document.querySelector("#dots-top1");
   if (top1) {
     top1.innerHTML = "";
     const d = document.createElement("div");
     d.className = "dot";
-    d.style.animationDelay = "1500ms";
+    d.style.animationDelay = "1200ms";
     top1.appendChild(d);
   }
   funnelDotsBuilt = true;
