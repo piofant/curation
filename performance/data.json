@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T10:05:02.134955+00:00",
+  "generated_at": "2026-05-24T10:05:02.364104+00:00",
   "total_posts": 388,
   "total_posts_all": 1605,
   "date_range": {
@@ -862,33 +862,33 @@
             "year_cur": 2026,
             "partial": true,
             "pre": {
-              "n": 82,
-              "mean": 8.08,
-              "median": 5.91
+              "n": 87,
+              "mean": 7.85,
+              "median": 5.85
             },
             "cur": {
               "n": 22,
               "mean": 10.96,
               "median": 8.73
             },
-            "ratio": 1.36,
-            "delta_pct": 35.6
+            "ratio": 1.4,
+            "delta_pct": 39.6
           }
         ],
-        "mean_ratio": 1.38,
-        "median_ratio": 1.6,
-        "pre_n": 274,
+        "mean_ratio": 1.39,
+        "median_ratio": 1.61,
+        "pre_n": 279,
         "cur_n": 145
       }
     },
     "headline": {
       "months_matched": 4,
       "ratio_tg": 1.7,
-      "ratio_vk": 1.38,
-      "clean_lift_pct": 23.2,
+      "ratio_vk": 1.39,
+      "clean_lift_pct": 22.3,
       "median_ratio_tg": 1.64,
-      "median_ratio_vk": 1.6,
-      "clean_lift_pct_median": 2.5
+      "median_ratio_vk": 1.61,
+      "clean_lift_pct_median": 1.9
     }
   },
   "by_month_yoy_forwards": {
@@ -1346,33 +1346,33 @@
             "year_cur": 2026,
             "partial": true,
             "pre": {
-              "n": 82,
-              "mean": 16.3,
-              "median": 10.5
+              "n": 87,
+              "mean": 15.79,
+              "median": 10
             },
             "cur": {
               "n": 22,
               "mean": 13.86,
               "median": 9.5
             },
-            "ratio": 0.85,
-            "delta_pct": -15.0
+            "ratio": 0.88,
+            "delta_pct": -12.2
           }
         ],
-        "mean_ratio": 0.95,
-        "median_ratio": 1.15,
-        "pre_n": 274,
+        "mean_ratio": 0.96,
+        "median_ratio": 1.17,
+        "pre_n": 279,
         "cur_n": 145
       }
     },
     "headline": {
       "months_matched": 4,
       "ratio_tg": 1.25,
-      "ratio_vk": 0.95,
-      "clean_lift_pct": 31.6,
+      "ratio_vk": 0.96,
+      "clean_lift_pct": 30.2,
       "median_ratio_tg": 1.14,
-      "median_ratio_vk": 1.15,
-      "clean_lift_pct_median": -0.9
+      "median_ratio_vk": 1.17,
+      "clean_lift_pct_median": -2.6
     }
   },
   "overall": {
