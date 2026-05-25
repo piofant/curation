@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T10:05:02.364104+00:00",
+  "generated_at": "2026-05-25T10:05:02.350731+00:00",
   "total_posts": 388,
   "total_posts_all": 1605,
   "date_range": {
@@ -630,22 +630,22 @@
             "year_cur": 2026,
             "partial": true,
             "pre": {
-              "n": 48,
-              "mean": 7.56,
-              "median": 4.67
+              "n": 49,
+              "mean": 7.52,
+              "median": 4.76
             },
             "cur": {
               "n": 38,
               "mean": 13.74,
               "median": 11.53
             },
-            "ratio": 1.82,
-            "delta_pct": 81.7
+            "ratio": 1.83,
+            "delta_pct": 82.7
           }
         ],
         "mean_ratio": 1.7,
-        "median_ratio": 1.64,
-        "pre_n": 152,
+        "median_ratio": 1.63,
+        "pre_n": 153,
         "cur_n": 277
       },
       "vk": {
@@ -862,22 +862,22 @@
             "year_cur": 2026,
             "partial": true,
             "pre": {
-              "n": 87,
-              "mean": 7.85,
-              "median": 5.85
+              "n": 89,
+              "mean": 7.75,
+              "median": 5.74
             },
             "cur": {
               "n": 22,
               "mean": 10.96,
               "median": 8.73
             },
-            "ratio": 1.4,
-            "delta_pct": 39.6
+            "ratio": 1.41,
+            "delta_pct": 41.4
           }
         ],
         "mean_ratio": 1.39,
-        "median_ratio": 1.61,
-        "pre_n": 279,
+        "median_ratio": 1.62,
+        "pre_n": 281,
         "cur_n": 145
       }
     },
@@ -886,9 +886,9 @@
       "ratio_tg": 1.7,
       "ratio_vk": 1.39,
       "clean_lift_pct": 22.3,
-      "median_ratio_tg": 1.64,
-      "median_ratio_vk": 1.61,
-      "clean_lift_pct_median": 1.9
+      "median_ratio_tg": 1.63,
+      "median_ratio_vk": 1.62,
+      "clean_lift_pct_median": 0.6
     }
   },
   "by_month_yoy_forwards": {
@@ -1114,9 +1114,9 @@
             "year_cur": 2026,
             "partial": true,
             "pre": {
-              "n": 48,
-              "mean": 14.46,
-              "median": 9.0
+              "n": 49,
+              "mean": 14.39,
+              "median": 9
             },
             "cur": {
               "n": 38,
@@ -1124,12 +1124,12 @@
               "median": 14.5
             },
             "ratio": 1.32,
-            "delta_pct": 31.6
+            "delta_pct": 32.2
           }
         ],
         "mean_ratio": 1.25,
         "median_ratio": 1.14,
-        "pre_n": 152,
+        "pre_n": 153,
         "cur_n": 277
       },
       "vk": {
@@ -1346,8 +1346,8 @@
             "year_cur": 2026,
             "partial": true,
             "pre": {
-              "n": 87,
-              "mean": 15.79,
+              "n": 89,
+              "mean": 15.57,
               "median": 10
             },
             "cur": {
@@ -1355,13 +1355,13 @@
               "mean": 13.86,
               "median": 9.5
             },
-            "ratio": 0.88,
-            "delta_pct": -12.2
+            "ratio": 0.89,
+            "delta_pct": -11.0
           }
         ],
         "mean_ratio": 0.96,
         "median_ratio": 1.17,
-        "pre_n": 279,
+        "pre_n": 281,
         "cur_n": 145
       }
     },
