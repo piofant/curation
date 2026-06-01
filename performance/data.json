@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T10:05:02.540797+00:00",
+  "generated_at": "2026-06-01T10:05:02.509432+00:00",
   "total_posts": 388,
   "total_posts_all": 1605,
   "date_range": {
@@ -628,7 +628,7 @@
             "label": "Май",
             "year_pre": 2025,
             "year_cur": 2026,
-            "partial": true,
+            "partial": false,
             "pre": {
               "n": 67,
               "mean": 7.6,
@@ -860,7 +860,7 @@
             "label": "Май",
             "year_pre": 2025,
             "year_cur": 2026,
-            "partial": true,
+            "partial": false,
             "pre": {
               "n": 110,
               "mean": 7.48,
@@ -1112,7 +1112,7 @@
             "label": "Май",
             "year_pre": 2025,
             "year_cur": 2026,
-            "partial": true,
+            "partial": false,
             "pre": {
               "n": 67,
               "mean": 14.96,
@@ -1344,7 +1344,7 @@
             "label": "Май",
             "year_pre": 2025,
             "year_cur": 2026,
-            "partial": true,
+            "partial": false,
             "pre": {
               "n": 110,
               "mean": 15.15,
