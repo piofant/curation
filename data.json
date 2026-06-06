@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-05T10:05:01.906631+00:00",
+  "generated_at": "2026-06-06T10:05:01.838965+00:00",
   "stats": {
-    "total_items": 0,
-    "channels_count": 0,
-    "avg_score": 0,
-    "max_score": 0,
-    "min_score": 0
+    "total_items": 7,
+    "channels_count": 2,
+    "avg_score": 0.2911,
+    "max_score": 0.664,
+    "min_score": 0.1376
   },
   "thresholds": {
-    "tertile_top_min": 0,
-    "tertile_mid_min": 0
+    "tertile_top_min": 0.2771,
+    "tertile_mid_min": 0.2409
   },
   "weights": {
     "Q": 0.4,
@@ -17,5 +17,244 @@
     "R": 0.2,
     "V": 0.1
   },
-  "items": []
+  "items": [
+    {
+      "id": "sofaavibe_6769",
+      "channel": "sofaavibe",
+      "post_id": 6769,
+      "score": 0.664,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.63,
+          "norm": 1.0,
+          "weighted": 0.4
+        },
+        "F": {
+          "raw": 49,
+          "norm": 1.0,
+          "weighted": 0.3
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 4565,
+          "norm": 1.0,
+          "weighted": 0.1
+        }
+      },
+      "text": "**разбор заданий Дальнего Востока уже через час! ****🎸**\n\nтут постараюсь запустить тоже, но ещё подключиться можно вот тут 🪼\n\n📺 [посмотреть на ютубе](https://youtu.be/vwnj7cPreQA) \n📺 [посмотреть на вк](https://vk.com/video-236535453_456239055)\n📺 [посмотреть на рутубе](https://rutube.ru/video/2b804bf205ebb4e6fae6a5dfbc33f4cb/)",
+      "link": "https://t.me/sofaavibe/6769",
+      "date": "2026-06-06T03:04:02+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "разбор"
+    },
+    {
+      "id": "iliiasagalov_100points_5700",
+      "channel": "iliiasagalov_100points",
+      "post_id": 5700,
+      "score": 0.2771,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.51,
+          "norm": 0.8095,
+          "weighted": 0.3238
+        },
+        "F": {
+          "raw": 14,
+          "norm": 0.2857,
+          "weighted": 0.0857
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.0,
+          "weighted": 0.0
+        },
+        "V": {
+          "raw": 1206,
+          "norm": 0.2642,
+          "weighted": 0.0264
+        }
+      },
+      "text": "**ГРОБОВОЕ 15 НА ДВ**\nпрошло мимо вас в этом году \nВсе оказалось очень простым, нужно было просто выйти из замкнутой области, находясь в рандомной точке, лестниц не попалось\nВот пошаговое решение при помощи КуМир на 2 балла\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
+      "link": "https://t.me/iliiasagalov_100points/5700",
+      "date": "2026-06-05T03:00:45+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "разбор"
+    },
+    {
+      "id": "iliiasagalov_100points_5687",
+      "channel": "iliiasagalov_100points",
+      "post_id": 5687,
+      "score": 0.2529,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.48,
+          "norm": 0.7619,
+          "weighted": 0.3048
+        },
+        "F": {
+          "raw": 11,
+          "norm": 0.2245,
+          "weighted": 0.0673
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.0,
+          "weighted": 0.0
+        },
+        "V": {
+          "raw": 945,
+          "norm": 0.207,
+          "weighted": 0.0207
+        }
+      },
+      "text": "6 все-таки дали с параметром А\nКто-то скажет гроб, но только не тот, кто смотрти разборчик\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
+      "link": "https://t.me/iliiasagalov_100points/5687",
+      "date": "2026-06-05T02:31:03+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "разбор"
+    },
+    {
+      "id": "iliiasagalov_100points_5696",
+      "channel": "iliiasagalov_100points",
+      "post_id": 5696,
+      "score": 0.2409,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.45,
+          "norm": 0.7143,
+          "weighted": 0.2857
+        },
+        "F": {
+          "raw": 11,
+          "norm": 0.2245,
+          "weighted": 0.0673
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.0,
+          "weighted": 0.0
+        },
+        "V": {
+          "raw": 1006,
+          "norm": 0.2204,
+          "weighted": 0.022
+        }
+      },
+      "text": "10 задание на обычный перевод в десятичную и поиск результата уравнения\nлегчайшие 10 баллов в первой части...\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
+      "link": "https://t.me/iliiasagalov_100points/5696",
+      "date": "2026-06-05T02:43:17+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "разбор"
+    },
+    {
+      "id": "iliiasagalov_100points_5704",
+      "channel": "iliiasagalov_100points",
+      "post_id": 5704,
+      "score": 0.2371,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.41,
+          "norm": 0.6508,
+          "weighted": 0.2603
+        },
+        "F": {
+          "raw": 14,
+          "norm": 0.2857,
+          "weighted": 0.0857
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.0,
+          "weighted": 0.0
+        },
+        "V": {
+          "raw": 1408,
+          "norm": 0.3084,
+          "weighted": 0.0308
+        }
+      },
+      "text": "**В 16 очень запутанная формулировка, будьте внимательны**\nНайти РАЗНОСТЬ между суммой и количеством\nРаньше нужно было просто выводить их по очереди \nЭталонный код на 2 балла\n\nПовторите как проверить на что оканчивается число!!\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
+      "link": "https://t.me/iliiasagalov_100points/5704",
+      "date": "2026-06-05T03:09:56+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "разбор"
+    },
+    {
+      "id": "iliiasagalov_100points_5686",
+      "channel": "iliiasagalov_100points",
+      "post_id": 5686,
+      "score": 0.2281,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.43,
+          "norm": 0.6825,
+          "weighted": 0.273
+        },
+        "F": {
+          "raw": 10,
+          "norm": 0.2041,
+          "weighted": 0.0612
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.0,
+          "weighted": 0.0
+        },
+        "V": {
+          "raw": 908,
+          "norm": 0.1989,
+          "weighted": 0.0199
+        }
+      },
+      "text": "5 задание интересное, на приписывание цифр, будьте внимательны\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
+      "link": "https://t.me/iliiasagalov_100points/5686",
+      "date": "2026-06-05T02:25:27+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "разбор"
+    },
+    {
+      "id": "iliiasagalov_100points_5694",
+      "channel": "iliiasagalov_100points",
+      "post_id": 5694,
+      "score": 0.1376,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.23,
+          "norm": 0.3651,
+          "weighted": 0.146
+        },
+        "F": {
+          "raw": 9,
+          "norm": 0.1837,
+          "weighted": 0.0551
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.0,
+          "weighted": 0.0
+        },
+        "V": {
+          "raw": 910,
+          "norm": 0.1993,
+          "weighted": 0.0199
+        }
+      },
+      "text": "9 задание, очень простое, без избегаемых вершин и обязательных\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
+      "link": "https://t.me/iliiasagalov_100points/5694",
+      "date": "2026-06-05T02:39:10+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "разбор"
+    }
+  ]
 }
