@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-06T10:05:01.838965+00:00",
+  "generated_at": "2026-06-07T10:05:02.217043+00:00",
   "stats": {
-    "total_items": 7,
-    "channels_count": 2,
-    "avg_score": 0.2911,
-    "max_score": 0.664,
+    "total_items": 6,
+    "channels_count": 1,
+    "avg_score": 0.2289,
+    "max_score": 0.2771,
     "min_score": 0.1376
   },
   "thresholds": {
-    "tertile_top_min": 0.2771,
-    "tertile_mid_min": 0.2409
+    "tertile_top_min": 0.2529,
+    "tertile_mid_min": 0.2371
   },
   "weights": {
     "Q": 0.4,
@@ -19,40 +19,6 @@
   },
   "items": [
     {
-      "id": "sofaavibe_6769",
-      "channel": "sofaavibe",
-      "post_id": 6769,
-      "score": 0.664,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.63,
-          "norm": 1.0,
-          "weighted": 0.4
-        },
-        "F": {
-          "raw": 49,
-          "norm": 1.0,
-          "weighted": 0.3
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 4565,
-          "norm": 1.0,
-          "weighted": 0.1
-        }
-      },
-      "text": "**разбор заданий Дальнего Востока уже через час! ****🎸**\n\nтут постараюсь запустить тоже, но ещё подключиться можно вот тут 🪼\n\n📺 [посмотреть на ютубе](https://youtu.be/vwnj7cPreQA) \n📺 [посмотреть на вк](https://vk.com/video-236535453_456239055)\n📺 [посмотреть на рутубе](https://rutube.ru/video/2b804bf205ebb4e6fae6a5dfbc33f4cb/)",
-      "link": "https://t.me/sofaavibe/6769",
-      "date": "2026-06-06T03:04:02+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "разбор"
-    },
-    {
       "id": "iliiasagalov_100points_5700",
       "channel": "iliiasagalov_100points",
       "post_id": 5700,
@@ -61,13 +27,13 @@
       "components": {
         "Q": {
           "raw": 0.51,
-          "norm": 0.8095,
-          "weighted": 0.3238
+          "norm": 1.0,
+          "weighted": 0.4
         },
         "F": {
           "raw": 14,
-          "norm": 0.2857,
-          "weighted": 0.0857
+          "norm": 1.0,
+          "weighted": 0.3
         },
         "R": {
           "raw_days_ago": 1,
@@ -76,8 +42,8 @@
         },
         "V": {
           "raw": 1206,
-          "norm": 0.2642,
-          "weighted": 0.0264
+          "norm": 0.8565,
+          "weighted": 0.0857
         }
       },
       "text": "**ГРОБОВОЕ 15 НА ДВ**\nпрошло мимо вас в этом году \nВсе оказалось очень простым, нужно было просто выйти из замкнутой области, находясь в рандомной точке, лестниц не попалось\nВот пошаговое решение при помощи КуМир на 2 балла\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -91,17 +57,17 @@
       "channel": "iliiasagalov_100points",
       "post_id": 5687,
       "score": 0.2529,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.7619,
-          "weighted": 0.3048
+          "norm": 0.9412,
+          "weighted": 0.3765
         },
         "F": {
           "raw": 11,
-          "norm": 0.2245,
-          "weighted": 0.0673
+          "norm": 0.7857,
+          "weighted": 0.2357
         },
         "R": {
           "raw_days_ago": 1,
@@ -110,8 +76,8 @@
         },
         "V": {
           "raw": 945,
-          "norm": 0.207,
-          "weighted": 0.0207
+          "norm": 0.6712,
+          "weighted": 0.0671
         }
       },
       "text": "6 все-таки дали с параметром А\nКто-то скажет гроб, но только не тот, кто смотрти разборчик\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -129,13 +95,13 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.7143,
-          "weighted": 0.2857
+          "norm": 0.8824,
+          "weighted": 0.3529
         },
         "F": {
           "raw": 11,
-          "norm": 0.2245,
-          "weighted": 0.0673
+          "norm": 0.7857,
+          "weighted": 0.2357
         },
         "R": {
           "raw_days_ago": 1,
@@ -144,8 +110,8 @@
         },
         "V": {
           "raw": 1006,
-          "norm": 0.2204,
-          "weighted": 0.022
+          "norm": 0.7145,
+          "weighted": 0.0714
         }
       },
       "text": "10 задание на обычный перевод в десятичную и поиск результата уравнения\nлегчайшие 10 баллов в первой части...\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -159,17 +125,17 @@
       "channel": "iliiasagalov_100points",
       "post_id": 5704,
       "score": 0.2371,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.6508,
-          "weighted": 0.2603
+          "norm": 0.8039,
+          "weighted": 0.3216
         },
         "F": {
           "raw": 14,
-          "norm": 0.2857,
-          "weighted": 0.0857
+          "norm": 1.0,
+          "weighted": 0.3
         },
         "R": {
           "raw_days_ago": 1,
@@ -178,8 +144,8 @@
         },
         "V": {
           "raw": 1408,
-          "norm": 0.3084,
-          "weighted": 0.0308
+          "norm": 1.0,
+          "weighted": 0.1
         }
       },
       "text": "**В 16 очень запутанная формулировка, будьте внимательны**\nНайти РАЗНОСТЬ между суммой и количеством\nРаньше нужно было просто выводить их по очереди \nЭталонный код на 2 балла\n\nПовторите как проверить на что оканчивается число!!\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -197,13 +163,13 @@
       "components": {
         "Q": {
           "raw": 0.43,
-          "norm": 0.6825,
-          "weighted": 0.273
+          "norm": 0.8431,
+          "weighted": 0.3373
         },
         "F": {
           "raw": 10,
-          "norm": 0.2041,
-          "weighted": 0.0612
+          "norm": 0.7143,
+          "weighted": 0.2143
         },
         "R": {
           "raw_days_ago": 1,
@@ -212,8 +178,8 @@
         },
         "V": {
           "raw": 908,
-          "norm": 0.1989,
-          "weighted": 0.0199
+          "norm": 0.6449,
+          "weighted": 0.0645
         }
       },
       "text": "5 задание интересное, на приписывание цифр, будьте внимательны\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -231,13 +197,13 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.3651,
-          "weighted": 0.146
+          "norm": 0.451,
+          "weighted": 0.1804
         },
         "F": {
           "raw": 9,
-          "norm": 0.1837,
-          "weighted": 0.0551
+          "norm": 0.6429,
+          "weighted": 0.1929
         },
         "R": {
           "raw_days_ago": 1,
@@ -246,8 +212,8 @@
         },
         "V": {
           "raw": 910,
-          "norm": 0.1993,
-          "weighted": 0.0199
+          "norm": 0.6463,
+          "weighted": 0.0646
         }
       },
       "text": "9 задание, очень простое, без избегаемых вершин и обязательных\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
