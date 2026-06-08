@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-07T10:05:02.217043+00:00",
+  "generated_at": "2026-06-08T10:05:02.338462+00:00",
   "stats": {
-    "total_items": 6,
+    "total_items": 5,
     "channels_count": 1,
-    "avg_score": 0.2289,
-    "max_score": 0.2771,
+    "avg_score": 0.2193,
+    "max_score": 0.2529,
     "min_score": 0.1376
   },
   "thresholds": {
@@ -19,40 +19,6 @@
   },
   "items": [
     {
-      "id": "iliiasagalov_100points_5700",
-      "channel": "iliiasagalov_100points",
-      "post_id": 5700,
-      "score": 0.2771,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.51,
-          "norm": 1.0,
-          "weighted": 0.4
-        },
-        "F": {
-          "raw": 14,
-          "norm": 1.0,
-          "weighted": 0.3
-        },
-        "R": {
-          "raw_days_ago": 1,
-          "norm": 0.0,
-          "weighted": 0.0
-        },
-        "V": {
-          "raw": 1206,
-          "norm": 0.8565,
-          "weighted": 0.0857
-        }
-      },
-      "text": "**ГРОБОВОЕ 15 НА ДВ**\nпрошло мимо вас в этом году \nВсе оказалось очень простым, нужно было просто выйти из замкнутой области, находясь в рандомной точке, лестниц не попалось\nВот пошаговое решение при помощи КуМир на 2 балла\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
-      "link": "https://t.me/iliiasagalov_100points/5700",
-      "date": "2026-06-05T03:00:45+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "разбор"
-    },
-    {
       "id": "iliiasagalov_100points_5687",
       "channel": "iliiasagalov_100points",
       "post_id": 5687,
@@ -61,8 +27,8 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.9412,
-          "weighted": 0.3765
+          "norm": 1.0,
+          "weighted": 0.4
         },
         "F": {
           "raw": 11,
@@ -95,8 +61,8 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.8824,
-          "weighted": 0.3529
+          "norm": 0.9375,
+          "weighted": 0.375
         },
         "F": {
           "raw": 11,
@@ -129,8 +95,8 @@
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.8039,
-          "weighted": 0.3216
+          "norm": 0.8542,
+          "weighted": 0.3417
         },
         "F": {
           "raw": 14,
@@ -163,8 +129,8 @@
       "components": {
         "Q": {
           "raw": 0.43,
-          "norm": 0.8431,
-          "weighted": 0.3373
+          "norm": 0.8958,
+          "weighted": 0.3583
         },
         "F": {
           "raw": 10,
@@ -197,8 +163,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.451,
-          "weighted": 0.1804
+          "norm": 0.4792,
+          "weighted": 0.1917
         },
         "F": {
           "raw": 9,
