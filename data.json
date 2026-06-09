@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-08T10:05:02.338462+00:00",
+  "generated_at": "2026-06-09T10:05:01.394300+00:00",
   "stats": {
-    "total_items": 5,
-    "channels_count": 1,
-    "avg_score": 0.2193,
-    "max_score": 0.2529,
+    "total_items": 6,
+    "channels_count": 2,
+    "avg_score": 0.2696,
+    "max_score": 0.5207,
     "min_score": 0.1376
   },
   "thresholds": {
@@ -19,6 +19,40 @@
   },
   "items": [
     {
+      "id": "plugar_inf_4445",
+      "channel": "plugar_inf",
+      "post_id": 4445,
+      "score": 0.5207,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.55,
+          "norm": 1.0,
+          "weighted": 0.4
+        },
+        "F": {
+          "raw": 14,
+          "norm": 1.0,
+          "weighted": 0.3
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 510,
+          "norm": 0.3622,
+          "weighted": 0.0362
+        }
+      },
+      "text": "Разбор 17 задания | ЕГЭ-2026 по информатике\n\nVK: https://vkvideo.ru/video-194554202_456239999\nYouTube: https://youtu.be/9pTtbtaW7vg\nRutube: https://rutube.ru/video/12c36c26eddcea11cae53d485c5a29f1/",
+      "link": "https://t.me/plugar_inf/4445",
+      "date": "2026-06-08T12:46:21+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "iliiasagalov_100points_5687",
       "channel": "iliiasagalov_100points",
       "post_id": 5687,
@@ -27,8 +61,8 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 1.0,
-          "weighted": 0.4
+          "norm": 0.8727,
+          "weighted": 0.3491
         },
         "F": {
           "raw": 11,
@@ -61,8 +95,8 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.9375,
-          "weighted": 0.375
+          "norm": 0.8182,
+          "weighted": 0.3273
         },
         "F": {
           "raw": 11,
@@ -95,8 +129,8 @@
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.8542,
-          "weighted": 0.3417
+          "norm": 0.7455,
+          "weighted": 0.2982
         },
         "F": {
           "raw": 14,
@@ -129,8 +163,8 @@
       "components": {
         "Q": {
           "raw": 0.43,
-          "norm": 0.8958,
-          "weighted": 0.3583
+          "norm": 0.7818,
+          "weighted": 0.3127
         },
         "F": {
           "raw": 10,
@@ -163,8 +197,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.4792,
-          "weighted": 0.1917
+          "norm": 0.4182,
+          "weighted": 0.1673
         },
         "F": {
           "raw": 9,
