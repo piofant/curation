@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-09T10:05:01.394300+00:00",
+  "generated_at": "2026-06-10T10:05:02.149535+00:00",
   "stats": {
-    "total_items": 6,
-    "channels_count": 2,
-    "avg_score": 0.2696,
-    "max_score": 0.5207,
+    "total_items": 8,
+    "channels_count": 4,
+    "avg_score": 0.3208,
+    "max_score": 0.5768,
     "min_score": 0.1376
   },
   "thresholds": {
-    "tertile_top_min": 0.2529,
-    "tertile_mid_min": 0.2371
+    "tertile_top_min": 0.5207,
+    "tertile_mid_min": 0.2409
   },
   "weights": {
     "Q": 0.4,
@@ -19,19 +19,19 @@
   },
   "items": [
     {
-      "id": "plugar_inf_4445",
-      "channel": "plugar_inf",
-      "post_id": 4445,
-      "score": 0.5207,
+      "id": "flash_ege_14702",
+      "channel": "flash_ege",
+      "post_id": 14702,
+      "score": 0.5768,
       "tertile": "top",
       "components": {
         "Q": {
-          "raw": 0.55,
+          "raw": 0.6,
           "norm": 1.0,
           "weighted": 0.4
         },
         "F": {
-          "raw": 14,
+          "raw": 40,
           "norm": 1.0,
           "weighted": 0.3
         },
@@ -41,9 +41,43 @@
           "weighted": 0.2
         },
         "V": {
+          "raw": 3097,
+          "norm": 1.0,
+          "weighted": 0.1
+        }
+      },
+      "text": "**КАК УСПЕТЬ ПОДНЯТЬ БАЛЛЫ ЗА НЕДЕЛЮ ДО ЕГЭ ПО ИНФЕ?** \n\nСегодня в 17:00 по мск жду всех 11-классников на вебе. Будем обсуждать, как подготовиться на нужные баллы и что нужно делать за оставшееся время, когда до ЕГЭ остается мало времени \n\nТакже расскажу какими способами и в каком порядке решать задания\n\n📺 YT - [ССЫЛКА](https://youtube.com/live/alKBj0qngbI)\n📺 KN - [ССЫЛКА](https://kinescope.io/0cAxvMbUk8cbNQH6AqYV8s)",
+      "link": "https://t.me/flash_ege/14702",
+      "date": "2026-06-10T07:04:47+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "plugar_inf_4445",
+      "channel": "plugar_inf",
+      "post_id": 4445,
+      "score": 0.5207,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.55,
+          "norm": 0.9167,
+          "weighted": 0.3667
+        },
+        "F": {
+          "raw": 14,
+          "norm": 0.35,
+          "weighted": 0.105
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
           "raw": 510,
-          "norm": 0.3622,
-          "weighted": 0.0362
+          "norm": 0.1647,
+          "weighted": 0.0165
         }
       },
       "text": "Разбор 17 задания | ЕГЭ-2026 по информатике\n\nVK: https://vkvideo.ru/video-194554202_456239999\nYouTube: https://youtu.be/9pTtbtaW7vg\nRutube: https://rutube.ru/video/12c36c26eddcea11cae53d485c5a29f1/",
@@ -53,21 +87,55 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "sofaavibe_6805",
+      "channel": "sofaavibe",
+      "post_id": 6805,
+      "score": 0.3726,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.28,
+          "norm": 0.4667,
+          "weighted": 0.1867
+        },
+        "F": {
+          "raw": 9,
+          "norm": 0.225,
+          "weighted": 0.0675
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1432,
+          "norm": 0.4624,
+          "weighted": 0.0462
+        }
+      },
+      "text": "если сейчас есть пробелы в алгебре логики, смотрите мой разбор для Яндекс учебника!! \n\nв видосе разбираю №2 из ЕГЭ, начнёте погружаться 🤢\n\n💓 где чекнуть: [**ЮТ**](https://youtu.be/wA8ziYoQDeY), [**ВК**](https://vk.com/video-168455540_456247174), [**Рутуб**](https://rutube.ru/video/fc236a964fac00cc9b8e0b2608eb31a5/)",
+      "link": "https://t.me/sofaavibe/6805",
+      "date": "2026-06-09T14:23:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "iliiasagalov_100points_5687",
       "channel": "iliiasagalov_100points",
       "post_id": 5687,
       "score": 0.2529,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.8727,
-          "weighted": 0.3491
+          "norm": 0.8,
+          "weighted": 0.32
         },
         "F": {
           "raw": 11,
-          "norm": 0.7857,
-          "weighted": 0.2357
+          "norm": 0.275,
+          "weighted": 0.0825
         },
         "R": {
           "raw_days_ago": 1,
@@ -76,8 +144,8 @@
         },
         "V": {
           "raw": 945,
-          "norm": 0.6712,
-          "weighted": 0.0671
+          "norm": 0.3051,
+          "weighted": 0.0305
         }
       },
       "text": "6 все-таки дали с параметром А\nКто-то скажет гроб, но только не тот, кто смотрти разборчик\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -95,13 +163,13 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.8182,
-          "weighted": 0.3273
+          "norm": 0.75,
+          "weighted": 0.3
         },
         "F": {
           "raw": 11,
-          "norm": 0.7857,
-          "weighted": 0.2357
+          "norm": 0.275,
+          "weighted": 0.0825
         },
         "R": {
           "raw_days_ago": 1,
@@ -110,8 +178,8 @@
         },
         "V": {
           "raw": 1006,
-          "norm": 0.7145,
-          "weighted": 0.0714
+          "norm": 0.3248,
+          "weighted": 0.0325
         }
       },
       "text": "10 задание на обычный перевод в десятичную и поиск результата уравнения\nлегчайшие 10 баллов в первой части...\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -125,17 +193,17 @@
       "channel": "iliiasagalov_100points",
       "post_id": 5704,
       "score": 0.2371,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.7455,
-          "weighted": 0.2982
+          "norm": 0.6833,
+          "weighted": 0.2733
         },
         "F": {
           "raw": 14,
-          "norm": 1.0,
-          "weighted": 0.3
+          "norm": 0.35,
+          "weighted": 0.105
         },
         "R": {
           "raw_days_ago": 1,
@@ -144,8 +212,8 @@
         },
         "V": {
           "raw": 1408,
-          "norm": 1.0,
-          "weighted": 0.1
+          "norm": 0.4546,
+          "weighted": 0.0455
         }
       },
       "text": "**В 16 очень запутанная формулировка, будьте внимательны**\nНайти РАЗНОСТЬ между суммой и количеством\nРаньше нужно было просто выводить их по очереди \nЭталонный код на 2 балла\n\nПовторите как проверить на что оканчивается число!!\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -163,13 +231,13 @@
       "components": {
         "Q": {
           "raw": 0.43,
-          "norm": 0.7818,
-          "weighted": 0.3127
+          "norm": 0.7167,
+          "weighted": 0.2867
         },
         "F": {
           "raw": 10,
-          "norm": 0.7143,
-          "weighted": 0.2143
+          "norm": 0.25,
+          "weighted": 0.075
         },
         "R": {
           "raw_days_ago": 1,
@@ -178,8 +246,8 @@
         },
         "V": {
           "raw": 908,
-          "norm": 0.6449,
-          "weighted": 0.0645
+          "norm": 0.2932,
+          "weighted": 0.0293
         }
       },
       "text": "5 задание интересное, на приписывание цифр, будьте внимательны\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
@@ -197,13 +265,13 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.4182,
-          "weighted": 0.1673
+          "norm": 0.3833,
+          "weighted": 0.1533
         },
         "F": {
           "raw": 9,
-          "norm": 0.6429,
-          "weighted": 0.1929
+          "norm": 0.225,
+          "weighted": 0.0675
         },
         "R": {
           "raw_days_ago": 1,
@@ -212,8 +280,8 @@
         },
         "V": {
           "raw": 910,
-          "norm": 0.6463,
-          "weighted": 0.0646
+          "norm": 0.2938,
+          "weighted": 0.0294
         }
       },
       "text": "9 задание, очень простое, без избегаемых вершин и обязательных\n\nРазбор:\n[Ютуб](https://www.youtube.com/live/b4egibNZY6k?si=Ee0B_w4HlfezcGaq)",
