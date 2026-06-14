@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-13T10:05:02.168255+00:00",
+  "generated_at": "2026-06-14T10:05:01.783051+00:00",
   "stats": {
-    "total_items": 14,
+    "total_items": 15,
     "channels_count": 6,
-    "avg_score": 0.3712,
+    "avg_score": 0.3794,
     "max_score": 0.5815,
     "min_score": 0.1376
   },
   "thresholds": {
-    "tertile_top_min": 0.5064,
+    "tertile_top_min": 0.5004,
     "tertile_mid_min": 0.2529
   },
   "weights": {
@@ -159,7 +159,7 @@
       "channel": "korshunov_school",
       "post_id": 2799,
       "score": 0.5004,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.53,
@@ -185,6 +185,40 @@
       "text": "**Самые простые задачи из ЕГЭ по информатике! \n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀**\nРазбор задач: 1, 3, 10 и 12\n**Встречаемся в 12:00!**\n\n📱[ ](https://youtube.com/live/nxVEJM11Ig0?feature=share)[**Смотреть на YouTube**](https://youtube.com/live/K8O9vqdlVuE?feature=share)**\n****📱**[** **](https://vkvideo.ru/video-226792898_456239159?list=aaa3a05a2b9b043c7f)[**Смотреть на VK Видео**](https://vkvideo.ru/video-232095223_456239120?list=96686fac756ef212d0)**\n**✔[️](https://extremum.info/platfor",
       "link": "https://t.me/korshunov_school/2799",
       "date": "2026-06-11T06:48:46+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "infkege_1719",
+      "channel": "infkege",
+      "post_id": 1719,
+      "score": 0.4943,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.66,
+          "norm": 0.825,
+          "weighted": 0.33
+        },
+        "F": {
+          "raw": 22,
+          "norm": 0.2683,
+          "weighted": 0.0805
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 956,
+          "norm": 0.1098,
+          "weighted": 0.011
+        }
+      },
+      "text": "**🚀 Второй летний пробник уже доступен!**\n\nВо втором пробнике снова собрали разные вариации заданий и оставили только то, что реально ждём на экзамене. Поэтому решать обязательно: чем больше свежей практики перед ЕГЭ, тем спокойнее и увереннее будет на самом экзамене.\n\n[**👉 Перейти к решению варианта**](https://kompege.ru/variant?kim=25198084)\n\nРазбор опубликуем завтра",
+      "link": "https://t.me/infkege/1719",
+      "date": "2026-06-13T16:19:18+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
       "keyword": "ЕГЭ"
     },
