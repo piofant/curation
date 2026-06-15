@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-14T10:05:01.783051+00:00",
+  "generated_at": "2026-06-15T10:05:02.036510+00:00",
   "stats": {
-    "total_items": 15,
-    "channels_count": 6,
-    "avg_score": 0.3794,
-    "max_score": 0.5815,
+    "total_items": 11,
+    "channels_count": 5,
+    "avg_score": 0.3187,
+    "max_score": 0.5004,
     "min_score": 0.1376
   },
   "thresholds": {
-    "tertile_top_min": 0.5004,
-    "tertile_mid_min": 0.2529
+    "tertile_top_min": 0.462,
+    "tertile_mid_min": 0.2409
   },
   "weights": {
     "Q": 0.4,
@@ -19,142 +19,6 @@
   },
   "items": [
     {
-      "id": "sofaavibe_6810",
-      "channel": "sofaavibe",
-      "post_id": 6810,
-      "score": 0.5815,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.8,
-          "norm": 1.0,
-          "weighted": 0.4
-        },
-        "F": {
-          "raw": 55,
-          "norm": 0.6707,
-          "weighted": 0.2012
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 1702,
-          "norm": 0.1955,
-          "weighted": 0.0196
-        }
-      },
-      "text": "**ВСЕ ШАБЛОНЫ ПРОГ ЕГЭ 2026 по инфе**\n\nсобрала для вас костяк решений заданий. очень удобный инструмент, именно инструмент, а не готовый способ подготовки\n\nизучите, просмотрите. заберите себе в работу. на экзамене сможете сразу вспомнить основу, дальше уже додумаете по условию. это очень важно. не просто нужно выучить, а именно понимать!! это и есть правильная подготовка. опираться на готовые решения, но уметь преобразовывать/менять, все зависит от вводных данных \n\nнакиньте обратки за старания. ",
-      "link": "https://t.me/sofaavibe/6810",
-      "date": "2026-06-10T13:09:01+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
-    {
-      "id": "flash_ege_14702",
-      "channel": "flash_ege",
-      "post_id": 14702,
-      "score": 0.5768,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.6,
-          "norm": 0.75,
-          "weighted": 0.3
-        },
-        "F": {
-          "raw": 40,
-          "norm": 0.4878,
-          "weighted": 0.1463
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 3097,
-          "norm": 0.3558,
-          "weighted": 0.0356
-        }
-      },
-      "text": "**КАК УСПЕТЬ ПОДНЯТЬ БАЛЛЫ ЗА НЕДЕЛЮ ДО ЕГЭ ПО ИНФЕ?** \n\nСегодня в 17:00 по мск жду всех 11-классников на вебе. Будем обсуждать, как подготовиться на нужные баллы и что нужно делать за оставшееся время, когда до ЕГЭ остается мало времени \n\nТакже расскажу какими способами и в каком порядке решать задания\n\n📺 YT - [ССЫЛКА](https://youtube.com/live/alKBj0qngbI)\n📺 KN - [ССЫЛКА](https://kinescope.io/0cAxvMbUk8cbNQH6AqYV8s)",
-      "link": "https://t.me/flash_ege/14702",
-      "date": "2026-06-10T07:04:47+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
-    {
-      "id": "plugar_inf_4445",
-      "channel": "plugar_inf",
-      "post_id": 4445,
-      "score": 0.5207,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.55,
-          "norm": 0.6875,
-          "weighted": 0.275
-        },
-        "F": {
-          "raw": 14,
-          "norm": 0.1707,
-          "weighted": 0.0512
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 510,
-          "norm": 0.0586,
-          "weighted": 0.0059
-        }
-      },
-      "text": "Разбор 17 задания | ЕГЭ-2026 по информатике\n\nVK: https://vkvideo.ru/video-194554202_456239999\nYouTube: https://youtu.be/9pTtbtaW7vg\nRutube: https://rutube.ru/video/12c36c26eddcea11cae53d485c5a29f1/",
-      "link": "https://t.me/plugar_inf/4445",
-      "date": "2026-06-08T12:46:21+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
-    {
-      "id": "infkege_1706",
-      "channel": "infkege",
-      "post_id": 1706,
-      "score": 0.5064,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.7,
-          "norm": 0.875,
-          "weighted": 0.35
-        },
-        "F": {
-          "raw": 31,
-          "norm": 0.378,
-          "weighted": 0.1134
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 1339,
-          "norm": 0.1538,
-          "weighted": 0.0154
-        }
-      },
-      "text": "**Лучшие пробники во Вселенной** 😎\n\nДрузья! На эту неделю перед экзаменом мы подготовили для вас 3 новых пробника. В каждом пробнике добавлены разные вариации каждого из заданий и только то, что реально ожидаем на экзамене, поэтому для прорешки все 3 варианта обязательны!\n\n[**Первый вариант уже доступен (КЛИК)**](https://kompege.ru/variant?kim=25197370)\n\nЕго разбор опубликуем завтра.\n\n100 огонёчков и опубликуем второй вариант 🔥",
-      "link": "https://t.me/infkege/1706",
-      "date": "2026-06-11T15:19:48+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "разбор"
-    },
-    {
       "id": "korshunov_school_2799",
       "channel": "korshunov_school",
       "post_id": 2799,
@@ -163,8 +27,8 @@
       "components": {
         "Q": {
           "raw": 0.53,
-          "norm": 0.6625,
-          "weighted": 0.265
+          "norm": 0.803,
+          "weighted": 0.3212
         },
         "F": {
           "raw": 44,
@@ -193,12 +57,12 @@
       "channel": "infkege",
       "post_id": 1719,
       "score": 0.4943,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.66,
-          "norm": 0.825,
-          "weighted": 0.33
+          "norm": 1.0,
+          "weighted": 0.4
         },
         "F": {
           "raw": 22,
@@ -227,12 +91,12 @@
       "channel": "korshunov_school",
       "post_id": 2805,
       "score": 0.462,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.5,
-          "norm": 0.625,
-          "weighted": 0.25
+          "norm": 0.7576,
+          "weighted": 0.303
         },
         "F": {
           "raw": 82,
@@ -265,8 +129,8 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.5,
-          "weighted": 0.2
+          "norm": 0.6061,
+          "weighted": 0.2424
         },
         "F": {
           "raw": 24,
@@ -299,8 +163,8 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.35,
-          "weighted": 0.14
+          "norm": 0.4242,
+          "weighted": 0.1697
         },
         "F": {
           "raw": 9,
@@ -333,8 +197,8 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.6,
-          "weighted": 0.24
+          "norm": 0.7273,
+          "weighted": 0.2909
         },
         "F": {
           "raw": 11,
@@ -363,12 +227,12 @@
       "channel": "iliiasagalov_100points",
       "post_id": 5696,
       "score": 0.2409,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.5625,
-          "weighted": 0.225
+          "norm": 0.6818,
+          "weighted": 0.2727
         },
         "F": {
           "raw": 11,
@@ -401,8 +265,8 @@
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.5125,
-          "weighted": 0.205
+          "norm": 0.6212,
+          "weighted": 0.2485
         },
         "F": {
           "raw": 14,
@@ -435,8 +299,8 @@
       "components": {
         "Q": {
           "raw": 0.43,
-          "norm": 0.5375,
-          "weighted": 0.215
+          "norm": 0.6515,
+          "weighted": 0.2606
         },
         "F": {
           "raw": 10,
@@ -469,8 +333,8 @@
       "components": {
         "Q": {
           "raw": 0.43,
-          "norm": 0.5375,
-          "weighted": 0.215
+          "norm": 0.6515,
+          "weighted": 0.2606
         },
         "F": {
           "raw": 10,
@@ -503,8 +367,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.2875,
-          "weighted": 0.115
+          "norm": 0.3485,
+          "weighted": 0.1394
         },
         "F": {
           "raw": 9,
