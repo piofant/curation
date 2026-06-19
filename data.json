@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-18T10:05:01.618634+00:00",
+  "generated_at": "2026-06-19T10:05:02.307368+00:00",
   "stats": {
-    "total_items": 17,
-    "channels_count": 7,
-    "avg_score": 0.387,
+    "total_items": 20,
+    "channels_count": 9,
+    "avg_score": 0.4161,
     "max_score": 0.7303,
     "min_score": 0.1376
   },
   "thresholds": {
-    "tertile_top_min": 0.5004,
-    "tertile_mid_min": 0.2529
+    "tertile_top_min": 0.5258,
+    "tertile_mid_min": 0.3726
   },
   "weights": {
     "Q": 0.4,
@@ -53,6 +53,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "senya_infa_4050",
+      "channel": "senya_infa",
+      "post_id": 4050,
+      "score": 0.6946,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.48,
+          "norm": 0.7273,
+          "weighted": 0.2909
+        },
+        "F": {
+          "raw": 71,
+          "norm": 0.8659,
+          "weighted": 0.2598
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 8280,
+          "norm": 0.9513,
+          "weighted": 0.0951
+        }
+      },
+      "text": "РАЗБОР СЛИВА – СТАРТ В 14:00 по мск\n\nhttps://youtube.com/live/wEDTfys9NDE?feature=share",
+      "link": "https://t.me/senya_infa/4050",
+      "date": "2026-06-18T10:38:24+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "разбор"
+    },
+    {
       "id": "infkege_1733",
       "channel": "infkege",
       "post_id": 1733,
@@ -85,6 +119,40 @@
       "date": "2026-06-15T12:15:39+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
       "keyword": "ЕГЭ"
+    },
+    {
+      "id": "sofaavibe_6867",
+      "channel": "sofaavibe",
+      "post_id": 6867,
+      "score": 0.5477,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.4,
+          "norm": 0.6061,
+          "weighted": 0.2424
+        },
+        "F": {
+          "raw": 38,
+          "norm": 0.4634,
+          "weighted": 0.139
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 4059,
+          "norm": 0.4663,
+          "weighted": 0.0466
+        }
+      },
+      "text": "разбор Дальнего Востока – старт в 7:00. подключайтесь тут 🪼\n\n📺 [стрим на ютуб](https://youtu.be/5Pu-i3-ChPI)\n📺 [стрим на рутуб ](https://rutube.ru/video/60b0ae2ad47388437a4906efeff17c19/)\n📺 [стрим на вк](https://vk.com/video-214793898_456239197)",
+      "link": "https://t.me/sofaavibe/6867",
+      "date": "2026-06-19T02:53:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "разбор"
     },
     {
       "id": "pro100ege68_1149",
@@ -155,11 +223,45 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "imleenas_6860",
+      "channel": "imleenas",
+      "post_id": 6860,
+      "score": 0.5021,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.45,
+          "norm": 0.6818,
+          "weighted": 0.2727
+        },
+        "F": {
+          "raw": 10,
+          "norm": 0.122,
+          "weighted": 0.0366
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1233,
+          "norm": 0.1417,
+          "weighted": 0.0142
+        }
+      },
+      "text": "[👤]: расскажите пожалуйста про факультет социологии, на котором вы учились во ВШЭ, я хочу туда поступать, но совершенно не понимаю, что представляет из себя программа🙏🏼насколько много математики и IT, подойдет ли специальность если ты гуманитарий?)\n— частый вопрос сейчас, решила ответить подробно! училась на «социологии и соц информатике» (s&si) в вшэ спб. это что-то между гуманитарным образованием и data science, 50/50 🧮🧠💻💬\n\nиз гуманитарных дисциплин были:\n— general sociology\n— philosophy\n— soc",
+      "link": "https://t.me/imleenas/6860",
+      "date": "2026-06-19T08:45:49+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "python"
+    },
+    {
       "id": "korshunov_school_2799",
       "channel": "korshunov_school",
       "post_id": 2799,
       "score": 0.5004,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.53,
@@ -363,7 +465,7 @@
       "channel": "iliiasagalov_100points",
       "post_id": 5687,
       "score": 0.2529,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.48,
