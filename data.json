@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-03T10:05:02.025152+00:00",
+  "generated_at": "2026-07-04T10:05:02.296063+00:00",
   "stats": {
-    "total_items": 1,
-    "channels_count": 1,
-    "avg_score": 0.723,
-    "max_score": 0.723,
-    "min_score": 0.723
+    "total_items": 0,
+    "channels_count": 0,
+    "avg_score": 0,
+    "max_score": 0,
+    "min_score": 0
   },
   "thresholds": {
-    "tertile_top_min": 0.723,
-    "tertile_mid_min": 0.723
+    "tertile_top_min": 0,
+    "tertile_mid_min": 0
   },
   "weights": {
     "Q": 0.4,
@@ -17,40 +17,5 @@
     "R": 0.2,
     "V": 0.1
   },
-  "items": [
-    {
-      "id": "flash_ege_14863",
-      "channel": "flash_ege",
-      "post_id": 14863,
-      "score": 0.723,
-      "tertile": "bot",
-      "components": {
-        "Q": {
-          "raw": 0.53,
-          "norm": 1.0,
-          "weighted": 0.4
-        },
-        "F": {
-          "raw": 21,
-          "norm": 1.0,
-          "weighted": 0.3
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 1696,
-          "norm": 1.0,
-          "weighted": 0.1
-        }
-      },
-      "text": "**Как не про***ать лето перед экзаменами???**\n\nСегодня в 17:00 мск поговорим про дисциплину, про мотивацию, про план и варианты подготовки к ЕГЭ. Расскажу все все все, что я знаю сам, чтобы предостеречь вас от проблем в подготовке \n\n10-классники, Будет полезно и продуктивно, приходите слушать советы\n\n📺 [YT](https://youtube.com/live/rx5howEwaIc?feature=share) / 📺 [KN](https://kinescope.io/0cBzNLnnNBDNE9o4FAJFou)",
-      "link": "https://t.me/flash_ege/14863",
-      "date": "2026-07-03T07:00:41+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    }
-  ]
+  "items": []
 }
