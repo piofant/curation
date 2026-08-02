@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-01T10:05:02.638991+00:00",
+  "generated_at": "2026-08-02T10:05:01.085528+00:00",
   "stats": {
-    "total_items": 3,
+    "total_items": 4,
     "channels_count": 3,
-    "avg_score": 0.2398,
-    "max_score": 0.2638,
+    "avg_score": 0.2573,
+    "max_score": 0.3096,
     "min_score": 0.204
   },
   "thresholds": {
-    "tertile_top_min": 0.2638,
-    "tertile_mid_min": 0.2517
+    "tertile_top_min": 0.3096,
+    "tertile_mid_min": 0.2638
   },
   "weights": {
     "Q": 0.4,
@@ -19,11 +19,45 @@
   },
   "items": [
     {
+      "id": "infa_vikusya_9894",
+      "channel": "infa_vikusya",
+      "post_id": 9894,
+      "score": 0.3096,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.08,
+          "norm": 0.4,
+          "weighted": 0.16
+        },
+        "F": {
+          "raw": 6,
+          "norm": 1.0,
+          "weighted": 0.3
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 2699,
+          "norm": 0.9246,
+          "weighted": 0.0925
+        }
+      },
+      "text": "**что выведет код выше?**\n\n🔥 — []\n❤ — [1, 1]\n⚡ — [1] \n🍓 — None",
+      "link": "https://t.me/infa_vikusya/9894",
+      "date": "2026-07-31T12:17:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "код"
+    },
+    {
       "id": "infa_vikusya_9874",
       "channel": "infa_vikusya",
       "post_id": 9874,
       "score": 0.2638,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.13,
@@ -32,8 +66,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 1.0,
-          "weighted": 0.3
+          "norm": 0.8333,
+          "weighted": 0.25
         },
         "R": {
           "raw_days_ago": 3,
@@ -57,7 +91,7 @@
       "channel": "kdrshov",
       "post_id": 4244,
       "score": 0.2517,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.2,
@@ -66,8 +100,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 1.0,
-          "weighted": 0.3
+          "norm": 0.8333,
+          "weighted": 0.25
         },
         "R": {
           "raw_days_ago": 2,
@@ -100,8 +134,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 1.0,
-          "weighted": 0.3
+          "norm": 0.8333,
+          "weighted": 0.25
         },
         "R": {
           "raw_days_ago": 3,
