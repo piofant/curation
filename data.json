@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-02T10:05:01.085528+00:00",
+  "generated_at": "2026-08-03T10:05:06.685774+00:00",
   "stats": {
-    "total_items": 4,
-    "channels_count": 3,
-    "avg_score": 0.2573,
-    "max_score": 0.3096,
+    "total_items": 6,
+    "channels_count": 4,
+    "avg_score": 0.3125,
+    "max_score": 0.6175,
     "min_score": 0.204
   },
   "thresholds": {
     "tertile_top_min": 0.3096,
-    "tertile_mid_min": 0.2638
+    "tertile_mid_min": 0.2517
   },
   "weights": {
     "Q": 0.4,
@@ -19,6 +19,40 @@
   },
   "items": [
     {
+      "id": "sofaavibe_7086",
+      "channel": "sofaavibe",
+      "post_id": 7086,
+      "score": 0.6175,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.7,
+          "norm": 1.0,
+          "weighted": 0.4
+        },
+        "F": {
+          "raw": 23,
+          "norm": 1.0,
+          "weighted": 0.3
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 748,
+          "norm": 0.2563,
+          "weighted": 0.0256
+        }
+      },
+      "text": "**на кого можно поступить, если сдаёшь ЕГЭ по инфе? **\n\nв видосе освещаю специальности связанные с айти, не только прогерские. если хотите посмотреть на эти спецы, переходите сюда 🪼\n\n📺 [смотреть вк ](https://vkvideo.ru/video-214793898_456239215?list=88c5605936652c1bfb)\n📺 [смотреть ютуб](https://youtu.be/TTJQMZd35HQ?si=f7nCC2goEv77efrW)",
+      "link": "https://t.me/sofaavibe/7086",
+      "date": "2026-08-02T13:31:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "infa_vikusya_9894",
       "channel": "infa_vikusya",
       "post_id": 9894,
@@ -27,13 +61,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.4,
-          "weighted": 0.16
+          "norm": 0.1143,
+          "weighted": 0.0457
         },
         "F": {
           "raw": 6,
-          "norm": 1.0,
-          "weighted": 0.3
+          "norm": 0.2609,
+          "weighted": 0.0783
         },
         "R": {
           "raw_days_ago": 1,
@@ -61,13 +95,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.65,
-          "weighted": 0.26
+          "norm": 0.1857,
+          "weighted": 0.0743
         },
         "F": {
           "raw": 5,
-          "norm": 0.8333,
-          "weighted": 0.25
+          "norm": 0.2174,
+          "weighted": 0.0652
         },
         "R": {
           "raw_days_ago": 3,
@@ -91,17 +125,17 @@
       "channel": "kdrshov",
       "post_id": 4244,
       "score": 0.2517,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 1.0,
-          "weighted": 0.4
+          "norm": 0.2857,
+          "weighted": 0.1143
         },
         "F": {
           "raw": 5,
-          "norm": 0.8333,
-          "weighted": 0.25
+          "norm": 0.2174,
+          "weighted": 0.0652
         },
         "R": {
           "raw_days_ago": 2,
@@ -121,6 +155,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "sofaavibe_7084",
+      "channel": "sofaavibe",
+      "post_id": 7084,
+      "score": 0.2283,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.1,
+          "norm": 0.1429,
+          "weighted": 0.0571
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.2609,
+          "weighted": 0.0783
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 1107,
+          "norm": 0.3792,
+          "weighted": 0.0379
+        }
+      },
+      "text": "**чек-лист по инфе на август** 😊\n\nпункты по типу __поплавать в речке и встретить рассвет__ вы и без меня найдете, а вот чек-лист по инфе.. в общем, скачивайте!\n\nуказала важные темы на лето, их как раз на летней подготовке изучаем. к осени в идеале базу проги понимать и еще пару заданий уметь решать\n\n💬** **[**Софа Вайб | Подготовка к ЕГЭ по информатике**](https://t.me/sofaavibe)",
+      "link": "https://t.me/sofaavibe/7084",
+      "date": "2026-08-01T13:24:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "informatik_bu_6994",
       "channel": "informatik_bu",
       "post_id": 6994,
@@ -129,13 +197,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.65,
-          "weighted": 0.26
+          "norm": 0.1857,
+          "weighted": 0.0743
         },
         "F": {
           "raw": 5,
-          "norm": 0.8333,
-          "weighted": 0.25
+          "norm": 0.2174,
+          "weighted": 0.0652
         },
         "R": {
           "raw_days_ago": 3,
