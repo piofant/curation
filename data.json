@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-09T10:05:06.856038+00:00",
+  "generated_at": "2026-08-10T10:05:05.752054+00:00",
   "stats": {
-    "total_items": 25,
-    "channels_count": 7,
-    "avg_score": 0.3407,
-    "max_score": 0.735,
+    "total_items": 28,
+    "channels_count": 9,
+    "avg_score": 0.349,
+    "max_score": 0.6571,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.3954,
-    "tertile_mid_min": 0.2968
+    "tertile_top_min": 0.4046,
+    "tertile_mid_min": 0.3036
   },
   "weights": {
     "Q": 0.4,
@@ -19,19 +19,53 @@
   },
   "items": [
     {
-      "id": "infa_vikusya_9917",
+      "id": "fsprussia_2171",
+      "channel": "fsprussia",
+      "post_id": 2171,
+      "score": 0.6571,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.5,
+          "norm": 1.0,
+          "weighted": 0.4
+        },
+        "F": {
+          "raw": 11,
+          "norm": 0.5789,
+          "weighted": 0.1737
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 505,
+          "norm": 0.163,
+          "weighted": 0.0163
+        }
+      },
+      "text": "📚** Что почитать спортивному программисту?**\n\nПрактика остаётся основой подготовки спортсмена, но книги помогают систематизировать знания, разобраться в сложных темах и посмотреть на привычные задачи с новой стороны.\n\n➡️ На какие направления литературы стоит обратить внимание?\n\n⚪️** Алгоритмы и структуры данных**\n\nТакие книги помогают понять основные подходы к решению задач, научиться оценивать эффективность программ и выбирать подходящий алгоритм.\n\n⚪️** Языки программирования**\n\nЗнание синтакси",
+      "link": "https://t.me/fsprussia/2171",
+      "date": "2026-08-09T11:14:00+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "код"
+    },
+    {
+      "id": "infa_vikusya_9929",
       "channel": "infa_vikusya",
-      "post_id": 9917,
-      "score": 0.735,
+      "post_id": 9929,
+      "score": 0.5876,
       "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.5208,
-          "weighted": 0.2083
+          "norm": 0.5,
+          "weighted": 0.2
         },
         "F": {
-          "raw": 27,
+          "raw": 19,
           "norm": 1.0,
           "weighted": 0.3
         },
@@ -41,14 +75,14 @@
           "weighted": 0.2
         },
         "V": {
-          "raw": 3064,
-          "norm": 0.9887,
-          "weighted": 0.0989
+          "raw": 2920,
+          "norm": 0.9422,
+          "weighted": 0.0942
         }
       },
-      "text": "**ЕГЭ отменили??** неттт!!\n\nно теперь важная новость: все экзамены будут начинаться не ранее 1 июня. то есть у нас есть полный май, чтобы готовиться ко всем предметам\n\nхорошая ли новость? кому как. кто-то хочет быстрее сдать и отмучаться, для кого-то это плюс. экзамен по инфе всегда славился своим долгим периодом простоя с остальными предметами. то есть была минимум одна неделя для жесткой подготовки и повторения всего материала, ведь в конце мая все силы уже всегда переводились на русский и про",
-      "link": "https://t.me/infa_vikusya/9917",
-      "date": "2026-08-06T17:56:10+00:00",
+      "text": "**ДВИ в детский садик солнышко!! **\n\nтак как №1 из егэ по инфе на гравы супер изи - его предоставляют нашим детишкам в качестве доп задания при отборе в садики\n\nеще больше разборов заданий егэ можете[ найти в моем тик-токе](https://www.tiktok.com/@kegeinfa) 🎥",
+      "link": "https://t.me/infa_vikusya/9929",
+      "date": "2026-08-09T12:27:41+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
       "keyword": "ЕГЭ"
     },
@@ -61,13 +95,13 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.5208,
-          "weighted": 0.2083
+          "norm": 0.5,
+          "weighted": 0.2
         },
         "F": {
           "raw": 7,
-          "norm": 0.2593,
-          "weighted": 0.0778
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -95,13 +129,13 @@
       "components": {
         "Q": {
           "raw": 0.27,
-          "norm": 0.5625,
-          "weighted": 0.225
+          "norm": 0.54,
+          "weighted": 0.216
         },
         "F": {
           "raw": 12,
-          "norm": 0.4444,
-          "weighted": 0.1333
+          "norm": 0.6316,
+          "weighted": 0.1895
         },
         "R": {
           "raw_days_ago": 1,
@@ -129,13 +163,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 12,
-          "norm": 0.4444,
-          "weighted": 0.1333
+          "norm": 0.6316,
+          "weighted": 0.1895
         },
         "R": {
           "raw_days_ago": 0,
@@ -155,6 +189,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "iliiasagalov_100points_6244",
+      "channel": "iliiasagalov_100points",
+      "post_id": 6244,
+      "score": 0.4421,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.28,
+          "norm": 0.56,
+          "weighted": 0.224
+        },
+        "F": {
+          "raw": 12,
+          "norm": 0.6316,
+          "weighted": 0.1895
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 696,
+          "norm": 0.2246,
+          "weighted": 0.0225
+        }
+      },
+      "text": "Ладно, вижу, что хотите)\n\nЛовите файлик про задания, кодификатор, спецификатор — это самое важное, на что мы ориентируемся при подготовке!",
+      "link": "https://t.me/iliiasagalov_100points/6244",
+      "date": "2026-08-09T09:09:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "код"
+    },
+    {
       "id": "profimatika_Inf_5077",
       "channel": "profimatika_Inf",
       "post_id": 5077,
@@ -163,13 +231,13 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.8333,
-          "weighted": 0.3333
+          "norm": 0.8,
+          "weighted": 0.32
         },
         "F": {
           "raw": 8,
-          "norm": 0.2963,
-          "weighted": 0.0889
+          "norm": 0.4211,
+          "weighted": 0.1263
         },
         "R": {
           "raw_days_ago": 0,
@@ -197,13 +265,13 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.4792,
-          "weighted": 0.1917
+          "norm": 0.46,
+          "weighted": 0.184
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 0,
@@ -231,13 +299,13 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.7292,
-          "weighted": 0.2917
+          "norm": 0.7,
+          "weighted": 0.28
         },
         "F": {
           "raw": 9,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.4737,
+          "weighted": 0.1421
         },
         "R": {
           "raw_days_ago": 0,
@@ -261,17 +329,17 @@
       "channel": "profimatika_Inf",
       "post_id": 5075,
       "score": 0.3954,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 1.0,
-          "weighted": 0.4
+          "norm": 0.96,
+          "weighted": 0.384
         },
         "F": {
           "raw": 6,
-          "norm": 0.2222,
-          "weighted": 0.0667
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 1,
@@ -299,13 +367,13 @@
       "components": {
         "Q": {
           "raw": 0.22,
-          "norm": 0.4583,
-          "weighted": 0.1833
+          "norm": 0.44,
+          "weighted": 0.176
         },
         "F": {
           "raw": 15,
-          "norm": 0.5556,
-          "weighted": 0.1667
+          "norm": 0.7895,
+          "weighted": 0.2368
         },
         "R": {
           "raw_days_ago": 0,
@@ -333,13 +401,13 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.5833,
-          "weighted": 0.2333
+          "norm": 0.56,
+          "weighted": 0.224
         },
         "F": {
           "raw": 11,
-          "norm": 0.4074,
-          "weighted": 0.1222
+          "norm": 0.5789,
+          "weighted": 0.1737
         },
         "R": {
           "raw_days_ago": 0,
@@ -367,13 +435,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 6,
-          "norm": 0.2222,
-          "weighted": 0.0667
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -401,13 +469,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 0,
@@ -435,13 +503,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 6,
-          "norm": 0.2222,
-          "weighted": 0.0667
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 1,
@@ -469,13 +537,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 6,
-          "norm": 0.2222,
-          "weighted": 0.0667
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -503,13 +571,13 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.1458,
-          "weighted": 0.0583
+          "norm": 0.14,
+          "weighted": 0.056
         },
         "F": {
           "raw": 6,
-          "norm": 0.2222,
-          "weighted": 0.0667
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -529,21 +597,55 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "sofaavibe_7113",
+      "channel": "sofaavibe",
+      "post_id": 7113,
+      "score": 0.3036,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.13,
+          "norm": 0.26,
+          "weighted": 0.104
+        },
+        "F": {
+          "raw": 7,
+          "norm": 0.3684,
+          "weighted": 0.1105
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 1072,
+          "norm": 0.3459,
+          "weighted": 0.0346
+        }
+      },
+      "text": "**__информационные системы и технологии__** – спеца про работу с данными в разных отраслях  \n\n🖇️ направление с множеством ответвлений, всё будет зависеть от профиля. от вуза к вузу они отличаются, поэтому языки программирования и предметы тоже везде разные\n\nна ит нет чёткого упора на конкретную область айтишки, с неё выпускают абсолютно разных спецов \n\nчто с проходными? 👇🏻\nСПБГУ – 280\nКФУ – 276 \nМГТУ им. БАУМАНА – 284\n\nесли вам нравится прога, но вы пока не поняли кем бы конкретно хотели работат",
+      "link": "https://t.me/sofaavibe/7113",
+      "date": "2026-08-08T14:34:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "прога"
+    },
+    {
       "id": "infa_vikusya_9910",
       "channel": "infa_vikusya",
       "post_id": 9910,
       "score": 0.2968,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 7,
-          "norm": 0.2593,
-          "weighted": 0.0778
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -571,13 +673,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 0,
@@ -605,13 +707,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2708,
-          "weighted": 0.1083
+          "norm": 0.26,
+          "weighted": 0.104
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 3,
@@ -639,13 +741,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 2,
@@ -673,13 +775,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 1,
@@ -707,13 +809,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1042,
-          "weighted": 0.0417
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 2,
@@ -741,13 +843,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 6,
-          "norm": 0.2222,
-          "weighted": 0.0667
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 1,
@@ -775,13 +877,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2708,
-          "weighted": 0.1083
+          "norm": 0.26,
+          "weighted": 0.104
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 3,
@@ -809,13 +911,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 5,
-          "norm": 0.1852,
-          "weighted": 0.0556
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 2,
@@ -843,13 +945,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1042,
-          "weighted": 0.0417
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 6,
-          "norm": 0.2222,
-          "weighted": 0.0667
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 2,
