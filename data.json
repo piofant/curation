@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-11T10:05:09.694309+00:00",
+  "generated_at": "2026-08-12T10:05:01.702047+00:00",
   "stats": {
-    "total_items": 30,
+    "total_items": 33,
     "channels_count": 8,
-    "avg_score": 0.3536,
+    "avg_score": 0.3629,
     "max_score": 0.5988,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.4046,
-    "tertile_mid_min": 0.3036
+    "tertile_top_min": 0.4207,
+    "tertile_mid_min": 0.304
   },
   "weights": {
     "Q": 0.4,
@@ -118,6 +118,40 @@
       "link": "https://t.me/infa_vikusya/9935",
       "date": "2026-08-10T16:35:11+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "infa_vikusya_9941",
+      "channel": "infa_vikusya",
+      "post_id": 9941,
+      "score": 0.5229,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.15,
+          "norm": 0.3125,
+          "weighted": 0.125
+        },
+        "F": {
+          "raw": 12,
+          "norm": 0.6316,
+          "weighted": 0.1895
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1545,
+          "norm": 0.4985,
+          "weighted": 0.0499
+        }
+      },
+      "text": "вместо привычного егэ по инфе ждем сложность чемпионата мира по проге ICPC??",
+      "link": "https://t.me/infa_vikusya/9941",
+      "date": "2026-08-12T06:43:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
       "keyword": "ЕГЭ"
     },
     {
@@ -257,6 +291,40 @@
       "keyword": "код"
     },
     {
+      "id": "kdrshov_4325",
+      "channel": "kdrshov",
+      "post_id": 4325,
+      "score": 0.4246,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.15,
+          "norm": 0.3125,
+          "weighted": 0.125
+        },
+        "F": {
+          "raw": 7,
+          "norm": 0.3684,
+          "weighted": 0.1105
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 361,
+          "norm": 0.1165,
+          "weighted": 0.0116
+        }
+      },
+      "text": "**Что делать с ЕГЭ? **\n\n❤️ - отбурмалдить/осеменить\n🔥 - оставить \n😈 - отменить",
+      "link": "https://t.me/kdrshov/4325",
+      "date": "2026-08-11T16:57:47+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "profimatika_Inf_5077",
       "channel": "profimatika_Inf",
       "post_id": 5077,
@@ -291,11 +359,45 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "infa_vikusya_9937",
+      "channel": "infa_vikusya",
+      "post_id": 9937,
+      "score": 0.4207,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.08,
+          "norm": 0.1667,
+          "weighted": 0.0667
+        },
+        "F": {
+          "raw": 7,
+          "norm": 0.3684,
+          "weighted": 0.1105
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 2409,
+          "norm": 0.7773,
+          "weighted": 0.0777
+        }
+      },
+      "text": "такой №11. решаем кодом. сможете найти где тут есть ошибка??",
+      "link": "https://t.me/infa_vikusya/9937",
+      "date": "2026-08-11T12:41:56+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "код"
+    },
+    {
       "id": "kdrshov_4306",
       "channel": "kdrshov",
       "post_id": 4306,
       "score": 0.41,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.23,
@@ -329,7 +431,7 @@
       "channel": "senya_infa",
       "post_id": 4147,
       "score": 0.4046,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.35,
@@ -669,7 +771,7 @@
       "channel": "sofaavibe",
       "post_id": 7113,
       "score": 0.3036,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.13,
