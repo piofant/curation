@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-16T10:05:09.632722+00:00",
+  "generated_at": "2026-08-17T10:05:07.262934+00:00",
   "stats": {
-    "total_items": 42,
+    "total_items": 46,
     "channels_count": 11,
-    "avg_score": 0.3878,
-    "max_score": 0.6231,
+    "avg_score": 0.4006,
+    "max_score": 0.8574,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.4421,
+    "tertile_top_min": 0.444,
     "tertile_mid_min": 0.3283
   },
   "weights": {
@@ -19,6 +19,74 @@
   },
   "items": [
     {
+      "id": "flash_ege_15254",
+      "channel": "flash_ege",
+      "post_id": 15254,
+      "score": 0.8574,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.68,
+          "norm": 1.0,
+          "weighted": 0.4
+        },
+        "F": {
+          "raw": 58,
+          "norm": 1.0,
+          "weighted": 0.3
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1887,
+          "norm": 0.6089,
+          "weighted": 0.0609
+        }
+      },
+      "text": "Неожиданно появилась новая информация от ФИПИ по ЕГЭ 2027!\n\nПохоже 10 задание на поиск в ворде уберут и добавят новое задание на графы)\n\nДругих изменений не планируется)\nИнтересно какое задание добавят , вернут ли старое задание , которое убрали в 2023 году)\n\nКак думаете , что лучше 10 или на графы?)",
+      "link": "https://t.me/flash_ege/15254",
+      "date": "2026-08-16T14:39:46+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "pro100ege68_1217",
+      "channel": "pro100ege68",
+      "post_id": 1217,
+      "score": 0.6842,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.58,
+          "norm": 0.8529,
+          "weighted": 0.3412
+        },
+        "F": {
+          "raw": 33,
+          "norm": 0.569,
+          "weighted": 0.1707
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 960,
+          "norm": 0.3098,
+          "weighted": 0.031
+        }
+      },
+      "text": "**Информатика ЕГЭ 2027**\n\nПланируемые изменения в ЕГЭ по информатике. \n\n1. Прекрасная новость, что удалили десятое задание. \n\n2. Добавлено ещё одно задание на графы. Как оно будет выглядеть мы не знаем. __\n__Удалено задание на информационный поиск средствами текстового процессора (задание номер 10), добавлено задание на анализ графов.\nИсточник: https://4ege.ru/ege-gia/80596-planiruemye-izmenenija-v-kim-gia-2027.html.\n__\n__📚 Наш годовой курс для подготовки к ЕГЭ: https://stepik.org/a/125485.",
+      "link": "https://t.me/pro100ege68/1217",
+      "date": "2026-08-16T13:28:23+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "sofaavibe_7146",
       "channel": "sofaavibe",
       "post_id": 7146,
@@ -27,13 +95,13 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.7292,
-          "weighted": 0.2917
+          "norm": 0.5147,
+          "weighted": 0.2059
         },
         "F": {
           "raw": 8,
-          "norm": 0.4211,
-          "weighted": 0.1263
+          "norm": 0.1379,
+          "weighted": 0.0414
         },
         "R": {
           "raw_days_ago": 0,
@@ -61,13 +129,13 @@
       "components": {
         "Q": {
           "raw": 0.37,
-          "norm": 0.7708,
-          "weighted": 0.3083
+          "norm": 0.5441,
+          "weighted": 0.2176
         },
         "F": {
           "raw": 7,
-          "norm": 0.3684,
-          "weighted": 0.1105
+          "norm": 0.1207,
+          "weighted": 0.0362
         },
         "R": {
           "raw_days_ago": 0,
@@ -95,13 +163,13 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.5208,
-          "weighted": 0.2083
+          "norm": 0.3676,
+          "weighted": 0.1471
         },
         "F": {
           "raw": 19,
-          "norm": 1.0,
-          "weighted": 0.3
+          "norm": 0.3276,
+          "weighted": 0.0983
         },
         "R": {
           "raw_days_ago": 0,
@@ -129,13 +197,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.1471,
+          "weighted": 0.0588
         },
         "F": {
           "raw": 9,
-          "norm": 0.4737,
-          "weighted": 0.1421
+          "norm": 0.1552,
+          "weighted": 0.0466
         },
         "R": {
           "raw_days_ago": 0,
@@ -163,13 +231,13 @@
       "components": {
         "Q": {
           "raw": 0.33,
-          "norm": 0.6875,
-          "weighted": 0.275
+          "norm": 0.4853,
+          "weighted": 0.1941
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 1,
@@ -197,13 +265,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 8,
-          "norm": 0.4211,
-          "weighted": 0.1263
+          "norm": 0.1379,
+          "weighted": 0.0414
         },
         "R": {
           "raw_days_ago": 0,
@@ -231,13 +299,13 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.3125,
-          "weighted": 0.125
+          "norm": 0.2206,
+          "weighted": 0.0882
         },
         "F": {
           "raw": 12,
-          "norm": 0.6316,
-          "weighted": 0.1895
+          "norm": 0.2069,
+          "weighted": 0.0621
         },
         "R": {
           "raw_days_ago": 0,
@@ -265,13 +333,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 0,
@@ -299,13 +367,13 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.5208,
-          "weighted": 0.2083
+          "norm": 0.3676,
+          "weighted": 0.1471
         },
         "F": {
           "raw": 7,
-          "norm": 0.3684,
-          "weighted": 0.1105
+          "norm": 0.1207,
+          "weighted": 0.0362
         },
         "R": {
           "raw_days_ago": 0,
@@ -333,13 +401,13 @@
       "components": {
         "Q": {
           "raw": 0.27,
-          "norm": 0.5625,
-          "weighted": 0.225
+          "norm": 0.3971,
+          "weighted": 0.1588
         },
         "F": {
           "raw": 12,
-          "norm": 0.6316,
-          "weighted": 0.1895
+          "norm": 0.2069,
+          "weighted": 0.0621
         },
         "R": {
           "raw_days_ago": 1,
@@ -367,13 +435,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 12,
-          "norm": 0.6316,
-          "weighted": 0.1895
+          "norm": 0.2069,
+          "weighted": 0.0621
         },
         "R": {
           "raw_days_ago": 0,
@@ -401,13 +469,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.1471,
+          "weighted": 0.0588
         },
         "F": {
           "raw": 9,
-          "norm": 0.4737,
-          "weighted": 0.1421
+          "norm": 0.1552,
+          "weighted": 0.0466
         },
         "R": {
           "raw_days_ago": 0,
@@ -435,13 +503,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 0,
@@ -465,17 +533,17 @@
       "channel": "iliiasagalov_100points",
       "post_id": 6244,
       "score": 0.4421,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.5833,
-          "weighted": 0.2333
+          "norm": 0.4118,
+          "weighted": 0.1647
         },
         "F": {
           "raw": 12,
-          "norm": 0.6316,
-          "weighted": 0.1895
+          "norm": 0.2069,
+          "weighted": 0.0621
         },
         "R": {
           "raw_days_ago": 1,
@@ -503,13 +571,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.1176,
+          "weighted": 0.0471
         },
         "F": {
           "raw": 8,
-          "norm": 0.4211,
-          "weighted": 0.1263
+          "norm": 0.1379,
+          "weighted": 0.0414
         },
         "R": {
           "raw_days_ago": 0,
@@ -537,13 +605,13 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.3125,
-          "weighted": 0.125
+          "norm": 0.2206,
+          "weighted": 0.0882
         },
         "F": {
           "raw": 7,
-          "norm": 0.3684,
-          "weighted": 0.1105
+          "norm": 0.1207,
+          "weighted": 0.0362
         },
         "R": {
           "raw_days_ago": 0,
@@ -571,13 +639,13 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.8333,
-          "weighted": 0.3333
+          "norm": 0.5882,
+          "weighted": 0.2353
         },
         "F": {
           "raw": 8,
-          "norm": 0.4211,
-          "weighted": 0.1263
+          "norm": 0.1379,
+          "weighted": 0.0414
         },
         "R": {
           "raw_days_ago": 0,
@@ -605,13 +673,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.1176,
+          "weighted": 0.0471
         },
         "F": {
           "raw": 7,
-          "norm": 0.3684,
-          "weighted": 0.1105
+          "norm": 0.1207,
+          "weighted": 0.0362
         },
         "R": {
           "raw_days_ago": 0,
@@ -639,13 +707,13 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.4792,
-          "weighted": 0.1917
+          "norm": 0.3382,
+          "weighted": 0.1353
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 0,
@@ -673,13 +741,13 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.7292,
-          "weighted": 0.2917
+          "norm": 0.5147,
+          "weighted": 0.2059
         },
         "F": {
           "raw": 9,
-          "norm": 0.4737,
-          "weighted": 0.1421
+          "norm": 0.1552,
+          "weighted": 0.0466
         },
         "R": {
           "raw_days_ago": 0,
@@ -707,13 +775,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2708,
-          "weighted": 0.1083
+          "norm": 0.1912,
+          "weighted": 0.0765
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 0,
@@ -741,13 +809,13 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 1.0,
-          "weighted": 0.4
+          "norm": 0.7059,
+          "weighted": 0.2824
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 1,
@@ -775,13 +843,13 @@
       "components": {
         "Q": {
           "raw": 0.22,
-          "norm": 0.4583,
-          "weighted": 0.1833
+          "norm": 0.3235,
+          "weighted": 0.1294
         },
         "F": {
           "raw": 15,
-          "norm": 0.7895,
-          "weighted": 0.2368
+          "norm": 0.2586,
+          "weighted": 0.0776
         },
         "R": {
           "raw_days_ago": 0,
@@ -809,13 +877,13 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.5833,
-          "weighted": 0.2333
+          "norm": 0.4118,
+          "weighted": 0.1647
         },
         "F": {
           "raw": 11,
-          "norm": 0.5789,
-          "weighted": 0.1737
+          "norm": 0.1897,
+          "weighted": 0.0569
         },
         "R": {
           "raw_days_ago": 0,
@@ -843,13 +911,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.1471,
+          "weighted": 0.0588
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 0,
@@ -877,13 +945,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1042,
-          "weighted": 0.0417
+          "norm": 0.0735,
+          "weighted": 0.0294
         },
         "F": {
           "raw": 7,
-          "norm": 0.3684,
-          "weighted": 0.1105
+          "norm": 0.1207,
+          "weighted": 0.0362
         },
         "R": {
           "raw_days_ago": 0,
@@ -911,13 +979,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.1471,
+          "weighted": 0.0588
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 0,
@@ -945,13 +1013,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 0,
@@ -971,6 +1039,40 @@
       "keyword": "код"
     },
     {
+      "id": "sofaavibe_7151",
+      "channel": "sofaavibe",
+      "post_id": 7151,
+      "score": 0.318,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.1,
+          "norm": 0.1471,
+          "weighted": 0.0588
+        },
+        "F": {
+          "raw": 9,
+          "norm": 0.1552,
+          "weighted": 0.0466
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 924,
+          "norm": 0.2982,
+          "weighted": 0.0298
+        }
+      },
+      "text": "**Изи балла за 10 номер ЕГЭ больше не будет???**\n\nпоходу ожидаем изменения ЕГЭ по инфе и профилю, скоро все узнаем.. \n\nхорошо, что в 10 классе начнем и успеем со всем разобраться ☺️",
+      "link": "https://t.me/sofaavibe/7151",
+      "date": "2026-08-16T13:59:46+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "infa_vikusya_9894",
       "channel": "infa_vikusya",
       "post_id": 9894,
@@ -979,13 +1081,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.1176,
+          "weighted": 0.0471
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 1,
@@ -1013,13 +1115,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.1176,
+          "weighted": 0.0471
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 0,
@@ -1047,13 +1149,13 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.1458,
-          "weighted": 0.0583
+          "norm": 0.1029,
+          "weighted": 0.0412
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 0,
@@ -1081,13 +1183,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2708,
-          "weighted": 0.1083
+          "norm": 0.1912,
+          "weighted": 0.0765
         },
         "F": {
           "raw": 7,
-          "norm": 0.3684,
-          "weighted": 0.1105
+          "norm": 0.1207,
+          "weighted": 0.0362
         },
         "R": {
           "raw_days_ago": 1,
@@ -1115,13 +1217,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.1176,
+          "weighted": 0.0471
         },
         "F": {
           "raw": 7,
-          "norm": 0.3684,
-          "weighted": 0.1105
+          "norm": 0.1207,
+          "weighted": 0.0362
         },
         "R": {
           "raw_days_ago": 0,
@@ -1149,13 +1251,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.1471,
+          "weighted": 0.0588
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 0,
@@ -1175,6 +1277,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "informatik_bu_7128",
+      "channel": "informatik_bu",
+      "post_id": 7128,
+      "score": 0.2806,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.05,
+          "norm": 0.0735,
+          "weighted": 0.0294
+        },
+        "F": {
+          "raw": 7,
+          "norm": 0.1207,
+          "weighted": 0.0362
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 890,
+          "norm": 0.2872,
+          "weighted": 0.0287
+        }
+      },
+      "text": "**Какое вы задание из ЕГЭ по информатике по вайбу? \n**\nПройдите развлекательный 🔲[тест](https://www.testwizard.ru/test.php?id=233758)🔲и узнайте. 😏",
+      "link": "https://t.me/informatik_bu/7128",
+      "date": "2026-08-16T14:05:16+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "infa_vikusya_9874",
       "channel": "infa_vikusya",
       "post_id": 9874,
@@ -1183,13 +1319,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2708,
-          "weighted": 0.1083
+          "norm": 0.1912,
+          "weighted": 0.0765
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 3,
@@ -1217,13 +1353,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 2,
@@ -1251,13 +1387,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1667,
-          "weighted": 0.0667
+          "norm": 0.1176,
+          "weighted": 0.0471
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 1,
@@ -1285,13 +1421,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1042,
-          "weighted": 0.0417
+          "norm": 0.0735,
+          "weighted": 0.0294
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 2,
@@ -1319,13 +1455,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2083,
-          "weighted": 0.0833
+          "norm": 0.1471,
+          "weighted": 0.0588
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 1,
@@ -1353,13 +1489,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2708,
-          "weighted": 0.1083
+          "norm": 0.1912,
+          "weighted": 0.0765
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 3,
@@ -1387,13 +1523,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 5,
-          "norm": 0.2632,
-          "weighted": 0.0789
+          "norm": 0.0862,
+          "weighted": 0.0259
         },
         "R": {
           "raw_days_ago": 2,
@@ -1421,13 +1557,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1042,
-          "weighted": 0.0417
+          "norm": 0.0735,
+          "weighted": 0.0294
         },
         "F": {
           "raw": 6,
-          "norm": 0.3158,
-          "weighted": 0.0947
+          "norm": 0.1034,
+          "weighted": 0.031
         },
         "R": {
           "raw_days_ago": 2,
