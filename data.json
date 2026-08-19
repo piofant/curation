@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-18T10:05:07.388697+00:00",
+  "generated_at": "2026-08-19T10:05:10.901586+00:00",
   "stats": {
-    "total_items": 47,
+    "total_items": 48,
     "channels_count": 11,
-    "avg_score": 0.3965,
-    "max_score": 0.6842,
+    "avg_score": 0.3841,
+    "max_score": 0.6287,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.444,
-    "tertile_mid_min": 0.3283
+    "tertile_top_min": 0.4364,
+    "tertile_mid_min": 0.3096
   },
   "weights": {
     "Q": 0.4,
@@ -19,40 +19,6 @@
   },
   "items": [
     {
-      "id": "pro100ege68_1217",
-      "channel": "pro100ege68",
-      "post_id": 1217,
-      "score": 0.6842,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.58,
-          "norm": 1.0,
-          "weighted": 0.4
-        },
-        "F": {
-          "raw": 33,
-          "norm": 1.0,
-          "weighted": 0.3
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 960,
-          "norm": 0.3098,
-          "weighted": 0.031
-        }
-      },
-      "text": "**Информатика ЕГЭ 2027**\n\nПланируемые изменения в ЕГЭ по информатике. \n\n1. Прекрасная новость, что удалили десятое задание. \n\n2. Добавлено ещё одно задание на графы. Как оно будет выглядеть мы не знаем. __\n__Удалено задание на информационный поиск средствами текстового процессора (задание номер 10), добавлено задание на анализ графов.\nИсточник: https://4ege.ru/ege-gia/80596-planiruemye-izmenenija-v-kim-gia-2027.html.\n__\n__📚 Наш годовой курс для подготовки к ЕГЭ: https://stepik.org/a/125485.",
-      "link": "https://t.me/pro100ege68/1217",
-      "date": "2026-08-16T13:28:23+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
-    {
       "id": "sofaavibe_7156",
       "channel": "sofaavibe",
       "post_id": 7156,
@@ -61,13 +27,13 @@
       "components": {
         "Q": {
           "raw": 0.51,
-          "norm": 0.8793,
-          "weighted": 0.3517
+          "norm": 1.0,
+          "weighted": 0.4
         },
         "F": {
           "raw": 17,
-          "norm": 0.5152,
-          "weighted": 0.1545
+          "norm": 0.8947,
+          "weighted": 0.2684
         },
         "R": {
           "raw_days_ago": 0,
@@ -95,13 +61,13 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.6034,
-          "weighted": 0.2414
+          "norm": 0.6863,
+          "weighted": 0.2745
         },
         "F": {
           "raw": 8,
-          "norm": 0.2424,
-          "weighted": 0.0727
+          "norm": 0.4211,
+          "weighted": 0.1263
         },
         "R": {
           "raw_days_ago": 0,
@@ -129,13 +95,13 @@
       "components": {
         "Q": {
           "raw": 0.37,
-          "norm": 0.6379,
-          "weighted": 0.2552
+          "norm": 0.7255,
+          "weighted": 0.2902
         },
         "F": {
           "raw": 7,
-          "norm": 0.2121,
-          "weighted": 0.0636
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -163,13 +129,13 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.431,
-          "weighted": 0.1724
+          "norm": 0.4902,
+          "weighted": 0.1961
         },
         "F": {
           "raw": 19,
-          "norm": 0.5758,
-          "weighted": 0.1727
+          "norm": 1.0,
+          "weighted": 0.3
         },
         "R": {
           "raw_days_ago": 0,
@@ -197,13 +163,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1724,
-          "weighted": 0.069
+          "norm": 0.1961,
+          "weighted": 0.0784
         },
         "F": {
           "raw": 9,
-          "norm": 0.2727,
-          "weighted": 0.0818
+          "norm": 0.4737,
+          "weighted": 0.1421
         },
         "R": {
           "raw_days_ago": 0,
@@ -231,13 +197,13 @@
       "components": {
         "Q": {
           "raw": 0.33,
-          "norm": 0.569,
-          "weighted": 0.2276
+          "norm": 0.6471,
+          "weighted": 0.2588
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 1,
@@ -265,13 +231,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.3448,
-          "weighted": 0.1379
+          "norm": 0.3922,
+          "weighted": 0.1569
         },
         "F": {
           "raw": 8,
-          "norm": 0.2424,
-          "weighted": 0.0727
+          "norm": 0.4211,
+          "weighted": 0.1263
         },
         "R": {
           "raw_days_ago": 0,
@@ -299,13 +265,13 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.2586,
-          "weighted": 0.1034
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 12,
-          "norm": 0.3636,
-          "weighted": 0.1091
+          "norm": 0.6316,
+          "weighted": 0.1895
         },
         "R": {
           "raw_days_ago": 0,
@@ -333,13 +299,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.3448,
-          "weighted": 0.1379
+          "norm": 0.3922,
+          "weighted": 0.1569
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -367,13 +333,13 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.431,
-          "weighted": 0.1724
+          "norm": 0.4902,
+          "weighted": 0.1961
         },
         "F": {
           "raw": 7,
-          "norm": 0.2121,
-          "weighted": 0.0636
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -401,13 +367,13 @@
       "components": {
         "Q": {
           "raw": 0.27,
-          "norm": 0.4655,
-          "weighted": 0.1862
+          "norm": 0.5294,
+          "weighted": 0.2118
         },
         "F": {
           "raw": 12,
-          "norm": 0.3636,
-          "weighted": 0.1091
+          "norm": 0.6316,
+          "weighted": 0.1895
         },
         "R": {
           "raw_days_ago": 1,
@@ -435,13 +401,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.3448,
-          "weighted": 0.1379
+          "norm": 0.3922,
+          "weighted": 0.1569
         },
         "F": {
           "raw": 12,
-          "norm": 0.3636,
-          "weighted": 0.1091
+          "norm": 0.6316,
+          "weighted": 0.1895
         },
         "R": {
           "raw_days_ago": 0,
@@ -469,13 +435,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1724,
-          "weighted": 0.069
+          "norm": 0.1961,
+          "weighted": 0.0784
         },
         "F": {
           "raw": 9,
-          "norm": 0.2727,
-          "weighted": 0.0818
+          "norm": 0.4737,
+          "weighted": 0.1421
         },
         "R": {
           "raw_days_ago": 0,
@@ -503,13 +469,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.3448,
-          "weighted": 0.1379
+          "norm": 0.3922,
+          "weighted": 0.1569
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 0,
@@ -533,17 +499,17 @@
       "channel": "iliiasagalov_100points",
       "post_id": 6244,
       "score": 0.4421,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.4828,
-          "weighted": 0.1931
+          "norm": 0.549,
+          "weighted": 0.2196
         },
         "F": {
           "raw": 12,
-          "norm": 0.3636,
-          "weighted": 0.1091
+          "norm": 0.6316,
+          "weighted": 0.1895
         },
         "R": {
           "raw_days_ago": 1,
@@ -567,17 +533,17 @@
       "channel": "flash_ege",
       "post_id": 15261,
       "score": 0.4364,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.4828,
-          "weighted": 0.1931
+          "norm": 0.549,
+          "weighted": 0.2196
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -605,13 +571,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1379,
-          "weighted": 0.0552
+          "norm": 0.1569,
+          "weighted": 0.0627
         },
         "F": {
           "raw": 8,
-          "norm": 0.2424,
-          "weighted": 0.0727
+          "norm": 0.4211,
+          "weighted": 0.1263
         },
         "R": {
           "raw_days_ago": 0,
@@ -639,13 +605,13 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.2586,
-          "weighted": 0.1034
+          "norm": 0.2941,
+          "weighted": 0.1176
         },
         "F": {
           "raw": 7,
-          "norm": 0.2121,
-          "weighted": 0.0636
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -673,13 +639,13 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.6897,
-          "weighted": 0.2759
+          "norm": 0.7843,
+          "weighted": 0.3137
         },
         "F": {
           "raw": 8,
-          "norm": 0.2424,
-          "weighted": 0.0727
+          "norm": 0.4211,
+          "weighted": 0.1263
         },
         "R": {
           "raw_days_ago": 0,
@@ -707,13 +673,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1379,
-          "weighted": 0.0552
+          "norm": 0.1569,
+          "weighted": 0.0627
         },
         "F": {
           "raw": 7,
-          "norm": 0.2121,
-          "weighted": 0.0636
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -741,13 +707,13 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.3966,
-          "weighted": 0.1586
+          "norm": 0.451,
+          "weighted": 0.1804
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 0,
@@ -775,13 +741,13 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.6034,
-          "weighted": 0.2414
+          "norm": 0.6863,
+          "weighted": 0.2745
         },
         "F": {
           "raw": 9,
-          "norm": 0.2727,
-          "weighted": 0.0818
+          "norm": 0.4737,
+          "weighted": 0.1421
         },
         "R": {
           "raw_days_ago": 0,
@@ -809,13 +775,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2241,
-          "weighted": 0.0897
+          "norm": 0.2549,
+          "weighted": 0.102
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -843,13 +809,13 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.8276,
-          "weighted": 0.331
+          "norm": 0.9412,
+          "weighted": 0.3765
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 1,
@@ -877,13 +843,13 @@
       "components": {
         "Q": {
           "raw": 0.22,
-          "norm": 0.3793,
-          "weighted": 0.1517
+          "norm": 0.4314,
+          "weighted": 0.1725
         },
         "F": {
           "raw": 15,
-          "norm": 0.4545,
-          "weighted": 0.1364
+          "norm": 0.7895,
+          "weighted": 0.2368
         },
         "R": {
           "raw_days_ago": 0,
@@ -911,13 +877,13 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.4828,
-          "weighted": 0.1931
+          "norm": 0.549,
+          "weighted": 0.2196
         },
         "F": {
           "raw": 11,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.5789,
+          "weighted": 0.1737
         },
         "R": {
           "raw_days_ago": 0,
@@ -945,13 +911,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1724,
-          "weighted": 0.069
+          "norm": 0.1961,
+          "weighted": 0.0784
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 0,
@@ -979,13 +945,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0862,
-          "weighted": 0.0345
+          "norm": 0.098,
+          "weighted": 0.0392
         },
         "F": {
           "raw": 7,
-          "norm": 0.2121,
-          "weighted": 0.0636
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -1013,13 +979,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1724,
-          "weighted": 0.069
+          "norm": 0.1961,
+          "weighted": 0.0784
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -1047,13 +1013,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.3448,
-          "weighted": 0.1379
+          "norm": 0.3922,
+          "weighted": 0.1569
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 0,
@@ -1077,17 +1043,17 @@
       "channel": "sofaavibe",
       "post_id": 7151,
       "score": 0.318,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1724,
-          "weighted": 0.069
+          "norm": 0.1961,
+          "weighted": 0.0784
         },
         "F": {
           "raw": 9,
-          "norm": 0.2727,
-          "weighted": 0.0818
+          "norm": 0.4737,
+          "weighted": 0.1421
         },
         "R": {
           "raw_days_ago": 0,
@@ -1111,17 +1077,17 @@
       "channel": "infa_vikusya",
       "post_id": 9894,
       "score": 0.3096,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1379,
-          "weighted": 0.0552
+          "norm": 0.1569,
+          "weighted": 0.0627
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 1,
@@ -1149,13 +1115,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1379,
-          "weighted": 0.0552
+          "norm": 0.1569,
+          "weighted": 0.0627
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -1183,13 +1149,13 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.1207,
-          "weighted": 0.0483
+          "norm": 0.1373,
+          "weighted": 0.0549
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 0,
@@ -1217,13 +1183,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2241,
-          "weighted": 0.0897
+          "norm": 0.2549,
+          "weighted": 0.102
         },
         "F": {
           "raw": 7,
-          "norm": 0.2121,
-          "weighted": 0.0636
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 1,
@@ -1251,13 +1217,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1379,
-          "weighted": 0.0552
+          "norm": 0.1569,
+          "weighted": 0.0627
         },
         "F": {
           "raw": 7,
-          "norm": 0.2121,
-          "weighted": 0.0636
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -1285,13 +1251,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1724,
-          "weighted": 0.069
+          "norm": 0.1961,
+          "weighted": 0.0784
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 0,
@@ -1319,13 +1285,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0862,
-          "weighted": 0.0345
+          "norm": 0.098,
+          "weighted": 0.0392
         },
         "F": {
           "raw": 7,
-          "norm": 0.2121,
-          "weighted": 0.0636
+          "norm": 0.3684,
+          "weighted": 0.1105
         },
         "R": {
           "raw_days_ago": 0,
@@ -1353,13 +1319,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2241,
-          "weighted": 0.0897
+          "norm": 0.2549,
+          "weighted": 0.102
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 3,
@@ -1379,6 +1345,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "infa_vikusya_9973",
+      "channel": "infa_vikusya",
+      "post_id": 9973,
+      "score": 0.2519,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.05,
+          "norm": 0.098,
+          "weighted": 0.0392
+        },
+        "F": {
+          "raw": 7,
+          "norm": 0.3684,
+          "weighted": 0.1105
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 2148,
+          "norm": 0.6931,
+          "weighted": 0.0693
+        }
+      },
+      "text": "найдите кратчайший путь от вершины 0 к вершине 6 \n\nповторяем графы. раз такое задание скорее всего добавят в егэ))",
+      "link": "https://t.me/infa_vikusya/9973",
+      "date": "2026-08-18T08:25:19+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "kdrshov_4244",
       "channel": "kdrshov",
       "post_id": 4244,
@@ -1387,13 +1387,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.3448,
-          "weighted": 0.1379
+          "norm": 0.3922,
+          "weighted": 0.1569
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 2,
@@ -1421,13 +1421,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1379,
-          "weighted": 0.0552
+          "norm": 0.1569,
+          "weighted": 0.0627
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 1,
@@ -1455,13 +1455,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0862,
-          "weighted": 0.0345
+          "norm": 0.098,
+          "weighted": 0.0392
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 2,
@@ -1481,6 +1481,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "informatik_bu_7133",
+      "channel": "informatik_bu",
+      "post_id": 7133,
+      "score": 0.2318,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.08,
+          "norm": 0.1569,
+          "weighted": 0.0627
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.2632,
+          "weighted": 0.0789
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 959,
+          "norm": 0.3095,
+          "weighted": 0.0309
+        }
+      },
+      "text": "Генераторы списков — мощный инструмент, если вы уже знаете, как работает цикл for. Вы научитесь умещать 5-6 строчек кода всего в одну! 💜",
+      "link": "https://t.me/informatik_bu/7133",
+      "date": "2026-08-17T12:05:17+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "код"
+    },
+    {
       "id": "sofaavibe_7084",
       "channel": "sofaavibe",
       "post_id": 7084,
@@ -1489,13 +1523,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1724,
-          "weighted": 0.069
+          "norm": 0.1961,
+          "weighted": 0.0784
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 1,
@@ -1523,13 +1557,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.2241,
-          "weighted": 0.0897
+          "norm": 0.2549,
+          "weighted": 0.102
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 3,
@@ -1557,13 +1591,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.3448,
-          "weighted": 0.1379
+          "norm": 0.3922,
+          "weighted": 0.1569
         },
         "F": {
           "raw": 5,
-          "norm": 0.1515,
-          "weighted": 0.0455
+          "norm": 0.2632,
+          "weighted": 0.0789
         },
         "R": {
           "raw_days_ago": 2,
@@ -1591,13 +1625,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0862,
-          "weighted": 0.0345
+          "norm": 0.098,
+          "weighted": 0.0392
         },
         "F": {
           "raw": 6,
-          "norm": 0.1818,
-          "weighted": 0.0545
+          "norm": 0.3158,
+          "weighted": 0.0947
         },
         "R": {
           "raw_days_ago": 2,
