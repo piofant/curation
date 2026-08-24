@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-23T10:05:10.656999+00:00",
+  "generated_at": "2026-08-24T10:05:03.982224+00:00",
   "stats": {
-    "total_items": 46,
+    "total_items": 45,
     "channels_count": 10,
-    "avg_score": 0.3619,
-    "max_score": 0.7485,
+    "avg_score": 0.3533,
+    "max_score": 0.583,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.4204,
-    "tertile_mid_min": 0.3096
+    "tertile_top_min": 0.41,
+    "tertile_mid_min": 0.306
   },
   "weights": {
     "Q": 0.4,
@@ -19,40 +19,6 @@
   },
   "items": [
     {
-      "id": "sofaavibe_7180",
-      "channel": "sofaavibe",
-      "post_id": 7180,
-      "score": 0.7485,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.7,
-          "norm": 1.0,
-          "weighted": 0.4
-        },
-        "F": {
-          "raw": 31,
-          "norm": 1.0,
-          "weighted": 0.3
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 769,
-          "norm": 0.2481,
-          "weighted": 0.0248
-        }
-      },
-      "text": "**база для первых баллов по инфе 🔥**\n\nвсе типы №7 из сборника крылова:\n📺[**смотреть ютуб**](https://youtu.be/5bV4DQ_ae44)\n**📺**[**смотреть вк**](https://vk.com/video-168455540_456247305)[ ](https://vk.com/video-168455540_456247305)\n\nРЕШУЕГЭ на 70 баллов:\n📺[**смотреть ютуб**](https://youtu.be/1UvcPcYTeuc)\n**📺**[**смотреть вк **](https://vk.com/video-168455540_456247383)\n\nвсе задания 1-18 с подробным объяснением:\n📺[**смотреть ютуб**](https://youtu.be/mePTZLZI8h8)\n**📺**[**смотреть вк **](https://vk",
-      "link": "https://t.me/sofaavibe/7180",
-      "date": "2026-08-22T12:46:01+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
-    {
       "id": "infa_vikusya_9998",
       "channel": "infa_vikusya",
       "post_id": 9998,
@@ -61,13 +27,13 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.5,
-          "weighted": 0.2
+          "norm": 0.7292,
+          "weighted": 0.2917
         },
         "F": {
           "raw": 27,
-          "norm": 0.871,
-          "weighted": 0.2613
+          "norm": 1.0,
+          "weighted": 0.3
         },
         "R": {
           "raw_days_ago": 0,
@@ -95,13 +61,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 0,
@@ -129,13 +95,13 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3571,
-          "weighted": 0.1429
+          "norm": 0.5208,
+          "weighted": 0.2083
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.2593,
+          "weighted": 0.0778
         },
         "R": {
           "raw_days_ago": 0,
@@ -163,13 +129,13 @@
       "components": {
         "Q": {
           "raw": 0.27,
-          "norm": 0.3857,
-          "weighted": 0.1543
+          "norm": 0.5625,
+          "weighted": 0.225
         },
         "F": {
           "raw": 12,
-          "norm": 0.3871,
-          "weighted": 0.1161
+          "norm": 0.4444,
+          "weighted": 0.1333
         },
         "R": {
           "raw_days_ago": 1,
@@ -197,13 +163,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 12,
-          "norm": 0.3871,
-          "weighted": 0.1161
+          "norm": 0.4444,
+          "weighted": 0.1333
         },
         "R": {
           "raw_days_ago": 0,
@@ -231,13 +197,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.2083,
+          "weighted": 0.0833
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.3333,
+          "weighted": 0.1
         },
         "R": {
           "raw_days_ago": 0,
@@ -265,13 +231,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 0,
@@ -299,13 +265,13 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.4,
-          "weighted": 0.16
+          "norm": 0.5833,
+          "weighted": 0.2333
         },
         "F": {
           "raw": 12,
-          "norm": 0.3871,
-          "weighted": 0.1161
+          "norm": 0.4444,
+          "weighted": 0.1333
         },
         "R": {
           "raw_days_ago": 1,
@@ -333,13 +299,13 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.4,
-          "weighted": 0.16
+          "norm": 0.5833,
+          "weighted": 0.2333
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 0,
@@ -367,13 +333,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1143,
-          "weighted": 0.0457
+          "norm": 0.1667,
+          "weighted": 0.0667
         },
         "F": {
           "raw": 8,
-          "norm": 0.2581,
-          "weighted": 0.0774
+          "norm": 0.2963,
+          "weighted": 0.0889
         },
         "R": {
           "raw_days_ago": 0,
@@ -401,13 +367,13 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.2143,
-          "weighted": 0.0857
+          "norm": 0.3125,
+          "weighted": 0.125
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.2593,
+          "weighted": 0.0778
         },
         "R": {
           "raw_days_ago": 0,
@@ -435,13 +401,13 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.5714,
-          "weighted": 0.2286
+          "norm": 0.8333,
+          "weighted": 0.3333
         },
         "F": {
           "raw": 8,
-          "norm": 0.2581,
-          "weighted": 0.0774
+          "norm": 0.2963,
+          "weighted": 0.0889
         },
         "R": {
           "raw_days_ago": 0,
@@ -469,13 +435,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1143,
-          "weighted": 0.0457
+          "norm": 0.1667,
+          "weighted": 0.0667
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.2593,
+          "weighted": 0.0778
         },
         "R": {
           "raw_days_ago": 0,
@@ -503,13 +469,13 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.2143,
-          "weighted": 0.0857
+          "norm": 0.3125,
+          "weighted": 0.125
         },
         "F": {
           "raw": 12,
-          "norm": 0.3871,
-          "weighted": 0.1161
+          "norm": 0.4444,
+          "weighted": 0.1333
         },
         "R": {
           "raw_days_ago": 0,
@@ -533,17 +499,17 @@
       "channel": "kdrshov",
       "post_id": 4306,
       "score": 0.41,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.3286,
-          "weighted": 0.1314
+          "norm": 0.4792,
+          "weighted": 0.1917
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 0,
@@ -571,13 +537,13 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.5,
-          "weighted": 0.2
+          "norm": 0.7292,
+          "weighted": 0.2917
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.3333,
+          "weighted": 0.1
         },
         "R": {
           "raw_days_ago": 0,
@@ -605,13 +571,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1857,
-          "weighted": 0.0743
+          "norm": 0.2708,
+          "weighted": 0.1083
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 0,
@@ -639,13 +605,13 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.6857,
-          "weighted": 0.2743
+          "norm": 1.0,
+          "weighted": 0.4
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 1,
@@ -673,13 +639,13 @@
       "components": {
         "Q": {
           "raw": 0.22,
-          "norm": 0.3143,
-          "weighted": 0.1257
+          "norm": 0.4583,
+          "weighted": 0.1833
         },
         "F": {
           "raw": 15,
-          "norm": 0.4839,
-          "weighted": 0.1452
+          "norm": 0.5556,
+          "weighted": 0.1667
         },
         "R": {
           "raw_days_ago": 0,
@@ -707,13 +673,13 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.4,
-          "weighted": 0.16
+          "norm": 0.5833,
+          "weighted": 0.2333
         },
         "F": {
           "raw": 11,
-          "norm": 0.3548,
-          "weighted": 0.1065
+          "norm": 0.4074,
+          "weighted": 0.1222
         },
         "R": {
           "raw_days_ago": 0,
@@ -741,13 +707,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.2083,
+          "weighted": 0.0833
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 0,
@@ -775,13 +741,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0714,
-          "weighted": 0.0286
+          "norm": 0.1042,
+          "weighted": 0.0417
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.2593,
+          "weighted": 0.0778
         },
         "R": {
           "raw_days_ago": 0,
@@ -809,13 +775,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1857,
-          "weighted": 0.0743
+          "norm": 0.2708,
+          "weighted": 0.1083
         },
         "F": {
           "raw": 8,
-          "norm": 0.2581,
-          "weighted": 0.0774
+          "norm": 0.2963,
+          "weighted": 0.0889
         },
         "R": {
           "raw_days_ago": 0,
@@ -843,13 +809,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1857,
-          "weighted": 0.0743
+          "norm": 0.2708,
+          "weighted": 0.1083
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 0,
@@ -877,13 +843,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1857,
-          "weighted": 0.0743
+          "norm": 0.2708,
+          "weighted": 0.1083
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 0,
@@ -911,13 +877,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.2083,
+          "weighted": 0.0833
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 0,
@@ -945,13 +911,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 0,
@@ -979,13 +945,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.2083,
+          "weighted": 0.0833
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.3333,
+          "weighted": 0.1
         },
         "R": {
           "raw_days_ago": 0,
@@ -1013,13 +979,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1143,
-          "weighted": 0.0457
+          "norm": 0.1667,
+          "weighted": 0.0667
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 1,
@@ -1043,17 +1009,17 @@
       "channel": "informatik_bu",
       "post_id": 7079,
       "score": 0.306,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1143,
-          "weighted": 0.0457
+          "norm": 0.1667,
+          "weighted": 0.0667
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 0,
@@ -1081,13 +1047,13 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.1,
-          "weighted": 0.04
+          "norm": 0.1458,
+          "weighted": 0.0583
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 0,
@@ -1115,13 +1081,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1857,
-          "weighted": 0.0743
+          "norm": 0.2708,
+          "weighted": 0.1083
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.2593,
+          "weighted": 0.0778
         },
         "R": {
           "raw_days_ago": 1,
@@ -1149,13 +1115,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1143,
-          "weighted": 0.0457
+          "norm": 0.1667,
+          "weighted": 0.0667
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.2593,
+          "weighted": 0.0778
         },
         "R": {
           "raw_days_ago": 0,
@@ -1183,13 +1149,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.2083,
+          "weighted": 0.0833
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 0,
@@ -1217,13 +1183,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0714,
-          "weighted": 0.0286
+          "norm": 0.1042,
+          "weighted": 0.0417
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.2593,
+          "weighted": 0.0778
         },
         "R": {
           "raw_days_ago": 0,
@@ -1251,13 +1217,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1857,
-          "weighted": 0.0743
+          "norm": 0.2708,
+          "weighted": 0.1083
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 3,
@@ -1285,13 +1251,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0714,
-          "weighted": 0.0286
+          "norm": 0.1042,
+          "weighted": 0.0417
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.2593,
+          "weighted": 0.0778
         },
         "R": {
           "raw_days_ago": 1,
@@ -1319,13 +1285,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 2,
@@ -1353,13 +1319,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1143,
-          "weighted": 0.0457
+          "norm": 0.1667,
+          "weighted": 0.0667
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 1,
@@ -1387,13 +1353,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0714,
-          "weighted": 0.0286
+          "norm": 0.1042,
+          "weighted": 0.0417
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 2,
@@ -1421,13 +1387,13 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.1143,
-          "weighted": 0.0457
+          "norm": 0.1667,
+          "weighted": 0.0667
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 1,
@@ -1455,13 +1421,13 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.2083,
+          "weighted": 0.0833
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 1,
@@ -1489,13 +1455,13 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1857,
-          "weighted": 0.0743
+          "norm": 0.2708,
+          "weighted": 0.1083
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 3,
@@ -1523,13 +1489,13 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1852,
+          "weighted": 0.0556
         },
         "R": {
           "raw_days_ago": 2,
@@ -1557,13 +1523,13 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0714,
-          "weighted": 0.0286
+          "norm": 0.1042,
+          "weighted": 0.0417
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 2,
