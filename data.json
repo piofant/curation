@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-26T10:05:00.737869+00:00",
+  "generated_at": "2026-08-27T10:05:09.777796+00:00",
   "stats": {
-    "total_items": 49,
+    "total_items": 50,
     "channels_count": 11,
-    "avg_score": 0.3485,
-    "max_score": 0.4967,
+    "avg_score": 0.3544,
+    "max_score": 0.6463,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.4204,
+    "tertile_top_min": 0.4207,
     "tertile_mid_min": 0.306
   },
   "weights": {
@@ -18,6 +18,40 @@
     "V": 0.1
   },
   "items": [
+    {
+      "id": "infa_vikusya_10013",
+      "channel": "infa_vikusya",
+      "post_id": 10013,
+      "score": 0.6463,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.25,
+          "norm": 0.5208,
+          "weighted": 0.2083
+        },
+        "F": {
+          "raw": 17,
+          "norm": 1.0,
+          "weighted": 0.3
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 2777,
+          "norm": 0.8622,
+          "weighted": 0.0862
+        }
+      },
+      "text": "**ЕГЭ 2027: есть инсайды!!**\n\nв эти дни проходят заседания учителей информатики в Сочи. там будет выступать совсем скоро Сергей Сергеевич Крылов — председатель предметной комисии по разработке ЕГЭ по Информатике\n\nи он уже выдал инсайд: новая задача на графы будет не №10, а под №23. ну и сразу понятно, что нумерация заданий изменится в этом году!! а я уже про это говорила и прогнозировала [в этом посте](https://t.me/infa_vikusya/10002)\n\nв общем ждем демочку. на подхвате!!",
+      "link": "https://t.me/infa_vikusya/10013",
+      "date": "2026-08-26T10:30:48+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
     {
       "id": "infa_vikusya_9959",
       "channel": "infa_vikusya",
@@ -32,8 +66,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 0,
@@ -66,8 +100,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.4667,
-          "weighted": 0.14
+          "norm": 0.4118,
+          "weighted": 0.1235
         },
         "R": {
           "raw_days_ago": 0,
@@ -100,8 +134,8 @@
         },
         "F": {
           "raw": 12,
-          "norm": 0.8,
-          "weighted": 0.24
+          "norm": 0.7059,
+          "weighted": 0.2118
         },
         "R": {
           "raw_days_ago": 1,
@@ -134,8 +168,8 @@
         },
         "F": {
           "raw": 12,
-          "norm": 0.8,
-          "weighted": 0.24
+          "norm": 0.7059,
+          "weighted": 0.2118
         },
         "R": {
           "raw_days_ago": 0,
@@ -168,8 +202,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.6,
-          "weighted": 0.18
+          "norm": 0.5294,
+          "weighted": 0.1588
         },
         "R": {
           "raw_days_ago": 0,
@@ -202,8 +236,8 @@
         },
         "F": {
           "raw": 12,
-          "norm": 0.8,
-          "weighted": 0.24
+          "norm": 0.7059,
+          "weighted": 0.2118
         },
         "R": {
           "raw_days_ago": 0,
@@ -236,8 +270,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 0,
@@ -270,8 +304,8 @@
         },
         "F": {
           "raw": 12,
-          "norm": 0.8,
-          "weighted": 0.24
+          "norm": 0.7059,
+          "weighted": 0.2118
         },
         "R": {
           "raw_days_ago": 1,
@@ -304,8 +338,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 0,
@@ -338,8 +372,8 @@
         },
         "F": {
           "raw": 11,
-          "norm": 0.7333,
-          "weighted": 0.22
+          "norm": 0.6471,
+          "weighted": 0.1941
         },
         "R": {
           "raw_days_ago": 0,
@@ -372,8 +406,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.5333,
-          "weighted": 0.16
+          "norm": 0.4706,
+          "weighted": 0.1412
         },
         "R": {
           "raw_days_ago": 0,
@@ -406,8 +440,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.5333,
-          "weighted": 0.16
+          "norm": 0.4706,
+          "weighted": 0.1412
         },
         "R": {
           "raw_days_ago": 0,
@@ -440,8 +474,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.4667,
-          "weighted": 0.14
+          "norm": 0.4118,
+          "weighted": 0.1235
         },
         "R": {
           "raw_days_ago": 0,
@@ -474,8 +508,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.5333,
-          "weighted": 0.16
+          "norm": 0.4706,
+          "weighted": 0.1412
         },
         "R": {
           "raw_days_ago": 0,
@@ -508,8 +542,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.4667,
-          "weighted": 0.14
+          "norm": 0.4118,
+          "weighted": 0.1235
         },
         "R": {
           "raw_days_ago": 0,
@@ -533,7 +567,7 @@
       "channel": "infa_vikusya",
       "post_id": 9995,
       "score": 0.4204,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.15,
@@ -542,8 +576,8 @@
         },
         "F": {
           "raw": 12,
-          "norm": 0.8,
-          "weighted": 0.24
+          "norm": 0.7059,
+          "weighted": 0.2118
         },
         "R": {
           "raw_days_ago": 0,
@@ -576,8 +610,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 0,
@@ -610,8 +644,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.6,
-          "weighted": 0.18
+          "norm": 0.5294,
+          "weighted": 0.1588
         },
         "R": {
           "raw_days_ago": 0,
@@ -644,8 +678,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 0,
@@ -678,8 +712,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 1,
@@ -712,8 +746,8 @@
         },
         "F": {
           "raw": 15,
-          "norm": 1.0,
-          "weighted": 0.3
+          "norm": 0.8824,
+          "weighted": 0.2647
         },
         "R": {
           "raw_days_ago": 0,
@@ -746,8 +780,8 @@
         },
         "F": {
           "raw": 11,
-          "norm": 0.7333,
-          "weighted": 0.22
+          "norm": 0.6471,
+          "weighted": 0.1941
         },
         "R": {
           "raw_days_ago": 0,
@@ -780,8 +814,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 0,
@@ -814,8 +848,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.4667,
-          "weighted": 0.14
+          "norm": 0.4118,
+          "weighted": 0.1235
         },
         "R": {
           "raw_days_ago": 0,
@@ -848,8 +882,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.5333,
-          "weighted": 0.16
+          "norm": 0.4706,
+          "weighted": 0.1412
         },
         "R": {
           "raw_days_ago": 0,
@@ -882,8 +916,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 0,
@@ -916,8 +950,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 0,
@@ -950,8 +984,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 0,
@@ -984,8 +1018,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 0,
@@ -1018,8 +1052,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.6,
-          "weighted": 0.18
+          "norm": 0.5294,
+          "weighted": 0.1588
         },
         "R": {
           "raw_days_ago": 0,
@@ -1052,8 +1086,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 1,
@@ -1086,8 +1120,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 0,
@@ -1120,8 +1154,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 0,
@@ -1154,8 +1188,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.4667,
-          "weighted": 0.14
+          "norm": 0.4118,
+          "weighted": 0.1235
         },
         "R": {
           "raw_days_ago": 1,
@@ -1188,8 +1222,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.4667,
-          "weighted": 0.14
+          "norm": 0.4118,
+          "weighted": 0.1235
         },
         "R": {
           "raw_days_ago": 0,
@@ -1222,8 +1256,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 0,
@@ -1256,8 +1290,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.5333,
-          "weighted": 0.16
+          "norm": 0.4706,
+          "weighted": 0.1412
         },
         "R": {
           "raw_days_ago": 0,
@@ -1290,8 +1324,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.4667,
-          "weighted": 0.14
+          "norm": 0.4118,
+          "weighted": 0.1235
         },
         "R": {
           "raw_days_ago": 0,
@@ -1324,8 +1358,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 3,
@@ -1358,8 +1392,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.4667,
-          "weighted": 0.14
+          "norm": 0.4118,
+          "weighted": 0.1235
         },
         "R": {
           "raw_days_ago": 1,
@@ -1392,8 +1426,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 2,
@@ -1426,8 +1460,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 1,
@@ -1460,8 +1494,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 2,
@@ -1494,8 +1528,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 1,
@@ -1528,8 +1562,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 1,
@@ -1562,8 +1596,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 3,
@@ -1596,8 +1630,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 2,
@@ -1630,8 +1664,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.3333,
-          "weighted": 0.1
+          "norm": 0.2941,
+          "weighted": 0.0882
         },
         "R": {
           "raw_days_ago": 2,
@@ -1664,8 +1698,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.4,
-          "weighted": 0.12
+          "norm": 0.3529,
+          "weighted": 0.1059
         },
         "R": {
           "raw_days_ago": 2,
