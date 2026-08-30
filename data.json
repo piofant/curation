@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-29T10:05:00.837993+00:00",
+  "generated_at": "2026-08-30T10:05:09.823477+00:00",
   "stats": {
-    "total_items": 83,
+    "total_items": 91,
     "channels_count": 15,
-    "avg_score": 0.4127,
-    "max_score": 0.8997,
+    "avg_score": 0.401,
+    "max_score": 0.8372,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.444,
-    "tertile_mid_min": 0.3283
+    "tertile_top_min": 0.4349,
+    "tertile_mid_min": 0.3227
   },
   "weights": {
     "Q": 0.4,
@@ -19,40 +19,6 @@
   },
   "items": [
     {
-      "id": "infa_vikusya_10024",
-      "channel": "infa_vikusya",
-      "post_id": 10024,
-      "score": 0.8997,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.83,
-          "norm": 1.0,
-          "weighted": 0.4
-        },
-        "F": {
-          "raw": 125,
-          "norm": 0.9191,
-          "weighted": 0.2757
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 3309,
-          "norm": 0.3791,
-          "weighted": 0.0379
-        }
-      },
-      "text": "**🚨  ДЕМОВЕРСИЯ ЕГЭ 2027 уже вышла!!**\n\nя уже чекаю ее, совсем скоро выпущу всю информацию про апдейты экзамена. голодные игры начинаются, включайте уведы и ждите дальнейшей инфу про инфу\n\nфайлы к демке: https://drive.google.com/drive/folders/1wyfaL3YPasG6AFb9uHWTk6rirKHb3TjF?usp=sharing\n\n__*источник: ____fipi.ru__",
-      "link": "https://t.me/infa_vikusya/10024",
-      "date": "2026-08-28T15:41:30+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
-    {
       "id": "flash_ege_15335",
       "channel": "flash_ege",
       "post_id": 15335,
@@ -61,8 +27,8 @@
       "components": {
         "Q": {
           "raw": 0.51,
-          "norm": 0.6145,
-          "weighted": 0.2458
+          "norm": 0.6375,
+          "weighted": 0.255
         },
         "F": {
           "raw": 136,
@@ -95,8 +61,8 @@
       "components": {
         "Q": {
           "raw": 0.6,
-          "norm": 0.7229,
-          "weighted": 0.2892
+          "norm": 0.75,
+          "weighted": 0.3
         },
         "F": {
           "raw": 46,
@@ -129,8 +95,8 @@
       "components": {
         "Q": {
           "raw": 0.75,
-          "norm": 0.9036,
-          "weighted": 0.3614
+          "norm": 0.9375,
+          "weighted": 0.375
         },
         "F": {
           "raw": 15,
@@ -163,8 +129,8 @@
       "components": {
         "Q": {
           "raw": 0.73,
-          "norm": 0.8795,
-          "weighted": 0.3518
+          "norm": 0.9125,
+          "weighted": 0.365
         },
         "F": {
           "raw": 47,
@@ -197,8 +163,8 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.5422,
-          "weighted": 0.2169
+          "norm": 0.5625,
+          "weighted": 0.225
         },
         "F": {
           "raw": 38,
@@ -231,8 +197,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3012,
-          "weighted": 0.1205
+          "norm": 0.3125,
+          "weighted": 0.125
         },
         "F": {
           "raw": 17,
@@ -265,8 +231,8 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.5783,
-          "weighted": 0.2313
+          "norm": 0.6,
+          "weighted": 0.24
         },
         "F": {
           "raw": 32,
@@ -299,8 +265,8 @@
       "components": {
         "Q": {
           "raw": 0.68,
-          "norm": 0.8193,
-          "weighted": 0.3277
+          "norm": 0.85,
+          "weighted": 0.34
         },
         "F": {
           "raw": 44,
@@ -333,8 +299,8 @@
       "components": {
         "Q": {
           "raw": 0.8,
-          "norm": 0.9639,
-          "weighted": 0.3855
+          "norm": 1.0,
+          "weighted": 0.4
         },
         "F": {
           "raw": 19,
@@ -367,8 +333,8 @@
       "components": {
         "Q": {
           "raw": 0.55,
-          "norm": 0.6627,
-          "weighted": 0.2651
+          "norm": 0.6875,
+          "weighted": 0.275
         },
         "F": {
           "raw": 57,
@@ -401,8 +367,8 @@
       "components": {
         "Q": {
           "raw": 0.7,
-          "norm": 0.8434,
-          "weighted": 0.3373
+          "norm": 0.875,
+          "weighted": 0.35
         },
         "F": {
           "raw": 19,
@@ -435,8 +401,8 @@
       "components": {
         "Q": {
           "raw": 0.41,
-          "norm": 0.494,
-          "weighted": 0.1976
+          "norm": 0.5125,
+          "weighted": 0.205
         },
         "F": {
           "raw": 23,
@@ -469,8 +435,8 @@
       "components": {
         "Q": {
           "raw": 0.45,
-          "norm": 0.5422,
-          "weighted": 0.2169
+          "norm": 0.5625,
+          "weighted": 0.225
         },
         "F": {
           "raw": 8,
@@ -503,8 +469,8 @@
       "components": {
         "Q": {
           "raw": 0.61,
-          "norm": 0.7349,
-          "weighted": 0.294
+          "norm": 0.7625,
+          "weighted": 0.305
         },
         "F": {
           "raw": 30,
@@ -537,8 +503,8 @@
       "components": {
         "Q": {
           "raw": 0.65,
-          "norm": 0.7831,
-          "weighted": 0.3133
+          "norm": 0.8125,
+          "weighted": 0.325
         },
         "F": {
           "raw": 16,
@@ -571,8 +537,8 @@
       "components": {
         "Q": {
           "raw": 0.42,
-          "norm": 0.506,
-          "weighted": 0.2024
+          "norm": 0.525,
+          "weighted": 0.21
         },
         "F": {
           "raw": 16,
@@ -605,8 +571,8 @@
       "components": {
         "Q": {
           "raw": 0.51,
-          "norm": 0.6145,
-          "weighted": 0.2458
+          "norm": 0.6375,
+          "weighted": 0.255
         },
         "F": {
           "raw": 28,
@@ -639,8 +605,8 @@
       "components": {
         "Q": {
           "raw": 0.34,
-          "norm": 0.4096,
-          "weighted": 0.1639
+          "norm": 0.425,
+          "weighted": 0.17
         },
         "F": {
           "raw": 8,
@@ -673,8 +639,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.25,
+          "weighted": 0.1
         },
         "F": {
           "raw": 6,
@@ -707,8 +673,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.3012,
-          "weighted": 0.1205
+          "norm": 0.3125,
+          "weighted": 0.125
         },
         "F": {
           "raw": 7,
@@ -741,8 +707,8 @@
       "components": {
         "Q": {
           "raw": 0.38,
-          "norm": 0.4578,
-          "weighted": 0.1831
+          "norm": 0.475,
+          "weighted": 0.19
         },
         "F": {
           "raw": 37,
@@ -767,6 +733,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "infkege_1971",
+      "channel": "infkege",
+      "post_id": 1971,
+      "score": 0.4811,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.32,
+          "norm": 0.4,
+          "weighted": 0.16
+        },
+        "F": {
+          "raw": 7,
+          "norm": 0.0515,
+          "weighted": 0.0154
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 634,
+          "norm": 0.0726,
+          "weighted": 0.0073
+        }
+      },
+      "text": "**ЕГЭ БУДЕТ НА LINUX?! **\n\nКак устроен ЕГЭ по информатике и что нужно знать прямо сейчас об экзамене?\n\nРасскрыл все секреты [тут](https://youtube.com/live/b30jVlmpllw?feature=share)",
+      "link": "https://t.me/infkege/1971",
+      "date": "2026-08-29T15:18:57+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "sofaavibe_7099",
       "channel": "sofaavibe",
       "post_id": 7099,
@@ -775,8 +775,8 @@
       "components": {
         "Q": {
           "raw": 0.27,
-          "norm": 0.3253,
-          "weighted": 0.1301
+          "norm": 0.3375,
+          "weighted": 0.135
         },
         "F": {
           "raw": 12,
@@ -809,8 +809,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.25,
+          "weighted": 0.1
         },
         "F": {
           "raw": 12,
@@ -843,8 +843,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.125,
+          "weighted": 0.05
         },
         "F": {
           "raw": 9,
@@ -877,8 +877,8 @@
       "components": {
         "Q": {
           "raw": 0.26,
-          "norm": 0.3133,
-          "weighted": 0.1253
+          "norm": 0.325,
+          "weighted": 0.13
         },
         "F": {
           "raw": 12,
@@ -911,8 +911,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.25,
+          "weighted": 0.1
         },
         "F": {
           "raw": 5,
@@ -941,12 +941,12 @@
       "channel": "iliiasagalov_100points",
       "post_id": 6244,
       "score": 0.4421,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.3373,
-          "weighted": 0.1349
+          "norm": 0.35,
+          "weighted": 0.14
         },
         "F": {
           "raw": 12,
@@ -975,12 +975,12 @@
       "channel": "flash_ege",
       "post_id": 15261,
       "score": 0.4364,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.3373,
-          "weighted": 0.1349
+          "norm": 0.35,
+          "weighted": 0.14
         },
         "F": {
           "raw": 6,
@@ -1009,12 +1009,12 @@
       "channel": "infa_vikusya",
       "post_id": 10010,
       "score": 0.4349,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.2771,
-          "weighted": 0.1108
+          "norm": 0.2875,
+          "weighted": 0.115
         },
         "F": {
           "raw": 11,
@@ -1047,8 +1047,8 @@
       "components": {
         "Q": {
           "raw": 0.18,
-          "norm": 0.2169,
-          "weighted": 0.0867
+          "norm": 0.225,
+          "weighted": 0.09
         },
         "F": {
           "raw": 8,
@@ -1081,8 +1081,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.0964,
-          "weighted": 0.0386
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 8,
@@ -1115,8 +1115,8 @@
       "components": {
         "Q": {
           "raw": 0.42,
-          "norm": 0.506,
-          "weighted": 0.2024
+          "norm": 0.525,
+          "weighted": 0.21
         },
         "F": {
           "raw": 10,
@@ -1149,8 +1149,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.1875,
+          "weighted": 0.075
         },
         "F": {
           "raw": 7,
@@ -1183,8 +1183,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.3614,
-          "weighted": 0.1446
+          "norm": 0.375,
+          "weighted": 0.15
         },
         "F": {
           "raw": 10,
@@ -1217,8 +1217,8 @@
       "components": {
         "Q": {
           "raw": 0.4,
-          "norm": 0.4819,
-          "weighted": 0.1928
+          "norm": 0.5,
+          "weighted": 0.2
         },
         "F": {
           "raw": 8,
@@ -1251,8 +1251,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.0964,
-          "weighted": 0.0386
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 7,
@@ -1285,8 +1285,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.1875,
+          "weighted": 0.075
         },
         "F": {
           "raw": 12,
@@ -1319,8 +1319,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.2771,
-          "weighted": 0.1108
+          "norm": 0.2875,
+          "weighted": 0.115
         },
         "F": {
           "raw": 5,
@@ -1345,6 +1345,74 @@
       "keyword": "код"
     },
     {
+      "id": "infa_vikusya_10032",
+      "channel": "infa_vikusya",
+      "post_id": 10032,
+      "score": 0.4082,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.28,
+          "norm": 0.35,
+          "weighted": 0.14
+        },
+        "F": {
+          "raw": 23,
+          "norm": 0.1691,
+          "weighted": 0.0507
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 2909,
+          "norm": 0.3333,
+          "weighted": 0.0333
+        }
+      },
+      "text": "**РАЗБОРЫ ДЕМОВЕРСИЙ ЕГЭ 2027:**\n\n**— профмат** в своем канале [разобрал Артур Шарафиев (наша легенда) ](https://t.me/+qmzaQnD4tw45MmUy)\n**— русский **в своем канале [Александр Долгих (самый свежий) ](https://t.me/+K0igIlTxQPk0YjAy)\n**— физику** разобрали в своих каналах [Макс Тесла](https://t.me/+B0Qe7Rnungs5Mjli) и [Максим Глухов](https://t.me/+-eOqez6U-jdiOGUy) (любители опытов) \n\n**итог по инфе:** экзамен реально усложняют, то есть есть тенденция на более думающий экзамен. чтобы сегментация ",
+      "link": "https://t.me/infa_vikusya/10032",
+      "date": "2026-08-29T10:48:00+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "sofaavibe_7227",
+      "channel": "sofaavibe",
+      "post_id": 7227,
+      "score": 0.4068,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.35,
+          "norm": 0.4375,
+          "weighted": 0.175
+        },
+        "F": {
+          "raw": 16,
+          "norm": 0.1176,
+          "weighted": 0.0353
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 998,
+          "norm": 0.1143,
+          "weighted": 0.0114
+        }
+      },
+      "text": "**ДЕМОВЕРСИЯ ЕГЭ 2027 – разобранные задания ****⚡️****\n**\nсобрала в файлике некоторые задания, на которые сейчас стоит обратить внимание \n\n– [все изменения этого года тут](https://t.me/sofaavibe/7218)\n\n💬 [**Софа Вайб | Подготовка к ЕГЭ по информатике**](https://t.me/sofaavibe)",
+      "link": "https://t.me/sofaavibe/7227",
+      "date": "2026-08-29T12:09:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "senya_infa_4147",
       "channel": "senya_infa",
       "post_id": 4147,
@@ -1353,8 +1421,8 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.4217,
-          "weighted": 0.1687
+          "norm": 0.4375,
+          "weighted": 0.175
         },
         "F": {
           "raw": 9,
@@ -1387,8 +1455,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.1875,
+          "weighted": 0.075
         },
         "F": {
           "raw": 11,
@@ -1421,8 +1489,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1625,
+          "weighted": 0.065
         },
         "F": {
           "raw": 6,
@@ -1455,8 +1523,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.3614,
-          "weighted": 0.1446
+          "norm": 0.375,
+          "weighted": 0.15
         },
         "F": {
           "raw": 6,
@@ -1489,8 +1557,8 @@
       "components": {
         "Q": {
           "raw": 0.48,
-          "norm": 0.5783,
-          "weighted": 0.2313
+          "norm": 0.6,
+          "weighted": 0.24
         },
         "F": {
           "raw": 6,
@@ -1523,8 +1591,8 @@
       "components": {
         "Q": {
           "raw": 0.22,
-          "norm": 0.2651,
-          "weighted": 0.106
+          "norm": 0.275,
+          "weighted": 0.11
         },
         "F": {
           "raw": 15,
@@ -1557,8 +1625,8 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.3373,
-          "weighted": 0.1349
+          "norm": 0.35,
+          "weighted": 0.14
         },
         "F": {
           "raw": 11,
@@ -1591,8 +1659,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.125,
+          "weighted": 0.05
         },
         "F": {
           "raw": 5,
@@ -1625,8 +1693,8 @@
       "components": {
         "Q": {
           "raw": 0.32,
-          "norm": 0.3855,
-          "weighted": 0.1542
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 6,
@@ -1659,8 +1727,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 7,
@@ -1693,8 +1761,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1625,
+          "weighted": 0.065
         },
         "F": {
           "raw": 8,
@@ -1719,6 +1787,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "plugar_inf_4517",
+      "channel": "plugar_inf",
+      "post_id": 4517,
+      "score": 0.3627,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.32,
+          "norm": 0.4,
+          "weighted": 0.16
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0368,
+          "weighted": 0.011
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 327,
+          "norm": 0.0375,
+          "weighted": 0.0037
+        }
+      },
+      "text": "Задание 3 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240015\nYouTube: https://youtu.be/ksQZcdULBSs\nRutube: https://rutube.ru/video/b953b78fdfbf8dc2099969f4eb28a7b4/",
+      "link": "https://t.me/plugar_inf/4517",
+      "date": "2026-08-29T13:33:35+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "infa_vikusya_10014",
       "channel": "infa_vikusya",
       "post_id": 10014,
@@ -1727,8 +1829,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.1875,
+          "weighted": 0.075
         },
         "F": {
           "raw": 12,
@@ -1761,8 +1863,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1625,
+          "weighted": 0.065
         },
         "F": {
           "raw": 5,
@@ -1795,8 +1897,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1625,
+          "weighted": 0.065
         },
         "F": {
           "raw": 6,
@@ -1829,8 +1931,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.125,
+          "weighted": 0.05
         },
         "F": {
           "raw": 6,
@@ -1863,8 +1965,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.25,
+          "weighted": 0.1
         },
         "F": {
           "raw": 5,
@@ -1893,12 +1995,12 @@
       "channel": "pro100ege68",
       "post_id": 1226,
       "score": 0.328,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.1807,
-          "weighted": 0.0723
+          "norm": 0.1875,
+          "weighted": 0.075
         },
         "F": {
           "raw": 7,
@@ -1927,12 +2029,12 @@
       "channel": "sofaavibe",
       "post_id": 7205,
       "score": 0.3227,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1625,
+          "weighted": 0.065
         },
         "F": {
           "raw": 6,
@@ -1957,6 +2059,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "infkege_1964",
+      "channel": "infkege",
+      "post_id": 1964,
+      "score": 0.3201,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.2,
+          "norm": 0.25,
+          "weighted": 0.1
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0368,
+          "weighted": 0.011
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 924,
+          "norm": 0.1059,
+          "weighted": 0.0106
+        }
+      },
+      "text": "Вышла наконец-то **Демоверсия ЕГЭ** по информатике 2027!\n\nКороткий обзор изменений:\n• Добавили новое задание №23 на алгоритмы на графах (см. выше)\n• Старое задание №23 на траекторию программ сместили под №13\n• В задании №27 оставили только один файл вместо двух\n• В задании №10 теперь упрощенные IP-адреса (прошлогодний №13)\n\nВот и всё.\n\nВсё остальное вообще без изменений относительно экзаменов прошлых лет.\n\nПолный разбор Демонстрационного варианта, включая новое задание, опубликуем в ближайшее вр",
+      "link": "https://t.me/infkege/1964",
+      "date": "2026-08-28T15:44:41+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "rucodefestival_3841",
       "channel": "rucodefestival",
       "post_id": 3841,
@@ -1965,8 +2101,8 @@
       "components": {
         "Q": {
           "raw": 0.29,
-          "norm": 0.3494,
-          "weighted": 0.1398
+          "norm": 0.3625,
+          "weighted": 0.145
         },
         "F": {
           "raw": 5,
@@ -1999,8 +2135,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.125,
+          "weighted": 0.05
         },
         "F": {
           "raw": 9,
@@ -2033,8 +2169,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.125,
+          "weighted": 0.05
         },
         "F": {
           "raw": 6,
@@ -2067,8 +2203,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.0964,
-          "weighted": 0.0386
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 6,
@@ -2101,8 +2237,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.0964,
-          "weighted": 0.0386
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 6,
@@ -2135,8 +2271,8 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.0843,
-          "weighted": 0.0337
+          "norm": 0.0875,
+          "weighted": 0.035
         },
         "F": {
           "raw": 6,
@@ -2169,8 +2305,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1625,
+          "weighted": 0.065
         },
         "F": {
           "raw": 7,
@@ -2195,6 +2331,74 @@
       "keyword": "прога"
     },
     {
+      "id": "kaspersky_ege_15665",
+      "channel": "kaspersky_ege",
+      "post_id": 15665,
+      "score": 0.302,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.33,
+          "norm": 0.4125,
+          "weighted": 0.165
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0368,
+          "weighted": 0.011
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 455,
+          "norm": 0.0521,
+          "weighted": 0.0052
+        }
+      },
+      "text": "Разбор будет в 12 \n\nhttps://www.youtube.com/live/0E7977Fixr8?si=xYPpzPf92y6Oqkht",
+      "link": "https://t.me/kaspersky_ege/15665",
+      "date": "2026-08-29T07:51:05+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "разбор"
+    },
+    {
+      "id": "plugar_inf_4516",
+      "channel": "plugar_inf",
+      "post_id": 4516,
+      "score": 0.2996,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.32,
+          "norm": 0.4,
+          "weighted": 0.16
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.0441,
+          "weighted": 0.0132
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 471,
+          "norm": 0.054,
+          "weighted": 0.0054
+        }
+      },
+      "text": "Задание 2 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240014\nYouTube: https://youtu.be/FypfnXN31GM\nRutube: https://rutube.ru/video/2d11847ec181adac5600143f5c8edd15/",
+      "link": "https://t.me/plugar_inf/4516",
+      "date": "2026-08-28T19:32:13+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "infa_vikusya_9910",
       "channel": "infa_vikusya",
       "post_id": 9910,
@@ -2203,8 +2407,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.0964,
-          "weighted": 0.0386
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 7,
@@ -2237,8 +2441,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.125,
+          "weighted": 0.05
         },
         "F": {
           "raw": 5,
@@ -2263,6 +2467,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "infa_vikusya_10033",
+      "channel": "infa_vikusya",
+      "post_id": 10033,
+      "score": 0.2902,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.1,
+          "norm": 0.125,
+          "weighted": 0.05
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.0441,
+          "weighted": 0.0132
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 3103,
+          "norm": 0.3555,
+          "weighted": 0.0356
+        }
+      },
+      "text": "**ЕГЭ 2027 изменили: что же делать??**\n\nшаблонщикам в этом году будет очень сложно. на изи сдать на 80+ уже не получится. поэтому вас нужна сейчас основательная подготовка, которая есть на моем годовом курсе. кроме того там **есть 2 уровня подготовки: **\n\n**💚****основной:** если начинаешь с нуля или база шатается, \n**❣️****продвинутый**: если база уже есть/продолжаешь подготовку\n\nсоветую торопиться, ведь **ПОСЛЕЗАВТРА ЦЕНЫ на КУРС СТАНУТ ВЫШЕ** + сейчас есть возможность записаться **на 2 предмет",
+      "link": "https://t.me/infa_vikusya/10033",
+      "date": "2026-08-29T14:27:17+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "flash_ege_15322",
       "channel": "flash_ege",
       "post_id": 15322,
@@ -2271,8 +2509,8 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.0843,
-          "weighted": 0.0337
+          "norm": 0.0875,
+          "weighted": 0.035
         },
         "F": {
           "raw": 8,
@@ -2305,8 +2543,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 7,
@@ -2339,8 +2577,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 6,
@@ -2365,6 +2603,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "flash_ege_15365",
+      "channel": "flash_ege",
+      "post_id": 15365,
+      "score": 0.2669,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.1,
+          "norm": 0.125,
+          "weighted": 0.05
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.0441,
+          "weighted": 0.0132
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 764,
+          "norm": 0.0875,
+          "weighted": 0.0088
+        }
+      },
+      "text": "ИЩУ КУРАТОРОВ НА ФЛЭШ!!!\n\nРебята, я открываю вторую волну набора кураторов по информатике!\n\nЕсли вы хорошо сдали ЕГЭ и хотите помогать 11 или 10-классникам - [проходите отбор](https://s.salebot.pro/69d313b4bc637de18a4411bfcdb1bf2a_1?utm_source=tg&utm_medium=channal&utm_campaign=imaev)\nВсему научим в Школе кураторов 💪🏻\n\nА если начинали отбор летом, но не дошли до конца, можете попробовать еще раз!\n\nПо всем вопросам [пишите в поддержку](https://vk.ru/podderzkakuratorov100b)\n\nБуду рад увидеть знако",
+      "link": "https://t.me/flash_ege/15365",
+      "date": "2026-08-30T08:55:07+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "pro100ege68_1225",
       "channel": "pro100ege68",
       "post_id": 1225,
@@ -2373,8 +2645,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 5,
@@ -2407,8 +2679,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1625,
+          "weighted": 0.065
         },
         "F": {
           "raw": 5,
@@ -2441,8 +2713,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 7,
@@ -2475,8 +2747,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.25,
+          "weighted": 0.1
         },
         "F": {
           "raw": 5,
@@ -2509,8 +2781,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 8,
@@ -2543,8 +2815,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.0964,
-          "weighted": 0.0386
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 5,
@@ -2577,8 +2849,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 5,
@@ -2611,8 +2883,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 6,
@@ -2645,8 +2917,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.0964,
-          "weighted": 0.0386
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 5,
@@ -2679,8 +2951,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.1205,
-          "weighted": 0.0482
+          "norm": 0.125,
+          "weighted": 0.05
         },
         "F": {
           "raw": 6,
@@ -2713,8 +2985,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.1566,
-          "weighted": 0.0627
+          "norm": 0.1625,
+          "weighted": 0.065
         },
         "F": {
           "raw": 5,
@@ -2747,8 +3019,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.241,
-          "weighted": 0.0964
+          "norm": 0.25,
+          "weighted": 0.1
         },
         "F": {
           "raw": 5,
@@ -2781,8 +3053,8 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.0843,
-          "weighted": 0.0337
+          "norm": 0.0875,
+          "weighted": 0.035
         },
         "F": {
           "raw": 5,
@@ -2815,8 +3087,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.0602,
-          "weighted": 0.0241
+          "norm": 0.0625,
+          "weighted": 0.025
         },
         "F": {
           "raw": 6,
