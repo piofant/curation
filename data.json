@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-31T10:05:06.428784+00:00",
+  "generated_at": "2026-09-01T10:05:10.452987+00:00",
   "stats": {
     "total_items": 91,
     "channels_count": 15,
-    "avg_score": 0.3939,
-    "max_score": 0.7785,
+    "avg_score": 0.3823,
+    "max_score": 0.6579,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.4327,
-    "tertile_mid_min": 0.3201
+    "tertile_top_min": 0.4266,
+    "tertile_mid_min": 0.3199
   },
   "weights": {
     "Q": 0.4,
@@ -18,108 +18,6 @@
     "V": 0.1
   },
   "items": [
-    {
-      "id": "infa_vikusya_10019",
-      "channel": "infa_vikusya",
-      "post_id": 10019,
-      "score": 0.7785,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.6,
-          "norm": 0.75,
-          "weighted": 0.3
-        },
-        "F": {
-          "raw": 46,
-          "norm": 0.807,
-          "weighted": 0.2421
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 1446,
-          "norm": 0.4379,
-          "weighted": 0.0438
-        }
-      },
-      "text": "**ИЗМЕНЕНИЯ ЕГЭ 2027!! **\n\nвот и начались мощные инсайды. интересно, ждем демки еще",
-      "link": "https://t.me/infa_vikusya/10019",
-      "date": "2026-08-28T07:12:43+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
-    {
-      "id": "profimatika_Inf_5336",
-      "channel": "profimatika_Inf",
-      "post_id": 5336,
-      "score": 0.6795,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.75,
-          "norm": 0.9375,
-          "weighted": 0.375
-        },
-        "F": {
-          "raw": 15,
-          "norm": 0.2632,
-          "weighted": 0.0789
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 258,
-          "norm": 0.0781,
-          "weighted": 0.0078
-        }
-      },
-      "text": "**НОВАЯ ЗАДАЧА НА ЕГЭ  **👻\n\nГлавное изменение 2027 — новое 23-е на **графы**. И это вам не «посчитал руками за 10 секунд». Это задача на **программную обработку** — код писать придется.\n\nФИПИ явно гнет одну линию: **выпиливают шаблонщиков.** \n\nВсе больше заданий, где заученные шаблоны не прокатят — надо думать и подгонять код под условие.\n\nИ я тут только за!) Кто понимает, что пишет, — сдает. Кто вызубрил только теорию — сливается.\n\n__Как вам такой вектор? Пишите ____👇__",
-      "link": "https://t.me/profimatika_Inf/5336",
-      "date": "2026-08-28T08:50:27+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
-    {
-      "id": "flash_ege_15341",
-      "channel": "flash_ege",
-      "post_id": 15341,
-      "score": 0.669,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.73,
-          "norm": 0.9125,
-          "weighted": 0.365
-        },
-        "F": {
-          "raw": 47,
-          "norm": 0.8246,
-          "weighted": 0.2474
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 2250,
-          "norm": 0.6814,
-          "weighted": 0.0681
-        }
-      },
-      "text": "📺 ВЫШЛИ ДЕМОВЕРСИЯ-2027\n\nРебятушки, файлы на руках,скоро  запущу трансляцию, расскажу обо всех изменениях и к чему нам готовиться на ЕГЭ-2027 по информатике⚡️⚡️\n\n**📺**** **[ЮТУБ](https://youtube.com/live/4hBCvN1ZdXE)\n\nПересылайте одноклассникам!!!\n\n📱 [__Подготовка к ЕГЭ-2027 по информатике с Артемом ФЛЭШ__](https://t.me/+0izNEYyARJgwYzgy)",
-      "link": "https://t.me/flash_ege/15341",
-      "date": "2026-08-28T15:49:24+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
     {
       "id": "infa_vikusya_10021",
       "channel": "infa_vikusya",
@@ -767,6 +665,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "infa_vikusya_10050",
+      "channel": "infa_vikusya",
+      "post_id": 10050,
+      "score": 0.4784,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.34,
+          "norm": 0.425,
+          "weighted": 0.17
+        },
+        "F": {
+          "raw": 17,
+          "norm": 0.2982,
+          "weighted": 0.0895
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 2038,
+          "norm": 0.6172,
+          "weighted": 0.0617
+        }
+      },
+      "text": "**№15 из **[**ДЕМОВЕРСИИ ЕГЭ 2027  (жмякни и забери полный разбор) **](https://t.me/kegeinf_bot?start=demoege2027)\n\nтакая вот небольшая смесь бульдога с носорогом: тип дел + отрезки, но на самом деле решается довольно легко и кодом\n\nв прошлом году был интересный тип на графики, который в лоб кодом не решался. он попадался ребятам на апробации!!",
+      "link": "https://t.me/infa_vikusya/10050",
+      "date": "2026-08-31T13:04:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "infa_vikusya_9920",
       "channel": "infa_vikusya",
       "post_id": 9920,
@@ -1043,7 +975,7 @@
       "channel": "infa_vikusya",
       "post_id": 9951,
       "score": 0.4281,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.08,
@@ -1077,7 +1009,7 @@
       "channel": "pro100ege68",
       "post_id": 1248,
       "score": 0.4266,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.42,
@@ -1991,6 +1923,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "plugar_inf_4520",
+      "channel": "plugar_inf",
+      "post_id": 4520,
+      "score": 0.3277,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.32,
+          "norm": 0.4,
+          "weighted": 0.16
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.1053,
+          "weighted": 0.0316
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 552,
+          "norm": 0.1672,
+          "weighted": 0.0167
+        }
+      },
+      "text": "Задание 5 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240017\nYouTube: https://youtu.be/95xReHOp_z8\nRutube: https://rutube.ru/video/b7cf96925176d0b24d1777e130927729/",
+      "link": "https://t.me/plugar_inf/4520",
+      "date": "2026-08-30T12:41:31+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "sofaavibe_7205",
       "channel": "sofaavibe",
       "post_id": 7205,
@@ -2063,7 +2029,7 @@
       "channel": "rucodefestival",
       "post_id": 3841,
       "score": 0.3199,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.29,
@@ -2668,6 +2634,40 @@
       "link": "https://t.me/infa_vikusya/9874",
       "date": "2026-07-27T15:39:48+00:00",
       "reason": "Свежий пост (недавно опубликован) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "plugar_inf_4518",
+      "channel": "plugar_inf",
+      "post_id": 4518,
+      "score": 0.2609,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.32,
+          "norm": 0.4,
+          "weighted": 0.16
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.1053,
+          "weighted": 0.0316
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 543,
+          "norm": 0.1644,
+          "weighted": 0.0164
+        }
+      },
+      "text": "Задание 4 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240016\nYouTube: https://youtu.be/Qh2Dt6F1guE\nRutube: https://rutube.ru/video/09a49951072b9302d05abc6e36f50d68/",
+      "link": "https://t.me/plugar_inf/4518",
+      "date": "2026-08-29T15:21:31+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Высокая вовлечённость (много репостов) | Много просмотров",
       "keyword": "ЕГЭ"
     },
     {
