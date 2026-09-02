@@ -1,0 +1,518 @@
+{
+  "generated_at": "2026-09-02T09:58:00.751563+00:00",
+  "moderator": {
+    "stats": {
+      "evaluated": 6,
+      "delete_ad": 1,
+      "low_engagement": 0,
+      "kept": 5,
+      "skip_human": 3,
+      "skip_fresh": 6,
+      "deleted_real": 0,
+      "dry_run": true
+    },
+    "decisions": [
+      {
+        "ts": "2026-09-02T09:57:56.689945+00:00",
+        "id": 9444,
+        "link": "https://t.me/kompege/9444",
+        "source": "poster",
+        "text": "🚨 ДЕМОВЕРСИЯ ЕГЭ 2027 уже вышла!!  я уже чекаю ее, совсем скоро выпущу всю информацию про апдейты экзамена. голодные игры начинаются, включайте уведы и ждите дальнейшей инфу про инфу  файлы к демке: h",
+        "date": "2026-08-30T10:33:01+00:00",
+        "age_h": 71.4,
+        "engagement": {
+          "views": 436,
+          "forwards": 2,
+          "reactions": 3,
+          "score": 16.36,
+          "median": 21.41,
+          "ratio": 0.76
+        },
+        "judge": {
+          "usefulness": 0.5,
+          "hype": 0.9,
+          "flags": [],
+          "reason": "Новость о выходе демоверсии ЕГЭ 2027 с ссылкой на файлы, высокая актуальность."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:56.689839+00:00",
+        "id": 9445,
+        "link": "https://t.me/kompege/9445",
+        "source": "mirror",
+        "text": "✏️ [ЕГЭ Информатика 2027 | Открытый курс](https://vk.com/wall-205865487_26394): Никогда такого не было и вот опять ...  В новой 27 задаче в демоверсии описание центроида допускает существование сразу ",
+        "date": "2026-08-30T11:06:46+00:00",
+        "age_h": 70.9,
+        "engagement": {
+          "views": 459,
+          "forwards": 5,
+          "reactions": 3,
+          "score": 25.59,
+          "median": 21.41,
+          "ratio": 1.19
+        },
+        "judge": {
+          "usefulness": 0.7,
+          "hype": 0.6,
+          "flags": [
+            "near_duplicate"
+          ],
+          "reason": "Повторяет информацию о проблеме с заданием №27 из предыдущего поста."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:56.689684+00:00",
+        "id": 9447,
+        "link": "https://t.me/kompege/9447",
+        "source": "mirror",
+        "text": "✏️ [PRO100 ЕГЭ Информатика](https://vk.com/wall-205997912_3677): 🆘 № 27 из демоверсии некорректен.  У данной задачи нет правильного ответа. Или есть сразу два правильных.  ❓Как же так вышло?  Будем на",
+        "date": "2026-08-30T11:32:00+00:00",
+        "age_h": 70.4,
+        "engagement": {
+          "views": 524,
+          "forwards": 4,
+          "reactions": 0,
+          "score": 17.24,
+          "median": 21.41,
+          "ratio": 0.81
+        },
+        "judge": {
+          "usefulness": 0.7,
+          "hype": 0.6,
+          "flags": [],
+          "reason": "Указание на некорректность задания №27 в демоверсии и объяснение математической проблемы."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:56.689556+00:00",
+        "id": 9448,
+        "link": "https://t.me/kompege/9448",
+        "source": "mirror",
+        "text": "✏️ [Информатика ЕГЭ - Alex Danov](https://vk.com/wall-142628541_2823): ФИПИ в Демо-2027 порадовала нас новыми 23 заданиями на графы. То что было №23, теперь в №13, а то что в №13, теперь в №10. А №10 ",
+        "date": "2026-08-31T07:04:58+00:00",
+        "age_h": 50.9,
+        "engagement": {
+          "views": 498,
+          "forwards": 13,
+          "reactions": 4,
+          "score": 51.98,
+          "median": 21.41,
+          "ratio": 2.43
+        },
+        "judge": {
+          "usefulness": 0.8,
+          "hype": 0.7,
+          "flags": [
+            "ad_funnel"
+          ],
+          "reason": "Информация об изменениях в ЕГЭ 2027 и ссылка на практику, но с зовом на платный интенсив."
+        },
+        "verdict": "delete_ad",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:56.689354+00:00",
+        "id": 9450,
+        "link": "https://t.me/kompege/9450",
+        "source": "poster",
+        "text": "❗️ВСЕ ИЗМЕНЕНИЯ НА ЕГЭ ПО ИНФОРМАТИКЕ 2027❗️  Ребята, с утра проходил съезд учителей инфы и обсуждались изменения, которые планируются в заданиях ЕГЭ 2027 на картинке 👆👆👆  Новое 23 задание на графы те",
+        "date": "2026-08-31T13:44:01+00:00",
+        "age_h": 44.2,
+        "engagement": {
+          "views": 478,
+          "forwards": 7,
+          "reactions": 1,
+          "score": 27.78,
+          "median": 21.41,
+          "ratio": 1.3
+        },
+        "judge": {
+          "usefulness": 0.8,
+          "hype": 0.7,
+          "flags": [],
+          "reason": "Разбор нового задания ЕГЭ 2027 с кодом, полезно для подготовки."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:56.687383+00:00",
+        "id": 9452,
+        "link": "https://t.me/kompege/9452",
+        "source": "mirror",
+        "text": "✏️ [ЕГЭ Информатика 2027 | Открытый курс](https://vk.com/wall-205865487_26406): Поздравляю дорогих коллег и учащихся с началом нового учебного года 😊",
+        "date": "2026-09-01T05:20:03+00:00",
+        "age_h": 28.6,
+        "engagement": {
+          "views": 436,
+          "forwards": 1,
+          "reactions": 2,
+          "score": 11.36,
+          "median": 21.41,
+          "ratio": 0.53
+        },
+        "judge": {
+          "usefulness": 0.0,
+          "hype": 0.0,
+          "flags": [],
+          "reason": "Поздравление с началом учебного года без полезной информации."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.555996+00:00",
+        "id": 9446,
+        "link": "https://t.me/kompege/9446",
+        "source": "human",
+        "text": "",
+        "date": "2026-08-30T11:06:46+00:00",
+        "age_h": 70.9,
+        "engagement": {
+          "views": 475,
+          "forwards": 5,
+          "reactions": 0,
+          "score": 19.75
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.555465+00:00",
+        "id": 9451,
+        "link": "https://t.me/kompege/9451",
+        "source": "human",
+        "text": "",
+        "date": "2026-08-31T13:44:01+00:00",
+        "age_h": 44.2,
+        "engagement": {
+          "views": 491,
+          "forwards": 5,
+          "reactions": 0,
+          "score": 19.91
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.555278+00:00",
+        "id": 9453,
+        "link": "https://t.me/kompege/9453",
+        "source": "poster",
+        "text": "📺 ВЫШЛИ ДЕМОВЕРСИЯ-2027  Ребятушки, файлы на руках,скоро запущу трансляцию, расскажу обо всех изменениях и к чему нам готовиться на ЕГЭ-2027 по информатике⚡️⚡️  📺 [ЮТУБ](https://youtube.com/live/4hBCv",
+        "date": "2026-09-01T10:17:01+00:00",
+        "age_h": 23.7,
+        "engagement": {
+          "views": 439,
+          "forwards": 3,
+          "reactions": 0,
+          "score": 13.39
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.555105+00:00",
+        "id": 9454,
+        "link": "https://t.me/kompege/9454",
+        "source": "mirror",
+        "text": "[ ](https://vk.com/video-4968_456239670)✏️ [Соточка по русскому | ЕГЭ 2026 | РУССКИЙ ЯЗЫК](https://vk.com/wall-4968_51464): Котаны, я записала разбор демоверсии ЕГЭ 2027)  Да, был веб с разбором, есть",
+        "date": "2026-09-01T14:02:02+00:00",
+        "age_h": 19.9,
+        "engagement": {
+          "views": 378,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 9.78
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.554902+00:00",
+        "id": 9455,
+        "link": "https://t.me/kompege/9455",
+        "source": "mirror",
+        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27109): Как пользоваться курсом? Или путь наших учеников 💯 ⠀ Представим, что ты уже получил чек об оплате Годового курса - 2027. Что же д",
+        "date": "2026-09-01T14:18:55+00:00",
+        "age_h": 19.6,
+        "engagement": {
+          "views": 351,
+          "forwards": 1,
+          "reactions": 1,
+          "score": 8.51
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.554145+00:00",
+        "id": 9456,
+        "link": "https://t.me/kompege/9456",
+        "source": "mirror",
+        "text": "[ ](https://sun9-70.userapi.com/s/v1/ig2/xXL88opwqy8BJDc0U-FPZWc2thUtNceLrpWEcl-TDyK7PruDfxn9PrTfOn3FkUamfo9NCYIwPTvwRgrByv0r64Lf.jpg?quality=95&crop=0,0,1750,1000&as=32x18,48x27,72x41,108x62,160x91,2",
+        "date": "2026-09-01T14:18:55+00:00",
+        "age_h": 19.6,
+        "engagement": {
+          "views": 405,
+          "forwards": 0,
+          "reactions": 2,
+          "score": 8.05
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.553906+00:00",
+        "id": 9457,
+        "link": "https://t.me/kompege/9457",
+        "source": "mirror",
+        "text": "✏️ [/dev/inf Репетитор по информатике Рогов А.Ю.](https://vk.com/wall-121199610_2989): Поздравляю с началом нового учебного года! Учебный год 2️⃣0️⃣2️⃣6️⃣🔵2️⃣0️⃣2️⃣7️⃣ Особенно его оценят любители мем",
+        "date": "2026-09-01T16:16:57+00:00",
+        "age_h": 17.7,
+        "engagement": {
+          "views": 371,
+          "forwards": 1,
+          "reactions": 3,
+          "score": 12.71
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.553688+00:00",
+        "id": 9459,
+        "link": "https://t.me/kompege/9459",
+        "source": "mirror",
+        "text": "✏️ [PRO100 ЕГЭ Информатика](https://vk.com/wall-205997912_3680): Есть и радостный момент в Демоверсии   В № 19 было исправлено условие – была удалена фраза неудачный ход.  ⚠ Слово неудачный можно было",
+        "date": "2026-09-01T19:02:47+00:00",
+        "age_h": 14.9,
+        "engagement": {
+          "views": 344,
+          "forwards": 1,
+          "reactions": 0,
+          "score": 6.44
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-02T09:57:54.553261+00:00",
+        "id": 9461,
+        "link": "https://t.me/kompege/9461",
+        "source": "human",
+        "text": "ЛУЧШИЙ КОД на новую задачу 23 из ЕГЭ ИНФОРМАТИКА 2027. 🔥   Код решает абсолютно любой вид задачи, даже с усложнениями. Я (Иглин Кирилл) попытался адаптировать вид функции в решении похожим на решение ",
+        "date": "2026-09-02T09:33:02+00:00",
+        "age_h": 0.4,
+        "engagement": {
+          "views": 97,
+          "forwards": 11,
+          "reactions": 0,
+          "score": 33.97
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      }
+    ]
+  },
+  "judge": {
+    "stats": {
+      "kept": 8,
+      "dropped": 4
+    },
+    "decisions": [
+      {
+        "ts": "2026-09-02T09:16:38.137953+00:00",
+        "stage": "fill",
+        "channel": "flash_ege",
+        "post_id": 15383,
+        "text": "С 1 сентября вас! Найдите меня на школьных фотографиях 😁  Моими любимыми предметами были информатика, математика и физика. Мне нравилось учиться, даже прогуливал редко, НО вот не редко дрался. Однажды",
+        "usefulness": 0.0,
+        "hype": 0.1,
+        "flags": [],
+        "reason": "Личная история автора, не несущая прямой пользы для подготовки к ЕГЭ.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-02T09:16:38.135090+00:00",
+        "stage": "fill",
+        "channel": "informatik_bu",
+        "post_id": 7218,
+        "text": "Вот и закончилась последняя неделя лета, через пару дней уже начинается учебный год 📚. А мы с вами продолжаем учиться и готовится к экзаменам.   Давайте вспомним, что мы успели за эти семь дней. ⬇  🔢🔢",
+        "usefulness": 0.6,
+        "hype": 0.4,
+        "flags": [
+          "ad_funnel"
+        ],
+        "reason": "Обзор прошедшей недели с ссылками на материалы, включая платный курс по заданию 23.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134988+00:00",
+        "stage": "fill",
+        "channel": "plugar_inf",
+        "post_id": 4520,
+        "text": "Задание 5 | ЕГЭ по информатике | ДЕМО-2027  VK: https://vkvideo.ru/video-194554202_456240017 YouTube: https://youtu.be/95xReHOp_z8 Rutube: https://rutube.ru/video/b7cf96925176d0b24d1777e130927729/",
+        "usefulness": 0.8,
+        "hype": 0.5,
+        "flags": [],
+        "reason": "Бесплатный видеоразбор конкретного задания из демоверсии на разных платформах.",
+        "action": "kept",
+        "blended": 0.6419
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134895+00:00",
+        "stage": "fill",
+        "channel": "plugar_inf",
+        "post_id": 4518,
+        "text": "Задание 4 | ЕГЭ по информатике | ДЕМО-2027  VK: https://vkvideo.ru/video-194554202_456240016 YouTube: https://youtu.be/Qh2Dt6F1guE Rutube: https://rutube.ru/video/09a49951072b9302d05abc6e36f50d68/",
+        "usefulness": 0.8,
+        "hype": 0.5,
+        "flags": [],
+        "reason": "Бесплатный видеоразбор конкретного задания из демоверсии на разных платформах.",
+        "action": "kept",
+        "blended": 0.6606
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134777+00:00",
+        "stage": "fill",
+        "channel": "infkege",
+        "post_id": 1971,
+        "text": "**ЕГЭ БУДЕТ НА LINUX?! **  Как устроен ЕГЭ по информатике и что нужно знать прямо сейчас об экзамене?  Расскрыл все секреты [тут](https://youtube.com/live/b30jVlmpllw?feature=share)",
+        "usefulness": 0.7,
+        "hype": 0.6,
+        "flags": [],
+        "reason": "Видео с разбором особенностей экзамена, включая потенциальное использование Linux.",
+        "action": "kept",
+        "blended": 0.6429
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134573+00:00",
+        "stage": "fill",
+        "channel": "plugar_inf",
+        "post_id": 4522,
+        "text": "Задание 6 | ЕГЭ по информатике | ДЕМО-2027  VK: https://vkvideo.ru/video-194554202_456240018 YouTube: https://youtu.be/wW8qs4OL73I Rutube: https://rutube.ru/video/0560150f0de84abaeb4c360689270fed/",
+        "usefulness": 0.8,
+        "hype": 0.5,
+        "flags": [],
+        "reason": "Бесплатный видеоразбор конкретного задания из демоверсии на разных платформах.",
+        "action": "kept",
+        "blended": 0.6641
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134464+00:00",
+        "stage": "fill",
+        "channel": "profimatika_Inf",
+        "post_id": 5420,
+        "text": "**Со мной по-другому никак ****🥰**  __Хотите высокие баллы __— __придется ботать. Так что до ЕГЭ вы мои __[__рабы__](https://t.me/profimatika_Inf/4301)__)__",
+        "usefulness": 0.0,
+        "hype": 0.1,
+        "flags": [
+          "ad_funnel"
+        ],
+        "reason": "Агрессивный призыв к действию, намекающий на платные материалы или интенсив, без конкретной пользы.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134391+00:00",
+        "stage": "fill",
+        "channel": "plugar_inf",
+        "post_id": 4517,
+        "text": "Задание 3 | ЕГЭ по информатике | ДЕМО-2027  VK: https://vkvideo.ru/video-194554202_456240015 YouTube: https://youtu.be/ksQZcdULBSs Rutube: https://rutube.ru/video/b953b78fdfbf8dc2099969f4eb28a7b4/",
+        "usefulness": 0.8,
+        "hype": 0.5,
+        "flags": [],
+        "reason": "Бесплатный видеоразбор конкретного задания из демоверсии на разных платформах.",
+        "action": "kept",
+        "blended": 0.6684
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134314+00:00",
+        "stage": "fill",
+        "channel": "flash_ege",
+        "post_id": 15365,
+        "text": "ИЩУ КУРАТОРОВ НА ФЛЭШ!!!  Ребята, я открываю вторую волну набора кураторов по информатике!  Если вы хорошо сдали ЕГЭ и хотите помогать 11 или 10-классникам - [проходите отбор](https://s.salebot.pro/69",
+        "usefulness": 0.0,
+        "hype": 0.1,
+        "flags": [
+          "ad_funnel"
+        ],
+        "reason": "Рекрутинг кураторов, что не является прямым полезным контентом для подготовки к ЕГЭ.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134227+00:00",
+        "stage": "fill",
+        "channel": "sofaavibe",
+        "post_id": 7227,
+        "text": "**ДЕМОВЕРСИЯ ЕГЭ 2027 – разобранные задания ****⚡️**** ** собрала в файлике некоторые задания, на которые сейчас стоит обратить внимание   – [все изменения этого года тут](https://t.me/sofaavibe/7218)",
+        "usefulness": 0.7,
+        "hype": 0.6,
+        "flags": [],
+        "reason": "Предлагает файл с заданиями из демоверсии, на которые стоит обратить внимание.",
+        "action": "kept",
+        "blended": 0.7367
+      },
+      {
+        "ts": "2026-09-02T09:16:38.134114+00:00",
+        "stage": "fill",
+        "channel": "infa_vikusya",
+        "post_id": 10032,
+        "text": "**РАЗБОРЫ ДЕМОВЕРСИЙ ЕГЭ 2027:**  **— профмат** в своем канале [разобрал Артур Шарафиев (наша легенда) ](https://t.me/+qmzaQnD4tw45MmUy) **— русский **в своем канале [Александр Долгих (самый свежий) ]",
+        "usefulness": 0.6,
+        "hype": 0.7,
+        "flags": [],
+        "reason": "Обзор разборов демоверсии по разным предметам и общая оценка сложности экзамена.",
+        "action": "kept",
+        "blended": 0.7309
+      },
+      {
+        "ts": "2026-09-02T09:16:38.133693+00:00",
+        "stage": "fill",
+        "channel": "infa_vikusya",
+        "post_id": 10050,
+        "text": "**№15 из **[**ДЕМОВЕРСИИ ЕГЭ 2027  (жмякни и забери полный разбор) **](https://t.me/kegeinf_bot?start=demoege2027)  такая вот небольшая смесь бульдога с носорогом: тип дел + отрезки, но на самом деле ",
+        "usefulness": 0.7,
+        "hype": 0.5,
+        "flags": [],
+        "reason": "Разбор конкретного задания из демоверсии с упоминанием особенностей решения.",
+        "action": "kept",
+        "blended": 0.74
+      }
+    ]
+  }
+}

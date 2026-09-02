@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-09-02T06:10:00+00:00",
+  "moderator": {
+    "stats": {
+      "evaluated": 42,
+      "delete_ad": 5,
+      "low_engagement": 7,
+      "kept": 28,
+      "skip_human": 1,
+      "skip_fresh": 1,
+      "deleted_real": 5,
+      "dry_run": 0
+    },
+    "decisions": [
+      {
+        "ts": "2026-09-02T05:58:12+00:00",
+        "id": 8471,
+        "link": "https://t.me/kompege/8471",
+        "source": "poster",
+        "channel": "flash_ege",
+        "text": "Промокод на курс со скидкой 70%! Только сегодня успей записаться по ссылке в шапке профиля →",
+        "date": "2026-09-01T09:30:00+00:00",
+        "age_h": 20.5,
+        "judge": {
+          "usefulness": 1.5,
+          "hype": 8.7,
+          "flags": ["ad", "promo_code", "urgency"],
+          "reason": "Рекламный пост с промокодом и призывом к срочной покупке, полезного контента нет."
+        },
+        "engagement": { "views": 3120, "forwards": 2, "reactions": 4, "score": 0.02, "median": 41, "ratio": 0.12 },
+        "verdict": "delete_ad",
+        "deleted": true,
+        "dry_run": false
+      },
+      {
+        "ts": "2026-09-02T04:12:40+00:00",
+        "id": 8468,
+        "link": "https://t.me/kompege/8468",
+        "source": "mirror",
+        "channel": "vk_repost",
+        "text": "Небольшая подборка формул по механике на всякий случай перед пробником.",
+        "date": "2026-08-31T14:00:00+00:00",
+        "age_h": 39.2,
+        "judge": {
+          "usefulness": 5.4,
+          "hype": 2.1,
+          "flags": [],
+          "reason": "Тематический материал, но узкий охват; отклик ниже медианы канала."
+        },
+        "engagement": { "views": 2740, "forwards": 6, "reactions": 12, "score": 0.4, "median": 41, "ratio": 0.44 },
+        "verdict": "low_engagement",
+        "deleted": false,
+        "dry_run": false
+      },
+      {
+        "ts": "2026-09-02T03:40:05+00:00",
+        "id": 8465,
+        "link": "https://t.me/kompege/8465",
+        "source": "poster",
+        "channel": "kdrshov",
+        "text": "Разбор сложной задачи №18 из профильного ЕГЭ по математике: три способа решения с пояснениями.",
+        "date": "2026-09-01T18:20:00+00:00",
+        "age_h": 9.3,
+        "judge": {
+          "usefulness": 8.9,
+          "hype": 1.4,
+          "flags": [],
+          "reason": "Полезный образовательный разбор, точно в теме канала, без кликбейта."
+        },
+        "engagement": { "views": 5210, "forwards": 34, "reactions": 96, "score": 0.71, "median": 41, "ratio": 2.34 },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": false
+      },
+      {
+        "ts": "2026-09-02T02:05:00+00:00",
+        "id": 8462,
+        "link": "https://t.me/kompege/8462",
+        "source": "poster",
+        "channel": "flash_ege",
+        "text": "AI-дайджест недели: главные новости для выпускников.",
+        "date": "2026-09-02T00:00:00+00:00",
+        "age_h": 2.1,
+        "judge": null,
+        "engagement": { "views": 1980, "forwards": 5, "reactions": 20, "score": 0.31, "median": 41, "ratio": 0.71 },
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": false
+      }
+    ]
+  },
+  "judge": {
+    "stats": { "kept": 214, "dropped": 63 },
+    "decisions": [
+      {
+        "ts": "2026-09-02T05:40:00+00:00",
+        "channel": "flash_ege",
+        "post_id": 13921,
+        "text": "Скидка 90% на марафон, только 3 часа! Переходи и оплачивай →",
+        "usefulness": 1.2,
+        "hype": 9.1,
+        "flags": ["ad", "clickbait", "urgency"],
+        "reason": "Явная реклама с искусственной срочностью, образовательной ценности нет.",
+        "action": "dropped",
+        "blended": 1.8
+      },
+      {
+        "ts": "2026-09-02T05:22:00+00:00",
+        "channel": "kdrshov",
+        "post_id": 4102,
+        "text": "Конспект по теме «производная» с примерами и типовыми ошибками.",
+        "usefulness": 8.6,
+        "hype": 1.1,
+        "flags": [],
+        "reason": "Структурированный учебный материал по профильной теме.",
+        "action": "kept",
+        "blended": 8.2
+      },
+      {
+        "ts": "2026-09-02T04:58:00+00:00",
+        "channel": "vk_repost",
+        "post_id": 88213,
+        "text": "ШОК! Этот метод сдачи ЕГЭ скрывают от вас репетиторы!!!",
+        "usefulness": 2.4,
+        "hype": 8.4,
+        "flags": ["clickbait"],
+        "reason": "Кликбейт-заголовок, содержательная часть слабая.",
+        "action": "dropped",
+        "blended": 3.1
+      }
+    ]
+  }
+}

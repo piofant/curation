@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Модерация и судья — @kompege</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <nav class="topnav">
+    <a href="../">← Очередь</a>
+    <span class="sep">·</span>
+    <a href="../demo/">Демо алгоритма →</a>
+    <span class="sep">·</span>
+    <a href="../performance/">Анализ эффективности →</a>
+    <span class="sep">·</span>
+    <strong>Модерация и судья</strong>
+  </nav>
+  <h1>Модерация и судья</h1>
+  <p class="subtitle">Пост-модерация опубликованных материалов в <a href="https://t.me/kompege" target="_blank" rel="noopener">@kompege</a> и решения LLM-судьи на входе в пайплайн.</p>
+</header>
+
+<section id="stats" class="sticky-stats" aria-live="polite">
+  <span id="stats-text">Загрузка данных…</span>
+</section>
+
+<main>
+
+  <!-- ─── Пост-модерация ──────────────────────────────────────── -->
+  <section class="mod-section">
+    <h2>Пост-модерация</h2>
+    <p class="mod-hint">Скрипт проходит по свежим публикациям канала, спрашивает судью и оценивает фактическую вовлечённость. Рекламные посты и материалы со слабым откликом относительно медианы канала помечаются к удалению.</p>
+
+    <div id="mod-mode" class="mode-badge-wrap"></div>
+    <div id="mod-stats" class="mod-stats"></div>
+
+    <div class="table-wrap">
+      <table id="mod-table" aria-label="Пост-модерация">
+        <thead>
+          <tr>
+            <th>Пост</th>
+            <th>Источник</th>
+            <th>Возраст</th>
+            <th>Судья</th>
+            <th>Вовлечённость</th>
+            <th>Вердикт</th>
+            <th>Удалён</th>
+          </tr>
+        </thead>
+        <tbody id="mod-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ─── Судья на входе ──────────────────────────────────────── -->
+  <section class="mod-section">
+    <h2>Судья (на входе)</h2>
+    <p class="mod-hint">LLM-судья оценивает кандидатов ещё до публикации: полезность материала и уровень «хайпа»/кликбейта, ставит флаги и выносит вердикт. Отбракованные посты не попадают в очередь.</p>
+
+    <div id="judge-stats" class="mod-stats"></div>
+
+    <div class="table-wrap">
+      <table id="judge-table" aria-label="Решения судьи на входе">
+        <thead>
+          <tr>
+            <th>Канал · пост</th>
+            <th>Полезность</th>
+            <th>Хайп</th>
+            <th>Флаги</th>
+            <th>Обоснование</th>
+            <th>Действие</th>
+          </tr>
+        </thead>
+        <tbody id="judge-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer class="page-footer">
+  <p>Данные модерации обновляются автоматически вместе с ежедневным экспортом пайплайна.
+  Подробное описание алгоритма отбора — на <a href="../">основной странице</a>.
+  Открытый исходный код: <a href="https://github.com/piofant/curation">github.com/piofant/curation</a>.</p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
