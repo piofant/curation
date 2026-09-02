@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-01T10:05:10.452987+00:00",
+  "generated_at": "2026-09-02T10:05:11.228705+00:00",
   "stats": {
-    "total_items": 91,
+    "total_items": 93,
     "channels_count": 15,
-    "avg_score": 0.3823,
+    "avg_score": 0.3795,
     "max_score": 0.6579,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.4266,
-    "tertile_mid_min": 0.3199
+    "tertile_top_min": 0.4246,
+    "tertile_mid_min": 0.3154
   },
   "weights": {
     "Q": 0.4,
@@ -1043,7 +1043,7 @@
       "channel": "kdrshov",
       "post_id": 4325,
       "score": 0.4246,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.15,
@@ -2063,7 +2063,7 @@
       "channel": "sofaavibe",
       "post_id": 7151,
       "score": 0.318,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.1,
@@ -2097,7 +2097,7 @@
       "channel": "infa_vikusya",
       "post_id": 10017,
       "score": 0.3154,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.1,
@@ -2295,6 +2295,40 @@
       "date": "2026-08-29T07:51:05+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
       "keyword": "разбор"
+    },
+    {
+      "id": "kdrshov_4474",
+      "channel": "kdrshov",
+      "post_id": 4474,
+      "score": 0.3013,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.07,
+          "norm": 0.0875,
+          "weighted": 0.035
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0877,
+          "weighted": 0.0263
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 1536,
+          "norm": 0.4652,
+          "weighted": 0.0465
+        }
+      },
+      "text": "Химичем в информатике с [Юлей](https://t.me/au_chem) \n\nПитон - ❤️\nПитан, Питен, Питин - 😈\n\n[неформатик](https://t.me/@kdrshov) | подписывайтесь на [тик-ток](https://www.tiktok.com/@kdrshov?_r=1&_t=ZS-99LQ9AiFtGG)",
+      "link": "https://t.me/kdrshov/4474",
+      "date": "2026-08-31T14:42:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "информати"
     },
     {
       "id": "plugar_inf_4516",
@@ -2940,6 +2974,40 @@
       "link": "https://t.me/sofaavibe/7084",
       "date": "2026-08-01T13:24:01+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "informatik_bu_7218",
+      "channel": "informatik_bu",
+      "post_id": 7218,
+      "score": 0.2053,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.16,
+          "norm": 0.2,
+          "weighted": 0.08
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0877,
+          "weighted": 0.0263
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 1382,
+          "norm": 0.4185,
+          "weighted": 0.0419
+        }
+      },
+      "text": "Вот и закончилась последняя неделя лета, через пару дней уже начинается учебный год 📚. А мы с вами продолжаем учиться и готовится к экзаменам.  \nДавайте вспомним, что мы успели за эти семь дней. ⬇\n\n🔢🔢🔢🔢🔢🔢🔢🔢\n\n24.08 – [Основы рекурсивных алгоритмов | Задание 23](https://3.shkolkovo.online/my/course/14013/materials/lesson/43218?utm_source=tg&utm_campaign=informatik_bu)\n\n🔢🔢🔢🔢🔢🔢🔢\n\n🔢 Обсудили [регулярные выражения](https://t.me/informatik_bu/7179) и [кластеризацию](https://t.me/informatik_bu/7216);\n🔢 ",
+      "link": "https://t.me/informatik_bu/7218",
+      "date": "2026-08-30T19:02:09+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Хорошая вовлечённость | Много просмотров",
       "keyword": "ЕГЭ"
     },
     {
