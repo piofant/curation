@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-09T10:05:10.513052+00:00",
+  "generated_at": "2026-09-10T10:05:02.129890+00:00",
   "stats": {
-    "total_items": 115,
+    "total_items": 121,
     "channels_count": 15,
-    "avg_score": 0.5674,
-    "max_score": 2.5837,
+    "avg_score": 0.6294,
+    "max_score": 2.5971,
     "min_score": 0.1492
   },
   "thresholds": {
-    "tertile_top_min": 0.4349,
-    "tertile_mid_min": 0.306
+    "tertile_top_min": 0.444,
+    "tertile_mid_min": 0.3154
   },
   "weights": {
     "Q": 0.4,
@@ -18,6 +18,40 @@
     "V": 0.1
   },
   "items": [
+    {
+      "id": "profimatika_Inf_5497",
+      "channel": "profimatika_Inf",
+      "post_id": 5497,
+      "score": 2.5971,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.29,
+          "norm": 0.3625,
+          "weighted": 0.145
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0877,
+          "weighted": 0.0263
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 278,
+          "norm": 0.0348,
+          "weighted": 0.0035
+        }
+      },
+      "text": "🐍 **АЙТИ-СРЕДА: СРЕЗЫ СТРОК В PYTHON**\n\nСегодня разбираемся с одной из самых полезных вещей в Python — **срезами строк**.\n\nНа карточках с Профиком показал, как работают `s[2:5]`, `s[:3]`, `s[3:]` и другие варианты, чтобы вы не просто запомнили запись, а понимали, какой кусок строки получите))\n\nЛистайте карточки, сохраняйте — и забирайте больше полезной теории на [**Банке задач Профиматики**](https://bank-zadach.ru/) 👀\n\n#ITсреда",
+      "link": "https://t.me/profimatika_Inf/5497",
+      "date": "2026-09-09T10:20:25+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "python"
+    },
     {
       "id": "plugar_inf_4528",
       "channel": "plugar_inf",
@@ -51,6 +85,40 @@
       "date": "2026-09-04T09:51:44+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
       "keyword": "ЕГЭ"
+    },
+    {
+      "id": "informatik_bu_7272",
+      "channel": "informatik_bu",
+      "post_id": 7272,
+      "score": 2.5815,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.25,
+          "norm": 0.3125,
+          "weighted": 0.125
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.1053,
+          "weighted": 0.0316
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1086,
+          "norm": 0.1358,
+          "weighted": 0.0136
+        }
+      },
+      "text": "**Главное — прога.**\n\nСегодня вышел новый ролик по принципам подготовки к информатике. Он получился действительно полезным и важным.\n\nА посмотреть ролик можно:\n\n✏ [На платформе](https://3.shkolkovo.online/lesson/46627?utm_source=tg&utm_campaign=informatik_bu)\n\n🦫 [На бобре](https://bobr.video/watch/30473c48-0f1e-4137-9581-65b43666342d?utm_source=tg&utm_campaign=informatik_bu)\n\n🟦 [В ВК](https://vkvideo.ru/video-89501371_456239425?list=5ad9c2dfec66104de5&utm_source=tg&utm_campaign=informatik_bu)\n\n🔺",
+      "link": "https://t.me/informatik_bu/7272",
+      "date": "2026-09-09T15:24:10+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "информати"
     },
     {
       "id": "flash_ege_15398",
@@ -153,6 +221,40 @@
       "date": "2026-09-06T10:10:59+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
       "keyword": "прога"
+    },
+    {
+      "id": "plugar_inf_4531",
+      "channel": "plugar_inf",
+      "post_id": 4531,
+      "score": 2.5018,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.32,
+          "norm": 0.4,
+          "weighted": 0.16
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.1053,
+          "weighted": 0.0316
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 416,
+          "norm": 0.052,
+          "weighted": 0.0052
+        }
+      },
+      "text": "Задание 11 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240023\nYouTube: https://youtu.be/wH2HYaDEJeY\nRutube: https://rutube.ru/video/18649b78abc0dd0cedc4a5addbb6d88c/",
+      "link": "https://t.me/plugar_inf/4531",
+      "date": "2026-09-08T13:02:27+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
     },
     {
       "id": "informatik_bu_7263",
@@ -357,6 +459,40 @@
       "date": "2026-09-07T18:00:58+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров | Активно репостят",
       "keyword": "код"
+    },
+    {
+      "id": "informatik_bu_7271",
+      "channel": "informatik_bu",
+      "post_id": 7271,
+      "score": 2.3883,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.17,
+          "norm": 0.2125,
+          "weighted": 0.085
+        },
+        "F": {
+          "raw": 10,
+          "norm": 0.1754,
+          "weighted": 0.0526
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 1438,
+          "norm": 0.1798,
+          "weighted": 0.018
+        }
+      },
+      "text": "**Рекурсия. ****🔥**\n\nА знаете ли вы, что значит это слово? Если нет — ничего страшного, самое время прочитать про неё выше, ведь это очень полезная тема для ЕГЭ!",
+      "link": "https://t.me/informatik_bu/7271",
+      "date": "2026-09-08T14:17:13+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
     },
     {
       "id": "flash_ege_15407",
@@ -971,6 +1107,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "infa_vikusya_10111",
+      "channel": "infa_vikusya",
+      "post_id": 10111,
+      "score": 0.4848,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.1,
+          "norm": 0.125,
+          "weighted": 0.05
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.1053,
+          "weighted": 0.0316
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 2331,
+          "norm": 0.2914,
+          "weighted": 0.0291
+        }
+      },
+      "text": "**не знал эксель и учился в классе с профилем на право (соцгум)**\n\nи даже с таким набором данных мой ученик смог сдать на заслуженные **100 после ГОДОВОГО КУРСА** 👈🏻\n\nне думайте, что курс - это просто волшебная таблетка. это проработанная до деталей подготовка и постоянная борьба с собой и своей ленью:\n\n— изучение с НУЛЯ всех тем и заданий ЕГЭ 2027\n— повторение всего по моим авторским материалам\n— практика в виде задач наиболее близких к экзамену \n— пробные минимум 2 раза в месяц \n— доп уроки, и",
+      "link": "https://t.me/infa_vikusya/10111",
+      "date": "2026-09-09T15:32:10+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "infkege_1971",
       "channel": "infkege",
       "post_id": 1971,
@@ -1213,7 +1383,7 @@
       "channel": "iliiasagalov_100points",
       "post_id": 6244,
       "score": 0.4421,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.28,
@@ -1247,7 +1417,7 @@
       "channel": "flash_ege",
       "post_id": 15261,
       "score": 0.4364,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.28,
@@ -1281,7 +1451,7 @@
       "channel": "infa_vikusya",
       "post_id": 10010,
       "score": 0.4349,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.23,
@@ -2059,6 +2229,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "kdrshov_4531",
+      "channel": "kdrshov",
+      "post_id": 4531,
+      "score": 0.3632,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.16,
+          "norm": 0.2,
+          "weighted": 0.08
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.1053,
+          "weighted": 0.0316
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 788,
+          "norm": 0.0985,
+          "weighted": 0.0099
+        }
+      },
+      "text": "**ВОТ И ПРОШЕЛ ПЕРВЫЙ УРОК **🙂\n\n- закодировали всё\n- фАно ❤️ или фанО 🔥\n- кошка в шоке \n- весь стол в блестках ✨\n\n**Пишите в комментариях как вам урок?**\n\nмы обязательно ещё пройдем каждую тему что сегодня обсуждали. целый сентябрь кодирования\n\nс 7 по 13 сентября вас ждет:\n**−400₽/мес на Годовой курс **(__кроме «Все включено»__)\n\n[**ЗАПИСАТЬСЯ**](https://s.salebot.pro/9ff1e859ce2f8b2c9d8b465163c74a1f_1?utm_source=telegram&utm_medium=social&utm_campaign=inform_ege&utm_content=selling_post_0709202",
+      "link": "https://t.me/kdrshov/4531",
+      "date": "2026-09-07T13:55:36+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "код"
+    },
+    {
       "id": "plugar_inf_4517",
       "channel": "plugar_inf",
       "post_id": 4517,
@@ -2539,7 +2743,7 @@
       "channel": "infa_vikusya",
       "post_id": 9894,
       "score": 0.3096,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.08,
@@ -2573,7 +2777,7 @@
       "channel": "informatik_bu",
       "post_id": 7079,
       "score": 0.306,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.08,
