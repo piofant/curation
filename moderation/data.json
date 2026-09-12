@@ -1,17 +1,360 @@
 {
-  "generated_at": "2026-09-11T10:05:04.663589+00:00",
+  "generated_at": "2026-09-12T10:05:10.646500+00:00",
   "moderator": {
     "stats": {
-      "evaluated": 31,
-      "delete_ad": 6,
+      "evaluated": 34,
+      "delete_ad": 7,
       "low_engagement": 0,
-      "kept": 25,
-      "skip_human": 20,
-      "skip_fresh": 5,
+      "kept": 27,
+      "skip_human": 25,
+      "skip_fresh": 8,
       "deleted_real": 0,
       "dry_run": true
     },
     "decisions": [
+      {
+        "ts": "2026-09-12T09:50:15.803577+00:00",
+        "id": 9498,
+        "link": "https://t.me/kompege/9498",
+        "source": "poster",
+        "text": "СОСТАВИТЕЛИ ЕГЭ НЕНАВИДЯТ ЭТОТ ВЕБ…  Сегодня разберем базовое программирование на Python всего за час С НУЛЯ 🤩  Жду всех в 17:30 Мск 📱 [ВК](https://vkvideo.ru/live-240976430_456239021) 📱 [ЮТУБ](https:",
+        "date": "2026-09-09T12:15:16+00:00",
+        "age_h": 69.6,
+        "engagement": {
+          "views": 572,
+          "forwards": 12,
+          "reactions": 2,
+          "score": 45.72,
+          "median": 20.83,
+          "ratio": 2.19
+        },
+        "judge": {
+          "usefulness": 0.7,
+          "hype": 0.5,
+          "flags": [],
+          "reason": "Пост анонсирует бесплатный часовой вебинар по базовому программированию на Python с нуля, что является полезным контентом."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:15.803498+00:00",
+        "id": 9499,
+        "link": "https://t.me/kompege/9499",
+        "source": "mirror",
+        "text": "[ ](https://vk.com/video-184870282_456243540)✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27146): 📚 Теория к заданиям №7 и №11.   Все, что нужно знать по теме \"равномерное кодировани",
+        "date": "2026-09-09T12:51:37+00:00",
+        "age_h": 69.0,
+        "engagement": {
+          "views": 560,
+          "forwards": 5,
+          "reactions": 0,
+          "score": 20.6,
+          "median": 20.83,
+          "ratio": 0.99
+        },
+        "judge": {
+          "usefulness": 0.8,
+          "hype": 0.3,
+          "flags": [
+            "ad_funnel"
+          ],
+          "reason": "Пост содержит полезную теорию по заданиям 7 и 11, но также содержит призыв к платному курсу."
+        },
+        "verdict": "delete_ad",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:15.803412+00:00",
+        "id": 9500,
+        "link": "https://t.me/kompege/9500",
+        "source": "poster",
+        "text": "🚨 ФИНАЛЬНЫЙ ВЕБ ФЛЭШКИ ЧЕРЕЗ 3 ЧАСА  Это вам напоминалка, но рассказать хотел другое.  Часто ребята теряют баллы не на сложной теме, а на одной незамеченной мелочи, сейчас объясню мысль  У моего учени",
+        "date": "2026-09-10T10:28:01+00:00",
+        "age_h": 47.4,
+        "engagement": {
+          "views": 483,
+          "forwards": 4,
+          "reactions": 2,
+          "score": 20.83,
+          "median": 20.83,
+          "ratio": 1.0
+        },
+        "judge": {
+          "usefulness": 0.7,
+          "hype": 0.5,
+          "flags": [],
+          "reason": "Пост предлагает бесплатный вебинар с разбором задач и делится историей успеха ученика, что полезно и мотивирует."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:15.803303+00:00",
+        "id": 9501,
+        "link": "https://t.me/kompege/9501",
+        "source": "mirror",
+        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27148): Изменения в ЕГЭ-2027 по информатике    Прошел съезд, вышла демоверсия и что мы увидели.    ПОМЕНЯЛАСЬ КОМИССИЯ  Точнее произошли ",
+        "date": "2026-09-10T14:35:40+00:00",
+        "age_h": 43.2,
+        "engagement": {
+          "views": 447,
+          "forwards": 2,
+          "reactions": 11,
+          "score": 32.47,
+          "median": 20.83,
+          "ratio": 1.56
+        },
+        "judge": {
+          "usefulness": 0.8,
+          "hype": 0.7,
+          "flags": [],
+          "reason": "Пост содержит важную новость об изменениях в ЕГЭ по информатике и анализ ситуации, что полезно для выпускников."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:15.803022+00:00",
+        "id": 9502,
+        "link": "https://t.me/kompege/9502",
+        "source": "mirror",
+        "text": "[ ](https://sun9-78.userapi.com/s/v1/ig2/Q8L2-62PFGCJ1RSuV3o3HajXTXUFq6ChofZfoNSyBOWCIy5H7h-tLFzVGigt7shFWLUgATSj0ys5U96xcZrfx-lM.jpg?quality=95&crop=0,0,1279,853&as=32x21,48x32,72x48,108x72,160x107,2",
+        "date": "2026-09-10T14:35:40+00:00",
+        "age_h": 43.2,
+        "engagement": {
+          "views": 436,
+          "forwards": 0,
+          "reactions": 7,
+          "score": 18.36,
+          "median": 20.83,
+          "ratio": 0.88
+        },
+        "judge": {
+          "usefulness": 0.0,
+          "hype": 0.0,
+          "flags": [
+            "no_context"
+          ],
+          "reason": "Пост не содержит полезной информации, является личным сообщением автора."
+        },
+        "verdict": "delete_ad",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.827063+00:00",
+        "id": 9503,
+        "link": "https://t.me/kompege/9503",
+        "source": "mirror",
+        "text": "✏️ [/dev/inf Репетитор по информатике Рогов А.Ю.](https://vk.com/wall-121199610_2997): Стартует XIX международная олимпиада «ПРОФИ» для учителей-предметников  Несколько лет назад я активно участвовал ",
+        "date": "2026-09-11T10:09:24+00:00",
+        "age_h": 23.7,
+        "engagement": {
+          "views": 290,
+          "forwards": 4,
+          "reactions": 0,
+          "score": 14.9
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.826443+00:00",
+        "id": 9504,
+        "link": "https://t.me/kompege/9504",
+        "source": "mirror",
+        "text": "[ ](https://sun9-67.userapi.com/s/v1/ig2/RK1BWBKkex7V9J_rtaBXpJ3YuLRdpEgiVquyUlY79cv2OYUAVFKh_lt3tBsW6nptn-rWpwp8vuyndrHhjxnIFwY8.jpg?quality=95&crop=0,0,986,695&as=32x23,48x34,72x51,108x76,160x113,24",
+        "date": "2026-09-11T10:09:24+00:00",
+        "age_h": 23.7,
+        "engagement": {
+          "views": 278,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 8.78
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.826129+00:00",
+        "id": 9505,
+        "link": "https://t.me/kompege/9505",
+        "source": "mirror",
+        "text": "[ ](https://sun9-82.userapi.com/s/v1/ig2/fUv0ZM_qigdkGLiOY8XF6wbj1o3rKEyfEsO_r8hGLhuUwqYWlNUrA8uMMpG0z_bx_UQhwudbJp83sOa_nuUf0Zeb.jpg?quality=95&crop=0,0,690,780&as=32x36,48x54,72x81,108x122,160x181,2",
+        "date": "2026-09-11T11:41:29+00:00",
+        "age_h": 22.1,
+        "engagement": {
+          "views": 276,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 8.76
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.825677+00:00",
+        "id": 9506,
+        "link": "https://t.me/kompege/9506",
+        "source": "human",
+        "text": "",
+        "date": "2026-09-11T11:41:34+00:00",
+        "age_h": 22.1,
+        "engagement": {
+          "views": 288,
+          "forwards": 1,
+          "reactions": 0,
+          "score": 5.88
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.825573+00:00",
+        "id": 9507,
+        "link": "https://t.me/kompege/9507",
+        "source": "human",
+        "text": "",
+        "date": "2026-09-11T11:41:34+00:00",
+        "age_h": 22.1,
+        "engagement": {
+          "views": 294,
+          "forwards": 1,
+          "reactions": 0,
+          "score": 5.94
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.825450+00:00",
+        "id": 9508,
+        "link": "https://t.me/kompege/9508",
+        "source": "human",
+        "text": "",
+        "date": "2026-09-11T11:41:34+00:00",
+        "age_h": 22.1,
+        "engagement": {
+          "views": 300,
+          "forwards": 1,
+          "reactions": 0,
+          "score": 6.0
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.825335+00:00",
+        "id": 9509,
+        "link": "https://t.me/kompege/9509",
+        "source": "poster",
+        "text": "🐍 АЙТИ-СРЕДА: СРЕЗЫ СТРОК В PYTHON  Сегодня разбираемся с одной из самых полезных вещей в Python — срезами строк.  На карточках с Профиком показал, как работают `s[2:5]`, `s[:3]`, `s[3:]` и другие вар",
+        "date": "2026-09-11T13:21:01+00:00",
+        "age_h": 20.5,
+        "engagement": {
+          "views": 290,
+          "forwards": 2,
+          "reactions": 1,
+          "score": 10.9
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.825089+00:00",
+        "id": 9510,
+        "link": "https://t.me/kompege/9510",
+        "source": "human",
+        "text": "",
+        "date": "2026-09-11T13:21:01+00:00",
+        "age_h": 20.5,
+        "engagement": {
+          "views": 298,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 8.98
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.824964+00:00",
+        "id": 9511,
+        "link": "https://t.me/kompege/9511",
+        "source": "human",
+        "text": "",
+        "date": "2026-09-11T13:21:01+00:00",
+        "age_h": 20.5,
+        "engagement": {
+          "views": 297,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 8.97
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.824809+00:00",
+        "id": 9512,
+        "link": "https://t.me/kompege/9512",
+        "source": "mirror",
+        "text": "[ ](https://vk.com/video-184870282_456257314)✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27167): Первая неделя годового курса — ВСЁ! 🚀    На этой неделе мы уже научились разваливать",
+        "date": "2026-09-11T14:16:40+00:00",
+        "age_h": 19.6,
+        "engagement": {
+          "views": 300,
+          "forwards": 1,
+          "reactions": 0,
+          "score": 6.0
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-09-12T09:50:13.822822+00:00",
+        "id": 9513,
+        "link": "https://t.me/kompege/9513",
+        "source": "mirror",
+        "text": "[ ](https://vk.com/video-205865487_456240590)✏️ [ЕГЭ Информатика 2027 | Открытый курс](https://vk.com/wall-205865487_26423): АНОНС СТРИМА    В воскресенье в 15 МСК разберёмся с решением актуальных 16 ",
+        "date": "2026-09-11T16:33:59+00:00",
+        "age_h": 17.3,
+        "engagement": {
+          "views": 274,
+          "forwards": 3,
+          "reactions": 0,
+          "score": 11.74
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
       {
         "ts": "2026-09-11T09:50:07.534514+00:00",
         "id": 9497,
@@ -37,117 +380,6 @@
           "reason": "Разбор задания №7 с предложением порешать задачи в бот-тренажере, который является платным продуктом."
         },
         "verdict": "delete_ad",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-11T09:50:07.534356+00:00",
-        "id": 9498,
-        "link": "https://t.me/kompege/9498",
-        "source": "poster",
-        "text": "СОСТАВИТЕЛИ ЕГЭ НЕНАВИДЯТ ЭТОТ ВЕБ…  Сегодня разберем базовое программирование на Python всего за час С НУЛЯ 🤩  Жду всех в 17:30 Мск 📱 [ВК](https://vkvideo.ru/live-240976430_456239021) 📱 [ЮТУБ](https:",
-        "date": "2026-09-09T12:15:16+00:00",
-        "age_h": 45.6,
-        "engagement": {
-          "views": 515,
-          "forwards": 12,
-          "reactions": 2,
-          "score": 45.15,
-          "median": 21.04,
-          "ratio": 2.15
-        },
-        "judge": {
-          "usefulness": 0.8,
-          "hype": 0.7,
-          "flags": [],
-          "reason": "Анонс бесплатного часового вебинара по Python с нуля для ЕГЭ, что является очень полезным и актуальным контентом."
-        },
-        "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-11T09:50:07.534115+00:00",
-        "id": 9499,
-        "link": "https://t.me/kompege/9499",
-        "source": "mirror",
-        "text": "[ ](https://vk.com/video-184870282_456243540)✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27146): 📚 Теория к заданиям №7 и №11.   Все, что нужно знать по теме \"равномерное кодировани",
-        "date": "2026-09-09T12:51:37+00:00",
-        "age_h": 45.0,
-        "engagement": {
-          "views": 502,
-          "forwards": 5,
-          "reactions": 0,
-          "score": 20.02,
-          "median": 21.04,
-          "ratio": 0.95
-        },
-        "judge": {
-          "usefulness": 0.7,
-          "hype": 0.2,
-          "flags": [
-            "ad_funnel"
-          ],
-          "reason": "Пост содержит полезную теорию по заданиям 7 и 11 ЕГЭ по информатике, но также содержит призыв к платному курсу."
-        },
-        "verdict": "delete_ad",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-11T09:50:06.033147+00:00",
-        "id": 9500,
-        "link": "https://t.me/kompege/9500",
-        "source": "poster",
-        "text": "🚨 ФИНАЛЬНЫЙ ВЕБ ФЛЭШКИ ЧЕРЕЗ 3 ЧАСА  Это вам напоминалка, но рассказать хотел другое.  Часто ребята теряют баллы не на сложной теме, а на одной незамеченной мелочи, сейчас объясню мысль  У моего учени",
-        "date": "2026-09-10T10:28:01+00:00",
-        "age_h": 23.4,
-        "engagement": {
-          "views": 406,
-          "forwards": 4,
-          "reactions": 2,
-          "score": 20.06
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-11T09:50:06.031004+00:00",
-        "id": 9501,
-        "link": "https://t.me/kompege/9501",
-        "source": "mirror",
-        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27148): Изменения в ЕГЭ-2027 по информатике    Прошел съезд, вышла демоверсия и что мы увидели.    ПОМЕНЯЛАСЬ КОМИССИЯ  Точнее произошли ",
-        "date": "2026-09-10T14:35:40+00:00",
-        "age_h": 19.2,
-        "engagement": {
-          "views": 325,
-          "forwards": 2,
-          "reactions": 11,
-          "score": 31.25
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-11T09:50:06.026001+00:00",
-        "id": 9502,
-        "link": "https://t.me/kompege/9502",
-        "source": "mirror",
-        "text": "[ ](https://sun9-78.userapi.com/s/v1/ig2/Q8L2-62PFGCJ1RSuV3o3HajXTXUFq6ChofZfoNSyBOWCIy5H7h-tLFzVGigt7shFWLUgATSj0ys5U96xcZrfx-lM.jpg?quality=95&crop=0,0,1279,853&as=32x21,48x32,72x48,108x72,160x107,2",
-        "date": "2026-09-10T14:35:40+00:00",
-        "age_h": 19.2,
-        "engagement": {
-          "views": 345,
-          "forwards": 0,
-          "reactions": 6,
-          "score": 15.45
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
         "deleted": false,
         "dry_run": true
       },
@@ -1311,10 +1543,179 @@
   },
   "judge": {
     "stats": {
-      "kept": 34,
-      "dropped": 24
+      "kept": 35,
+      "dropped": 26
     },
     "decisions": [
+      {
+        "ts": "2026-09-12T10:00:12.137991+00:00",
+        "stage": "fill",
+        "channel": "plugar_inf",
+        "post_id": 4535,
+        "text": "Задание 14 | ЕГЭ по информатике | ДЕМО-2027  VK: https://vkvideo.ru/video-194554202_456240026 YouTube: https://youtu.be/ZStQq65Z3Ko Rutube: https://rutube.ru/video/a29c2278dada3ad8f8f36cec34c9f5e5/",
+        "usefulness": 0.8,
+        "hype": 0.2,
+        "flags": [],
+        "reason": "Разбор задания №14 с бесплатными ссылками на видео.",
+        "action": "kept",
+        "blended": 0.5327
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137916+00:00",
+        "stage": "fill",
+        "channel": "informatik_bu",
+        "post_id": 7272,
+        "text": "**Главное — прога.**  Сегодня вышел новый ролик по принципам подготовки к информатике. Он получился действительно полезным и важным.  А посмотреть ролик можно:  ✏ [На платформе](https://3.shkolkovo.on",
+        "usefulness": 0.8,
+        "hype": 0.2,
+        "flags": [],
+        "reason": "Полезный ролик о принципах подготовки, бесплатные ссылки на платформы.",
+        "action": "kept",
+        "blended": 0.5359
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137833+00:00",
+        "stage": "fill",
+        "channel": "infa_vikusya",
+        "post_id": 10113,
+        "text": "№7 из 2022. там отлетело почти 70 процентов учеников, хотя задача не самая сложная   прорешать №7 из реальных егэ и апробаций можете в моем боте-тренажере @kegeinf_bot",
+        "usefulness": 0.7,
+        "hype": 0.2,
+        "flags": [],
+        "reason": "Разбор сложного задания с предложением бота-тренажера (бесплатный ресурс).",
+        "action": "kept",
+        "blended": 0.4951
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137707+00:00",
+        "stage": "fill",
+        "channel": "infa_vikusya",
+        "post_id": 10123,
+        "text": "ну без второго моника к егэ по инфе не подготовишься. мультикаст во время лч тоже удобно смотреть 🙏",
+        "usefulness": 0.0,
+        "hype": 0.0,
+        "flags": [
+          "no_context"
+        ],
+        "reason": "Непонятный пост без контекста, не несет пользы.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137617+00:00",
+        "stage": "fill",
+        "channel": "infa_vikusya",
+        "post_id": 10108,
+        "text": "**ВЕБ СТАРТОВАЛ!!** 🤩  📺  [ютуб](https://youtu.be/MFXa6GflwgM) 💙  [вк видео](https://vk.com/video-137331920_456252974) 📺  [рутуб](https://rutube.ru/video/0980d299a44692f94a34f0d142e01ca8/)  [- занять ",
+        "usefulness": 0.0,
+        "hype": 0.1,
+        "flags": [
+          "ad_funnel"
+        ],
+        "reason": "Анонс вебинара с платным upsell, без конкретной пользы в самом посте.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137539+00:00",
+        "stage": "fill",
+        "channel": "kaspersky_ege",
+        "post_id": 15703,
+        "text": "**САМЫЕ ВАЖНЫЕ ФОРМУЛЫ В LIBREOFFICE CALC и EXCEL**  ❗️№3, №9, №18, а иногда и №26 — во всех этих заданиях пригодится умение работать с электронными таблицами. А в некоторых случаях решить задачу чере",
+        "usefulness": 0.8,
+        "hype": 0.2,
+        "flags": [
+          "no_file"
+        ],
+        "reason": "Обещает шпаргалку с формулами, но без прямой ссылки, только призыв к действию.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137442+00:00",
+        "stage": "fill",
+        "channel": "informatik_bu",
+        "post_id": 7276,
+        "text": "**Не прогой единой жив программист!**  Я часто говорю, что при подготовке к ЕГЭ не стоит решать задания только с помощью программирования. Вам доступна не только прога, но и возможности таблиц и метод",
+        "usefulness": 0.8,
+        "hype": 0.2,
+        "flags": [],
+        "reason": "Полезный ролик о важности разных методов решения, бесплатные ссылки на платформы.",
+        "action": "kept",
+        "blended": 0.5676
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137302+00:00",
+        "stage": "fill",
+        "channel": "flash_ege",
+        "post_id": 15465,
+        "text": "🚨** ФИНАЛЬНЫЙ ВЕБ ФЛЭШКИ ЧЕРЕЗ 3 ЧАСА**  Это вам напоминалка, но рассказать хотел другое.  Часто ребята теряют баллы не на сложной теме, а на одной незамеченной мелочи, сейчас объясню мысль  У моего у",
+        "usefulness": 0.7,
+        "hype": 0.3,
+        "flags": [],
+        "reason": "Напоминание о вебинаре с полезными советами и разбором темы, бесплатные ссылки.",
+        "action": "kept",
+        "blended": 0.5506
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137178+00:00",
+        "stage": "fill",
+        "channel": "infa_vikusya",
+        "post_id": 10122,
+        "text": "🧠 **КОДИРОВАНИЕ ДЛЯ ЕГЭ 2027** [** **](https://t.me/infa_vikusya/10045)**⚡️**** РАЗБОР ВСЕХ ТЕМ И ЗАДАНИЙ** ЭКЗАМЕНА быстрее [**на ГОДОВОМ КУРСЕ**](https://t.me/infa_vikusya/10045)",
+        "usefulness": 0.0,
+        "hype": 0.0,
+        "flags": [
+          "ad_funnel",
+          "near_duplicate"
+        ],
+        "reason": "Дублирует пост 0, но еще менее информативен и только с платным upsell.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-12T10:00:12.137050+00:00",
+        "stage": "fill",
+        "channel": "kdrshov",
+        "post_id": 4545,
+        "text": "**ФУНКЦИИ ДЛЯ ЕГЭ ПО ИНФОРМАТИКЕ**  **сохраняйте себе пока **ещё не разобрали пайтон + внутри можете почитать как они используются   ❤️ - скорее бы пайтон начать",
+        "usefulness": 0.6,
+        "hype": 0.1,
+        "flags": [],
+        "reason": "Полезная информация по функциям, призыв сохранить, но без конкретного материала.",
+        "action": "kept",
+        "blended": 0.5803
+      },
+      {
+        "ts": "2026-09-12T10:00:12.136728+00:00",
+        "stage": "fill",
+        "channel": "sofaavibe",
+        "post_id": 7323,
+        "text": "**ВСЕ ТИПЫ №1 + ОТВЕТЫ из фипи** 🤩  собрали с командой файл для вашей практики. в сентябре очень важно закрыть тему графов, это основополагающая вашего реза + база вхождения в информатику  💬 [**Софа В",
+        "usefulness": 0.7,
+        "hype": 0.3,
+        "flags": [
+          "no_file"
+        ],
+        "reason": "Обещает файл с заданиями ФИПИ, но без прямой ссылки, только призыв к действию.",
+        "action": "dropped",
+        "blended": 0.0
+      },
+      {
+        "ts": "2026-09-12T10:00:12.122151+00:00",
+        "stage": "fill",
+        "channel": "infa_vikusya",
+        "post_id": 10117,
+        "text": "**ВСЕ ТИПЫ №1 из ЕГЭ 2027 по ИНФЕ **  📺  [ютуб](https://youtu.be/US7ov0J5x38) 💙  [вк видео](https://vk.com/video-137331920_456252982) 📺  [рутуб](https://rutube.ru/video/59ba8ac21f90cbfee6bec5e7f8ab801",
+        "usefulness": 0.8,
+        "hype": 0.2,
+        "flags": [
+          "ad_funnel"
+        ],
+        "reason": "Полезный разбор типа задания с бесплатными ссылками на видео, но есть платный upsell.",
+        "action": "dropped",
+        "blended": 0.0
+      },
       {
         "ts": "2026-09-11T10:00:23.904890+00:00",
         "stage": "fill",
@@ -1353,131 +1754,6 @@
         "reason": "Пост разбирает задание №11 и дает ссылку на бесплатный открытый вебинар.",
         "action": "kept",
         "blended": 0.4307
-      },
-      {
-        "ts": "2026-09-11T10:00:23.904302+00:00",
-        "stage": "fill",
-        "channel": "informatik_bu",
-        "post_id": 7272,
-        "text": "**Главное — прога.**  Сегодня вышел новый ролик по принципам подготовки к информатике. Он получился действительно полезным и важным.  А посмотреть ролик можно:  ✏ [На платформе](https://3.shkolkovo.on",
-        "usefulness": 0.6,
-        "hype": 0.2,
-        "flags": [],
-        "reason": "Пост анонсирует новый полезный ролик по подготовке к информатике с ссылками на разные платформы.",
-        "action": "kept",
-        "blended": 0.4556
-      },
-      {
-        "ts": "2026-09-11T10:00:23.904191+00:00",
-        "stage": "fill",
-        "channel": "infa_vikusya",
-        "post_id": 10113,
-        "text": "№7 из 2022. там отлетело почти 70 процентов учеников, хотя задача не самая сложная   прорешать №7 из реальных егэ и апробаций можете в моем боте-тренажере @kegeinf_bot",
-        "usefulness": 0.7,
-        "hype": 0.1,
-        "flags": [],
-        "reason": "Пост разбирает сложное задание №7 и предлагает решить его в боте-тренажере, что является бесплатным полезным контентом.",
-        "action": "kept",
-        "blended": 0.4797
-      },
-      {
-        "ts": "2026-09-11T10:00:23.904092+00:00",
-        "stage": "fill",
-        "channel": "kaspersky_ege",
-        "post_id": 15703,
-        "text": "**САМЫЕ ВАЖНЫЕ ФОРМУЛЫ В LIBREOFFICE CALC и EXCEL**  ❗️№3, №9, №18, а иногда и №26 — во всех этих заданиях пригодится умение работать с электронными таблицами. А в некоторых случаях решить задачу чере",
-        "usefulness": 0.9,
-        "hype": 0.0,
-        "flags": [
-          "no_file"
-        ],
-        "reason": "Пост обещает шпаргалку с формулами, но не предоставляет прямой ссылки на файл, только призыв к реакции.",
-        "action": "dropped",
-        "blended": 0.0
-      },
-      {
-        "ts": "2026-09-11T10:00:23.903982+00:00",
-        "stage": "fill",
-        "channel": "plugar_inf",
-        "post_id": 4535,
-        "text": "Задание 14 | ЕГЭ по информатике | ДЕМО-2027  VK: https://vkvideo.ru/video-194554202_456240026 YouTube: https://youtu.be/ZStQq65Z3Ko Rutube: https://rutube.ru/video/a29c2278dada3ad8f8f36cec34c9f5e5/",
-        "usefulness": 0.8,
-        "hype": 0.1,
-        "flags": [],
-        "reason": "Пост предлагает бесплатный разбор задания №14 с ссылками на видеоплатформы.",
-        "action": "kept",
-        "blended": 0.5359
-      },
-      {
-        "ts": "2026-09-11T10:00:23.903853+00:00",
-        "stage": "fill",
-        "channel": "infa_vikusya",
-        "post_id": 10108,
-        "text": "**ВЕБ СТАРТОВАЛ!!** 🤩  📺  [ютуб](https://youtu.be/MFXa6GflwgM) 💙  [вк видео](https://vk.com/video-137331920_456252974) 📺  [рутуб](https://rutube.ru/video/0980d299a44692f94a34f0d142e01ca8/)  [- занять ",
-        "usefulness": 0.0,
-        "hype": 0.1,
-        "flags": [
-          "ad_funnel"
-        ],
-        "reason": "Пост анонсирует старт вебинара и содержит ссылку на платный годовой курс.",
-        "action": "dropped",
-        "blended": 0.0
-      },
-      {
-        "ts": "2026-09-11T10:00:23.903712+00:00",
-        "stage": "fill",
-        "channel": "flash_ege",
-        "post_id": 15465,
-        "text": "🚨** ФИНАЛЬНЫЙ ВЕБ ФЛЭШКИ ЧЕРЕЗ 3 ЧАСА**  Это вам напоминалка, но рассказать хотел другое.  Часто ребята теряют баллы не на сложной теме, а на одной незамеченной мелочи, сейчас объясню мысль  У моего у",
-        "usefulness": 0.6,
-        "hype": 0.3,
-        "flags": [],
-        "reason": "Пост является напоминанием о вебинаре и содержит полезные советы, но не ведет на платный продукт.",
-        "action": "kept",
-        "blended": 0.5132
-      },
-      {
-        "ts": "2026-09-11T10:00:23.903597+00:00",
-        "stage": "fill",
-        "channel": "kdrshov",
-        "post_id": 4545,
-        "text": "**ФУНКЦИИ ДЛЯ ЕГЭ ПО ИНФОРМАТИКЕ**  **сохраняйте себе пока **ещё не разобрали пайтон + внутри можете почитать как они используются   ❤️ - скорее бы пайтон начать",
-        "usefulness": 0.7,
-        "hype": 0.0,
-        "flags": [],
-        "reason": "Пост содержит полезную информацию о функциях для ЕГЭ по информатике и призывает сохранить, без явного призыва к покупке.",
-        "action": "kept",
-        "blended": 0.592
-      },
-      {
-        "ts": "2026-09-11T10:00:23.903304+00:00",
-        "stage": "fill",
-        "channel": "infa_vikusya",
-        "post_id": 10117,
-        "text": "**ВСЕ ТИПЫ №1 из ЕГЭ 2027 по ИНФЕ **  📺  [ютуб](https://youtu.be/US7ov0J5x38) 💙  [вк видео](https://vk.com/video-137331920_456252982) 📺  [рутуб](https://rutube.ru/video/59ba8ac21f90cbfee6bec5e7f8ab801",
-        "usefulness": 0.8,
-        "hype": 0.2,
-        "flags": [
-          "ad_funnel"
-        ],
-        "reason": "Пост предлагает бесплатные видеоразборы, но в конце есть явный призыв к платному годовому курсу.",
-        "action": "dropped",
-        "blended": 0.0
-      },
-      {
-        "ts": "2026-09-11T10:00:23.896631+00:00",
-        "stage": "fill",
-        "channel": "sofaavibe",
-        "post_id": 7323,
-        "text": "**ВСЕ ТИПЫ №1 + ОТВЕТЫ из фипи** 🤩  собрали с командой файл для вашей практики. в сентябре очень важно закрыть тему графов, это основополагающая вашего реза + база вхождения в информатику  💬 [**Софа В",
-        "usefulness": 0.8,
-        "hype": 0.0,
-        "flags": [
-          "no_file"
-        ],
-        "reason": "Пост обещает файл с заданиями №1, но не предоставляет прямой ссылки, только ссылку на канал.",
-        "action": "dropped",
-        "blended": 0.0
       },
       {
         "ts": "2026-09-10T10:00:13.247336+00:00",
