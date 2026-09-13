@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T10:05:07.165501+00:00",
+  "generated_at": "2026-09-13T10:05:09.689270+00:00",
   "stats": {
     "total_items": 127,
     "channels_count": 16,
-    "avg_score": 0.6811,
-    "max_score": 2.5837,
+    "avg_score": 0.6802,
+    "max_score": 2.5781,
     "min_score": 0.1492
   },
   "thresholds": {
@@ -18,74 +18,6 @@
     "V": 0.1
   },
   "items": [
-    {
-      "id": "plugar_inf_4528",
-      "channel": "plugar_inf",
-      "post_id": 4528,
-      "score": 2.5837,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.42,
-          "norm": 0.525,
-          "weighted": 0.21
-        },
-        "F": {
-          "raw": 7,
-          "norm": 0.1228,
-          "weighted": 0.0368
-        },
-        "R": {
-          "raw_days_ago": 1,
-          "norm": 0.6667,
-          "weighted": 0.1333
-        },
-        "V": {
-          "raw": 278,
-          "norm": 0.0348,
-          "weighted": 0.0035
-        }
-      },
-      "text": "Задание 9 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240021\nYouTube: https://youtu.be/F9cc0sueJVY\nRutube: https://rutube.ru/video/317bb228743b4f73947e18d210273896/",
-      "link": "https://t.me/plugar_inf/4528",
-      "date": "2026-09-04T09:51:44+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
-      "keyword": "ЕГЭ"
-    },
-    {
-      "id": "informatik_bu_7272",
-      "channel": "informatik_bu",
-      "post_id": 7272,
-      "score": 2.5815,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.25,
-          "norm": 0.3125,
-          "weighted": 0.125
-        },
-        "F": {
-          "raw": 6,
-          "norm": 0.1053,
-          "weighted": 0.0316
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 1086,
-          "norm": 0.1358,
-          "weighted": 0.0136
-        }
-      },
-      "text": "**Главное — прога.**\n\nСегодня вышел новый ролик по принципам подготовки к информатике. Он получился действительно полезным и важным.\n\nА посмотреть ролик можно:\n\n✏ [На платформе](https://3.shkolkovo.online/lesson/46627?utm_source=tg&utm_campaign=informatik_bu)\n\n🦫 [На бобре](https://bobr.video/watch/30473c48-0f1e-4137-9581-65b43666342d?utm_source=tg&utm_campaign=informatik_bu)\n\n🟦 [В ВК](https://vkvideo.ru/video-89501371_456239425?list=5ad9c2dfec66104de5&utm_source=tg&utm_campaign=informatik_bu)\n\n🔺",
-      "link": "https://t.me/informatik_bu/7272",
-      "date": "2026-09-09T15:24:10+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
-      "keyword": "информати"
-    },
     {
       "id": "flash_ege_15398",
       "channel": "flash_ege",
@@ -153,6 +85,40 @@
       "date": "2026-09-11T11:35:01+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
       "keyword": "ЕГЭ"
+    },
+    {
+      "id": "kaspersky_ege_15703",
+      "channel": "kaspersky_ege",
+      "post_id": 15703,
+      "score": 2.5626,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.46,
+          "norm": 0.575,
+          "weighted": 0.23
+        },
+        "F": {
+          "raw": 14,
+          "norm": 0.2456,
+          "weighted": 0.0737
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 537,
+          "norm": 0.0671,
+          "weighted": 0.0067
+        }
+      },
+      "text": "**САМЫЕ ВАЖНЫЕ ФОРМУЛЫ В LIBREOFFICE CALC и EXCEL**\n\n❗️№3, №9, №18, а иногда и №26 — во всех этих заданиях пригодится умение работать с электронными таблицами. А в некоторых случаях решить задачу через либру получается даже быстрее и удобнее, чем писать код!\n\nПоэтому собрали для вас небольшую шпаргалку с формулами (ох мне бы кто такую скинул в начале подготовки...)",
+      "link": "https://t.me/kaspersky_ege/15703",
+      "date": "2026-09-10T13:45:26+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "код"
     },
     {
       "id": "plugar_inf_4530",
@@ -321,6 +287,40 @@
       "text": "Задание 13 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240025\nYouTube: https://youtu.be/hmRT-Ryr7-8\nRutube: https://rutube.ru/video/173bd811d108d34f6203773dccc4a09a/",
       "link": "https://t.me/plugar_inf/4534",
       "date": "2026-09-10T08:12:27+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "plugar_inf_4536",
+      "channel": "plugar_inf",
+      "post_id": 4536,
+      "score": 2.4945,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.32,
+          "norm": 0.4,
+          "weighted": 0.16
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0877,
+          "weighted": 0.0263
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 319,
+          "norm": 0.0399,
+          "weighted": 0.004
+        }
+      },
+      "text": "Задание 15 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240027\nYouTube: https://youtu.be/vki4T8TZwXI\nRutube: https://rutube.ru/video/9a5745cb13226d4b47288a254775f1d1/",
+      "link": "https://t.me/plugar_inf/4536",
+      "date": "2026-09-11T11:34:03+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
       "keyword": "ЕГЭ"
     },
