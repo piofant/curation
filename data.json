@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-14T10:05:09.750302+00:00",
+  "generated_at": "2026-09-15T10:05:04.351834+00:00",
   "stats": {
-    "total_items": 135,
+    "total_items": 137,
     "channels_count": 16,
-    "avg_score": 0.655,
+    "avg_score": 0.6653,
     "max_score": 2.5626,
     "min_score": 0.1383
   },
   "thresholds": {
-    "tertile_top_min": 0.4421,
-    "tertile_mid_min": 0.3084
+    "tertile_top_min": 0.444,
+    "tertile_mid_min": 0.3096
   },
   "weights": {
     "Q": 0.4,
@@ -629,6 +629,40 @@
       "date": "2026-09-13T10:27:07+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
       "keyword": "код"
+    },
+    {
+      "id": "kdrshov_4557",
+      "channel": "kdrshov",
+      "post_id": 4557,
+      "score": 2.3804,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.3,
+          "norm": 0.375,
+          "weighted": 0.15
+        },
+        "F": {
+          "raw": 10,
+          "norm": 0.1754,
+          "weighted": 0.0526
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 711,
+          "norm": 0.0889,
+          "weighted": 0.0089
+        }
+      },
+      "text": "**КАК ВЕСТИ КОНСПЕКТЫ ПО ИНФОРМАТИКЕ**\n\n+ версия ВЕБЫ С ПРОГРАММИРОВАНИЕМ\n\n[Тик-ток](https://vt.tiktok.com/ZSq9JpcqX/) для удобства \n\n[НЕФОРМАТИК](https://t.me/@kdrshov)",
+      "link": "https://t.me/kdrshov/4557",
+      "date": "2026-09-13T16:39:23+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "информати"
     },
     {
       "id": "infa_vikusya_10114",
@@ -1519,7 +1553,7 @@
       "channel": "iliiasagalov_100points",
       "post_id": 6244,
       "score": 0.4421,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.28,
@@ -2569,6 +2603,40 @@
       "keyword": "прога"
     },
     {
+      "id": "kdrshov_4556",
+      "channel": "kdrshov",
+      "post_id": 4556,
+      "score": 0.3448,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.23,
+          "norm": 0.2875,
+          "weighted": 0.115
+        },
+        "F": {
+          "raw": 8,
+          "norm": 0.1404,
+          "weighted": 0.0421
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 774,
+          "norm": 0.0968,
+          "weighted": 0.0097
+        }
+      },
+      "text": "**КАК ВЕСТИ КОНСПЕКТЫ ПО ИНФОРМАТИКЕ **\n\n+ что делать на вебах 🙂\n\nбыстрее посмотреть в [тиктоке](https://vt.tiktok.com/ZSqHWo6ue/) \n\n😈 - я печатаю скрипты, все ок\n❤️ - что с кодом делать, куда его писать?\n\nи не забывайте про [реферальную систему ](https://ege-hub.ru/?tgid=284448261&utm_source=telegram&utm_medium=social&utm_campaign=broadcast_73)— приглашайте друзей и учитесь вместе выгодно\n\n[**ЗАПИСАТЬСЯ**](https://s.salebot.pro/9ff1e859ce2f8b2c9d8b465163c74a1f_1?utm_source=telegram&utm_medium=s",
+      "link": "https://t.me/kdrshov/4556",
+      "date": "2026-09-13T13:18:18+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "информати"
+    },
+    {
       "id": "sofaavibe_7169",
       "channel": "sofaavibe",
       "post_id": 7169,
@@ -3049,7 +3117,7 @@
       "channel": "fpmi_mipt",
       "post_id": 1058,
       "score": 0.3084,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.23,
