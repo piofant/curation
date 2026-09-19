@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-18T10:05:10.738499+00:00",
+  "generated_at": "2026-09-19T10:05:00.719071+00:00",
   "stats": {
-    "total_items": 153,
+    "total_items": 154,
     "channels_count": 16,
-    "avg_score": 0.7151,
+    "avg_score": 0.7267,
     "max_score": 2.5626,
     "min_score": 0.1383
   },
   "thresholds": {
-    "tertile_top_min": 0.444,
-    "tertile_mid_min": 0.318
+    "tertile_top_min": 0.4511,
+    "tertile_mid_min": 0.3199
   },
   "weights": {
     "Q": 0.4,
@@ -355,6 +355,40 @@
       "text": "Задание 11 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240023\nYouTube: https://youtu.be/wH2HYaDEJeY\nRutube: https://rutube.ru/video/18649b78abc0dd0cedc4a5addbb6d88c/",
       "link": "https://t.me/plugar_inf/4531",
       "date": "2026-09-08T13:02:27+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "plugar_inf_4543",
+      "channel": "plugar_inf",
+      "post_id": 4543,
+      "score": 2.4991,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.42,
+          "norm": 0.525,
+          "weighted": 0.21
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0877,
+          "weighted": 0.0263
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 231,
+          "norm": 0.0289,
+          "weighted": 0.0029
+        }
+      },
+      "text": "Задание 22 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240032\nYouTube: https://youtu.be/VGxiCzRtPFE\nRutube: https://rutube.ru/video/cf58af8361660fe7495ae62d751e5e0d/",
+      "link": "https://t.me/plugar_inf/4543",
+      "date": "2026-09-18T12:35:56+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
       "keyword": "ЕГЭ"
     },
@@ -1723,7 +1757,7 @@
       "channel": "kaspersky_ege",
       "post_id": 15608,
       "score": 0.444,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.2,
@@ -3457,7 +3491,7 @@
       "channel": "sofaavibe",
       "post_id": 7151,
       "score": 0.318,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.1,
