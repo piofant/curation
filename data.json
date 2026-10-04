@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-03T10:05:09.963897+00:00",
+  "generated_at": "2026-10-04T10:05:03.787539+00:00",
   "stats": {
-    "total_items": 10,
-    "channels_count": 7,
-    "avg_score": 2.1925,
+    "total_items": 12,
+    "channels_count": 8,
+    "avg_score": 2.0501,
     "max_score": 2.507,
     "min_score": 0.1901
   },
   "thresholds": {
     "tertile_top_min": 2.4529,
-    "tertile_mid_min": 2.4041
+    "tertile_mid_min": 2.387
   },
   "weights": {
     "Q": 0.4,
@@ -85,6 +85,40 @@
       "date": "2026-10-01T14:18:44+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
       "keyword": "ЕГЭ"
+    },
+    {
+      "id": "sofaavibe_7478",
+      "channel": "sofaavibe",
+      "post_id": 7478,
+      "score": 2.4649,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.28,
+          "norm": 0.6222,
+          "weighted": 0.2489
+        },
+        "F": {
+          "raw": 9,
+          "norm": 0.5294,
+          "weighted": 0.1588
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 904,
+          "norm": 0.2362,
+          "weighted": 0.0236
+        }
+      },
+      "text": "**СЕГОДНЯ в 17:30 мск встречаемся на стриме! **\n\nбудем разбирать Python с нуля, чтобы вам легче было влиться в октябрь и стартануть заниматься. ссылки вотс 🪼\n\n**📺**** **[**смотреть ютуб**](https://youtu.be/tnhwIB96PWo)\n**💙**** **[**смотреть вк **](https://vk.com/video-214793898_456239344)\n**💬**** смотреть тг**",
+      "link": "https://t.me/sofaavibe/7478",
+      "date": "2026-10-03T11:27:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "python"
     },
     {
       "id": "sofaavibe_7468",
@@ -227,7 +261,7 @@
       "channel": "informatik_bu",
       "post_id": 7349,
       "score": 2.387,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.07,
@@ -322,6 +356,40 @@
       "link": "https://t.me/informatik_bu/7366",
       "date": "2026-10-01T17:00:41+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "plugar_inf_4554",
+      "channel": "plugar_inf",
+      "post_id": 4554,
+      "score": 0.2114,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.22,
+          "norm": 0.4889,
+          "weighted": 0.1956
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.2941,
+          "weighted": 0.0882
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 529,
+          "norm": 0.1382,
+          "weighted": 0.0138
+        }
+      },
+      "text": "Задание 26 | ЕГЭ по информатике | ДЕМО-2027\n\nVK: https://vkvideo.ru/video-194554202_456240038\nYouTube: https://youtu.be/eBJAhsKFO6I\nRutube: https://rutube.ru/video/fa2db60852334d8612b6faf84465a057/",
+      "link": "https://t.me/plugar_inf/4554",
+      "date": "2026-10-01T12:13:40+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Высокая вовлечённость (много репостов) | Много просмотров",
       "keyword": "ЕГЭ"
     },
     {
