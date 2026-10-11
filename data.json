@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T10:05:09.890794+00:00",
+  "generated_at": "2026-10-11T10:05:10.564441+00:00",
   "stats": {
-    "total_items": 29,
+    "total_items": 28,
     "channels_count": 10,
-    "avg_score": 1.592,
-    "max_score": 2.5735,
+    "avg_score": 1.557,
+    "max_score": 2.5597,
     "min_score": 0.0941
   },
   "thresholds": {
-    "tertile_top_min": 2.4092,
+    "tertile_top_min": 2.4041,
     "tertile_mid_min": 0.3717
   },
   "weights": {
@@ -18,40 +18,6 @@
     "V": 0.1
   },
   "items": [
-    {
-      "id": "sofaavibe_7518",
-      "channel": "sofaavibe",
-      "post_id": 7518,
-      "score": 2.5735,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.3,
-          "norm": 0.6667,
-          "weighted": 0.2667
-        },
-        "F": {
-          "raw": 11,
-          "norm": 0.3548,
-          "weighted": 0.1065
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 944,
-          "norm": 0.2299,
-          "weighted": 0.023
-        }
-      },
-      "text": "**список того, что нужно изучить по циклам** **уже для ЕГЭ: **\n\n❔ сами конструкции for и while \n\n💐 что можно перебирать и использовать в цикле for (диапазоны чисел, строки, списки) \n\n🕺 функционал range для цикла for – какие аргументы там используются и для чего \n\n🤩 перебор по возрастанию и по убыванию чисел – относится к прошлому пункту\n\n🤣 операторы прерывания цикла (break и continue) \n\n🎸 конструкцию for – else \n\n🤗 конструкцию бесконечного цикла while True с выходом через break \n\n👀 вложенные цик",
-      "link": "https://t.me/sofaavibe/7518",
-      "date": "2026-10-09T13:23:01+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "ЕГЭ"
-    },
     {
       "id": "informatik_bu_7442",
       "channel": "informatik_bu",
@@ -329,7 +295,7 @@
       "channel": "infa_vikusya",
       "post_id": 10232,
       "score": 2.4041,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.13,
