@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-15T10:05:05.097100+00:00",
+  "generated_at": "2026-10-16T10:05:03.645608+00:00",
   "stats": {
-    "total_items": 40,
+    "total_items": 42,
     "channels_count": 11,
-    "avg_score": 1.4785,
+    "avg_score": 1.4175,
     "max_score": 2.4791,
     "min_score": 0.0941
   },
   "thresholds": {
-    "tertile_top_min": 2.3761,
-    "tertile_mid_min": 0.3333
+    "tertile_top_min": 2.3605,
+    "tertile_mid_min": 0.3023
   },
   "weights": {
     "Q": 0.4,
@@ -465,7 +465,7 @@
       "channel": "infa_vikusya",
       "post_id": 10265,
       "score": 2.3605,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.35,
@@ -907,7 +907,7 @@
       "channel": "rucodefestival",
       "post_id": 3959,
       "score": 0.3171,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.29,
@@ -941,7 +941,7 @@
       "channel": "kdrshov",
       "post_id": 4686,
       "score": 0.3023,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.25,
@@ -1209,6 +1209,40 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "rucodefestival_3974",
+      "channel": "rucodefestival",
+      "post_id": 3974,
+      "score": 0.2185,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.2,
+          "norm": 0.5714,
+          "weighted": 0.2286
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.1613,
+          "weighted": 0.0484
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 523,
+          "norm": 0.1121,
+          "weighted": 0.0112
+        }
+      },
+      "text": "**💻 1С на финале РуКод: будет о чём поговорить!**\n\nПять часов алгоритмических задач, десятки непростых решений и полная концентрация на коде. Но финал РуКод — это не только соревнование!\n\n18 октября на очных площадках участников будут ждать представители **1С** — компании, чьи технологии используются в самых разных сферах бизнеса.\n\nВы сможете пообщаться с представителями IT-индустрии и узнать, какие перспективы открываются перед разработчиками.\n\nА ещё партнёры подготовили кое-что, чтобы финал за",
+      "link": "https://t.me/rucodefestival/3974",
+      "date": "2026-10-13T13:41:43+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "код"
+    },
+    {
       "id": "plugar_inf_4554",
       "channel": "plugar_inf",
       "post_id": 4554,
@@ -1275,6 +1309,40 @@
       "date": "2026-09-28T14:05:16+00:00",
       "reason": "Свежий пост (недавно опубликован) | Хорошая вовлечённость | Много просмотров",
       "keyword": "ЕГЭ"
+    },
+    {
+      "id": "iliiasagalov_100points_6823",
+      "channel": "iliiasagalov_100points",
+      "post_id": 6823,
+      "score": 0.1771,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.1,
+          "norm": 0.2857,
+          "weighted": 0.1143
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.1613,
+          "weighted": 0.0484
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 1341,
+          "norm": 0.2875,
+          "weighted": 0.0287
+        }
+      },
+      "text": "Записал для вас 👉 [разборчик](https://vt.tiktok.com/ZSboekJnW) 👈 **ВСЕРОССИЙСКОГО пробника по Информатике **\n\nНаберем 1000 сохранений в ТТ и дропну вам вторую часть",
+      "link": "https://t.me/iliiasagalov_100points/6823",
+      "date": "2026-10-13T11:02:36+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "разбор"
     },
     {
       "id": "iliiasagalov_100points_6817",
