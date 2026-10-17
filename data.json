@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-16T10:05:03.645608+00:00",
+  "generated_at": "2026-10-17T10:05:04.965575+00:00",
   "stats": {
-    "total_items": 42,
-    "channels_count": 11,
-    "avg_score": 1.4175,
-    "max_score": 2.4791,
+    "total_items": 46,
+    "channels_count": 12,
+    "avg_score": 1.5081,
+    "max_score": 2.5302,
     "min_score": 0.0941
   },
   "thresholds": {
-    "tertile_top_min": 2.3605,
-    "tertile_mid_min": 0.3023
+    "tertile_top_min": 2.3905,
+    "tertile_mid_min": 0.3333
   },
   "weights": {
     "Q": 0.4,
@@ -18,6 +18,40 @@
     "V": 0.1
   },
   "items": [
+    {
+      "id": "flash_ege_15782",
+      "channel": "flash_ege",
+      "post_id": 15782,
+      "score": 2.5302,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.23,
+          "norm": 0.6571,
+          "weighted": 0.2629
+        },
+        "F": {
+          "raw": 12,
+          "norm": 0.3871,
+          "weighted": 0.1161
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 2501,
+          "norm": 0.5361,
+          "weighted": 0.0536
+        }
+      },
+      "text": "АААААААА\n\nОткрытые уроки продолжаются и завтра я зову вас на разбор 11 задания ⚡️️⚡️️\n**Все типы этого номера из ЕГЭ по информатике!!! **\n\nНачнем в 15:00 мск\n\nСсылочки пришлю завтра, если хотите раздаточный материал получить с вас сердечко ❤️\nА пока тыкайте [по ссылочке и сохраняйте гугл-календарик](https://calendar.google.com/calendar/u/0?cid=MDMxY2FkZmM0MTViNGM1MjBlODE1N2EzN2NjZmYwNTNkNDc3NmRjZGZiNTVjMmY3NjgwZTg3MjE1YTc2Y2FmMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) с открытыми вебами",
+      "link": "https://t.me/flash_ege/15782",
+      "date": "2026-10-16T14:58:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
     {
       "id": "sofaavibe_7531",
       "channel": "sofaavibe",
@@ -257,6 +291,108 @@
       "keyword": "код"
     },
     {
+      "id": "iliiasagalov_100points_6841",
+      "channel": "iliiasagalov_100points",
+      "post_id": 6841,
+      "score": 2.4365,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.32,
+          "norm": 0.9143,
+          "weighted": 0.3657
+        },
+        "F": {
+          "raw": 21,
+          "norm": 0.6774,
+          "weighted": 0.2032
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1206,
+          "norm": 0.2585,
+          "weighted": 0.0259
+        }
+      },
+      "text": "**ВАША ИНФОРМАТИЧКА УДИВИТСЯ**\n\nПотому что с этими видео вы научитесь переводить системы счисления и решать задания со схемами 🧠\n\nКак раз то, что в школе объясняют целыми уроками!",
+      "link": "https://t.me/iliiasagalov_100points/6841",
+      "date": "2026-10-16T13:12:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "информати"
+    },
+    {
+      "id": "infkege_2002",
+      "channel": "infkege",
+      "post_id": 2002,
+      "score": 2.4337,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.25,
+          "norm": 0.7143,
+          "weighted": 0.2857
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.1613,
+          "weighted": 0.0484
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 216,
+          "norm": 0.0463,
+          "weighted": 0.0046
+        }
+      },
+      "text": "**Великий Новгород, Вы тут?)**\n\nДля Вас выкатили официальный перечень ПО для ЕГЭ 2027\n\nКак видите, пайчарм и либра будет ❤️",
+      "link": "https://t.me/infkege/2002",
+      "date": "2026-10-17T09:16:50+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "kdrshov_4727",
+      "channel": "kdrshov",
+      "post_id": 4727,
+      "score": 2.4334,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.2,
+          "norm": 0.5714,
+          "weighted": 0.2286
+        },
+        "F": {
+          "raw": 8,
+          "norm": 0.2581,
+          "weighted": 0.0774
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 482,
+          "norm": 0.1033,
+          "weighted": 0.0103
+        }
+      },
+      "text": "**ТРИ САМЫЕ ЧАСТЫЕ ФУНКЦИИ ДЛЯ ЕГЭ**\n\nbin - переводит в двоичную\n\noct - переводит в восьмиричную\n\nhex - переводит в шестнадцатиричну\n\nну и приятность в виде f-строк, советую для 10 номера\n\n#неформатик_польза\n\n❤️ - спасибо\n🔥 - про f-строчки не знал(а)\n💅 - без подачек проживу \n\n[**НЕФОРМАТИК**](https://t.me/kdrshov)",
+      "link": "https://t.me/kdrshov/4727",
+      "date": "2026-10-16T14:16:02+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "profimatika_Inf_5696",
       "channel": "profimatika_Inf",
       "post_id": 5696,
@@ -397,7 +533,7 @@
       "channel": "informatik_bu",
       "post_id": 7349,
       "score": 2.387,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.07,
@@ -431,7 +567,7 @@
       "channel": "kdrshov",
       "post_id": 4683,
       "score": 2.3761,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.3,
@@ -465,7 +601,7 @@
       "channel": "infa_vikusya",
       "post_id": 10265,
       "score": 2.3605,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.35,
@@ -907,7 +1043,7 @@
       "channel": "rucodefestival",
       "post_id": 3959,
       "score": 0.3171,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.29,
@@ -941,7 +1077,7 @@
       "channel": "kdrshov",
       "post_id": 4686,
       "score": 0.3023,
-      "tertile": "mid",
+      "tertile": "bot",
       "components": {
         "Q": {
           "raw": 0.25,
