@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-17T10:05:04.965575+00:00",
+  "generated_at": "2026-10-18T10:05:03.378234+00:00",
   "stats": {
-    "total_items": 46,
+    "total_items": 49,
     "channels_count": 12,
-    "avg_score": 1.5081,
+    "avg_score": 1.4763,
     "max_score": 2.5302,
     "min_score": 0.0941
   },
   "thresholds": {
     "tertile_top_min": 2.3905,
-    "tertile_mid_min": 0.3333
+    "tertile_mid_min": 0.3171
   },
   "weights": {
     "Q": 0.4,
@@ -27,8 +27,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.6571,
-          "weighted": 0.2629
+          "norm": 0.6389,
+          "weighted": 0.2556
         },
         "F": {
           "raw": 12,
@@ -61,8 +61,8 @@
       "components": {
         "Q": {
           "raw": 0.32,
-          "norm": 0.9143,
-          "weighted": 0.3657
+          "norm": 0.8889,
+          "weighted": 0.3556
         },
         "F": {
           "raw": 17,
@@ -95,8 +95,8 @@
       "components": {
         "Q": {
           "raw": 0.16,
-          "norm": 0.4571,
-          "weighted": 0.1829
+          "norm": 0.4444,
+          "weighted": 0.1778
         },
         "F": {
           "raw": 8,
@@ -129,8 +129,8 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.8,
-          "weighted": 0.32
+          "norm": 0.7778,
+          "weighted": 0.3111
         },
         "F": {
           "raw": 9,
@@ -163,8 +163,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.8571,
-          "weighted": 0.3429
+          "norm": 0.8333,
+          "weighted": 0.3333
         },
         "F": {
           "raw": 12,
@@ -197,8 +197,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5714,
-          "weighted": 0.2286
+          "norm": 0.5556,
+          "weighted": 0.2222
         },
         "F": {
           "raw": 6,
@@ -231,8 +231,8 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 1.0,
-          "weighted": 0.4
+          "norm": 0.9722,
+          "weighted": 0.3889
         },
         "F": {
           "raw": 17,
@@ -265,8 +265,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.3714,
-          "weighted": 0.1486
+          "norm": 0.3611,
+          "weighted": 0.1444
         },
         "F": {
           "raw": 6,
@@ -291,6 +291,40 @@
       "keyword": "код"
     },
     {
+      "id": "flash_ege_15793",
+      "channel": "flash_ege",
+      "post_id": 15793,
+      "score": 2.444,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.36,
+          "norm": 1.0,
+          "weighted": 0.4
+        },
+        "F": {
+          "raw": 13,
+          "norm": 0.4194,
+          "weighted": 0.1258
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 965,
+          "norm": 0.2069,
+          "weighted": 0.0207
+        }
+      },
+      "text": "Кто сдает профиль, смотрите, как его написали в 2026 👀\n\nМатемАня вытащила из ФИПИ статистику:\n\n💯**По первой части нет ни одного задания с решаемостью ниже 73% **🤯 Простейшие уравнения вообще решили 95,5% участников!\n\n💯А вот во второй части всё сложнее. Особенно с геометрией и параметрами - посмотрите на вторую табличку\n\nЧто с этим делать вам: \nпервую часть доводить до уверенного решения, а вторую начинать разбирать уже сейчас. Там еще нужно научиться записывать решение так, чтобы за него дали ба",
+      "link": "https://t.me/flash_ege/15793",
+      "date": "2026-10-18T08:58:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "информати"
+    },
+    {
       "id": "iliiasagalov_100points_6841",
       "channel": "iliiasagalov_100points",
       "post_id": 6841,
@@ -299,8 +333,8 @@
       "components": {
         "Q": {
           "raw": 0.32,
-          "norm": 0.9143,
-          "weighted": 0.3657
+          "norm": 0.8889,
+          "weighted": 0.3556
         },
         "F": {
           "raw": 21,
@@ -333,8 +367,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.7143,
-          "weighted": 0.2857
+          "norm": 0.6944,
+          "weighted": 0.2778
         },
         "F": {
           "raw": 5,
@@ -367,8 +401,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5714,
-          "weighted": 0.2286
+          "norm": 0.5556,
+          "weighted": 0.2222
         },
         "F": {
           "raw": 8,
@@ -401,8 +435,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.6571,
-          "weighted": 0.2629
+          "norm": 0.6389,
+          "weighted": 0.2556
         },
         "F": {
           "raw": 5,
@@ -435,8 +469,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.7143,
-          "weighted": 0.2857
+          "norm": 0.6944,
+          "weighted": 0.2778
         },
         "F": {
           "raw": 7,
@@ -469,8 +503,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.3714,
-          "weighted": 0.1486
+          "norm": 0.3611,
+          "weighted": 0.1444
         },
         "F": {
           "raw": 7,
@@ -503,8 +537,8 @@
       "components": {
         "Q": {
           "raw": 0.26,
-          "norm": 0.7429,
-          "weighted": 0.2971
+          "norm": 0.7222,
+          "weighted": 0.2889
         },
         "F": {
           "raw": 10,
@@ -537,8 +571,8 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.2,
-          "weighted": 0.08
+          "norm": 0.1944,
+          "weighted": 0.0778
         },
         "F": {
           "raw": 6,
@@ -571,8 +605,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.8571,
-          "weighted": 0.3429
+          "norm": 0.8333,
+          "weighted": 0.3333
         },
         "F": {
           "raw": 8,
@@ -605,8 +639,8 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 1.0,
-          "weighted": 0.4
+          "norm": 0.9722,
+          "weighted": 0.3889
         },
         "F": {
           "raw": 31,
@@ -639,8 +673,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.4286,
-          "weighted": 0.1714
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 11,
@@ -673,8 +707,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2286,
-          "weighted": 0.0914
+          "norm": 0.2222,
+          "weighted": 0.0889
         },
         "F": {
           "raw": 9,
@@ -707,8 +741,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.6571,
-          "weighted": 0.2629
+          "norm": 0.6389,
+          "weighted": 0.2556
         },
         "F": {
           "raw": 18,
@@ -741,8 +775,8 @@
       "components": {
         "Q": {
           "raw": 0.16,
-          "norm": 0.4571,
-          "weighted": 0.1829
+          "norm": 0.4444,
+          "weighted": 0.1778
         },
         "F": {
           "raw": 5,
@@ -775,8 +809,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2286,
-          "weighted": 0.0914
+          "norm": 0.2222,
+          "weighted": 0.0889
         },
         "F": {
           "raw": 5,
@@ -809,8 +843,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.3714,
-          "weighted": 0.1486
+          "norm": 0.3611,
+          "weighted": 0.1444
         },
         "F": {
           "raw": 5,
@@ -843,8 +877,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.2778,
+          "weighted": 0.1111
         },
         "F": {
           "raw": 7,
@@ -877,8 +911,8 @@
       "components": {
         "Q": {
           "raw": 0.26,
-          "norm": 0.7429,
-          "weighted": 0.2971
+          "norm": 0.7222,
+          "weighted": 0.2889
         },
         "F": {
           "raw": 9,
@@ -911,8 +945,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.4286,
-          "weighted": 0.1714
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 7,
@@ -945,8 +979,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5714,
-          "weighted": 0.2286
+          "norm": 0.5556,
+          "weighted": 0.2222
         },
         "F": {
           "raw": 6,
@@ -979,8 +1013,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.4286,
-          "weighted": 0.1714
+          "norm": 0.4167,
+          "weighted": 0.1667
         },
         "F": {
           "raw": 9,
@@ -1013,8 +1047,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.2778,
+          "weighted": 0.1111
         },
         "F": {
           "raw": 6,
@@ -1043,12 +1077,12 @@
       "channel": "rucodefestival",
       "post_id": 3959,
       "score": 0.3171,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.29,
-          "norm": 0.8286,
-          "weighted": 0.3314
+          "norm": 0.8056,
+          "weighted": 0.3222
         },
         "F": {
           "raw": 10,
@@ -1081,8 +1115,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.7143,
-          "weighted": 0.2857
+          "norm": 0.6944,
+          "weighted": 0.2778
         },
         "F": {
           "raw": 5,
@@ -1115,8 +1149,8 @@
       "components": {
         "Q": {
           "raw": 0.29,
-          "norm": 0.8286,
-          "weighted": 0.3314
+          "norm": 0.8056,
+          "weighted": 0.3222
         },
         "F": {
           "raw": 13,
@@ -1149,8 +1183,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5714,
-          "weighted": 0.2286
+          "norm": 0.5556,
+          "weighted": 0.2222
         },
         "F": {
           "raw": 6,
@@ -1183,8 +1217,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.1389,
+          "weighted": 0.0556
         },
         "F": {
           "raw": 8,
@@ -1217,8 +1251,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5714,
-          "weighted": 0.2286
+          "norm": 0.5556,
+          "weighted": 0.2222
         },
         "F": {
           "raw": 7,
@@ -1243,6 +1277,40 @@
       "keyword": "python"
     },
     {
+      "id": "infa_vikusya_10308",
+      "channel": "infa_vikusya",
+      "post_id": 10308,
+      "score": 0.2692,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.05,
+          "norm": 0.1389,
+          "weighted": 0.0556
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.1613,
+          "weighted": 0.0484
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 3702,
+          "norm": 0.7936,
+          "weighted": 0.0794
+        }
+      },
+      "text": "новые пк в школах, когда их не заюзали на пробном/реальном егэ",
+      "link": "https://t.me/infa_vikusya/10308",
+      "date": "2026-10-16T10:10:34+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "flash_ege_15735",
       "channel": "flash_ege",
       "post_id": 15735,
@@ -1251,8 +1319,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2286,
-          "weighted": 0.0914
+          "norm": 0.2222,
+          "weighted": 0.0889
         },
         "F": {
           "raw": 6,
@@ -1285,8 +1353,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2286,
-          "weighted": 0.0914
+          "norm": 0.2222,
+          "weighted": 0.0889
         },
         "F": {
           "raw": 9,
@@ -1311,6 +1379,40 @@
       "keyword": "код"
     },
     {
+      "id": "iliiasagalov_100points_6840",
+      "channel": "iliiasagalov_100points",
+      "post_id": 6840,
+      "score": 0.2535,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.1,
+          "norm": 0.2778,
+          "weighted": 0.1111
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.1613,
+          "weighted": 0.0484
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 1553,
+          "norm": 0.3329,
+          "weighted": 0.0333
+        }
+      },
+      "text": "Самые обидные ошибки в обучении всегда были связаны с невнимательностью 🙈\nДаже я, когда в 2017 году писал свой первый экзамен по информатике, ошибся только из-за того, что не стал дочитывать вопрос задачи до конца \n\nЯ ошибся в 6 задании, а это обыкновенный КуМир..\nПричем с экзамена я выходил с предвкушением 100 баллов, а как итог — 97\nНо благодаря этому я научился прививать своим ученикам навык читать задачу полностью, а перед написанием ответа дважды смотреть вопрос 😈",
+      "link": "https://t.me/iliiasagalov_100points/6840",
+      "date": "2026-10-16T10:10:08+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "информати"
+    },
+    {
       "id": "senya_infa_4306",
       "channel": "senya_infa",
       "post_id": 4306,
@@ -1319,8 +1421,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.1389,
+          "weighted": 0.0556
         },
         "F": {
           "raw": 5,
@@ -1353,8 +1455,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5714,
-          "weighted": 0.2286
+          "norm": 0.5556,
+          "weighted": 0.2222
         },
         "F": {
           "raw": 5,
@@ -1387,8 +1489,8 @@
       "components": {
         "Q": {
           "raw": 0.22,
-          "norm": 0.6286,
-          "weighted": 0.2514
+          "norm": 0.6111,
+          "weighted": 0.2444
         },
         "F": {
           "raw": 5,
@@ -1421,8 +1523,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.3714,
-          "weighted": 0.1486
+          "norm": 0.3611,
+          "weighted": 0.1444
         },
         "F": {
           "raw": 9,
@@ -1455,8 +1557,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2857,
-          "weighted": 0.1143
+          "norm": 0.2778,
+          "weighted": 0.1111
         },
         "F": {
           "raw": 5,
@@ -1489,8 +1591,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2286,
-          "weighted": 0.0914
+          "norm": 0.2222,
+          "weighted": 0.0889
         },
         "F": {
           "raw": 5,
@@ -1523,8 +1625,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.1389,
+          "weighted": 0.0556
         },
         "F": {
           "raw": 5,
@@ -1557,8 +1659,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1429,
-          "weighted": 0.0571
+          "norm": 0.1389,
+          "weighted": 0.0556
         },
         "F": {
           "raw": 5,
