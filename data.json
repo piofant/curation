@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-18T10:05:03.378234+00:00",
+  "generated_at": "2026-10-19T10:05:01.148715+00:00",
   "stats": {
-    "total_items": 49,
-    "channels_count": 12,
-    "avg_score": 1.4763,
+    "total_items": 51,
+    "channels_count": 13,
+    "avg_score": 1.5163,
     "max_score": 2.5302,
     "min_score": 0.0941
   },
   "thresholds": {
-    "tertile_top_min": 2.3905,
+    "tertile_top_min": 2.4041,
     "tertile_mid_min": 0.3171
   },
   "weights": {
@@ -27,8 +27,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.6389,
-          "weighted": 0.2556
+          "norm": 0.46,
+          "weighted": 0.184
         },
         "F": {
           "raw": 12,
@@ -53,6 +53,74 @@
       "keyword": "ЕГЭ"
     },
     {
+      "id": "sofaavibe_7562",
+      "channel": "sofaavibe",
+      "post_id": 7562,
+      "score": 2.5059,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.4,
+          "norm": 0.8,
+          "weighted": 0.32
+        },
+        "F": {
+          "raw": 14,
+          "norm": 0.4516,
+          "weighted": 0.1355
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1126,
+          "norm": 0.2414,
+          "weighted": 0.0241
+        }
+      },
+      "text": "**КАК МОГНУТЬ ЕГЭ ПО ИНФЕ?**\n\nважно не совершать эти **5 ошибок при подготовке. __большая часть относится именно к ЕГЭ по инфе, поэтому читаем и берем на вооружение__** 🦋**__\n__**\n1️⃣ изучать только шаблоны и синтаксис языка программирования. нужно не только знать шаблон, но и тренировать навык написания собственных алгоритмов \n\n2️⃣ делать что-то одно: нарешивать задания, не уделяя время теории, или учить теорию, не пробуя решать задания. важен симбиоз, иначе реза не будет \n\n3️⃣ не пробовать реш",
+      "link": "https://t.me/sofaavibe/7562",
+      "date": "2026-10-18T12:07:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
+      "id": "algo_easy_273",
+      "channel": "algo_easy",
+      "post_id": 273,
+      "score": 2.4862,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.5,
+          "norm": 1.0,
+          "weighted": 0.4
+        },
+        "F": {
+          "raw": 23,
+          "norm": 0.7419,
+          "weighted": 0.2226
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1229,
+          "norm": 0.2635,
+          "weighted": 0.0263
+        }
+      },
+      "text": "Только что завершился первый тур Международной олимпиады Иннополиса 2027 по информатике\n\nКраткий разбор будет сегодня в 18:00 по МСК\n📺 [VK Видео](https://vkvideo.ru/live-175449549_456239560) | 📺 [YouTube](https://youtube.com/live/cRaw7FPsxNk)",
+      "link": "https://t.me/algo_easy/273",
+      "date": "2026-10-18T12:42:20+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "разбор"
+    },
+    {
       "id": "sofaavibe_7531",
       "channel": "sofaavibe",
       "post_id": 7531,
@@ -61,8 +129,8 @@
       "components": {
         "Q": {
           "raw": 0.32,
-          "norm": 0.8889,
-          "weighted": 0.3556
+          "norm": 0.64,
+          "weighted": 0.256
         },
         "F": {
           "raw": 17,
@@ -95,8 +163,8 @@
       "components": {
         "Q": {
           "raw": 0.16,
-          "norm": 0.4444,
-          "weighted": 0.1778
+          "norm": 0.32,
+          "weighted": 0.128
         },
         "F": {
           "raw": 8,
@@ -129,8 +197,8 @@
       "components": {
         "Q": {
           "raw": 0.28,
-          "norm": 0.7778,
-          "weighted": 0.3111
+          "norm": 0.56,
+          "weighted": 0.224
         },
         "F": {
           "raw": 9,
@@ -163,8 +231,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.8333,
-          "weighted": 0.3333
+          "norm": 0.6,
+          "weighted": 0.24
         },
         "F": {
           "raw": 12,
@@ -197,8 +265,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5556,
-          "weighted": 0.2222
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 6,
@@ -231,8 +299,8 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.9722,
-          "weighted": 0.3889
+          "norm": 0.7,
+          "weighted": 0.28
         },
         "F": {
           "raw": 17,
@@ -265,8 +333,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.3611,
-          "weighted": 0.1444
+          "norm": 0.26,
+          "weighted": 0.104
         },
         "F": {
           "raw": 6,
@@ -299,8 +367,8 @@
       "components": {
         "Q": {
           "raw": 0.36,
-          "norm": 1.0,
-          "weighted": 0.4
+          "norm": 0.72,
+          "weighted": 0.288
         },
         "F": {
           "raw": 13,
@@ -333,8 +401,8 @@
       "components": {
         "Q": {
           "raw": 0.32,
-          "norm": 0.8889,
-          "weighted": 0.3556
+          "norm": 0.64,
+          "weighted": 0.256
         },
         "F": {
           "raw": 21,
@@ -367,8 +435,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.6944,
-          "weighted": 0.2778
+          "norm": 0.5,
+          "weighted": 0.2
         },
         "F": {
           "raw": 5,
@@ -401,8 +469,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5556,
-          "weighted": 0.2222
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 8,
@@ -435,8 +503,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.6389,
-          "weighted": 0.2556
+          "norm": 0.46,
+          "weighted": 0.184
         },
         "F": {
           "raw": 5,
@@ -469,8 +537,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.6944,
-          "weighted": 0.2778
+          "norm": 0.5,
+          "weighted": 0.2
         },
         "F": {
           "raw": 7,
@@ -503,8 +571,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.3611,
-          "weighted": 0.1444
+          "norm": 0.26,
+          "weighted": 0.104
         },
         "F": {
           "raw": 7,
@@ -533,12 +601,12 @@
       "channel": "iliiasagalov_100points",
       "post_id": 6811,
       "score": 2.3905,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.26,
-          "norm": 0.7222,
-          "weighted": 0.2889
+          "norm": 0.52,
+          "weighted": 0.208
         },
         "F": {
           "raw": 10,
@@ -571,8 +639,8 @@
       "components": {
         "Q": {
           "raw": 0.07,
-          "norm": 0.1944,
-          "weighted": 0.0778
+          "norm": 0.14,
+          "weighted": 0.056
         },
         "F": {
           "raw": 6,
@@ -605,8 +673,8 @@
       "components": {
         "Q": {
           "raw": 0.3,
-          "norm": 0.8333,
-          "weighted": 0.3333
+          "norm": 0.6,
+          "weighted": 0.24
         },
         "F": {
           "raw": 8,
@@ -639,8 +707,8 @@
       "components": {
         "Q": {
           "raw": 0.35,
-          "norm": 0.9722,
-          "weighted": 0.3889
+          "norm": 0.7,
+          "weighted": 0.28
         },
         "F": {
           "raw": 31,
@@ -673,8 +741,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.3,
+          "weighted": 0.12
         },
         "F": {
           "raw": 11,
@@ -707,8 +775,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2222,
-          "weighted": 0.0889
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 9,
@@ -741,8 +809,8 @@
       "components": {
         "Q": {
           "raw": 0.23,
-          "norm": 0.6389,
-          "weighted": 0.2556
+          "norm": 0.46,
+          "weighted": 0.184
         },
         "F": {
           "raw": 18,
@@ -775,8 +843,8 @@
       "components": {
         "Q": {
           "raw": 0.16,
-          "norm": 0.4444,
-          "weighted": 0.1778
+          "norm": 0.32,
+          "weighted": 0.128
         },
         "F": {
           "raw": 5,
@@ -809,8 +877,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2222,
-          "weighted": 0.0889
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 5,
@@ -843,8 +911,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.3611,
-          "weighted": 0.1444
+          "norm": 0.26,
+          "weighted": 0.104
         },
         "F": {
           "raw": 5,
@@ -877,8 +945,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2778,
-          "weighted": 0.1111
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 7,
@@ -911,8 +979,8 @@
       "components": {
         "Q": {
           "raw": 0.26,
-          "norm": 0.7222,
-          "weighted": 0.2889
+          "norm": 0.52,
+          "weighted": 0.208
         },
         "F": {
           "raw": 9,
@@ -945,8 +1013,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.3,
+          "weighted": 0.12
         },
         "F": {
           "raw": 7,
@@ -979,8 +1047,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5556,
-          "weighted": 0.2222
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 6,
@@ -1013,8 +1081,8 @@
       "components": {
         "Q": {
           "raw": 0.15,
-          "norm": 0.4167,
-          "weighted": 0.1667
+          "norm": 0.3,
+          "weighted": 0.12
         },
         "F": {
           "raw": 9,
@@ -1047,8 +1115,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2778,
-          "weighted": 0.1111
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 6,
@@ -1081,8 +1149,8 @@
       "components": {
         "Q": {
           "raw": 0.29,
-          "norm": 0.8056,
-          "weighted": 0.3222
+          "norm": 0.58,
+          "weighted": 0.232
         },
         "F": {
           "raw": 10,
@@ -1115,8 +1183,8 @@
       "components": {
         "Q": {
           "raw": 0.25,
-          "norm": 0.6944,
-          "weighted": 0.2778
+          "norm": 0.5,
+          "weighted": 0.2
         },
         "F": {
           "raw": 5,
@@ -1149,8 +1217,8 @@
       "components": {
         "Q": {
           "raw": 0.29,
-          "norm": 0.8056,
-          "weighted": 0.3222
+          "norm": 0.58,
+          "weighted": 0.232
         },
         "F": {
           "raw": 13,
@@ -1183,8 +1251,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5556,
-          "weighted": 0.2222
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 6,
@@ -1217,8 +1285,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1389,
-          "weighted": 0.0556
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 8,
@@ -1251,8 +1319,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5556,
-          "weighted": 0.2222
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 7,
@@ -1285,8 +1353,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1389,
-          "weighted": 0.0556
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 5,
@@ -1319,8 +1387,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2222,
-          "weighted": 0.0889
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 6,
@@ -1353,8 +1421,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2222,
-          "weighted": 0.0889
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 9,
@@ -1387,8 +1455,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2778,
-          "weighted": 0.1111
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 5,
@@ -1421,8 +1489,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1389,
-          "weighted": 0.0556
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 5,
@@ -1455,8 +1523,8 @@
       "components": {
         "Q": {
           "raw": 0.2,
-          "norm": 0.5556,
-          "weighted": 0.2222
+          "norm": 0.4,
+          "weighted": 0.16
         },
         "F": {
           "raw": 5,
@@ -1489,8 +1557,8 @@
       "components": {
         "Q": {
           "raw": 0.22,
-          "norm": 0.6111,
-          "weighted": 0.2444
+          "norm": 0.44,
+          "weighted": 0.176
         },
         "F": {
           "raw": 5,
@@ -1523,8 +1591,8 @@
       "components": {
         "Q": {
           "raw": 0.13,
-          "norm": 0.3611,
-          "weighted": 0.1444
+          "norm": 0.26,
+          "weighted": 0.104
         },
         "F": {
           "raw": 9,
@@ -1557,8 +1625,8 @@
       "components": {
         "Q": {
           "raw": 0.1,
-          "norm": 0.2778,
-          "weighted": 0.1111
+          "norm": 0.2,
+          "weighted": 0.08
         },
         "F": {
           "raw": 5,
@@ -1591,8 +1659,8 @@
       "components": {
         "Q": {
           "raw": 0.08,
-          "norm": 0.2222,
-          "weighted": 0.0889
+          "norm": 0.16,
+          "weighted": 0.064
         },
         "F": {
           "raw": 5,
@@ -1625,8 +1693,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1389,
-          "weighted": 0.0556
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 5,
@@ -1659,8 +1727,8 @@
       "components": {
         "Q": {
           "raw": 0.05,
-          "norm": 0.1389,
-          "weighted": 0.0556
+          "norm": 0.1,
+          "weighted": 0.04
         },
         "F": {
           "raw": 5,
