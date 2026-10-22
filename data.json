@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T10:05:02.520205+00:00",
+  "generated_at": "2026-10-22T10:05:10.694529+00:00",
   "stats": {
-    "total_items": 57,
-    "channels_count": 14,
-    "avg_score": 1.34,
-    "max_score": 2.4862,
+    "total_items": 61,
+    "channels_count": 13,
+    "avg_score": 1.2506,
+    "max_score": 2.4791,
     "min_score": 0.0941
   },
   "thresholds": {
-    "tertile_top_min": 2.3605,
+    "tertile_top_min": 2.3553,
     "tertile_mid_min": 0.3333
   },
   "weights": {
@@ -18,40 +18,6 @@
     "V": 0.1
   },
   "items": [
-    {
-      "id": "algo_easy_273",
-      "channel": "algo_easy",
-      "post_id": 273,
-      "score": 2.4862,
-      "tertile": "top",
-      "components": {
-        "Q": {
-          "raw": 0.5,
-          "norm": 0.7353,
-          "weighted": 0.2941
-        },
-        "F": {
-          "raw": 23,
-          "norm": 0.7419,
-          "weighted": 0.2226
-        },
-        "R": {
-          "raw_days_ago": 0,
-          "norm": 1.0,
-          "weighted": 0.2
-        },
-        "V": {
-          "raw": 1229,
-          "norm": 0.2635,
-          "weighted": 0.0263
-        }
-      },
-      "text": "Только что завершился первый тур Международной олимпиады Иннополиса 2027 по информатике\n\nКраткий разбор будет сегодня в 18:00 по МСК\n📺 [VK Видео](https://vkvideo.ru/live-175449549_456239560) | 📺 [YouTube](https://youtube.com/live/cRaw7FPsxNk)",
-      "link": "https://t.me/algo_easy/273",
-      "date": "2026-10-18T12:42:20+00:00",
-      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
-      "keyword": "разбор"
-    },
     {
       "id": "sofaavibe_7531",
       "channel": "sofaavibe",
@@ -66,8 +32,8 @@
         },
         "F": {
           "raw": 17,
-          "norm": 0.5484,
-          "weighted": 0.1645
+          "norm": 0.3778,
+          "weighted": 0.1133
         },
         "R": {
           "raw_days_ago": 0,
@@ -100,8 +66,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.2581,
-          "weighted": 0.0774
+          "norm": 0.1778,
+          "weighted": 0.0533
         },
         "R": {
           "raw_days_ago": 0,
@@ -134,8 +100,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.2,
+          "weighted": 0.06
         },
         "R": {
           "raw_days_ago": 0,
@@ -168,8 +134,8 @@
         },
         "F": {
           "raw": 12,
-          "norm": 0.3871,
-          "weighted": 0.1161
+          "norm": 0.2667,
+          "weighted": 0.08
         },
         "R": {
           "raw_days_ago": 1,
@@ -202,8 +168,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.1333,
+          "weighted": 0.04
         },
         "R": {
           "raw_days_ago": 0,
@@ -236,8 +202,8 @@
         },
         "F": {
           "raw": 17,
-          "norm": 0.5484,
-          "weighted": 0.1645
+          "norm": 0.3778,
+          "weighted": 0.1133
         },
         "R": {
           "raw_days_ago": 0,
@@ -270,8 +236,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.1333,
+          "weighted": 0.04
         },
         "R": {
           "raw_days_ago": 0,
@@ -304,8 +270,8 @@
         },
         "F": {
           "raw": 13,
-          "norm": 0.4194,
-          "weighted": 0.1258
+          "norm": 0.2889,
+          "weighted": 0.0867
         },
         "R": {
           "raw_days_ago": 0,
@@ -338,8 +304,8 @@
         },
         "F": {
           "raw": 21,
-          "norm": 0.6774,
-          "weighted": 0.2032
+          "norm": 0.4667,
+          "weighted": 0.14
         },
         "R": {
           "raw_days_ago": 0,
@@ -372,8 +338,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 0,
@@ -406,8 +372,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.2581,
-          "weighted": 0.0774
+          "norm": 0.1778,
+          "weighted": 0.0533
         },
         "R": {
           "raw_days_ago": 0,
@@ -440,8 +406,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 2,
@@ -474,8 +440,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.1556,
+          "weighted": 0.0467
         },
         "R": {
           "raw_days_ago": 2,
@@ -508,8 +474,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.1556,
+          "weighted": 0.0467
         },
         "R": {
           "raw_days_ago": 1,
@@ -542,8 +508,8 @@
         },
         "F": {
           "raw": 10,
-          "norm": 0.3226,
-          "weighted": 0.0968
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 0,
@@ -576,8 +542,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.1333,
+          "weighted": 0.04
         },
         "R": {
           "raw_days_ago": 0,
@@ -610,8 +576,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.2581,
-          "weighted": 0.0774
+          "norm": 0.1778,
+          "weighted": 0.0533
         },
         "R": {
           "raw_days_ago": 1,
@@ -644,8 +610,8 @@
         },
         "F": {
           "raw": 31,
-          "norm": 1.0,
-          "weighted": 0.3
+          "norm": 0.6889,
+          "weighted": 0.2067
         },
         "R": {
           "raw_days_ago": 0,
@@ -669,7 +635,7 @@
       "channel": "flash_ege",
       "post_id": 15673,
       "score": 2.3568,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.15,
@@ -678,8 +644,8 @@
         },
         "F": {
           "raw": 11,
-          "norm": 0.3548,
-          "weighted": 0.1065
+          "norm": 0.2444,
+          "weighted": 0.0733
         },
         "R": {
           "raw_days_ago": 0,
@@ -703,7 +669,7 @@
       "channel": "informatik_bu",
       "post_id": 7481,
       "score": 2.3553,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.08,
@@ -712,8 +678,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.2,
+          "weighted": 0.06
         },
         "R": {
           "raw_days_ago": 0,
@@ -746,8 +712,8 @@
         },
         "F": {
           "raw": 18,
-          "norm": 0.5806,
-          "weighted": 0.1742
+          "norm": 0.4,
+          "weighted": 0.12
         },
         "R": {
           "raw_days_ago": 2,
@@ -780,8 +746,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 0,
@@ -814,8 +780,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 1,
@@ -848,8 +814,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 0,
@@ -882,8 +848,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.1556,
+          "weighted": 0.0467
         },
         "R": {
           "raw_days_ago": 0,
@@ -916,8 +882,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.2,
+          "weighted": 0.06
         },
         "R": {
           "raw_days_ago": 1,
@@ -950,8 +916,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.1556,
+          "weighted": 0.0467
         },
         "R": {
           "raw_days_ago": 0,
@@ -971,6 +937,40 @@
       "keyword": "информати"
     },
     {
+      "id": "infa_vikusya_10333",
+      "channel": "infa_vikusya",
+      "post_id": 10333,
+      "score": 0.9643,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.63,
+          "norm": 0.9265,
+          "weighted": 0.3706
+        },
+        "F": {
+          "raw": 45,
+          "norm": 1.0,
+          "weighted": 0.3
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 2539,
+          "norm": 0.5443,
+          "weighted": 0.0544
+        }
+      },
+      "text": "**ВСЕ ТИПЫ №7 из ЕГЭ**\n\n📺  [ютуб](https://youtu.be/SIiqs8hMyVw)\n💙  [вк видео](https://vkvideo.ru/video-137331920_456253051)\n📺  [рутуб](https://rutube.ru/video/424679a101ef01bdd91749f9197384da)\n\nсамое недооцененное по сложности задание. каждый год на нем стабильно ошибается около** 30-40% сдающих**, а иногда их процент доходит и **до 50-60%**\n\nпоэтому важно быть готовым к любой задаче на тему кодирование. их все я разобрала в видосе выше, а более подробнее разбираю 👇\n\n**⚡**** ВСЕ ТИПЫ ВСЕХ ЗАДАНИ",
+      "link": "https://t.me/infa_vikusya/10333",
+      "date": "2026-10-21T13:27:30+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "profimatika_Inf_5834",
       "channel": "profimatika_Inf",
       "post_id": 5834,
@@ -984,8 +984,8 @@
         },
         "F": {
           "raw": 15,
-          "norm": 0.4839,
-          "weighted": 0.1452
+          "norm": 0.3333,
+          "weighted": 0.1
         },
         "R": {
           "raw_days_ago": 0,
@@ -1018,8 +1018,8 @@
         },
         "F": {
           "raw": 14,
-          "norm": 0.4516,
-          "weighted": 0.1355
+          "norm": 0.3111,
+          "weighted": 0.0933
         },
         "R": {
           "raw_days_ago": 0,
@@ -1052,8 +1052,8 @@
         },
         "F": {
           "raw": 17,
-          "norm": 0.5484,
-          "weighted": 0.1645
+          "norm": 0.3778,
+          "weighted": 0.1133
         },
         "R": {
           "raw_days_ago": 1,
@@ -1086,8 +1086,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.1333,
+          "weighted": 0.04
         },
         "R": {
           "raw_days_ago": 1,
@@ -1107,6 +1107,40 @@
       "keyword": "разбор"
     },
     {
+      "id": "flash_ege_15812",
+      "channel": "flash_ege",
+      "post_id": 15812,
+      "score": 0.4743,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.2,
+          "norm": 0.2941,
+          "weighted": 0.1176
+        },
+        "F": {
+          "raw": 12,
+          "norm": 0.2667,
+          "weighted": 0.08
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 2658,
+          "norm": 0.5698,
+          "weighted": 0.057
+        }
+      },
+      "text": "⚡️ **РЕБЯТААА, ВЫ ГОТОВИТЕСЬ В ОНЛАЙН-ШКОЛЕ №1 **\n\nМы второй год подряд первые среди онлайн-школ по результатам учеников [в рейтинге Smart Ranking](https://smartranking.ru/ru/researchshop/edtech/ege-online-schools-2026/) 😎\n\n**12,6% всех стобалльников России в 2026 году готовились с нами**. А по информатике - 46 моих ребят забрали сотку. **Это 7% всех стобалльников по инфе в стране! **По** **этому рейтингу информатика в 100Б среди других онлайн-школ в лидерах 💪🏻\n\nРаботаем дальше!!!!!!\n\nИ чем рань",
+      "link": "https://t.me/flash_ege/15812",
+      "date": "2026-10-21T16:07:20+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров | Активно репостят",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "flash_ege_15799",
       "channel": "flash_ege",
       "post_id": 15799,
@@ -1120,8 +1154,8 @@
         },
         "F": {
           "raw": 17,
-          "norm": 0.5484,
-          "weighted": 0.1645
+          "norm": 0.3778,
+          "weighted": 0.1133
         },
         "R": {
           "raw_days_ago": 2,
@@ -1154,8 +1188,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.1556,
+          "weighted": 0.0467
         },
         "R": {
           "raw_days_ago": 1,
@@ -1175,6 +1209,40 @@
       "keyword": "код"
     },
     {
+      "id": "sofaavibe_7575",
+      "channel": "sofaavibe",
+      "post_id": 7575,
+      "score": 0.401,
+      "tertile": "mid",
+      "components": {
+        "Q": {
+          "raw": 0.2,
+          "norm": 0.2941,
+          "weighted": 0.1176
+        },
+        "F": {
+          "raw": 7,
+          "norm": 0.1556,
+          "weighted": 0.0467
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 1079,
+          "norm": 0.2313,
+          "weighted": 0.0231
+        }
+      },
+      "text": "**мехатроника и робототехника – 15.03.06**\n\nинженерное направление, которое объединяет механику, электронику и программирование. база инфы оч важна: будете писать программы для роботов и микроконтроллеров, создавать алгоритмы управления, работать с датчиками, компьютерным зрением и элементами искусственного интеллекта\n\n**какие предметы будут?**\n🖇️ программирование: С++, Python – точно будут\n🖇️ электроника, электротехника, механика\n🖇️ теория автоматического управления и моделирование\n🖇️ микропроц",
+      "link": "https://t.me/sofaavibe/7575",
+      "date": "2026-10-21T12:07:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "python"
+    },
+    {
       "id": "infa_vikusya_10323",
       "channel": "infa_vikusya",
       "post_id": 10323,
@@ -1188,8 +1256,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.2,
+          "weighted": 0.06
         },
         "R": {
           "raw_days_ago": 1,
@@ -1222,8 +1290,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.1333,
+          "weighted": 0.04
         },
         "R": {
           "raw_days_ago": 0,
@@ -1256,8 +1324,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.2,
+          "weighted": 0.06
         },
         "R": {
           "raw_days_ago": 0,
@@ -1290,8 +1358,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.1333,
+          "weighted": 0.04
         },
         "R": {
           "raw_days_ago": 0,
@@ -1324,8 +1392,8 @@
         },
         "F": {
           "raw": 10,
-          "norm": 0.3226,
-          "weighted": 0.0968
+          "norm": 0.2222,
+          "weighted": 0.0667
         },
         "R": {
           "raw_days_ago": 2,
@@ -1345,6 +1413,40 @@
       "keyword": "информати"
     },
     {
+      "id": "flash_ege_15809",
+      "channel": "flash_ege",
+      "post_id": 15809,
+      "score": 0.3122,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.1,
+          "norm": 0.1471,
+          "weighted": 0.0588
+        },
+        "F": {
+          "raw": 6,
+          "norm": 0.1333,
+          "weighted": 0.04
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 2976,
+          "norm": 0.6379,
+          "weighted": 0.0638
+        }
+      },
+      "text": "Ребятушки, сегодня хочу прям весь день посвятить разбору с вами №8 на комбинаторику\n\nЗадача из ЕГЭ! Она вроде легкая, но **в 2026 году всего 54,9% правильно ее решили** 😬\n\nПрикрепил условие. Попробуйте решить сами, потом покажу, где можно ошибиться. Пишите в чатик ответ👇👇",
+      "link": "https://t.me/flash_ege/15809",
+      "date": "2026-10-21T07:46:01+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "ЕГЭ"
+    },
+    {
       "id": "kdrshov_4686",
       "channel": "kdrshov",
       "post_id": 4686,
@@ -1358,8 +1460,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 1,
@@ -1392,8 +1494,8 @@
         },
         "F": {
           "raw": 13,
-          "norm": 0.4194,
-          "weighted": 0.1258
+          "norm": 0.2889,
+          "weighted": 0.0867
         },
         "R": {
           "raw_days_ago": 3,
@@ -1426,8 +1528,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 2,
@@ -1460,8 +1562,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.1333,
+          "weighted": 0.04
         },
         "R": {
           "raw_days_ago": 1,
@@ -1494,8 +1596,8 @@
         },
         "F": {
           "raw": 8,
-          "norm": 0.2581,
-          "weighted": 0.0774
+          "norm": 0.1778,
+          "weighted": 0.0533
         },
         "R": {
           "raw_days_ago": 0,
@@ -1528,8 +1630,8 @@
         },
         "F": {
           "raw": 7,
-          "norm": 0.2258,
-          "weighted": 0.0677
+          "norm": 0.1556,
+          "weighted": 0.0467
         },
         "R": {
           "raw_days_ago": 1,
@@ -1562,8 +1664,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 1,
@@ -1596,8 +1698,8 @@
         },
         "F": {
           "raw": 6,
-          "norm": 0.1935,
-          "weighted": 0.0581
+          "norm": 0.1333,
+          "weighted": 0.04
         },
         "R": {
           "raw_days_ago": 1,
@@ -1630,8 +1732,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.2,
+          "weighted": 0.06
         },
         "R": {
           "raw_days_ago": 2,
@@ -1664,8 +1766,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 1,
@@ -1685,6 +1787,40 @@
       "keyword": "информати"
     },
     {
+      "id": "infa_vikusya_10325",
+      "channel": "infa_vikusya",
+      "post_id": 10325,
+      "score": 0.2416,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.08,
+          "norm": 0.1176,
+          "weighted": 0.0471
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.1111,
+          "weighted": 0.0333
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 3584,
+          "norm": 0.7683,
+          "weighted": 0.0768
+        }
+      },
+      "text": "душа покидает тело, после того как чел начал решать №17 в табличках вместо адекватного кода на питоне",
+      "link": "https://t.me/infa_vikusya/10325",
+      "date": "2026-10-20T06:51:39+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Много просмотров",
+      "keyword": "код"
+    },
+    {
       "id": "senya_infa_4306",
       "channel": "senya_infa",
       "post_id": 4306,
@@ -1698,8 +1834,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 1,
@@ -1732,8 +1868,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 2,
@@ -1766,8 +1902,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 2,
@@ -1800,8 +1936,8 @@
         },
         "F": {
           "raw": 9,
-          "norm": 0.2903,
-          "weighted": 0.0871
+          "norm": 0.2,
+          "weighted": 0.06
         },
         "R": {
           "raw_days_ago": 3,
@@ -1834,8 +1970,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 2,
@@ -1868,8 +2004,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 2,
@@ -1902,8 +2038,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 3,
@@ -1936,8 +2072,8 @@
         },
         "F": {
           "raw": 5,
-          "norm": 0.1613,
-          "weighted": 0.0484
+          "norm": 0.1111,
+          "weighted": 0.0333
         },
         "R": {
           "raw_days_ago": 3,

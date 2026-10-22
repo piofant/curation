@@ -1,17 +1,126 @@
 {
-  "generated_at": "2026-10-21T10:05:07.066712+00:00",
+  "generated_at": "2026-10-22T10:05:15.753244+00:00",
   "moderator": {
     "stats": {
-      "evaluated": 110,
+      "evaluated": 112,
       "delete_ad": 26,
       "low_engagement": 3,
-      "kept": 81,
-      "skip_human": 85,
-      "skip_fresh": 6,
+      "kept": 83,
+      "skip_human": 86,
+      "skip_fresh": 5,
       "deleted_real": 0,
       "dry_run": true
     },
     "decisions": [
+      {
+        "ts": "2026-10-22T09:50:06.613231+00:00",
+        "id": 9667,
+        "link": "https://t.me/kompege/9667",
+        "source": "poster",
+        "text": "Решаем все типы задания №14 из ЕГЭ по информатике  📆 18 октября (воскресенье)⏰ 12:00 (мск)  📱 [ЮТУБ](https://youtube.com/live/5KaxHlnOUCo) 📱 [ВК](https://vkvideo.ru/live-240976430_456239028)  [источни",
+        "date": "2026-10-20T10:02:41+00:00",
+        "age_h": 47.8,
+        "engagement": {
+          "views": 474,
+          "forwards": 7,
+          "reactions": 0,
+          "score": 25.74,
+          "median": 17.21,
+          "ratio": 1.5
+        },
+        "judge": {
+          "usefulness": 0.7,
+          "hype": 0.3,
+          "flags": [],
+          "reason": "Анонс бесплатного вебинара по разбору задания №14 ЕГЭ. Полезно для подготовки, есть ссылки на трансляцию."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-22T09:50:06.612788+00:00",
+        "id": 9670,
+        "link": "https://t.me/kompege/9670",
+        "source": "mirror",
+        "text": "[ ](https://sun9-83.userapi.com/s/v1/ig2/zudhWd_9_IIsSWZMNmDApyEM_EXYsqf3Sh3O5jmAKCAgFxk5oOcFdA-RjgiXgbevXQolZQSyrRbS1VxDixdk74b5.jpg?quality=95&crop=0,0,1920,1920&as=32x32,48x48,72x72,108x108,160x160",
+        "date": "2026-10-21T09:01:14+00:00",
+        "age_h": 24.8,
+        "engagement": {
+          "views": 367,
+          "forwards": 1,
+          "reactions": 1,
+          "score": 8.67,
+          "median": 17.21,
+          "ratio": 0.5
+        },
+        "judge": {
+          "usefulness": 0.8,
+          "hype": 0.2,
+          "flags": [],
+          "reason": "Полезный разбор конкретной задачи ЕГЭ с подробным объяснением стратегии решения. Актуально для подготовки к ЕГЭ-2027."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-22T09:50:05.212983+00:00",
+        "id": 9669,
+        "link": "https://t.me/kompege/9669",
+        "source": "human",
+        "text": "Подготовься к ЕГЭ по математике с \"Теорией большого ЕГЭ\"!  🔸занятия 2 раза в неделю 🔸домашняя работа с подробным видео разбором  🔸возможность индивидуальных консультаций с преподавателем  🔸чат для общ",
+        "date": "2026-10-20T12:04:39+00:00",
+        "age_h": 45.8,
+        "engagement": {
+          "views": 426,
+          "forwards": 2,
+          "reactions": 3,
+          "score": 16.26
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-22T09:50:05.212318+00:00",
+        "id": 9672,
+        "link": "https://t.me/kompege/9672",
+        "source": "poster",
+        "text": "КАК МОГНУТЬ ЕГЭ ПО ИНФЕ?  важно не совершать эти 5 ошибок при подготовке. __большая часть относится именно к ЕГЭ по инфе, поэтому читаем и берем на вооружение__ 🦋__ __ 1️⃣ изучать только шаблоны и син",
+        "date": "2026-10-21T12:57:01+00:00",
+        "age_h": 20.9,
+        "engagement": {
+          "views": 376,
+          "forwards": 4,
+          "reactions": 2,
+          "score": 19.76
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-22T09:50:05.207522+00:00",
+        "id": 9674,
+        "link": "https://t.me/kompege/9674",
+        "source": "human",
+        "text": "",
+        "date": "2026-10-21T13:58:59+00:00",
+        "age_h": 19.9,
+        "engagement": {
+          "views": 0,
+          "forwards": 0,
+          "reactions": 0,
+          "score": 0.0
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
       {
         "ts": "2026-10-21T09:50:09.923703+00:00",
         "id": 9660,
@@ -142,63 +251,6 @@
         },
         "judge": null,
         "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-10-21T09:50:09.462379+00:00",
-        "id": 9667,
-        "link": "https://t.me/kompege/9667",
-        "source": "poster",
-        "text": "Решаем все типы задания №14 из ЕГЭ по информатике  📆 18 октября (воскресенье)⏰ 12:00 (мск)  📱 [ЮТУБ](https://youtube.com/live/5KaxHlnOUCo) 📱 [ВК](https://vkvideo.ru/live-240976430_456239028)  [источни",
-        "date": "2026-10-20T10:02:41+00:00",
-        "age_h": 23.8,
-        "engagement": {
-          "views": 363,
-          "forwards": 7,
-          "reactions": 0,
-          "score": 24.63
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-10-21T09:50:09.462169+00:00",
-        "id": 9669,
-        "link": "https://t.me/kompege/9669",
-        "source": "human",
-        "text": "Подготовься к ЕГЭ по математике с \"Теорией большого ЕГЭ\"!  🔸занятия 2 раза в неделю 🔸домашняя работа с подробным видео разбором  🔸возможность индивидуальных консультаций с преподавателем  🔸чат для общ",
-        "date": "2026-10-20T12:04:39+00:00",
-        "age_h": 21.8,
-        "engagement": {
-          "views": 284,
-          "forwards": 2,
-          "reactions": 3,
-          "score": 14.84
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-10-21T09:50:09.461665+00:00",
-        "id": 9670,
-        "link": "https://t.me/kompege/9670",
-        "source": "mirror",
-        "text": "[ ](https://sun9-83.userapi.com/s/v1/ig2/zudhWd_9_IIsSWZMNmDApyEM_EXYsqf3Sh3O5jmAKCAgFxk5oOcFdA-RjgiXgbevXQolZQSyrRbS1VxDixdk74b5.jpg?quality=95&crop=0,0,1920,1920&as=32x32,48x48,72x72,108x108,160x160",
-        "date": "2026-10-21T09:01:14+00:00",
-        "age_h": 0.8,
-        "engagement": {
-          "views": 58,
-          "forwards": 0,
-          "reactions": 0,
-          "score": 0.58
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
         "deleted": false,
         "dry_run": true
       },
@@ -4563,51 +4615,6 @@
           "reason": "Пост содержит информацию об изменениях в ЕГЭ 2027, включая новое задание и его решение, что является очень полезным и актуальным контентом."
         },
         "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-03T09:50:14.759046+00:00",
-        "id": 9452,
-        "link": "https://t.me/kompege/9452",
-        "source": "mirror",
-        "text": "✏️ [ЕГЭ Информатика 2027 | Открытый курс](https://vk.com/wall-205865487_26406): Поздравляю дорогих коллег и учащихся с началом нового учебного года 😊",
-        "date": "2026-09-01T05:20:03+00:00",
-        "age_h": 52.5,
-        "engagement": {
-          "views": 494,
-          "forwards": 1,
-          "reactions": 3,
-          "score": 13.94,
-          "median": 14.41,
-          "ratio": 0.97
-        },
-        "judge": {
-          "usefulness": 0.1,
-          "hype": 0.1,
-          "flags": [],
-          "reason": "Поздравление с началом учебного года без конкретной пользы для подготовки к ЕГЭ."
-        },
-        "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-03T09:50:12.031160+00:00",
-        "id": 9451,
-        "link": "https://t.me/kompege/9451",
-        "source": "human",
-        "text": "",
-        "date": "2026-08-31T13:44:01+00:00",
-        "age_h": 68.1,
-        "engagement": {
-          "views": 531,
-          "forwards": 5,
-          "reactions": 0,
-          "score": 20.31
-        },
-        "judge": null,
-        "verdict": "skip_human",
         "deleted": false,
         "dry_run": true
       }
