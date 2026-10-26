@@ -1,17 +1,223 @@
 {
-  "generated_at": "2026-10-25T10:05:14.677971+00:00",
+  "generated_at": "2026-10-26T10:05:05.263787+00:00",
   "moderator": {
     "stats": {
-      "evaluated": 117,
+      "evaluated": 120,
       "delete_ad": 28,
       "low_engagement": 3,
-      "kept": 86,
+      "kept": 89,
       "skip_human": 88,
       "skip_fresh": 7,
       "deleted_real": 0,
       "dry_run": true
     },
     "decisions": [
+      {
+        "ts": "2026-10-26T09:50:09.527345+00:00",
+        "id": 9678,
+        "link": "https://t.me/kompege/9678",
+        "source": "mirror",
+        "text": "[ ](https://vk.com/video-205865487_456240612)✏️ [ЕГЭ Информатика 2027 | Открытый курс](https://vk.com/wall-205865487_26516): АНОНС СТРИМА    В воскресенье в 15 МСК разберёмся с решением актуальных 10 ",
+        "date": "2026-10-23T10:16:31+00:00",
+        "age_h": 71.6,
+        "engagement": {
+          "views": 512,
+          "forwards": 5,
+          "reactions": 4,
+          "score": 28.12,
+          "median": 28.12,
+          "ratio": 1.0
+        },
+        "judge": {
+          "usefulness": 0.6,
+          "hype": 0.2,
+          "flags": [],
+          "reason": "Анонс стрима с разбором заданий. Полезно, но не является экстренной новостью."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-26T09:50:09.527232+00:00",
+        "id": 9679,
+        "link": "https://t.me/kompege/9679",
+        "source": "poster",
+        "text": "🤔 КАКОЙ СОФТ БУДЕТ НА ЕГЭ В МОСКВЕ  Москвичи, важная новость. Опубликовали перечень программ для ЕГЭ по информатике 2027 года на компьютерах с ОС «Московская электронная школа».  Главное для вас:  🐍 P",
+        "date": "2026-10-23T13:56:01+00:00",
+        "age_h": 67.9,
+        "engagement": {
+          "views": 567,
+          "forwards": 14,
+          "reactions": 0,
+          "score": 47.67,
+          "median": 28.12,
+          "ratio": 1.7
+        },
+        "judge": {
+          "usefulness": 0.9,
+          "hype": 0.7,
+          "flags": [],
+          "reason": "Очень актуальная и важная новость про софт на ЕГЭ в Москве, что вызывает высокий хайп и полезность для целевой аудитории."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-26T09:50:09.527103+00:00",
+        "id": 9681,
+        "link": "https://t.me/kompege/9681",
+        "source": "mirror",
+        "text": "[ ](https://sun9-81.userapi.com/s/v1/ig2/6dv7kzAFR_bcosTIzJ2ZGsHpZmLf8JKv65QwETY08ytwgKfonODKkUjIxXMyQEC7s8rJx9SUKP-W7UsF1NXHkbLg.jpg?quality=95&crop=0,0,1439,1439&as=32x32,48x48,72x72,108x108,160x160",
+        "date": "2026-10-24T10:17:30+00:00",
+        "age_h": 47.5,
+        "engagement": {
+          "views": 397,
+          "forwards": 4,
+          "reactions": 2,
+          "score": 19.97,
+          "median": 28.12,
+          "ratio": 0.71
+        },
+        "judge": {
+          "usefulness": 0.9,
+          "hype": 0.3,
+          "flags": [],
+          "reason": "Подробный разбор нетипичной задачи 23 с объяснением логики решения. Высокая полезность."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-26T09:50:09.526962+00:00",
+        "id": 9682,
+        "link": "https://t.me/kompege/9682",
+        "source": "poster",
+        "text": "позитива в ваш день – разбор №5 от меня 👻  на этом задании, кстати, хорошо будет закрепить рез октября по проге. велком к просмотру!   📺 [смотреть ютуб](https://youtu.be/bWlBOflhXY0) 💙 [смотреть вк](h",
+        "date": "2026-10-24T12:14:01+00:00",
+        "age_h": 45.6,
+        "engagement": {
+          "views": 387,
+          "forwards": 3,
+          "reactions": 0,
+          "score": 12.87,
+          "median": 28.12,
+          "ratio": 0.46
+        },
+        "judge": {
+          "usefulness": 0.7,
+          "hype": 0.1,
+          "flags": [],
+          "reason": "Разбор задачи с видео. Полезно, но без хайпа и рекламы."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-26T09:50:09.526658+00:00",
+        "id": 9683,
+        "link": "https://t.me/kompege/9683",
+        "source": "mirror",
+        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27284): Задания 24 на поиск подпоследовательности.  Подумал над сюжетом про римские числа, в итоге получилась подборка 9 принципиально ра",
+        "date": "2026-10-24T13:09:01+00:00",
+        "age_h": 44.7,
+        "engagement": {
+          "views": 417,
+          "forwards": 10,
+          "reactions": 6,
+          "score": 46.17,
+          "median": 28.12,
+          "ratio": 1.64
+        },
+        "judge": {
+          "usefulness": 0.8,
+          "hype": 0.2,
+          "flags": [],
+          "reason": "Полезный разбор задачи 24 с примерами и ссылкой на вариант. Нет явного рекламного уклона."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-26T09:50:07.622472+00:00",
+        "id": 9680,
+        "link": "https://t.me/kompege/9680",
+        "source": "human",
+        "text": "",
+        "date": "2026-10-23T13:56:01+00:00",
+        "age_h": 67.9,
+        "engagement": {
+          "views": 559,
+          "forwards": 15,
+          "reactions": 0,
+          "score": 50.59
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-26T09:50:07.621578+00:00",
+        "id": 9684,
+        "link": "https://t.me/kompege/9684",
+        "source": "poster",
+        "text": "🫳 [ДЕРЖИТЕ АВТОРСКИЙ ПРОБНИК](https://bank-zadach.ru/test/Z3FYBE) 🫳  __Загрузил его на наш любимый Банк задач.__  __Решите пробник целиком за 3 часа 55 минут, как на экзамене, а результат пишите в ком",
+        "date": "2026-10-25T11:17:01+00:00",
+        "age_h": 22.6,
+        "engagement": {
+          "views": 345,
+          "forwards": 6,
+          "reactions": 0,
+          "score": 21.45
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-26T09:50:07.621139+00:00",
+        "id": 9685,
+        "link": "https://t.me/kompege/9685",
+        "source": "mirror",
+        "text": "[ ](https://sun9-38.userapi.com/s/v1/ig2/I743LjyFtS6SXzi5mo1NicdVxUlHGJiEaW0Fvnk4ATjT6KPlhykMeChNh6-G_5uYmTD0oA_nH4NL1GjyhJFyDFE6.jpg?quality=95&crop=0,0,1000,800&as=32x26,48x38,72x58,108x86,160x128,2",
+        "date": "2026-10-26T09:28:16+00:00",
+        "age_h": 0.4,
+        "engagement": {
+          "views": 76,
+          "forwards": 1,
+          "reactions": 0,
+          "score": 3.76
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-10-26T09:50:07.616586+00:00",
+        "id": 9686,
+        "link": "https://t.me/kompege/9686",
+        "source": "mirror",
+        "text": "✏️ [PRO100 ЕГЭ Информатика](https://vk.com/wall-205997912_3707): ❗Проект расписания ЕГЭ❗   Порядок проведения ГИА), за исключением выпускников прошлых лет:    1 июня (вторник) – история, литература, х",
+        "date": "2026-10-26T09:39:00+00:00",
+        "age_h": 0.2,
+        "engagement": {
+          "views": 44,
+          "forwards": 3,
+          "reactions": 0,
+          "score": 9.44
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
       {
         "ts": "2026-10-25T09:50:12.576725+00:00",
         "id": 9675,
@@ -70,58 +276,6 @@
         "dry_run": true
       },
       {
-        "ts": "2026-10-25T09:50:12.576406+00:00",
-        "id": 9678,
-        "link": "https://t.me/kompege/9678",
-        "source": "mirror",
-        "text": "[ ](https://vk.com/video-205865487_456240612)✏️ [ЕГЭ Информатика 2027 | Открытый курс](https://vk.com/wall-205865487_26516): АНОНС СТРИМА    В воскресенье в 15 МСК разберёмся с решением актуальных 10 ",
-        "date": "2026-10-23T10:16:31+00:00",
-        "age_h": 47.6,
-        "engagement": {
-          "views": 473,
-          "forwards": 5,
-          "reactions": 4,
-          "score": 27.73,
-          "median": 31.22,
-          "ratio": 0.89
-        },
-        "judge": {
-          "usefulness": 0.5,
-          "hype": 0.3,
-          "flags": [],
-          "reason": "Анонс бесплатного стрима с разбором заданий, что полезно, но не является эксклюзивным или новостным контентом."
-        },
-        "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-10-25T09:50:12.575854+00:00",
-        "id": 9679,
-        "link": "https://t.me/kompege/9679",
-        "source": "poster",
-        "text": "🤔 КАКОЙ СОФТ БУДЕТ НА ЕГЭ В МОСКВЕ  Москвичи, важная новость. Опубликовали перечень программ для ЕГЭ по информатике 2027 года на компьютерах с ОС «Московская электронная школа».  Главное для вас:  🐍 P",
-        "date": "2026-10-23T13:56:01+00:00",
-        "age_h": 43.9,
-        "engagement": {
-          "views": 511,
-          "forwards": 11,
-          "reactions": 0,
-          "score": 38.11,
-          "median": 31.22,
-          "ratio": 1.22
-        },
-        "judge": {
-          "usefulness": 0.8,
-          "hype": 0.7,
-          "flags": [],
-          "reason": "Полезная информация о ПО для ЕГЭ, которая может повлиять на подготовку. Актуально для москвичей."
-        },
-        "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
         "ts": "2026-10-25T09:50:10.734813+00:00",
         "id": 9677,
         "link": "https://t.me/kompege/9677",
@@ -137,82 +291,6 @@
         },
         "judge": null,
         "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-10-25T09:50:10.734468+00:00",
-        "id": 9680,
-        "link": "https://t.me/kompege/9680",
-        "source": "human",
-        "text": "",
-        "date": "2026-10-23T13:56:01+00:00",
-        "age_h": 43.9,
-        "engagement": {
-          "views": 504,
-          "forwards": 12,
-          "reactions": 0,
-          "score": 41.04
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-10-25T09:50:10.734328+00:00",
-        "id": 9681,
-        "link": "https://t.me/kompege/9681",
-        "source": "mirror",
-        "text": "[ ](https://sun9-81.userapi.com/s/v1/ig2/6dv7kzAFR_bcosTIzJ2ZGsHpZmLf8JKv65QwETY08ytwgKfonODKkUjIxXMyQEC7s8rJx9SUKP-W7UsF1NXHkbLg.jpg?quality=95&crop=0,0,1439,1439&as=32x32,48x48,72x72,108x108,160x160",
-        "date": "2026-10-24T10:17:30+00:00",
-        "age_h": 23.5,
-        "engagement": {
-          "views": 308,
-          "forwards": 4,
-          "reactions": 2,
-          "score": 19.08
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-10-25T09:50:10.733649+00:00",
-        "id": 9682,
-        "link": "https://t.me/kompege/9682",
-        "source": "poster",
-        "text": "позитива в ваш день – разбор №5 от меня 👻  на этом задании, кстати, хорошо будет закрепить рез октября по проге. велком к просмотру!   📺 [смотреть ютуб](https://youtu.be/bWlBOflhXY0) 💙 [смотреть вк](h",
-        "date": "2026-10-24T12:14:01+00:00",
-        "age_h": 21.6,
-        "engagement": {
-          "views": 275,
-          "forwards": 2,
-          "reactions": 0,
-          "score": 8.75
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-10-25T09:50:10.732483+00:00",
-        "id": 9683,
-        "link": "https://t.me/kompege/9683",
-        "source": "mirror",
-        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27284): Задания 24 на поиск подпоследовательности.  Подумал над сюжетом про римские числа, в итоге получилась подборка 9 принципиально ра",
-        "date": "2026-10-24T13:09:01+00:00",
-        "age_h": 20.7,
-        "engagement": {
-          "views": 276,
-          "forwards": 8,
-          "reactions": 4,
-          "score": 34.76
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
         "deleted": false,
         "dry_run": true
       },
@@ -4538,70 +4616,6 @@
           "reason": "Обсуждает решение нового задания №27 в электронных таблицах, что является полезной информацией для подготовки."
         },
         "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-05T09:50:11.018087+00:00",
-        "id": 9465,
-        "link": "https://t.me/kompege/9465",
-        "source": "mirror",
-        "text": "✏️ [/dev/inf Репетитор по информатике Рогов А.Ю.](https://vk.com/wall-121199610_2990): ‼Обновление сайта OpenFIPI 2.0  Спешу сообщить, что работа сайта с заданиями из открытого банка ФИПИ практически ",
-        "date": "2026-09-03T05:15:38+00:00",
-        "age_h": 52.6,
-        "engagement": {
-          "views": 516,
-          "forwards": 3,
-          "reactions": 3,
-          "score": 20.16,
-          "median": 20.31,
-          "ratio": 0.99
-        },
-        "judge": {
-          "usefulness": 0.7,
-          "hype": 0.6,
-          "flags": [],
-          "reason": "Сообщает об обновлениях на сайте OpenFIPI и изменениях в нумерации заданий, что полезно для подготовки."
-        },
-        "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-05T09:50:09.297305+00:00",
-        "id": 9464,
-        "link": "https://t.me/kompege/9464",
-        "source": "human",
-        "text": "",
-        "date": "2026-09-02T14:16:45+00:00",
-        "age_h": 67.6,
-        "engagement": {
-          "views": 554,
-          "forwards": 5,
-          "reactions": 0,
-          "score": 20.54
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-05T09:50:09.297105+00:00",
-        "id": 9466,
-        "link": "https://t.me/kompege/9466",
-        "source": "human",
-        "text": "",
-        "date": "2026-09-03T05:15:38+00:00",
-        "age_h": 52.6,
-        "engagement": {
-          "views": 533,
-          "forwards": 3,
-          "reactions": 0,
-          "score": 14.33
-        },
-        "judge": null,
-        "verdict": "skip_human",
         "deleted": false,
         "dry_run": true
       }
