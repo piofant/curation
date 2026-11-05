@@ -1,17 +1,330 @@
 {
-  "generated_at": "2026-11-04T10:05:04.944890+00:00",
+  "generated_at": "2026-11-05T10:05:12.161463+00:00",
   "moderator": {
     "stats": {
-      "evaluated": 130,
-      "delete_ad": 30,
+      "evaluated": 136,
+      "delete_ad": 32,
       "low_engagement": 3,
-      "kept": 97,
-      "skip_human": 97,
-      "skip_fresh": 9,
+      "kept": 101,
+      "skip_human": 98,
+      "skip_fresh": 6,
       "deleted_real": 0,
       "dry_run": true
     },
     "decisions": [
+      {
+        "ts": "2026-11-05T09:50:05.860073+00:00",
+        "id": 9710,
+        "link": "https://t.me/kompege/9710",
+        "source": "poster",
+        "text": "__🧐 КАК__ ПОБЕДИТЬ №23  Обещал — показываю. Граф в задаче маленький, так что хватит самого простого приема: много раз пройти по всем ребрам и улучшать расстояния. edges — список ребер из файла.  ```d ",
+        "date": "2026-11-02T13:04:01+00:00",
+        "age_h": 68.8,
+        "engagement": {
+          "views": 427,
+          "forwards": 20,
+          "reactions": 2,
+          "score": 68.27,
+          "median": 18.89,
+          "ratio": 3.61
+        },
+        "judge": {
+          "usefulness": 1.0,
+          "hype": 0.3,
+          "flags": [],
+          "reason": "Полезный пост с разбором конкретной задачи ЕГЭ по информатике и кодом."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:05.859963+00:00",
+        "id": 9712,
+        "link": "https://t.me/kompege/9712",
+        "source": "mirror",
+        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27306): Повышаем цену на Годовой курс - 2027 😱    16 ноября стоимость курса станет 14.000 рублей.   ⠀ Залетай на курс и готовься С НУЛЯ: ",
+        "date": "2026-11-02T14:04:25+00:00",
+        "age_h": 67.8,
+        "engagement": {
+          "views": 432,
+          "forwards": 6,
+          "reactions": 3,
+          "score": 28.32,
+          "median": 18.89,
+          "ratio": 1.5
+        },
+        "judge": {
+          "usefulness": 0.0,
+          "hype": 0.0,
+          "flags": [
+            "ad_funnel"
+          ],
+          "reason": "Реклама платного годового курса с повышением цены."
+        },
+        "verdict": "delete_ad",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:05.859838+00:00",
+        "id": 9716,
+        "link": "https://t.me/kompege/9716",
+        "source": "mirror",
+        "text": "🔁 [/dev/inf Репетитор по информатике Рогов А.Ю.](https://vk.com/wall-121199610_3048): VPS утрачены. На восстановление сайтов уйдет время. Речь и про openfipi и devinf.ru. Да и про другие.  Разбор теку",
+        "date": "2026-11-03T13:14:28+00:00",
+        "age_h": 44.6,
+        "engagement": {
+          "views": 338,
+          "forwards": 1,
+          "reactions": 1,
+          "score": 8.38,
+          "median": 18.89,
+          "ratio": 0.44
+        },
+        "judge": {
+          "usefulness": 0.3,
+          "hype": 0.7,
+          "flags": [],
+          "reason": "Важная новость о кибератаке на образовательные ресурсы, но без прямой пользы для подготовки к ЕГЭ."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:05.859667+00:00",
+        "id": 9718,
+        "link": "https://t.me/kompege/9718",
+        "source": "poster",
+        "text": "ПИТОН с НУЛЯ за | ЧАСТЬ 1/6   жестко ботаем всю прогу, ведь без нее на егэ к сожалению никуда. да и в целом сейчас любой человек должен знать азы алгоритмизации и тд. так как мы очень плотно сейчас вз",
+        "date": "2026-11-03T13:58:01+00:00",
+        "age_h": 43.9,
+        "engagement": {
+          "views": 347,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 9.47,
+          "median": 18.89,
+          "ratio": 0.5
+        },
+        "judge": {
+          "usefulness": 0.7,
+          "hype": 0.3,
+          "flags": [],
+          "reason": "Полезный пост с началом курса по Python для ЕГЭ, но без прямой ссылки на продолжение или дополнительные материалы."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:05.859020+00:00",
+        "id": 9719,
+        "link": "https://t.me/kompege/9719",
+        "source": "mirror",
+        "text": "✏️ [Соточка по русскому | ЕГЭ 2027 | РУССКИЙ ЯЗЫК](https://vk.com/wall-4968_51568): Котьки, ещё есть места на курс по сочинению ЕГЭ: https://stepik.org/course/302208/promo  Можно успеть ворваться ✊🏻  ",
+        "date": "2026-11-03T15:12:50+00:00",
+        "age_h": 42.6,
+        "engagement": {
+          "views": 369,
+          "forwards": 1,
+          "reactions": 0,
+          "score": 6.69,
+          "median": 18.89,
+          "ratio": 0.35
+        },
+        "judge": {
+          "usefulness": 0.0,
+          "hype": 0.0,
+          "flags": [
+            "ad_funnel",
+            "off_topic_oge"
+          ],
+          "reason": "Пост про ОГЭ по русскому языку, а не про ЕГЭ по информатике, и ведет на платный курс."
+        },
+        "verdict": "delete_ad",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:05.854539+00:00",
+        "id": 9721,
+        "link": "https://t.me/kompege/9721",
+        "source": "mirror",
+        "text": "✏️ [ЕГЭ Информатика 2027 | Открытый курс](https://vk.com/wall-205865487_26539): Кстати, на этой неделе вышел новенький вариант от Статграда! 😼  Вариант составлял [Марат Ишимов](https://vk.com/id356086",
+        "date": "2026-11-04T07:12:57+00:00",
+        "age_h": 26.6,
+        "engagement": {
+          "views": 395,
+          "forwards": 15,
+          "reactions": 3,
+          "score": 54.95,
+          "median": 18.89,
+          "ratio": 2.91
+        },
+        "judge": {
+          "usefulness": 1.0,
+          "hype": 0.5,
+          "flags": [],
+          "reason": "Полезный пост с бесплатным вариантом от Статграда и анонсом разбора."
+        },
+        "verdict": "kept",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:03.652262+00:00",
+        "id": 9711,
+        "link": "https://t.me/kompege/9711",
+        "source": "human",
+        "text": "Разбор тренировочного варианта №2 уровня ЕГЭ 2027 🔥  В варианте были включены все текущие изменения экзамена, с новыми заданиями и новыми параметрами ответа в 27 номере.😏  Ловите свежее видео с полным",
+        "date": "2026-11-02T13:48:04+00:00",
+        "age_h": 68.0,
+        "engagement": {
+          "views": 411,
+          "forwards": 5,
+          "reactions": 2,
+          "score": 23.11
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:03.651374+00:00",
+        "id": 9713,
+        "link": "https://t.me/kompege/9713",
+        "source": "human",
+        "text": "",
+        "date": "2026-11-02T14:04:25+00:00",
+        "age_h": 67.8,
+        "engagement": {
+          "views": 428,
+          "forwards": 6,
+          "reactions": 0,
+          "score": 22.28
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:03.651275+00:00",
+        "id": 9714,
+        "link": "https://t.me/kompege/9714",
+        "source": "human",
+        "text": "",
+        "date": "2026-11-02T14:04:25+00:00",
+        "age_h": 67.8,
+        "engagement": {
+          "views": 434,
+          "forwards": 6,
+          "reactions": 0,
+          "score": 22.34
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:03.651163+00:00",
+        "id": 9715,
+        "link": "https://t.me/kompege/9715",
+        "source": "human",
+        "text": "",
+        "date": "2026-11-02T14:04:25+00:00",
+        "age_h": 67.8,
+        "engagement": {
+          "views": 424,
+          "forwards": 6,
+          "reactions": 0,
+          "score": 22.24
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:03.650490+00:00",
+        "id": 9717,
+        "link": "https://t.me/kompege/9717",
+        "source": "human",
+        "text": "DNS‑записями доменов. https://domains.beget.ru/  Панель управления.  В течение 24 часов мы предоставим ограниченный интерфейс для управления частью услуг.  Конкретные сроки восстановления всех сервисо",
+        "date": "2026-11-03T13:14:29+00:00",
+        "age_h": 44.6,
+        "engagement": {
+          "views": 357,
+          "forwards": 1,
+          "reactions": 1,
+          "score": 8.57
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:03.649978+00:00",
+        "id": 9720,
+        "link": "https://t.me/kompege/9720",
+        "source": "human",
+        "text": "",
+        "date": "2026-11-03T15:12:50+00:00",
+        "age_h": 42.6,
+        "engagement": {
+          "views": 389,
+          "forwards": 1,
+          "reactions": 0,
+          "score": 6.89
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:03.649655+00:00",
+        "id": 9722,
+        "link": "https://t.me/kompege/9722",
+        "source": "poster",
+        "text": "Код для задач на теории игр многим ребятам в начале обучения кажется страшным.😱  Рекурсия сама по себе непростая, а тут еще и не совсем ясно, как __«под капотом»__ происходят вычисления.  Разобрал для",
+        "date": "2026-11-04T10:46:01+00:00",
+        "age_h": 23.1,
+        "engagement": {
+          "views": 336,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 9.36
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-05T09:50:03.645995+00:00",
+        "id": 9723,
+        "link": "https://t.me/kompege/9723",
+        "source": "human",
+        "text": "",
+        "date": "2026-11-04T10:46:01+00:00",
+        "age_h": 23.1,
+        "engagement": {
+          "views": 324,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 9.24
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
       {
         "ts": "2026-11-04T09:50:17.244599+00:00",
         "id": 9702,
@@ -146,44 +459,6 @@
         "dry_run": true
       },
       {
-        "ts": "2026-11-04T09:50:17.243909+00:00",
-        "id": 9710,
-        "link": "https://t.me/kompege/9710",
-        "source": "poster",
-        "text": "__🧐 КАК__ ПОБЕДИТЬ №23  Обещал — показываю. Граф в задаче маленький, так что хватит самого простого приема: много раз пройти по всем ребрам и улучшать расстояния. edges — список ребер из файла.  ```d ",
-        "date": "2026-11-02T13:04:01+00:00",
-        "age_h": 44.8,
-        "engagement": {
-          "views": 390,
-          "forwards": 19,
-          "reactions": 1,
-          "score": 62.9
-        },
-        "judge": null,
-        "verdict": "skip_no_judge",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:17.243060+00:00",
-        "id": 9712,
-        "link": "https://t.me/kompege/9712",
-        "source": "mirror",
-        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27306): Повышаем цену на Годовой курс - 2027 😱    16 ноября стоимость курса станет 14.000 рублей.   ⠀ Залетай на курс и готовься С НУЛЯ: ",
-        "date": "2026-11-02T14:04:25+00:00",
-        "age_h": 43.8,
-        "engagement": {
-          "views": 392,
-          "forwards": 6,
-          "reactions": 3,
-          "score": 27.92
-        },
-        "judge": null,
-        "verdict": "skip_no_judge",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
         "ts": "2026-11-04T09:50:16.070034+00:00",
         "id": 9707,
         "link": "https://t.me/kompege/9707",
@@ -199,196 +474,6 @@
         },
         "judge": null,
         "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.069707+00:00",
-        "id": 9711,
-        "link": "https://t.me/kompege/9711",
-        "source": "human",
-        "text": "Разбор тренировочного варианта №2 уровня ЕГЭ 2027 🔥  В варианте были включены все текущие изменения экзамена, с новыми заданиями и новыми параметрами ответа в 27 номере.😏  Ловите свежее видео с полным",
-        "date": "2026-11-02T13:48:04+00:00",
-        "age_h": 44.0,
-        "engagement": {
-          "views": 374,
-          "forwards": 5,
-          "reactions": 2,
-          "score": 22.74
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.069386+00:00",
-        "id": 9713,
-        "link": "https://t.me/kompege/9713",
-        "source": "human",
-        "text": "",
-        "date": "2026-11-02T14:04:25+00:00",
-        "age_h": 43.8,
-        "engagement": {
-          "views": 388,
-          "forwards": 6,
-          "reactions": 0,
-          "score": 21.88
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.069315+00:00",
-        "id": 9714,
-        "link": "https://t.me/kompege/9714",
-        "source": "human",
-        "text": "",
-        "date": "2026-11-02T14:04:25+00:00",
-        "age_h": 43.8,
-        "engagement": {
-          "views": 391,
-          "forwards": 6,
-          "reactions": 0,
-          "score": 21.91
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.069236+00:00",
-        "id": 9715,
-        "link": "https://t.me/kompege/9715",
-        "source": "human",
-        "text": "",
-        "date": "2026-11-02T14:04:25+00:00",
-        "age_h": 43.8,
-        "engagement": {
-          "views": 383,
-          "forwards": 6,
-          "reactions": 0,
-          "score": 21.83
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.069113+00:00",
-        "id": 9716,
-        "link": "https://t.me/kompege/9716",
-        "source": "mirror",
-        "text": "🔁 [/dev/inf Репетитор по информатике Рогов А.Ю.](https://vk.com/wall-121199610_3048): VPS утрачены. На восстановление сайтов уйдет время. Речь и про openfipi и devinf.ru. Да и про другие.  Разбор теку",
-        "date": "2026-11-03T13:14:28+00:00",
-        "age_h": 20.6,
-        "engagement": {
-          "views": 274,
-          "forwards": 1,
-          "reactions": 0,
-          "score": 5.74
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.068629+00:00",
-        "id": 9717,
-        "link": "https://t.me/kompege/9717",
-        "source": "human",
-        "text": "DNS‑записями доменов. https://domains.beget.ru/  Панель управления.  В течение 24 часов мы предоставим ограниченный интерфейс для управления частью услуг.  Конкретные сроки восстановления всех сервисо",
-        "date": "2026-11-03T13:14:29+00:00",
-        "age_h": 20.6,
-        "engagement": {
-          "views": 296,
-          "forwards": 1,
-          "reactions": 0,
-          "score": 5.96
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.068329+00:00",
-        "id": 9718,
-        "link": "https://t.me/kompege/9718",
-        "source": "poster",
-        "text": "ПИТОН с НУЛЯ за | ЧАСТЬ 1/6   жестко ботаем всю прогу, ведь без нее на егэ к сожалению никуда. да и в целом сейчас любой человек должен знать азы алгоритмизации и тд. так как мы очень плотно сейчас вз",
-        "date": "2026-11-03T13:58:01+00:00",
-        "age_h": 19.9,
-        "engagement": {
-          "views": 278,
-          "forwards": 2,
-          "reactions": 0,
-          "score": 8.78
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.068175+00:00",
-        "id": 9719,
-        "link": "https://t.me/kompege/9719",
-        "source": "mirror",
-        "text": "✏️ [Соточка по русскому | ЕГЭ 2027 | РУССКИЙ ЯЗЫК](https://vk.com/wall-4968_51568): Котьки, ещё есть места на курс по сочинению ЕГЭ: https://stepik.org/course/302208/promo  Можно успеть ворваться ✊🏻  ",
-        "date": "2026-11-03T15:12:50+00:00",
-        "age_h": 18.6,
-        "engagement": {
-          "views": 264,
-          "forwards": 1,
-          "reactions": 0,
-          "score": 5.64
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.067932+00:00",
-        "id": 9720,
-        "link": "https://t.me/kompege/9720",
-        "source": "human",
-        "text": "",
-        "date": "2026-11-03T15:12:50+00:00",
-        "age_h": 18.6,
-        "engagement": {
-          "views": 259,
-          "forwards": 1,
-          "reactions": 0,
-          "score": 5.59
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-04T09:50:16.066367+00:00",
-        "id": 9721,
-        "link": "https://t.me/kompege/9721",
-        "source": "mirror",
-        "text": "✏️ [ЕГЭ Информатика 2027 | Открытый курс](https://vk.com/wall-205865487_26539): Кстати, на этой неделе вышел новенький вариант от Статграда! 😼  Вариант составлял [Марат Ишимов](https://vk.com/id356086",
-        "date": "2026-11-04T07:12:57+00:00",
-        "age_h": 2.6,
-        "engagement": {
-          "views": 154,
-          "forwards": 4,
-          "reactions": 2,
-          "score": 17.54
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
         "deleted": false,
         "dry_run": true
       },
@@ -4513,60 +4598,6 @@
           "hype": 0.7,
           "flags": [],
           "reason": "Важная новость об изменениях в ЕГЭ-2027 по информатике, включая смену комиссии и возможные направления развития."
-        },
-        "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-13T09:50:14.684154+00:00",
-        "id": 9502,
-        "link": "https://t.me/kompege/9502",
-        "source": "mirror",
-        "text": "[ ](https://sun9-78.userapi.com/s/v1/ig2/Q8L2-62PFGCJ1RSuV3o3HajXTXUFq6ChofZfoNSyBOWCIy5H7h-tLFzVGigt7shFWLUgATSj0ys5U96xcZrfx-lM.jpg?quality=95&crop=0,0,1279,853&as=32x21,48x32,72x48,108x72,160x107,2",
-        "date": "2026-09-10T14:35:40+00:00",
-        "age_h": 67.2,
-        "engagement": {
-          "views": 479,
-          "forwards": 0,
-          "reactions": 7,
-          "score": 18.79,
-          "median": 17.53,
-          "ratio": 1.07
-        },
-        "judge": {
-          "usefulness": 0.0,
-          "hype": 0.0,
-          "flags": [
-            "no_context"
-          ],
-          "reason": "Вода про общение с коллегами и фотографии, никакой пользы для учеников."
-        },
-        "verdict": "delete_ad",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-12T09:50:15.803577+00:00",
-        "id": 9498,
-        "link": "https://t.me/kompege/9498",
-        "source": "poster",
-        "text": "СОСТАВИТЕЛИ ЕГЭ НЕНАВИДЯТ ЭТОТ ВЕБ…  Сегодня разберем базовое программирование на Python всего за час С НУЛЯ 🤩  Жду всех в 17:30 Мск 📱 [ВК](https://vkvideo.ru/live-240976430_456239021) 📱 [ЮТУБ](https:",
-        "date": "2026-09-09T12:15:16+00:00",
-        "age_h": 69.6,
-        "engagement": {
-          "views": 572,
-          "forwards": 12,
-          "reactions": 2,
-          "score": 45.72,
-          "median": 20.83,
-          "ratio": 2.19
-        },
-        "judge": {
-          "usefulness": 0.7,
-          "hype": 0.5,
-          "flags": [],
-          "reason": "Пост анонсирует бесплатный часовой вебинар по базовому программированию на Python с нуля, что является полезным контентом."
         },
         "verdict": "kept",
         "deleted": false,
