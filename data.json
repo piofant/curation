@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-11T10:05:19.107009+00:00",
+  "generated_at": "2026-11-12T10:05:01.031183+00:00",
   "stats": {
-    "total_items": 80,
+    "total_items": 83,
     "channels_count": 14,
-    "avg_score": 0.4851,
-    "max_score": 2.5185,
+    "avg_score": 0.5344,
+    "max_score": 2.6359,
     "min_score": 0.0941
   },
   "thresholds": {
-    "tertile_top_min": 0.401,
+    "tertile_top_min": 0.4028,
     "tertile_mid_min": 0.2998
   },
   "weights": {
@@ -18,6 +18,74 @@
     "V": 0.1
   },
   "items": [
+    {
+      "id": "profimatika_Inf_5949",
+      "channel": "profimatika_Inf",
+      "post_id": 5949,
+      "score": 2.6359,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.55,
+          "norm": 0.8088,
+          "weighted": 0.3235
+        },
+        "F": {
+          "raw": 9,
+          "norm": 0.1139,
+          "weighted": 0.0342
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 366,
+          "norm": 0.0611,
+          "weighted": 0.0061
+        }
+      },
+      "text": "**🔴**** МЫ НАЧИНАЕМ! «ДЕДЛАЙН 12.12» ****🔴**\n\nВеб №1: кодирование изображения (№7)\n\nДва видео: сначала теория, потом практика, где решаем задачи прямо на вебе\n\nСМОТРИ, ГДЕ УДОБНЕЕ 👇\n\n**__📱__**__** ВК**\n__[__Теория__](https://vkvideo.ru/video-221373651_456239967?list=ln-ZIXya3uYJWSWRMsamd)__\n__[__Практика__](https://vkvideo.ru/video-221373651_456239968?list=ln-YIG7TrM4MfpoO6tGb2)\n\n**__📱__**__** YouTube**\n__[__Теория__](https://youtu.be/_5-fl3o_wpQ)__\n__[__Практика__](https://youtu.be/Df3EQiVlQOM)",
+      "link": "https://t.me/profimatika_Inf/5949",
+      "date": "2026-11-11T05:50:10+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "код"
+    },
+    {
+      "id": "profimatika_Inf_5950",
+      "channel": "profimatika_Inf",
+      "post_id": 5950,
+      "score": 2.6341,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.45,
+          "norm": 0.6618,
+          "weighted": 0.2647
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.0633,
+          "weighted": 0.019
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 348,
+          "norm": 0.0581,
+          "weighted": 0.0058
+        }
+      },
+      "text": "**🔴**** ВЕБ №2 УЖЕ ТУТ **\n\nВеб №2: кодирование звука (№7)\n\nДва видео: сначала теория, потом практика, где решаем задачи прямо на вебе\n\nСМОТРИ, ГДЕ УДОБНЕЕ:\n\n📱 ВК\n[Теория](https://vkvideo.ru/video-221373651_456239970?list=ln-rlF319Z5ZWUHrNi4sJ)\n[Практика](https://vkvideo.ru/video-221373651_456239971?list=ln-NqYlFzOBe8XypwF3zo)\n\n📱 YouTube\n[Теория](https://youtu.be/9EFdlLKZjZM)\n[Практика](https://youtu.be/TPVm486mNQE)",
+      "link": "https://t.me/profimatika_Inf/5950",
+      "date": "2026-11-11T13:00:47+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "код"
+    },
     {
       "id": "plugar_inf_4596",
       "channel": "plugar_inf",
@@ -873,7 +941,7 @@
       "channel": "sofaavibe",
       "post_id": 7575,
       "score": 0.401,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.2,
@@ -2057,6 +2125,40 @@
       "date": "2026-10-03T10:18:09+00:00",
       "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
       "keyword": "python"
+    },
+    {
+      "id": "infa_vikusya_10425",
+      "channel": "infa_vikusya",
+      "post_id": 10425,
+      "score": 0.2789,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.05,
+          "norm": 0.0735,
+          "weighted": 0.0294
+        },
+        "F": {
+          "raw": 8,
+          "norm": 0.1013,
+          "weighted": 0.0304
+        },
+        "R": {
+          "raw_days_ago": 1,
+          "norm": 0.6667,
+          "weighted": 0.1333
+        },
+        "V": {
+          "raw": 3963,
+          "norm": 0.662,
+          "weighted": 0.0662
+        }
+      },
+      "text": "9.11 на егэ. крылов и сосенушкин дают жару",
+      "link": "https://t.me/infa_vikusya/10425",
+      "date": "2026-11-10T11:00:23+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Хорошая вовлечённость | Много просмотров",
+      "keyword": "ЕГЭ"
     },
     {
       "id": "infa_vikusya_10338",
