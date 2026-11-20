@@ -1,17 +1,207 @@
 {
-  "generated_at": "2026-11-19T10:05:05.172541+00:00",
+  "generated_at": "2026-11-20T10:05:04.049901+00:00",
   "moderator": {
     "stats": {
-      "evaluated": 162,
+      "evaluated": 160,
       "delete_ad": 37,
       "low_engagement": 3,
-      "kept": 122,
+      "kept": 120,
       "skip_human": 109,
-      "skip_fresh": 7,
+      "skip_fresh": 8,
       "deleted_real": 0,
       "dry_run": true
     },
     "decisions": [
+      {
+        "ts": "2026-11-20T09:50:16.952591+00:00",
+        "id": 9760,
+        "link": "https://t.me/kompege/9760",
+        "source": "poster",
+        "text": "Друзья, изменений в ЕГЭ-2027 по информатике не будет!   Всё вернулось:  10 задание - Информационный поиск средствами текстового процессора. 13 задание - IP-адреса и маски. 23 задание - Анализ хода исп",
+        "date": "2026-11-17T12:16:01+00:00",
+        "age_h": 69.6,
+        "engagement": {
+          "views": 588,
+          "forwards": 6,
+          "reactions": 12,
+          "score": 47.88
+        },
+        "judge": null,
+        "verdict": "skip_no_judge",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.952299+00:00",
+        "id": 9761,
+        "link": "https://t.me/kompege/9761",
+        "source": "mirror",
+        "text": "[ ](https://vk.com/video-184870282_456239130)✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27348): IP-адресация. Основная теория 😎   Принципы описания сетей, специализированные адреса",
+        "date": "2026-11-17T13:14:59+00:00",
+        "age_h": 68.6,
+        "engagement": {
+          "views": 519,
+          "forwards": 6,
+          "reactions": 0,
+          "score": 23.19
+        },
+        "judge": null,
+        "verdict": "skip_no_judge",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.952167+00:00",
+        "id": 9762,
+        "link": "https://t.me/kompege/9762",
+        "source": "poster",
+        "text": "ЗДЕСЬ83 ВАШИХ БАЛЛА НА ЕГЭ ПО ИНФЕ  Забирайте подробные вебы по заданиям №1-22 🔥 В них и теория, и решение задач Если научитесь решать каждое из заданий, то в сумме сможете набрать 83 тестовых балла! ",
+        "date": "2026-11-18T12:43:01+00:00",
+        "age_h": 45.1,
+        "engagement": {
+          "views": 483,
+          "forwards": 35,
+          "reactions": 4,
+          "score": 117.83
+        },
+        "judge": null,
+        "verdict": "skip_no_judge",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.951481+00:00",
+        "id": 9764,
+        "link": "https://t.me/kompege/9764",
+        "source": "mirror",
+        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27350): Разбор задания №13   Для узла с IP-адресом 48.147.0.200 адрес сети равен 48.147.0.0. Для скольких различных значений маски это во",
+        "date": "2026-11-18T12:45:00+00:00",
+        "age_h": 45.1,
+        "engagement": {
+          "views": 463,
+          "forwards": 2,
+          "reactions": 3,
+          "score": 16.63
+        },
+        "judge": null,
+        "verdict": "skip_no_judge",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.585417+00:00",
+        "id": 9763,
+        "link": "https://t.me/kompege/9763",
+        "source": "human",
+        "text": "",
+        "date": "2026-11-18T12:43:01+00:00",
+        "age_h": 45.1,
+        "engagement": {
+          "views": 422,
+          "forwards": 0,
+          "reactions": 0,
+          "score": 4.22
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.585188+00:00",
+        "id": 9765,
+        "link": "https://t.me/kompege/9765",
+        "source": "human",
+        "text": "",
+        "date": "2026-11-18T12:45:00+00:00",
+        "age_h": 45.1,
+        "engagement": {
+          "views": 495,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 10.95
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.584854+00:00",
+        "id": 9766,
+        "link": "https://t.me/kompege/9766",
+        "source": "human",
+        "text": "",
+        "date": "2026-11-18T12:45:00+00:00",
+        "age_h": 45.1,
+        "engagement": {
+          "views": 494,
+          "forwards": 2,
+          "reactions": 0,
+          "score": 10.94
+        },
+        "judge": null,
+        "verdict": "skip_human",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.584527+00:00",
+        "id": 9767,
+        "link": "https://t.me/kompege/9767",
+        "source": "poster",
+        "text": "ШПАРГАЛКА  по функциям Электронных таблиц  Она вам супер пригодится при решении заданий №3, №9, №18 и №22 на ЕГЭ!  __Забирайте, сохраняйте и пользуйтесь ❤️__  [источник](https://t.me/flash_ege/16051)",
+        "date": "2026-11-19T10:12:01+00:00",
+        "age_h": 23.6,
+        "engagement": {
+          "views": 431,
+          "forwards": 15,
+          "reactions": 0,
+          "score": 49.31
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.584226+00:00",
+        "id": 9768,
+        "link": "https://t.me/kompege/9768",
+        "source": "mirror",
+        "text": "✏️ [PRO100 ЕГЭ Информатика](https://vk.com/wall-205997912_3717): Новый автор сборника от ФИПИ    1. Крылов С.С. остаётся автором сборника.  С.Е. Сосёнушкин (новый руководитель ЕГЭ по информатике) отсу",
+        "date": "2026-11-19T13:45:30+00:00",
+        "age_h": 20.1,
+        "engagement": {
+          "views": 372,
+          "forwards": 3,
+          "reactions": 3,
+          "score": 18.72
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
+      {
+        "ts": "2026-11-20T09:50:16.583630+00:00",
+        "id": 9769,
+        "link": "https://t.me/kompege/9769",
+        "source": "mirror",
+        "text": "✏️ [Соточка по русскому | ЕГЭ 2027 | РУССКИЙ ЯЗЫК](https://vk.com/wall-4968_51586): Котаны, к сожалению завтрашний веб по пунктуации вынуждена отменить из-за болезни.   ❗Ближайший веб, таким образом, ",
+        "date": "2026-11-19T18:20:56+00:00",
+        "age_h": 15.5,
+        "engagement": {
+          "views": 268,
+          "forwards": 4,
+          "reactions": 2,
+          "score": 18.68
+        },
+        "judge": null,
+        "verdict": "skip_fresh",
+        "deleted": false,
+        "dry_run": true
+      },
       {
         "ts": "2026-11-19T09:50:19.097584+00:00",
         "id": 9759,
@@ -33,58 +223,6 @@
           "hype": 0.3,
           "flags": [],
           "reason": "Бесплатный видеоразбор задания №12, который будет полезен для подготовки к ЕГЭ."
-        },
-        "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-19T09:50:19.097450+00:00",
-        "id": 9760,
-        "link": "https://t.me/kompege/9760",
-        "source": "poster",
-        "text": "Друзья, изменений в ЕГЭ-2027 по информатике не будет!   Всё вернулось:  10 задание - Информационный поиск средствами текстового процессора. 13 задание - IP-адреса и маски. 23 задание - Анализ хода исп",
-        "date": "2026-11-17T12:16:01+00:00",
-        "age_h": 45.6,
-        "engagement": {
-          "views": 527,
-          "forwards": 4,
-          "reactions": 12,
-          "score": 41.27,
-          "median": 36.84,
-          "ratio": 1.12
-        },
-        "judge": {
-          "usefulness": 0.9,
-          "hype": 0.9,
-          "flags": [],
-          "reason": "Важная новость об изменениях в ЕГЭ-2027, которая имеет большой новостной вес и актуальность для выпускников."
-        },
-        "verdict": "kept",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-19T09:50:19.097187+00:00",
-        "id": 9761,
-        "link": "https://t.me/kompege/9761",
-        "source": "mirror",
-        "text": "[ ](https://vk.com/video-184870282_456239130)✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27348): IP-адресация. Основная теория 😎   Принципы описания сетей, специализированные адреса",
-        "date": "2026-11-17T13:14:59+00:00",
-        "age_h": 44.6,
-        "engagement": {
-          "views": 452,
-          "forwards": 6,
-          "reactions": 0,
-          "score": 22.52,
-          "median": 36.84,
-          "ratio": 0.61
-        },
-        "judge": {
-          "usefulness": 0.8,
-          "hype": 0.2,
-          "flags": [],
-          "reason": "Полезный бесплатный видеоразбор теории по IP-адресации, актуальной для ЕГЭ."
         },
         "verdict": "kept",
         "deleted": false,
@@ -122,101 +260,6 @@
           "forwards": 1,
           "reactions": 0,
           "score": 8.63
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-19T09:50:17.796735+00:00",
-        "id": 9762,
-        "link": "https://t.me/kompege/9762",
-        "source": "poster",
-        "text": "ЗДЕСЬ83 ВАШИХ БАЛЛА НА ЕГЭ ПО ИНФЕ  Забирайте подробные вебы по заданиям №1-22 🔥 В них и теория, и решение задач Если научитесь решать каждое из заданий, то в сумме сможете набрать 83 тестовых балла! ",
-        "date": "2026-11-18T12:43:01+00:00",
-        "age_h": 21.1,
-        "engagement": {
-          "views": 346,
-          "forwards": 23,
-          "reactions": 3,
-          "score": 78.46
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-19T09:50:17.793510+00:00",
-        "id": 9763,
-        "link": "https://t.me/kompege/9763",
-        "source": "human",
-        "text": "",
-        "date": "2026-11-18T12:43:01+00:00",
-        "age_h": 21.1,
-        "engagement": {
-          "views": 301,
-          "forwards": 0,
-          "reactions": 0,
-          "score": 3.01
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-19T09:50:17.793399+00:00",
-        "id": 9764,
-        "link": "https://t.me/kompege/9764",
-        "source": "mirror",
-        "text": "✏️ [Информатика с Джобсом | ЕГЭ](https://vk.com/wall-184870282_27350): Разбор задания №13   Для узла с IP-адресом 48.147.0.200 адрес сети равен 48.147.0.0. Для скольких различных значений маски это во",
-        "date": "2026-11-18T12:45:00+00:00",
-        "age_h": 21.1,
-        "engagement": {
-          "views": 308,
-          "forwards": 2,
-          "reactions": 3,
-          "score": 15.08
-        },
-        "judge": null,
-        "verdict": "skip_fresh",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-19T09:50:17.792697+00:00",
-        "id": 9765,
-        "link": "https://t.me/kompege/9765",
-        "source": "human",
-        "text": "",
-        "date": "2026-11-18T12:45:00+00:00",
-        "age_h": 21.1,
-        "engagement": {
-          "views": 312,
-          "forwards": 2,
-          "reactions": 0,
-          "score": 9.12
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-11-19T09:50:17.774433+00:00",
-        "id": 9766,
-        "link": "https://t.me/kompege/9766",
-        "source": "human",
-        "text": "",
-        "date": "2026-11-18T12:45:00+00:00",
-        "age_h": 21.1,
-        "engagement": {
-          "views": 311,
-          "forwards": 2,
-          "reactions": 0,
-          "score": 9.11
         },
         "judge": null,
         "verdict": "skip_human",
@@ -4575,63 +4618,6 @@
           "forwards": 6,
           "reactions": 0,
           "score": 22.87
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-19T09:50:09.132223+00:00",
-        "id": 9551,
-        "link": "https://t.me/kompege/9551",
-        "source": "human",
-        "text": "",
-        "date": "2026-09-16T13:57:53+00:00",
-        "age_h": 67.9,
-        "engagement": {
-          "views": 512,
-          "forwards": 6,
-          "reactions": 0,
-          "score": 23.12
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-19T09:50:09.132110+00:00",
-        "id": 9552,
-        "link": "https://t.me/kompege/9552",
-        "source": "human",
-        "text": "",
-        "date": "2026-09-16T13:57:53+00:00",
-        "age_h": 67.9,
-        "engagement": {
-          "views": 517,
-          "forwards": 6,
-          "reactions": 0,
-          "score": 23.17
-        },
-        "judge": null,
-        "verdict": "skip_human",
-        "deleted": false,
-        "dry_run": true
-      },
-      {
-        "ts": "2026-09-19T09:50:09.131943+00:00",
-        "id": 9553,
-        "link": "https://t.me/kompege/9553",
-        "source": "human",
-        "text": "",
-        "date": "2026-09-16T13:57:53+00:00",
-        "age_h": 67.9,
-        "engagement": {
-          "views": 516,
-          "forwards": 6,
-          "reactions": 0,
-          "score": 23.16
         },
         "judge": null,
         "verdict": "skip_human",
