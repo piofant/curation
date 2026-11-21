@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-20T10:05:00.898152+00:00",
+  "generated_at": "2026-11-21T10:05:07.836247+00:00",
   "stats": {
-    "total_items": 109,
+    "total_items": 110,
     "channels_count": 18,
-    "avg_score": 0.5928,
+    "avg_score": 0.6093,
     "max_score": 2.4905,
     "min_score": 0.0941
   },
   "thresholds": {
-    "tertile_top_min": 0.4149,
+    "tertile_top_min": 0.4375,
     "tertile_mid_min": 0.2997
   },
   "weights": {
@@ -187,6 +187,40 @@
       "date": "2026-11-16T09:39:14+00:00",
       "reason": "Свежий пост (недавно опубликован) | Высокая вовлечённость (много репостов) | Много просмотров | Активно репостят",
       "keyword": "ЕГЭ"
+    },
+    {
+      "id": "sofaavibe_7755",
+      "channel": "sofaavibe",
+      "post_id": 7755,
+      "score": 2.4044,
+      "tertile": "top",
+      "components": {
+        "Q": {
+          "raw": 0.18,
+          "norm": 0.2647,
+          "weighted": 0.1059
+        },
+        "F": {
+          "raw": 7,
+          "norm": 0.056,
+          "weighted": 0.0168
+        },
+        "R": {
+          "raw_days_ago": 0,
+          "norm": 1.0,
+          "weighted": 0.2
+        },
+        "V": {
+          "raw": 655,
+          "norm": 0.1094,
+          "weighted": 0.0109
+        }
+      },
+      "text": "завтра. 18:00. вы и я. стрим. разбор электронных таблиц \n\nссылки завтра. за актив сохраняю запись. связь",
+      "link": "https://t.me/sofaavibe/7755",
+      "date": "2026-11-20T19:10:27+00:00",
+      "reason": "Очень свежий пост (сегодня/вчера) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "разбор"
     },
     {
       "id": "profimatika_Inf_5976",
@@ -1213,7 +1247,7 @@
       "channel": "sofaavibe",
       "post_id": 7647,
       "score": 0.4149,
-      "tertile": "top",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.3,
