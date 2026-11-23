@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-22T10:05:12.668855+00:00",
+  "generated_at": "2026-11-23T10:05:15.125041+00:00",
   "stats": {
-    "total_items": 110,
+    "total_items": 111,
     "channels_count": 18,
-    "avg_score": 0.6093,
+    "avg_score": 0.6051,
     "max_score": 2.4905,
     "min_score": 0.0941
   },
   "thresholds": {
-    "tertile_top_min": 0.4375,
-    "tertile_mid_min": 0.2997
+    "tertile_top_min": 0.4149,
+    "tertile_mid_min": 0.2974
   },
   "weights": {
     "Q": 0.4,
@@ -1247,7 +1247,7 @@
       "channel": "sofaavibe",
       "post_id": 7647,
       "score": 0.4149,
-      "tertile": "mid",
+      "tertile": "top",
       "components": {
         "Q": {
           "raw": 0.3,
@@ -2505,7 +2505,7 @@
       "channel": "kaspersky_ege",
       "post_id": 15887,
       "score": 0.2974,
-      "tertile": "bot",
+      "tertile": "mid",
       "components": {
         "Q": {
           "raw": 0.2,
@@ -3689,6 +3689,40 @@
       "date": "2026-11-17T11:07:44+00:00",
       "reason": "Свежий пост (недавно опубликован) | Высокая вовлечённость (много репостов) | Много просмотров",
       "keyword": "ЕГЭ"
+    },
+    {
+      "id": "kdrshov_4918",
+      "channel": "kdrshov",
+      "post_id": 4918,
+      "score": 0.1393,
+      "tertile": "bot",
+      "components": {
+        "Q": {
+          "raw": 0.08,
+          "norm": 0.1176,
+          "weighted": 0.0471
+        },
+        "F": {
+          "raw": 5,
+          "norm": 0.04,
+          "weighted": 0.012
+        },
+        "R": {
+          "raw_days_ago": 2,
+          "norm": 0.3333,
+          "weighted": 0.0667
+        },
+        "V": {
+          "raw": 767,
+          "norm": 0.1281,
+          "weighted": 0.0128
+        }
+      },
+      "text": "я псих, дайте мне код в одну строчку",
+      "link": "https://t.me/kdrshov/4918",
+      "date": "2026-11-20T14:25:28+00:00",
+      "reason": "Свежий пост (недавно опубликован) | Высокая вовлечённость (много репостов) | Много просмотров",
+      "keyword": "код"
     },
     {
       "id": "infa_vikusya_10256",
